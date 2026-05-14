@@ -1,0 +1,1911 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Destinations Hub</title>
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="hub-nav">
+    <div class="hub-nav__brand">✈️ <span>Smart Travel</span> Junk Journal</div>
+    <div class="hub-nav__count">131 Destinations · Philippines</div>
+  </nav>
+
+  <header class="hub-header">
+    <div class="container">
+      <div class="hub-header__eyebrow">🇵🇭 Philippines Travel Guide</div>
+      <h1>Discover the <span class="gradient-text">Philippines</span></h1>
+      <p>131 breathtaking destinations across every region of the archipelago — from UNESCO heritage sites to hidden island paradises.</p>
+      <div class="hub-header__search">
+        <input type="text" placeholder="Search destinations, regions..." id="searchInput" />
+        <button onclick="filterSearch()">Search</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="hub-main">
+    <div class="container">
+
+      <div class="stats-bar">
+        <div class="stat-item"><div class="stat-item__number">131</div><div class="stat-item__label">Destinations</div></div>
+        <div class="stat-item"><div class="stat-item__number">17</div><div class="stat-item__label">Regions</div></div>
+        <div class="stat-item"><div class="stat-item__number">8</div><div class="stat-item__label">UNESCO Sites</div></div>
+        <div class="stat-item"><div class="stat-item__number">7,641</div><div class="stat-item__label">Islands</div></div>
+      </div>
+
+      <div class="destinations-grid">
+
+        <!-- Banaue Rice Terraces -->
+        <a href="destinations/banaue/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/banaue/images/test.jpg" alt="Banaue Rice Terraces" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ifugao Province</span>
+            <h2>Banaue Rice Terraces</h2>
+            <p>Step into 2,000 years of living history. The Eighth Wonder of the World awaits.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Paoay Sand Dunes -->
+        <a href="destinations/paoay/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/paoay/images/paoay.jpg" alt="Paoay Sand Dunes" onerror="this.parentElement.style.background='linear-gradient(135deg,#c9920a,#3b2a0e)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ilocos Norte</span>
+            <h2>Paoay Sand Dunes</h2>
+            <p>Race across 85+ hectares of golden dunes, sandboard down steep slopes, and explore a UNESCO World Heritage church — all in one trip.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Paoay Church -->
+        <a href="destinations/paoay-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/paoay-church/images/church.jpg" alt="Paoay Church" onerror="this.parentElement.style.background='linear-gradient(135deg,#c0522a,#1a0e08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ilocos Norte</span>
+            <h2>Paoay Church</h2>
+            <p>A UNESCO World Heritage masterpiece built in 1694. Earthquake Baroque architecture, 24 massive coral-stone buttresses, and 330 years of living history.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Malacañang of the North -->
+        <a href="destinations/malacanang-north/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/malacanang-north/images/malacanang.jpg" alt="Malacañang of the North" onerror="this.parentElement.style.background='linear-gradient(135deg,#4a6fa5,#0a1628)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ilocos Norte</span>
+            <h2>Malacañang of the North</h2>
+            <p>The former presidential residence of Ferdinand Marcos. A lakeside mansion turned museum with vintage cars, state rooms, and decades of political history.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Vigan Heritage City -->
+        <a href="destinations/vigan/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/vigan/images/vigan.jpg" alt="Vigan Heritage City" onerror="this.parentElement.style.background='linear-gradient(135deg,#b07830,#1a1208)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ilocos Sur</span>
+            <h2>Vigan Heritage City</h2>
+            <p>Asia's best-preserved Spanish colonial city. Cobblestone streets, ancestral houses, horse-drawn kalesa, and 500 years of living history — a UNESCO World Heritage City.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bantay Bell Tower -->
+        <a href="destinations/bantay-bell-tower/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bantay-bell-tower/images/bantay.jpg" alt="Bantay Bell Tower" onerror="this.parentElement.style.background='linear-gradient(135deg,#b05828,#180e08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ilocos Sur</span>
+            <h2>Bantay Bell Tower</h2>
+            <p>A 400-year-old colonial watchtower built in 1591. Climb to the top for a 360° panoramic view of Vigan and the Abra River — one of the best views in Ilocos Sur.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Syquia Mansion -->
+        <a href="destinations/syquia-mansion/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/syquia-mansion/images/syquia.jpg" alt="Syquia Mansion" onerror="this.parentElement.style.background='linear-gradient(135deg,#a05828,#140c04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ilocos Sur</span>
+            <h2>Syquia Mansion</h2>
+            <p>The ancestral home of President Elpidio Quirino, built in the 1830s. A beautifully preserved Ilocano-Chinese Mestizo house turned museum in the heart of Vigan's heritage zone.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- San Juan Surfing Area -->
+        <a href="destinations/san-juan-surfing/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/san-juan-surfing/images/san-juan-surfing.jpg" alt="San Juan Surfing Area" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a90b8,#041420)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · La Union</span>
+            <h2>San Juan Surfing Area</h2>
+            <p>The surf capital of northern Luzon. Consistent waves, beginner-friendly surf schools, beachfront cafes, and legendary sunsets — just 5 hours from Manila.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Ma-Cho Temple -->
+        <a href="destinations/ma-cho-temple/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/ma-cho-temple/images/macho.jpg" alt="Ma-Cho Temple" onerror="this.parentElement.style.background='linear-gradient(135deg,#c82020,#1a0404)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · La Union</span>
+            <h2>Ma-Cho Temple</h2>
+            <p>A vibrant Chinese Taoist temple perched on a hillside above the South China Sea. A 7-story pagoda, ornate dragon sculptures, and panoramic coastal views.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Poro Point Lighthouse -->
+        <a href="destinations/poro-point-lighthouse/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/poro-point-lighthouse/images/lighthouse.jpg" alt="Poro Point Lighthouse" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a60a0,#060e18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · La Union</span>
+            <h2>Poro Point Lighthouse</h2>
+            <p>A Spanish-era lighthouse built in 1892, standing guard over the South China Sea for 130+ years. Dramatic rocky coastline and sweeping 360° sea views.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Hundred Islands National Park -->
+        <a href="destinations/hundred-islands/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/hundred-islands/images/hundred-islands.jpg" alt="Hundred Islands" onerror="this.parentElement.style.background='linear-gradient(135deg,#18a8a0,#041c1c)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Pangasinan</span>
+            <h2>Hundred Islands National Park</h2>
+            <p>124 coral and limestone islands rising from the Lingayen Gulf. Island hopping, snorkeling, cliff jumping, and hidden lagoons — one of the Philippines' oldest national parks.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bolinao Patar Beach -->
+        <a href="destinations/bolinao-patar-beach/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bolinao-patar-beach/images/patar.jpg" alt="Bolinao Patar Beach" onerror="this.parentElement.style.background='linear-gradient(135deg,#c89030,#1a1004)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Pangasinan</span>
+            <h2>Bolinao Patar Beach</h2>
+            <p>Wild, windswept coastline with dramatic ancient rock formations, tide pools, and spectacular sunsets over the South China Sea. Pangasinan's most dramatic beach.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bolinao Falls -->
+        <a href="destinations/bolinao-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bolinao-falls/images/falls.jpg" alt="Bolinao Falls" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a9048,#041408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Pangasinan</span>
+            <h2>Bolinao Falls</h2>
+            <p>Three tiered waterfalls hidden in the lush jungle of Bolinao — crystal-clear natural pools, cascading white water, and a cool jungle escape from the Pangasinan coast.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Basco Lighthouse -->
+        <a href="destinations/basco-lighthouse/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/basco-lighthouse/images/basco-lighthouse.jpg" alt="Basco Lighthouse" onerror="this.parentElement.style.background='linear-gradient(135deg,#1858a0,#020c18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Batanes</span>
+            <h2>Basco Lighthouse</h2>
+            <p>A Spanish colonial lighthouse on Naidi Hills above Basco — the northernmost province of the Philippines. Sweeping 360° views of the Pacific Ocean and the rolling green hills of Batan Island.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Marlboro Hills -->
+        <a href="destinations/marlboro-hills/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/marlboro-hills/images/marlboro.jpg" alt="Marlboro Hills Batanes" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a8840,#041008)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Batanes</span>
+            <h2>Marlboro Hills (Rakuh-a-Idi)</h2>
+            <p>Sweeping rolling green hills where wild horses roam freely above the Pacific Ocean. One of the most cinematic and emotionally powerful landscapes in the entire Philippines.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Honesty Coffee Shop -->
+        <a href="destinations/honesty-coffee-shop/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/honesty-coffee-shop/images/honesty.jpg" alt="Honesty Coffee Shop Batanes" onerror="this.parentElement.style.background='linear-gradient(135deg,#a06020,#140c04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Batanes</span>
+            <h2>Honesty Coffee Shop</h2>
+            <p>An unmanned store in Ivana where visitors pay on the honor system since 1999. No cashier, no CCTV — just trust. One of the most unique and moving cultural experiences in Southeast Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Callao Cave -->
+        <a href="destinations/callao-cave/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/callao-cave/images/callao-cave.jpg" alt="Callao Cave" onerror="this.parentElement.style.background='linear-gradient(135deg,#7848c0,#0c0814)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Cagayan</span>
+            <h2>Callao Cave</h2>
+            <p>Seven dramatic limestone chambers with a natural skylight illuminating an active chapel inside. One of the most spectacular cave systems in the Philippines, on the UNESCO Tentative List.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Palaui Island -->
+        <a href="destinations/palaui-island/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/palaui-island/images/palaui.jpg" alt="Palaui Island" onerror="this.parentElement.style.background='linear-gradient(135deg,#189070,#021410)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Cagayan</span>
+            <h2>Palaui Island</h2>
+            <p>A pristine 3,500-hectare protected wildlife sanctuary at the northeastern tip of Luzon. Jungle treks to a 19th-century lighthouse, untouched beaches, and crystal-clear coral reefs.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Port Irene -->
+        <a href="destinations/port-irene/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/port-irene/images/port-irene.jpg" alt="Port Irene" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a5890,#040c18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Cagayan</span>
+            <h2>Port Irene</h2>
+            <p>The gateway to Palaui Island and the easternmost point of Luzon. A deep-water port with sweeping Pacific Ocean views, fishing villages, and spectacular sunrises over the island.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Tumauini Church -->
+        <a href="destinations/tumauini-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/tumauini-church/images/tumauini-church.jpg" alt="Tumauini Church" onerror="this.parentElement.style.background='linear-gradient(135deg,#c05030,#180a04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Isabela</span>
+            <h2>Tumauini Church</h2>
+            <p>A 17th-century Baroque church adorned with unique terracotta tile decorations unlike any other in the Philippines. On the UNESCO Tentative List and one of Isabela’s most distinctive heritage landmarks.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Magat Dam -->
+        <a href="destinations/magat-dam/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/magat-dam/images/magat.jpg" alt="Magat Dam" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a68b0,#040c18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Isabela</span>
+            <h2>Magat Dam</h2>
+            <p>One of the largest dams in the Philippines — a 114-meter engineering marvel spanning the Magat River. Walk the 1,140-meter crest for sweeping views of the vast reservoir and the Cagayan Valley.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Ilagan Japanese Tunnel -->
+        <a href="destinations/ilagan-japanese-tunnel/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/ilagan-japanese-tunnel/images/tunnel.jpg" alt="Ilagan Japanese Tunnel" onerror="this.parentElement.style.background='linear-gradient(135deg,#5a7038,#0c100c)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Isabela</span>
+            <h2>Ilagan Japanese Tunnel</h2>
+            <p>A World War II underground complex built by Japanese forces during the 1942–1945 occupation of Isabela. A sobering historical site with guided tours and wartime exhibits in Ilagan City.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Capisaan Cave System -->
+        <a href="destinations/capisaan-cave/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/capisaan-cave/images/capisaan.jpg" alt="Capisaan Cave System" onerror="this.parentElement.style.background='linear-gradient(135deg,#5848a8,#080410)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Nueva Vizcaya</span>
+            <h2>Capisaan Cave System</h2>
+            <p>One of the longest cave systems in Luzon — 8km+ of explored passages, underground rivers, and dramatic limestone formations hidden beneath the Caraballo Mountains of Kasibu.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Imugan Falls -->
+        <a href="destinations/imugan-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/imugan-falls/images/imugan.jpg" alt="Imugan Falls" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a8858,#041008)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Nueva Vizcaya</span>
+            <h2>Imugan Falls</h2>
+            <p>A breathtaking multi-tiered waterfall hidden in the mountains of Santa Fe — crystal-clear natural pools, lush jungle, and a trek through indigenous Ibaloi and Kalanguya community land.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- St. Dominic Cathedral -->
+        <a href="destinations/st-dominic-cathedral/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/st-dominic-cathedral/images/cathedral.jpg" alt="St. Dominic Cathedral" onerror="this.parentElement.style.background='linear-gradient(135deg,#a87830,#140e04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Nueva Vizcaya</span>
+            <h2>St. Dominic Cathedral</h2>
+            <p>The Diocese Cathedral of Bayombong — founded by Dominican missionaries in 1739 and the spiritual heart of Nueva Vizcaya’s highland capital. A beautiful colonial church on the town plaza.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Aglipay Caves National Park -->
+        <a href="destinations/aglipay-caves/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/aglipay-caves/images/aglipay.jpg" alt="Aglipay Caves" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a7840,#040c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Quirino</span>
+            <h2>Aglipay Caves National Park</h2>
+            <p>A protected cave network in the Sierra Madre foothills with dramatic limestone formations, bat colonies, and pristine national park forest. Watch thousands of bats emerge at dusk.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Governor Rapids -->
+        <a href="destinations/governor-rapids/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/governor-rapids/images/rapids.jpg" alt="Governor Rapids" onerror="this.parentElement.style.background='linear-gradient(135deg,#1880c0,#020c18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Quirino</span>
+            <h2>Governor Rapids</h2>
+            <p>Dramatic rapids on the Cagayan River — the longest river in the Philippines. Natural swimming holes, kayaking, river tubing, and forested riverbanks in the heart of Quirino province.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Siitan Nature's Park -->
+        <a href="destinations/siitan-nature-park/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/siitan-nature-park/images/siitan.jpg" alt="Siitan Nature's Park" onerror="this.parentElement.style.background='linear-gradient(135deg,#309868,#041410)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Quirino</span>
+            <h2>Siitan Nature's Park</h2>
+            <p>A serene community ecotourism park along the Siitan River — crystal-clear swimming holes, Sierra Madre forest walks, and the peaceful sounds of the wilderness. The perfect Quirino finale.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Ditumabo Mother Falls -->
+        <a href="destinations/ditumabo-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/ditumabo-falls/images/ditumabo.jpg" alt="Ditumabo Mother Falls" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a7848,#021008)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Aurora</span>
+            <h2>Ditumabo Mother Falls</h2>
+            <p>A towering 70-meter waterfall hidden deep in the Sierra Madre rainforest — reached by a thrilling river trek through crystal-clear mountain water. One of the most spectacular waterfalls in Luzon.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Sabang Beach -->
+        <a href="destinations/sabang-beach/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/sabang-beach/images/sabang.jpg" alt="Sabang Beach Baler" onerror="this.parentElement.style.background='linear-gradient(135deg,#1870a8,#020810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Aurora</span>
+            <h2>Sabang Beach</h2>
+            <p>The birthplace of Philippine surfing in Baler, Aurora. A long, wild Pacific-facing beach with year-round waves, surf schools, and the dramatic Sierra Madre mountains as a backdrop.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Baler Church -->
+        <a href="destinations/baler-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/baler-church/images/church.jpg" alt="Baler Church" onerror="this.parentElement.style.background='linear-gradient(135deg,#9a6020,#120c04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Aurora</span>
+            <h2>Baler Church</h2>
+            <p>Site of the legendary 1898 Siege of Baler — where 57 Spanish soldiers held out for 337 days. Founded in 1735, this colonial church is one of the most historically charged sites in the Philippines.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Mount Samat National Shrine -->
+        <a href="destinations/mount-samat/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/mount-samat/images/samat.jpg" alt="Mount Samat National Shrine" onerror="this.parentElement.style.background='linear-gradient(135deg,#8a1818,#080808)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Bataan</span>
+            <h2>Mount Samat National Shrine</h2>
+            <p>A 92-meter cross atop a mountain overlooking the 1942 Battle of Bataan battlefield. The Philippines' most solemn WWII memorial with a diorama museum, memorial wall, and panoramic views of Manila Bay.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Las Casas Filipinas de Acuzar -->
+        <a href="destinations/las-casas/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/las-casas/images/lascasas.jpg" alt="Las Casas Filipinas de Acuzar" onerror="this.parentElement.style.background='linear-gradient(135deg,#b07830,#100c04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Bataan</span>
+            <h2>Las Casas Filipinas de Acuzar</h2>
+            <p>A beachfront heritage resort where 25+ authentic Spanish colonial houses from across the Philippines have been restored and reassembled — a living museum of 300 years of Philippine architectural history.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Five Fingers Cove -->
+        <a href="destinations/five-fingers-cove/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/five-fingers-cove/images/fivefingers.jpg" alt="Five Fingers Cove" onerror="this.parentElement.style.background='linear-gradient(135deg,#1890a8,#021418)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Bataan</span>
+            <h2>Five Fingers Cove</h2>
+            <p>Five dramatic rocky peninsulas jutting into the South China Sea in Morong, Bataan — hidden coves, crystal-clear swimming holes, and a hilltop viewpoint with one of the most striking coastal formations in Luzon.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Barasoain Church -->
+        <a href="destinations/barasoain-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/barasoain-church/images/barasoain.jpg" alt="Barasoain Church" onerror="this.parentElement.style.background='linear-gradient(135deg,#2858a0,#080810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Bulacan</span>
+            <h2>Barasoain Church</h2>
+            <p>The birthplace of Philippine democracy — where the Malolos Congress convened in 1898 to ratify the first democratic constitution in Asia and establish the First Philippine Republic.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Biak-na-Bato National Park -->
+        <a href="destinations/biak-na-bato/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/biak-na-bato/images/biak.jpg" alt="Biak-na-Bato National Park" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a7040,#040c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Bulacan</span>
+            <h2>Biak-na-Bato National Park</h2>
+            <p>Aguinaldo's 1897 revolutionary mountain headquarters — a national park of limestone caves, the crystal-clear Madlum River, and dense forest where history and nature are perfectly intertwined.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Mount Balagbag -->
+        <a href="destinations/mount-balagbag/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/mount-balagbag/images/balagbag.jpg" alt="Mount Balagbag" onerror="this.parentElement.style.background='linear-gradient(135deg,#a85818,#100804)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Rizal / Bulacan</span>
+            <h2>Mount Balagbag</h2>
+            <p>Manila's closest mountain escape — a 1,110m beginner-friendly hike through Sierra Madre pine forest to a summit with sweeping views of Metro Manila, the Marikina Valley, and the mountains beyond.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Minalungao National Park -->
+        <a href="destinations/minalungao/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/minalungao/images/minalungao.jpg" alt="Minalungao National Park" onerror="this.parentElement.style.background='linear-gradient(135deg,#189880,#021418)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Nueva Ecija</span>
+            <h2>Minalungao National Park</h2>
+            <p>Towering limestone cliffs rising from the crystal-clear Penaranda River — boat tours through the gorge, natural swimming holes, cliff jumping, and cave exploration in General Tinio.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Pantabangan Dam -->
+        <a href="destinations/pantabangan-dam/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/pantabangan-dam/images/pantabangan.jpg" alt="Pantabangan Dam" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a5898,#020c18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Nueva Ecija</span>
+            <h2>Pantabangan Dam</h2>
+            <p>The largest reservoir in Luzon — a vast mountain lake with a haunting secret: a submerged town below the surface, its old church spire emerging from the water during dry season.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Gabaldon Falls -->
+        <a href="destinations/gabaldon-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/gabaldon-falls/images/gabaldon.jpg" alt="Gabaldon Falls" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a8848,#041008)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Nueva Ecija</span>
+            <h2>Gabaldon Falls</h2>
+            <p>A multi-tiered waterfall hidden in the Sierra Madre foothills — crystal-clear natural pools, a lush forest trek, and the perfect refreshing finale to a full Nueva Ecija adventure day.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bacolor Sunken Church -->
+        <a href="destinations/bacolor-sunken-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bacolor-sunken-church/images/bacolor.jpg" alt="Bacolor Sunken Church" onerror="this.parentElement.style.background='linear-gradient(135deg,#7a5838,#0c0c0c)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Pampanga</span>
+            <h2>Bacolor Sunken Church</h2>
+            <p>A 16th-century Spanish colonial church buried to its roofline by 1991 Pinatubo lahar flows — still active as a parish, where the congregation enters through what were once the upper windows.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Nayong Pilipino Clark -->
+        <a href="destinations/nayong-pilipino/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/nayong-pilipino/images/nayong.jpg" alt="Nayong Pilipino Clark" onerror="this.parentElement.style.background='linear-gradient(135deg,#1848a8,#020818)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Pampanga</span>
+            <h2>Nayong Pilipino Clark</h2>
+            <p>A cultural theme park in Clark Freeport Zone showcasing miniature replicas of Philippine heritage sites from across the archipelago — Luzon, Visayas, and Mindanao in one place.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Capas National Shrine -->
+        <a href="destinations/capas-shrine/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/capas-shrine/images/capas.jpg" alt="Capas National Shrine" onerror="this.parentElement.style.background='linear-gradient(135deg,#686848,#080808)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Tarlac</span>
+            <h2>Capas National Shrine</h2>
+            <p>The Philippines' most solemn WWII memorial — honoring the Filipino and American prisoners of war who suffered and died at Camp O'Donnell after the 1942 Bataan Death March.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Monasterio de Tarlac -->
+        <a href="destinations/monasterio-tarlac/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/monasterio-tarlac/images/monasterio.jpg" alt="Monasterio de Tarlac" onerror="this.parentElement.style.background='linear-gradient(135deg,#5858a8,#080810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Tarlac</span>
+            <h2>Monasterio de Tarlac</h2>
+            <p>A hilltop Benedictine monastery home to a relic of the True Cross, a towering Risen Christ statue, the Stations of the Cross path, and panoramic views of the Tarlac countryside.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Sumino Farm -->
+        <a href="destinations/sumino-farm/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/sumino-farm/images/sumino.jpg" alt="Sumino Farm" onerror="this.parentElement.style.background='linear-gradient(135deg,#489030,#041008)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Tarlac</span>
+            <h2>Sumino Farm</h2>
+            <p>A charming agri-tourism destination in Tarlac — vegetable picking, farm animal feeding, nature walks, and farm-to-table dining in a scenic countryside setting. Perfect for families.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Anawangin Cove -->
+        <a href="destinations/anawangin-cove/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/anawangin-cove/images/anawangin.jpg" alt="Anawangin Cove" onerror="this.parentElement.style.background='linear-gradient(135deg,#487040,#080c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Zambales</span>
+            <h2>Anawangin Cove</h2>
+            <p>Grey volcanic sand backed by Agoho pine trees — accessible only by boat, perfect for overnight camping, and offering some of the most atmospheric sunsets near Manila.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Nagsasa Cove -->
+        <a href="destinations/nagsasa-cove/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/nagsasa-cove/images/nagsasa.jpeg" alt="Nagsasa Cove" onerror="this.parentElement.style.background='linear-gradient(135deg,#189878,#021418)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Zambales</span>
+            <h2>Nagsasa Cove</h2>
+            <p>Anawangin's quieter, larger neighbour — a wide grey sand beach with a hidden freshwater lagoon, fewer visitors, and an even more secluded camping experience.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Capones Island Lighthouse -->
+        <a href="destinations/capones-lighthouse/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/capones-lighthouse/images/capones.jpg" alt="Capones Island Lighthouse" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a5098,#020810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Zambales</span>
+            <h2>Capones Island Lighthouse</h2>
+            <p>A Spanish colonial lighthouse built in 1890 on a jungle island — reached by boat and a 30-minute trek, rewarding visitors with 360° panoramic views of the Zambales coastline.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Aguinaldo Shrine -->
+        <a href="destinations/aguinaldo-shrine/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/aguinaldo-shrine/images/aguinaldo.jpg" alt="Aguinaldo Shrine" onerror="this.parentElement.style.background='linear-gradient(135deg,#2858a0,#080810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Cavite</span>
+            <h2>Aguinaldo Shrine</h2>
+            <p>The ancestral home of Gen. Emilio Aguinaldo and the site where Philippine Independence was proclaimed on June 12, 1898 — the birthplace of the first republic in Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Corregidor Island -->
+        <a href="destinations/corregidor-island/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/corregidor-island/images/corregidor.jpg" alt="Corregidor Island" onerror="this.parentElement.style.background='linear-gradient(135deg,#507040,#080c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Cavite</span>
+            <h2>Corregidor Island</h2>
+            <p>The WWII fortress island at the mouth of Manila Bay — Malinta Tunnel, the Pacific War Memorial, and dramatic ruins where Filipino and American forces made their last stand in 1942.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Tagaytay Ridge -->
+        <a href="destinations/tagaytay-ridge/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/tagaytay-ridge/images/tagaytay-ridge.jpg" alt="Tagaytay Ridge" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a7848,#041008)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Cavite</span>
+            <h2>Tagaytay Ridge</h2>
+            <p>Manila's most beloved highland escape — the iconic panorama of Taal Volcano rising from Taal Lake, cool mountain air, world-class bulalo, and fresh strawberries just 1 hour from the capital.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Pagsanjan Falls -->
+        <a href="destinations/pagsanjan-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/pagsanjan-falls/images/pagsanjan.jpg" alt="Pagsanjan Falls" onerror="this.parentElement.style.background='linear-gradient(135deg,#148060,#011410)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Laguna</span>
+            <h2>Pagsanjan Falls</h2>
+            <p>The Philippines' most thrilling waterfall — a 2-hour bamboo banca ride through a dramatic gorge of 14 shooting rapids, culminating in a thundering 100-foot cascade and a daring plunge under the falls.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Rizal Shrine (Calamba) -->
+        <a href="destinations/rizal-shrine-calamba/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/rizal-shrine-calamba/images/rizal-shrine.jpg" alt="Rizal Shrine Calamba" onerror="this.parentElement.style.background='linear-gradient(135deg,#b02020,#0e0404)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Laguna</span>
+            <h2>Rizal Shrine (Calamba)</h2>
+            <p>The ancestral home and birthplace of Dr. José Rizal — the Philippines' national hero, born here on June 19, 1861. A National Cultural Treasure and one of the most important heritage sites in the country.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Enchanted Kingdom -->
+        <a href="destinations/enchanted-kingdom/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/enchanted-kingdom/images/enchanted-kingdom.jpg" alt="Enchanted Kingdom" onerror="this.parentElement.style.background='linear-gradient(135deg,#6830c0,#080410)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Laguna</span>
+            <h2>Enchanted Kingdom</h2>
+            <p>The Philippines' premier theme park in Santa Rosa — 7 themed zones, 25+ rides including the Space Shuttle roller coaster, and the legendary EKstravaganza fireworks show. A Filipino institution since 1995.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Taal Volcano -->
+        <a href="destinations/taal-volcano/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/taal-volcano/images/taal-volcano.jpg" alt="Taal Volcano" onerror="this.parentElement.style.background='linear-gradient(135deg,#a87020,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Batangas</span>
+            <h2>Taal Volcano</h2>
+            <p>A volcano inside a lake inside a volcano — one of the world's most extraordinary geological phenomena. Hike to the crater rim, stare into the vivid acid crater lake, and stand at the center of one of the most dramatic landscapes in Southeast Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Taal Basilica -->
+        <a href="destinations/taal-basilica/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/taal-basilica/images/taal-basilica.jpg" alt="Taal Basilica" onerror="this.parentElement.style.background='linear-gradient(135deg,#9a6c18,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Batangas</span>
+            <h2>Taal Basilica</h2>
+            <p>The largest Catholic church in Asia — the Basilica of Saint Martin de Tours, built 1755–1865. Climb 144 steps to the magnificent coral-stone facade, then explore the heritage town of Taal with its balisong workshops and ancestral houses.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Laiya Beach -->
+        <a href="destinations/laiya-beach/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/laiya-beach/images/laiya.jpg" alt="Laiya Beach" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a98c8,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Batangas</span>
+            <h2>Laiya Beach</h2>
+            <p>Manila's nearest white sand paradise — fine white sand, crystal-clear turquoise water, vibrant coral reefs, and a string of beach resorts in San Juan, Batangas. Just 3 hours from the capital and the default beach escape for millions of Manila residents.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Daranak Falls -->
+        <a href="destinations/daranak-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/daranak-falls/images/daranak.jpg" alt="Daranak Falls" onerror="this.parentElement.style.background='linear-gradient(135deg,#128850,#010c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Rizal</span>
+            <h2>Daranak Falls</h2>
+            <p>Manila's closest waterfall escape — a stunning 15-meter cascade into a wide crystal-clear natural pool in Tanay, Rizal. Combine with Batlag Falls upstream and Masungi Georeserve for the ultimate Rizal nature day.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Masungi Georeserve -->
+        <a href="destinations/masungi-georeserve/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/masungi-georeserve/images/masungi.jpg" alt="Masungi Georeserve" onerror="this.parentElement.style.background='linear-gradient(135deg,#3a7858,#060808)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Rizal</span>
+            <h2>Masungi Georeserve</h2>
+            <p>The Philippines' most extraordinary conservation experience — dramatic limestone karst formations, hanging bridges, rope ladders, and the iconic Sapot net hammock suspended over the Sierra Madre canopy. Book weeks in advance.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Hinulugang Taktak -->
+        <a href="destinations/hinulugang-taktak/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/hinulugang-taktak/images/hinulugang-taktak.jpg" alt="Hinulugang Taktak" onerror="this.parentElement.style.background='linear-gradient(135deg,#2878a0,#040810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Rizal</span>
+            <h2>Hinulugang Taktak</h2>
+            <p>Antipolo's beloved waterfall — a cultural landmark immortalized in the Filipino folk song “Sa Ugoy ng Duyan,” set within a national park just 30 minutes from Manila. Combine with the Antipolo Cathedral and hilltop restaurants.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Villa Escudero -->
+        <a href="destinations/villa-escudero/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/villa-escudero/images/villa-escudero.jpg" alt="Villa Escudero" onerror="this.parentElement.style.background='linear-gradient(135deg,#508828,#040c04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Quezon</span>
+            <h2>Villa Escudero Plantations</h2>
+            <p>The Philippines' most unique dining experience — eat Filipino buffet with your feet in the cool river water at the base of the Labasin Waterfall. An 800-hectare coconut plantation resort with carabao cart rides, bamboo rafting, and a world-class folk arts museum.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Kamay ni Hesus -->
+        <a href="destinations/kamay-ni-hesus/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/kamay-ni-hesus/images/kamay-ni-hesus.jpg" alt="Kamay ni Hesus" onerror="this.parentElement.style.background='linear-gradient(135deg,#a87020,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Quezon</span>
+            <h2>Kamay ni Hesus Shrine</h2>
+            <p>Quezon's most sacred pilgrimage site — a hilltop shrine in Lucban with 305 life-size Stations of the Cross, a 50-foot Risen Christ statue, and the famous healing ministry of Fr. Joey Faller. Combine with the Pahiyas Festival and longganisang Lucban.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Alabat Island -->
+        <a href="destinations/alabat-island/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/alabat-island/images/alabat.jpg" alt="Alabat Island" onerror="this.parentElement.style.background='linear-gradient(135deg,#108878,#010c0c)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Quezon</span>
+            <h2>Alabat Island</h2>
+            <p>Quezon's hidden island gem — a quiet ferry-access island in Quezon Bay with white sand beaches, mangrove forests, coconut plantations, and fishing communities. The kind of unspoiled island escape that is increasingly rare near Manila.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Apo Reef Natural Park -->
+        <a href="destinations/apo-reef/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/apo-reef/images/apo-reef.jpg" alt="Apo Reef Natural Park" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a60c8,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Occidental Mindoro</span>
+            <h2>Apo Reef Natural Park</h2>
+            <p>The world's second largest contiguous coral reef — 34 km² of pristine reef with 500+ fish species, dramatic wall dives, whale sharks, and 30m+ visibility in the Sulu Sea. A UNESCO World Heritage Site candidate and the Philippines' greatest marine treasure.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Pandan Island -->
+        <a href="destinations/pandan-island/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/pandan-island/images/pandan-island.jpg" alt="Pandan Island" onerror="this.parentElement.style.background='linear-gradient(135deg,#1090a8,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Occidental Mindoro</span>
+            <h2>Pandan Island Dive Resort</h2>
+            <p>A pristine eco-resort island off San Jose with 20+ world-class dive sites, 30m+ visibility, and no day-trippers. The closest resort to Apo Reef — the ultimate Occidental Mindoro diving base.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Mount Iglit-Baco -->
+        <a href="destinations/mount-iglit-baco/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/mount-iglit-baco/images/mount-iglit-baco.jpg" alt="Mount Iglit-Baco" onerror="this.parentElement.style.background='linear-gradient(135deg,#608028,#060804)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Occidental Mindoro</span>
+            <h2>Mount Iglit–Baco National Park</h2>
+            <p>The last stronghold of the Tamaraw — a critically endangered dwarf buffalo found only on Mindoro, with fewer than 600 left on Earth. A UNESCO World Heritage Site and one of the most important wildlife conservation areas in Southeast Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- White Beach Puerto Galera -->
+        <a href="destinations/white-beach-puerto-galera/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/white-beach-puerto-galera/images/white-beach-puerto-galera.jpg" alt="White Beach Puerto Galera" onerror="this.parentElement.style.background='linear-gradient(135deg,#1880d8,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Oriental Mindoro</span>
+            <h2>White Beach Puerto Galera</h2>
+            <p>Manila's most beloved island escape — fine white sand, crystal-clear water, and world-class diving in a UNESCO Biosphere Reserve. Just 3 hours from Manila by bus and ferry, with 40+ dive sites and a vibrant beach scene.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Tamaraw Falls -->
+        <a href="destinations/tamaraw-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/tamaraw-falls/images/tamaraw-falls.jpg" alt="Tamaraw Falls" onerror="this.parentElement.style.background='linear-gradient(135deg,#288838,#020c04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Oriental Mindoro</span>
+            <h2>Tamaraw Falls</h2>
+            <p>Mindoro's most iconic waterfall — a powerful 30-meter cascade named after the endemic Tamaraw buffalo, just 15 km from White Beach. The perfect half-day escape from Puerto Galera, best reached by motorbike through beautiful Mindoro countryside.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Mount Malasimbo -->
+        <a href="destinations/mount-malasimbo/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/mount-malasimbo/images/mount-malasimbo.jpg" alt="Mount Malasimbo" onerror="this.parentElement.style.background='linear-gradient(135deg,#5040c8,#040408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Oriental Mindoro</span>
+            <h2>Mount Malasimbo</h2>
+            <p>A scenic mountain above Puerto Galera Bay with panoramic views of the Verde Island Passage — and home to the Malasimbo Music and Arts Festival, one of the most celebrated outdoor music events in the Philippines, held every March.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Immaculate Conception Cathedral - Marinduque -->
+        <a href="destinations/marinduque-cathedral/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/marinduque-cathedral/images/marinduque-cathedral.jpg" alt="Immaculate Conception Cathedral Boac" onerror="this.parentElement.style.background='linear-gradient(135deg,#4828a0,#040408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Marinduque</span>
+            <h2>Immaculate Conception Cathedral</h2>
+            <p>A fortress-church perched on a rocky hill above the Boac River — seat of the Diocese of Boac and the spiritual heart of the Moriones Festival, one of Asia's most unique Holy Week celebrations.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Maniwaya Island -->
+        <a href="destinations/maniwaya-island/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/maniwaya-island/images/maniwaya-island.jpg" alt="Maniwaya Island Marinduque" onerror="this.parentElement.style.background='linear-gradient(135deg,#0878a0,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Marinduque</span>
+            <h2>Maniwaya Island</h2>
+            <p>Marinduque's hidden paradise — powdery white sand, crystal-clear turquoise water, and vibrant coral reefs. Part of the Three Islands group in Santa Cruz, far from the crowds of more famous Philippine beach destinations.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bathala Caves -->
+        <a href="destinations/bathala-caves/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bathala-caves/images/bathala-caves.jpg" alt="Bathala Caves Marinduque" onerror="this.parentElement.style.background='linear-gradient(135deg,#6028a0,#060408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Marinduque</span>
+            <h2>Bathala Caves</h2>
+            <p>Seven interconnected sacred caverns in Torrijos named after the ancient Filipino deity Bathala — stalactites, underground streams, thousands of bats, and a dramatic dusk exodus that has to be seen to be believed.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bonbon Beach -->
+        <a href="destinations/bonbon-beach/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bonbon-beach/images/bonbon-beach.jpg" alt="Bonbon Beach Romblon" onerror="this.parentElement.style.background='linear-gradient(135deg,#1060b0,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Romblon</span>
+            <h2>Bonbon Beach</h2>
+            <p>Romblon's iconic sandbar — a curving strip of white sand that stretches into the turquoise sea at low tide, flanked by rocky headlands and coconut palms. One of the most photographed beaches in MIMAROPA.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Romblon Marble Quarries -->
+        <a href="destinations/romblon-marble/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/romblon-marble/images/romblon-marble.jpg" alt="Romblon Marble Quarries" onerror="this.parentElement.style.background='linear-gradient(135deg,#606060,#080808)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Romblon</span>
+            <h2>Romblon Marble Quarries</h2>
+            <p>The Marble Capital of the Philippines — 400+ years of quarrying world-class stone. Visit active quarries, watch master craftsmen carve statues and tiles, and bring home a unique piece of Romblon marble.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Cresta de Gallo Island -->
+        <a href="destinations/cresta-de-gallo/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/cresta-de-gallo/images/cresta-de-gallo.jpg" alt="Cresta de Gallo Island" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a6880,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Romblon</span>
+            <h2>Cresta de Gallo Island</h2>
+            <p>An uninhabited island in the Sibuyan Sea — blinding white sand, impossibly clear water, and pristine coral reefs with sea turtles and reef sharks. One of the most remote and beautiful islands in the Philippines.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Puerto Princesa Underground River -->
+        <a href="destinations/puerto-princesa-underground-river/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/puerto-princesa-underground-river/images/puerto-princesa-underground-river.jpg" alt="Puerto Princesa Underground River" onerror="this.parentElement.style.background='linear-gradient(135deg,#1848a0,#020408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Palawan</span>
+            <h2>Puerto Princesa Underground River</h2>
+            <p>An 8.2km navigable underground river flowing through a UNESCO World Heritage cave system directly into the sea — one of the New Seven Wonders of Nature and the Philippines' most extraordinary natural landmark.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- El Nido Lagoons -->
+        <a href="destinations/el-nido-lagoons/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/el-nido-lagoons/images/el-nido-lagoons.jpg" alt="El Nido Lagoons Palawan" onerror="this.parentElement.style.background='linear-gradient(135deg,#0858a8,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Palawan</span>
+            <h2>El Nido Lagoons</h2>
+            <p>Secret emerald lagoons enclosed by towering limestone karst cliffs in the Bacuit Archipelago — accessible only by swimming through a crack in the rock or kayaking through a hidden passage. Among the most beautiful places on earth.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Coron Shipwrecks -->
+        <a href="destinations/coron-shipwrecks/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/coron-shipwrecks/images/coron-shipwrecks.jpg" alt="Coron Shipwrecks Palawan" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a5878,#040808)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Palawan</span>
+            <h2>Coron Shipwrecks</h2>
+            <p>Twelve Japanese WWII warships sunk in a single 1944 air raid, now resting on the seafloor of Coron Bay as spectacular coral-encrusted artificial reefs — consistently ranked among the world's best wreck diving destinations.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Cagsawa Ruins -->
+        <a href="destinations/cagsawa-ruins/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/cagsawa-ruins/images/cagsawa-ruins.jpg" alt="Cagsawa Ruins Albay" onerror="this.parentElement.style.background='linear-gradient(135deg,#8a1818,#080404)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Albay</span>
+            <h2>Cagsawa Ruins</h2>
+            <p>The haunting bell tower of an 18th-century church buried by Mayon's catastrophic 1814 eruption — one of the Philippines' most iconic images, with the world's most perfect volcanic cone rising behind the ruins.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Daraga Church -->
+        <a href="destinations/daraga-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/daraga-church/images/daraga-church.JPG" alt="Daraga Church Albay" onerror="this.parentElement.style.background='linear-gradient(135deg,#785010,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Albay</span>
+            <h2>Daraga Church</h2>
+            <p>A stunning Baroque church built in 1773 from Mayon's own volcanic stone, perched on a hill with Mayon's perfect cone rising dramatically behind its ornate facade — one of the most photographed church views in the Philippines.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Mayon Skyline View Deck -->
+        <a href="destinations/mayon-skyline-view-deck/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/mayon-skyline-view-deck/images/mayon-skyline-view-deck.jpg" alt="Mayon Skyline View Deck" onerror="this.parentElement.style.background='linear-gradient(135deg,#7a5010,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Albay</span>
+            <h2>Mayon Skyline View Deck</h2>
+            <p>The closest road-accessible viewpoint to Mayon Volcano — a hilltop platform in Legazpi City where the 2,463m perfect cone fills the entire sky, with the Albay Gulf stretching out below.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Calaguas Islands -->
+        <a href="destinations/calaguas-islands/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/calaguas-islands/images/calaguas-islands.jpg" alt="Calaguas Islands Camarines Norte" onerror="this.parentElement.style.background='linear-gradient(135deg,#0858a8,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Camarines Norte</span>
+            <h2>Calaguas Islands</h2>
+            <p>One of the Philippines' last undiscovered paradises — over a kilometer of pristine white sand with no electricity, no resorts, and no crowds. Camping only, accessible by a 2–3 hour bangka crossing from Daet.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bagasbas Beach -->
+        <a href="destinations/bagasbas-beach/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bagasbas-beach/images/bagasbas-beach.jpg" alt="Bagasbas Beach Camarines Norte" onerror="this.parentElement.style.background='linear-gradient(135deg,#0878a0,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Camarines Norte</span>
+            <h2>Bagasbas Beach</h2>
+            <p>Bicol's surfing capital — a long, wild Pacific-facing beach in Daet with consistent year-round waves, affordable surf schools, and a laid-back atmosphere. The perfect base for a Calaguas Islands adventure.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Daet Cathedral -->
+        <a href="destinations/daet-cathedral/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/daet-cathedral/images/daet-cathedral.jpg" alt="Daet Cathedral Camarines Norte" onerror="this.parentElement.style.background='linear-gradient(135deg,#785010,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Camarines Norte</span>
+            <h2>Parroquia de San Juan Bautista</h2>
+            <p>Daet Cathedral — the seat of the Diocese of Daet, founded in 1578 by Augustinian missionaries. The spiritual and historical heart of Camarines Norte's capital, standing at the center of the Daet town plaza.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Caramoan Islands -->
+        <a href="destinations/caramoan-islands/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/caramoan-islands/images/caramoan-islands.jpg" alt="Caramoan Islands" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a6880,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Camarines Sur</span>
+            <h2>Caramoan Islands</h2>
+            <p>Dramatic limestone karst islands rising from the Pacific — pristine beaches, hidden lagoons, and towering cliffs that have served as the backdrop for multiple international Survivor series.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- CamSur Watersports Complex -->
+        <a href="destinations/camsur-watersports/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/camsur-watersports/images/camsur-watersports.jpg" alt="CamSur Watersports Complex" onerror="this.parentElement.style.background='linear-gradient(135deg,#1060b0,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Camarines Sur</span>
+            <h2>CamSur Watersports Complex</h2>
+            <p>Asia's largest cable wakeboard park in Pili — a world-class facility that has hosted international competitions and introduced thousands of Filipinos to the thrill of wakeboarding.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Naga Metropolitan Cathedral -->
+        <a href="destinations/naga-cathedral/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/naga-cathedral/images/naga-cathedral.jpg" alt="Naga Metropolitan Cathedral" onerror="this.parentElement.style.background='linear-gradient(135deg,#4828a0,#040408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Camarines Sur</span>
+            <h2>Naga Metropolitan Cathedral</h2>
+            <p>Seat of the Archdiocese of Caceres and center of the Peñafrancia Festival — one of the largest Marian devotions in Asia, drawing millions of pilgrims to the Fluvial Procession every September.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Donsol -->
+        <a href="destinations/donsol/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/donsol/images/hero.jpg" alt="Donsol Whale Sharks Sorsogon" onerror="this.parentElement.style.background='linear-gradient(135deg,#0878a0,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Sorsogon</span>
+            <h2>Donsol</h2>
+            <p>The whale shark capital of the world — wild, natural butanding encounters in Donsol Bay from November to June, plus magical firefly watching on the Donsol River after dark.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Lake Bulusan -->
+        <a href="destinations/lake-bulusan/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/lake-bulusan/images/hero.jpg" alt="Lake Bulusan Sorsogon" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a6838,#010c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Sorsogon</span>
+            <h2>Lake Bulusan</h2>
+            <p>A serene volcanic crater lake nestled inside Bulusan Volcano Natural Park — mirror-still water surrounded by old-growth rainforest, endemic birds, and rare orchids in the Cordillera foothills of Sorsogon.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Subic Beach Sorsogon -->
+        <a href="destinations/subic-beach-sorsogon/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/subic-beach-sorsogon/images/hero.jpg" alt="Subic Beach Sorsogon" onerror="this.parentElement.style.background='linear-gradient(135deg,#0878a0,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Sorsogon</span>
+            <h2>Subic Beach</h2>
+            <p>A pristine white sand beach at the southernmost tip of Luzon in Matnog — crystal-clear turquoise water, vibrant coral reefs, and island hopping in the dramatic San Bernardino Strait.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Kaparkan Falls -->
+        <a href="destinations/kaparkan-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/kaparkan-falls/images/hero.jpg" alt="Kaparkan Falls Abra" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a6838,#010c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Abra · CAR</span>
+            <h2>Kaparkan Falls</h2>
+            <p>The Niagara of the Philippines — a breathtaking multi-tiered travertine waterfall in Tineg, Abra, with white limestone terraces and turquoise pools that rival the world’s most famous natural formations.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bangued Cathedral -->
+        <a href="destinations/bangued-cathedral/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bangued-cathedral/images/hero.jpg" alt="Bangued Cathedral Abra" onerror="this.parentElement.style.background='linear-gradient(135deg,#6a4a10,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Abra · CAR</span>
+            <h2>Bangued Cathedral</h2>
+            <p>The Saint John the Baptist Cathedral — seat of the Diocese of Bangued and spiritual heart of Abra province, standing at the center of the Bangued city plaza and the gateway to Kaparkan Falls.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Tayum Church -->
+        <a href="destinations/tayum-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/tayum-church/images/hero.jpg" alt="Tayum Church Abra" onerror="this.parentElement.style.background='linear-gradient(135deg,#6a4a10,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Abra · CAR</span>
+            <h2>Tayum Church</h2>
+            <p>One of the oldest churches in the Cordillera — a centuries-old Augustinian colonial church in Tayum, Abra, just 10 km from Bangued and a beautiful complement to the Abra heritage circuit.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Puting Bato Falls -->
+        <a href="destinations/puting-bato-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/puting-bato-falls/images/hero.jpg" alt="Puting Bato Falls Apayao" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a6838,#010c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Apayao · CAR</span>
+            <h2>Puting Bato Falls</h2>
+            <p>White Rock Falls — water cascading over brilliant white limestone into a crystal-clear turquoise pool in Luna, Apayao, set within the pristine wilderness of one of the Philippines’ most remote provinces.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Apayao River -->
+        <a href="destinations/apayao-river/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/apayao-river/images/hero.jpg" alt="Apayao River" onerror="this.parentElement.style.background='linear-gradient(135deg,#0878a0,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Apayao · CAR</span>
+            <h2>Apayao River</h2>
+            <p>One of the Philippines’ last wild rivers — a pristine, undisturbed river system flowing through ancient Cordillera forests and indigenous Isneg communities, offering boat tours, swimming, and river trekking.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Pudtol Hanging Bridge -->
+        <a href="destinations/pudtol-hanging-bridge/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/pudtol-hanging-bridge/images/hero.jpg" alt="Pudtol Hanging Bridge Apayao" onerror="this.parentElement.style.background='linear-gradient(135deg,#486018,#060804)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Apayao · CAR</span>
+            <h2>Pudtol Hanging Bridge</h2>
+            <p>A dramatic suspension bridge spanning the Apayao River gorge — a thrilling crossing with breathtaking views of the crystal-clear river far below and the surrounding Cordillera wilderness.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Puraran Beach -->
+        <a href="destinations/puraran-beach/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/puraran-beach/images/hero.jpg" alt="Puraran Beach Catanduanes" onerror="this.parentElement.style.background='linear-gradient(135deg,#0878a0,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Catanduanes</span>
+            <h2>Puraran Beach</h2>
+            <p>Home of the legendary "Majestic" — one of the most powerful and consistent surf breaks in the Philippines. A remote, pristine Pacific-facing beach in Baras, Catanduanes that draws world-class surfers from across Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Binurong Point -->
+        <a href="destinations/binurong-point/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/binurong-point/images/hero.jpg" alt="Binurong Point Catanduanes" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a5878,#040808)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Catanduanes</span>
+            <h2>Binurong Point</h2>
+            <p>Dramatic limestone cliffs plunging into the Pacific Ocean — a breathtaking headland viewpoint in Baras, Catanduanes where the island meets the open sea in one of the most stunning natural panoramas in the Philippines.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bato Church -->
+        <a href="destinations/bato-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bato-church/images/hero.jpg" alt="Bato Church Catanduanes" onerror="this.parentElement.style.background='linear-gradient(135deg,#785010,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Catanduanes</span>
+            <h2>Bato Church</h2>
+            <p>A 17th-century Spanish colonial church built from volcanic stone in Bato, Catanduanes — designed to withstand the island's powerful typhoons and standing as one of the oldest landmarks in the Bicol Region.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Ticao Island -->
+        <a href="destinations/ticao-island/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/ticao-island/images/hero.jpg" alt="Ticao Island Masbate" onerror="this.parentElement.style.background='linear-gradient(135deg,#0a6880,#010c10)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Masbate</span>
+            <h2>Ticao Island</h2>
+            <p>One of the Philippines' premier whale shark encounter destinations — the Ticao Pass is a feeding ground for butanding, manta rays, and thresher sharks, offering some of the most responsible and awe-inspiring marine wildlife encounters in Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Buntod Reef Marine Sanctuary -->
+        <a href="destinations/buntod-reef/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/buntod-reef/images/hero.jpg" alt="Buntod Reef Marine Sanctuary Masbate" onerror="this.parentElement.style.background='linear-gradient(135deg,#0858a8,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Masbate</span>
+            <h2>Buntod Reef Marine Sanctuary</h2>
+            <p>A protected coral reef just off Masbate City with healthy coral gardens, sea turtles, and a stunning white sandbar that emerges at low tide — one of the most accessible marine experiences in the Bicol Region.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Masbate Cathedral -->
+        <a href="destinations/masbate-cathedral/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/masbate-cathedral/images/hero.jpg" alt="Masbate Cathedral" onerror="this.parentElement.style.background='linear-gradient(135deg,#6a4a10,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Masbate</span>
+            <h2>Masbate Cathedral</h2>
+            <p>The Saint Anthony of Padua Parish — spiritual center of the Cattle Capital of the Philippines and host of the annual Rodeo Masbateño, the country's most unique festival celebrating its cattle-ranching heritage.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Baguio City -->
+        <a href="destinations/baguio/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/baguio/images/hero.jpg" alt="Baguio City" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a5878,#040c18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Benguet · CAR</span>
+            <h2>Baguio City</h2>
+            <p>The Summer Capital of the Philippines at 1,500m elevation — cool mountain air, pine forests, Burnham Park, Session Road, and the gateway to the Cordillera.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- La Trinidad Strawberry Farm -->
+        <a href="destinations/la-trinidad-strawberry/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/la-trinidad-strawberry/images/hero.jpg" alt="La Trinidad Strawberry Farm" onerror="this.parentElement.style.background='linear-gradient(135deg,#c82040,#180408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Benguet · CAR</span>
+            <h2>La Trinidad Strawberry Farm</h2>
+            <p>The strawberry capital of the Philippines — pick fresh strawberries directly from the hillside fields, just 15 minutes from Baguio City.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Mt. Pulag National Park -->
+        <a href="destinations/mt-pulag/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/mt-pulag/images/hero.jpg" alt="Mt. Pulag National Park" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a5890,#040c18)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Benguet · CAR</span>
+            <h2>Mt. Pulag National Park</h2>
+            <p>The highest peak in Luzon at 2,922m — trek before dawn to witness the legendary sea of clouds at sunrise above the dwarf bamboo grasslands.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Batad Rice Terraces -->
+        <a href="destinations/batad-rice-terraces/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/batad-rice-terraces/images/hero.jpg" alt="Batad Rice Terraces" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a7040,#040c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ifugao · CAR</span>
+            <h2>Batad Rice Terraces</h2>
+            <p>A perfect natural amphitheater of 2,000-year-old stone-walled terraces — the most spectacular of the UNESCO World Heritage Ifugao terrace clusters.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Hapao Rice Terraces -->
+        <a href="destinations/hapao-rice-terraces/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/hapao-rice-terraces/images/hero.jpg" alt="Hapao Rice Terraces" onerror="this.parentElement.style.background='linear-gradient(135deg,#388028,#040c04)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Ifugao · CAR</span>
+            <h2>Hapao Rice Terraces</h2>
+            <p>Ifugao's hidden terrace gem in Hungduan — a quieter UNESCO World Heritage cluster with a natural hot spring flowing through the ancient rice fields.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Chico River -->
+        <a href="destinations/chico-river/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/chico-river/images/hero.jpg" alt="Chico River Kalinga" onerror="this.parentElement.style.background='linear-gradient(135deg,#1870a8,#020810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Kalinga · CAR</span>
+            <h2>Chico River</h2>
+            <p>The sacred river of the Kalinga people — whitewater rafting through dramatic gorges, and the legendary site of the indigenous resistance that stopped a dam.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Buscalan Village -->
+        <a href="destinations/buscalan-village/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/buscalan-village/images/hero.jpg" alt="Buscalan Village Kalinga" onerror="this.parentElement.style.background='linear-gradient(135deg,#6a2880,#080410)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Kalinga · CAR</span>
+            <h2>Buscalan Village</h2>
+            <p>Home of Whang-Od Oggay — the world's oldest mambabatok, still practicing traditional Kalinga hand-tapping tattoos at over 100 years old in this remote mountain village.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Sleeping Beauty Mountain -->
+        <a href="destinations/sleeping-beauty-mountain/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/sleeping-beauty-mountain/images/hero.jpg" alt="Sleeping Beauty Mountain Kalinga" onerror="this.parentElement.style.background='linear-gradient(135deg,#486028,#060804)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Kalinga · CAR</span>
+            <h2>Sleeping Beauty Mountain</h2>
+            <p>A sacred Kalinga peak whose ridgeline resembles a reclining figure — panoramic views of the Cordillera highlands and the Chico River valley from the summit.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Hanging Coffins of Sagada -->
+        <a href="destinations/hanging-coffins-sagada/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/hanging-coffins-sagada/images/hero.jpg" alt="Hanging Coffins of Sagada" onerror="this.parentElement.style.background='linear-gradient(135deg,#504028,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Mountain Province · CAR</span>
+            <h2>Hanging Coffins of Sagada</h2>
+            <p>Ancient wooden coffins nailed to the limestone cliffs of Echo Valley — a 2,000-year-old Igorot burial tradition where the dead are placed high to watch over the living.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Sumaguing Cave -->
+        <a href="destinations/sumaguing-cave/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/sumaguing-cave/images/hero.jpg" alt="Sumaguing Cave Sagada" onerror="this.parentElement.style.background='linear-gradient(135deg,#5040a8,#060408)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Mountain Province · CAR</span>
+            <h2>Sumaguing Cave</h2>
+            <p>Sagada's underground cathedral — a massive limestone cavern with cathedral-like chambers, dramatic formations, an underground river, and a genuine caving adventure by kerosene lamplight.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bomod-ok Falls -->
+        <a href="destinations/bomod-ok-falls/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bomod-ok-falls/images/hero.jpg" alt="Bomod-ok Falls Sagada" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a7848,#021008)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Mountain Province · CAR</span>
+            <h2>Bomod-ok Falls</h2>
+            <p>The Big Falls of Sagada — a magnificent 200-foot waterfall reached by a 2-hour trek through Fidelisan rice terraces and pine forest, with a cold natural swimming pool at the base.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Intramuros -->
+        <a href="destinations/intramuros/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/intramuros/images/hero.jpg" alt="Intramuros Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#6a4a10,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Intramuros</h2>
+            <p>The Walled City of Manila — a 16th-century Spanish colonial fortress of cobblestone streets, baroque churches, and 450 years of Philippine history at the mouth of the Pasig River.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Fort Santiago -->
+        <a href="destinations/fort-santiago/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/fort-santiago/images/hero.jpg" alt="Fort Santiago Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#5a3808,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Fort Santiago</h2>
+            <p>A 16th-century citadel where José Rizal spent his last night before execution — the Rizal Shrine, the dungeons, and the bronze footprints marking his final walk to Bagumbayan.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Rizal Park -->
+        <a href="destinations/rizal-park/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/rizal-park/images/hero.jpg" alt="Rizal Park Luneta Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a6830,#040c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Rizal Park</h2>
+            <p>The national park of the Philippines — where Rizal was executed in 1896, where independence was proclaimed, and where the legendary Manila Bay sunset draws the whole city every evening.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- National Museum of the Philippines -->
+        <a href="destinations/national-museum/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/national-museum/images/hero.jpg" alt="National Museum of the Philippines" onerror="this.parentElement.style.background='linear-gradient(135deg,#6a4a10,#080604)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>National Museum of the Philippines</h2>
+            <p>Three world-class museums — free admission — housing Juan Luna's Spoliarium, the Tree of Life installation, and the 4,000-year-old Balangay boats. The finest museum complex in Southeast Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Binondo -->
+        <a href="destinations/binondo/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/binondo/images/hero.jpg" alt="Binondo Chinatown Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#c82020,#180404)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Binondo</h2>
+            <p>The world's oldest Chinatown, founded in 1594 — a labyrinth of food stalls, temples, gold shops, and 400 years of Chinese-Filipino culture. The most delicious neighborhood in Manila.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Quiapo Church -->
+        <a href="destinations/quiapo-church/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/quiapo-church/images/hero.jpg" alt="Quiapo Church Black Nazarene Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#4a2808,#080404)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Quiapo Church</h2>
+            <p>Home of the Black Nazarene — the most venerated religious image in the Philippines. Every January 9, millions of barefoot devotees join the Traslacion procession in one of the world's largest religious gatherings.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Escolta Street -->
+        <a href="destinations/escolta-street/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/escolta-street/images/hero.jpg" alt="Escolta Street Manila Art Deco" onerror="this.parentElement.style.background='linear-gradient(135deg,#7a5828,#0c0804)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Escolta Street</h2>
+            <p>Manila's original grand boulevard — once Southeast Asia's most glamorous commercial strip, now experiencing a creative renaissance with restored Art Deco buildings and the First United Building creative hub.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Bonifacio Global City -->
+        <a href="destinations/bonifacio-global-city/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/bonifacio-global-city/images/hero.jpg" alt="Bonifacio Global City BGC" onerror="this.parentElement.style.background='linear-gradient(135deg,#1848a8,#020818)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Bonifacio Global City</h2>
+            <p>The Philippines' most walkable modern district — a former US military base transformed into tree-lined boulevards, world-class dining, The Mind Museum, and the best street art in Southeast Asia.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- The Mind Museum -->
+        <a href="destinations/mind-museum/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/mind-museum/images/hero.jpg" alt="The Mind Museum BGC Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#1060b0,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>The Mind Museum</h2>
+            <p>The Philippines' premier science museum in BGC — 250+ interactive exhibits across five galleries, a 3D Dome Theater, and the most engaging museum experience in Metro Manila. Book tickets in advance.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- SM Mall of Asia -->
+        <a href="destinations/sm-mall-of-asia/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/sm-mall-of-asia/images/hero.jpg" alt="SM Mall of Asia Manila Bay" onerror="this.parentElement.style.background='linear-gradient(135deg,#0858a8,#010810)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>SM Mall of Asia</h2>
+            <p>One of the world's largest malls on the shores of Manila Bay — IMAX theater, ice rink, MOA Arena, and a legendary bayside promenade with some of the most spectacular sunset views in Metro Manila.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Manila Baywalk -->
+        <a href="destinations/manila-baywalk/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/manila-baywalk/images/hero.jpg" alt="Manila Baywalk sunset Roxas Boulevard" onerror="this.parentElement.style.background='linear-gradient(135deg,#c87010,#100804)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Manila Baywalk</h2>
+            <p>The iconic promenade along Roxas Boulevard where Manileños have gathered for generations — the legendary Manila Bay sunset, fresh buko vendors, and the heartbeat of the city's evening life.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Cultural Center of the Philippines -->
+        <a href="destinations/cultural-center-philippines/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/cultural-center-philippines/images/hero.jpg" alt="Cultural Center of the Philippines" onerror="this.parentElement.style.background='linear-gradient(135deg,#6a2880,#080410)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Cultural Center of the Philippines</h2>
+            <p>The Philippines' premier arts institution on Manila Bay — home of the Philippine Philharmonic Orchestra, Ballet Philippines, and the finest performing arts venues in the country. A Brutalist masterpiece by Leandro Locsin.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- University of Santo Tomas -->
+        <a href="destinations/university-of-santo-tomas/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/university-of-santo-tomas/images/hero.jpg" alt="University of Santo Tomas Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#8a6010,#0c0804)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>University of Santo Tomas</h2>
+            <p>The oldest existing university in Asia, founded in 1611 — older than Harvard. The magnificent Main Building, the 17th-century Arch of the Centuries, and the UST Museum of Arts and Sciences.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Paco Park -->
+        <a href="destinations/paco-park/index.html" class="destination-card">
+          <div class="destination-card__image">
+            <img src="destinations/paco-park/images/hero.jpg" alt="Paco Park Manila" onerror="this.parentElement.style.background='linear-gradient(135deg,#2a6830,#040c08)';this.style.display='none'" />
+          </div>
+          <div class="destination-card__content">
+            <span class="destination-card__location">🇵🇭 Philippines · Metro Manila · NCR</span>
+            <h2>Paco Park</h2>
+            <p>A circular 18th-century cemetery turned romantic garden — where Rizal was briefly buried after his execution, and where free Friday Concerts fill the historic walled garden with classical music at dusk.</p>
+            <span class="destination-card__cta">Explore Guide →</span>
+          </div>
+        </a>
+
+        <!-- Placeholder for future destinations -->
+        <div class="destination-card destination-card--placeholder">
+          <div class="destination-card__content">
+            <span class="destination-card__location">🌍 Coming Soon</span>
+            <h2>More Destinations</h2>
+            <p>New travel guides are being added regularly. Stay tuned!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="hub-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <h2>✈️ Smart Travel Junk Journal</h2>
+        <p>Your complete guide to the Philippines — 131 destinations across every region of the archipelago.</p>
+      </div>
+
+      <div class="footer-nav">
+
+        <div class="footer-col">
+          <h3>Ilocos Region</h3>
+          <ul>
+            <li><a href="destinations/paoay/index.html">Paoay Sand Dunes</a></li>
+            <li><a href="destinations/paoay-church/index.html">Paoay Church</a></li>
+            <li><a href="destinations/malacanang-north/index.html">Malacañang of the North</a></li>
+            <li><a href="destinations/vigan/index.html">Vigan Heritage City</a></li>
+            <li><a href="destinations/bantay-bell-tower/index.html">Bantay Bell Tower</a></li>
+            <li><a href="destinations/syquia-mansion/index.html">Syquia Mansion</a></li>
+            <li><a href="destinations/san-juan-surfing/index.html">San Juan Surfing Area</a></li>
+            <li><a href="destinations/ma-cho-temple/index.html">Ma-Cho Temple</a></li>
+            <li><a href="destinations/poro-point-lighthouse/index.html">Poro Point Lighthouse</a></li>
+            <li><a href="destinations/hundred-islands/index.html">Hundred Islands</a></li>
+            <li><a href="destinations/bolinao-patar-beach/index.html">Bolinao Patar Beach</a></li>
+            <li><a href="destinations/bolinao-falls/index.html">Bolinao Falls</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Cagayan Valley</h3>
+          <ul>
+            <li><a href="destinations/basco-lighthouse/index.html">Basco Lighthouse</a></li>
+            <li><a href="destinations/marlboro-hills/index.html">Marlboro Hills</a></li>
+            <li><a href="destinations/honesty-coffee-shop/index.html">Honesty Coffee Shop</a></li>
+            <li><a href="destinations/callao-cave/index.html">Callao Cave</a></li>
+            <li><a href="destinations/palaui-island/index.html">Palaui Island</a></li>
+            <li><a href="destinations/port-irene/index.html">Port Irene</a></li>
+            <li><a href="destinations/tumauini-church/index.html">Tumauini Church</a></li>
+            <li><a href="destinations/magat-dam/index.html">Magat Dam</a></li>
+            <li><a href="destinations/ilagan-japanese-tunnel/index.html">Ilagan Japanese Tunnel</a></li>
+            <li><a href="destinations/capisaan-cave/index.html">Capisaan Cave System</a></li>
+            <li><a href="destinations/imugan-falls/index.html">Imugan Falls</a></li>
+            <li><a href="destinations/st-dominic-cathedral/index.html">St. Dominic Cathedral</a></li>
+            <li><a href="destinations/aglipay-caves/index.html">Aglipay Caves</a></li>
+            <li><a href="destinations/governor-rapids/index.html">Governor Rapids</a></li>
+            <li><a href="destinations/siitan-nature-park/index.html">Siitan Nature's Park</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Central Luzon</h3>
+          <ul>
+            <li><a href="destinations/ditumabo-falls/index.html">Ditumabo Mother Falls</a></li>
+            <li><a href="destinations/sabang-beach/index.html">Sabang Beach</a></li>
+            <li><a href="destinations/baler-church/index.html">Baler Church</a></li>
+            <li><a href="destinations/mount-samat/index.html">Mount Samat Shrine</a></li>
+            <li><a href="destinations/las-casas/index.html">Las Casas Filipinas</a></li>
+            <li><a href="destinations/five-fingers-cove/index.html">Five Fingers Cove</a></li>
+            <li><a href="destinations/barasoain-church/index.html">Barasoain Church</a></li>
+            <li><a href="destinations/biak-na-bato/index.html">Biak-na-Bato</a></li>
+            <li><a href="destinations/mount-balagbag/index.html">Mount Balagbag</a></li>
+            <li><a href="destinations/minalungao/index.html">Minalungao National Park</a></li>
+            <li><a href="destinations/pantabangan-dam/index.html">Pantabangan Dam</a></li>
+            <li><a href="destinations/gabaldon-falls/index.html">Gabaldon Falls</a></li>
+            <li><a href="destinations/bacolor-sunken-church/index.html">Bacolor Sunken Church</a></li>
+            <li><a href="destinations/nayong-pilipino/index.html">Nayong Pilipino Clark</a></li>
+            <li><a href="destinations/capas-shrine/index.html">Capas National Shrine</a></li>
+            <li><a href="destinations/monasterio-tarlac/index.html">Monasterio de Tarlac</a></li>
+            <li><a href="destinations/sumino-farm/index.html">Sumino Farm</a></li>
+            <li><a href="destinations/anawangin-cove/index.html">Anawangin Cove</a></li>
+            <li><a href="destinations/nagsasa-cove/index.html">Nagsasa Cove</a></li>
+            <li><a href="destinations/capones-lighthouse/index.html">Capones Lighthouse</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>CALABARZON</h3>
+          <ul>
+            <li><a href="destinations/aguinaldo-shrine/index.html">Aguinaldo Shrine</a></li>
+            <li><a href="destinations/corregidor-island/index.html">Corregidor Island</a></li>
+            <li><a href="destinations/tagaytay-ridge/index.html">Tagaytay Ridge</a></li>
+            <li><a href="destinations/pagsanjan-falls/index.html">Pagsanjan Falls</a></li>
+            <li><a href="destinations/rizal-shrine-calamba/index.html">Rizal Shrine Calamba</a></li>
+            <li><a href="destinations/enchanted-kingdom/index.html">Enchanted Kingdom</a></li>
+            <li><a href="destinations/taal-volcano/index.html">Taal Volcano</a></li>
+            <li><a href="destinations/taal-basilica/index.html">Taal Basilica</a></li>
+            <li><a href="destinations/laiya-beach/index.html">Laiya Beach</a></li>
+            <li><a href="destinations/daranak-falls/index.html">Daranak Falls</a></li>
+            <li><a href="destinations/masungi-georeserve/index.html">Masungi Georeserve</a></li>
+            <li><a href="destinations/hinulugang-taktak/index.html">Hinulugang Taktak</a></li>
+            <li><a href="destinations/villa-escudero/index.html">Villa Escudero</a></li>
+            <li><a href="destinations/kamay-ni-hesus/index.html">Kamay ni Hesus</a></li>
+            <li><a href="destinations/alabat-island/index.html">Alabat Island</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>MIMAROPA</h3>
+          <ul>
+            <li><a href="destinations/apo-reef/index.html">Apo Reef Natural Park</a></li>
+            <li><a href="destinations/pandan-island/index.html">Pandan Island</a></li>
+            <li><a href="destinations/mount-iglit-baco/index.html">Mt. Iglit–Baco</a></li>
+            <li><a href="destinations/white-beach-puerto-galera/index.html">White Beach Puerto Galera</a></li>
+            <li><a href="destinations/tamaraw-falls/index.html">Tamaraw Falls</a></li>
+            <li><a href="destinations/mount-malasimbo/index.html">Mount Malasimbo</a></li>
+            <li><a href="destinations/marinduque-cathedral/index.html">Marinduque Cathedral</a></li>
+            <li><a href="destinations/maniwaya-island/index.html">Maniwaya Island</a></li>
+            <li><a href="destinations/bathala-caves/index.html">Bathala Caves</a></li>
+            <li><a href="destinations/bonbon-beach/index.html">Bonbon Beach</a></li>
+            <li><a href="destinations/romblon-marble/index.html">Romblon Marble</a></li>
+            <li><a href="destinations/cresta-de-gallo/index.html">Cresta de Gallo</a></li>
+            <li><a href="destinations/puerto-princesa-underground-river/index.html">Puerto Princesa Underground River</a></li>
+            <li><a href="destinations/el-nido-lagoons/index.html">El Nido Lagoons</a></li>
+            <li><a href="destinations/coron-shipwrecks/index.html">Coron Shipwrecks</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Bicol Region</h3>
+          <ul>
+            <li><a href="destinations/cagsawa-ruins/index.html">Cagsawa Ruins</a></li>
+            <li><a href="destinations/daraga-church/index.html">Daraga Church</a></li>
+            <li><a href="destinations/mayon-skyline-view-deck/index.html">Mayon Skyline View Deck</a></li>
+            <li><a href="destinations/calaguas-islands/index.html">Calaguas Islands</a></li>
+            <li><a href="destinations/bagasbas-beach/index.html">Bagasbas Beach</a></li>
+            <li><a href="destinations/daet-cathedral/index.html">Daet Cathedral</a></li>
+            <li><a href="destinations/caramoan-islands/index.html">Caramoan Islands</a></li>
+            <li><a href="destinations/camsur-watersports/index.html">CamSur Watersports</a></li>
+            <li><a href="destinations/naga-cathedral/index.html">Naga Cathedral</a></li>
+            <li><a href="destinations/puraran-beach/index.html">Puraran Beach</a></li>
+            <li><a href="destinations/binurong-point/index.html">Binurong Point</a></li>
+            <li><a href="destinations/bato-church/index.html">Bato Church</a></li>
+            <li><a href="destinations/ticao-island/index.html">Ticao Island</a></li>
+            <li><a href="destinations/buntod-reef/index.html">Buntod Reef</a></li>
+            <li><a href="destinations/masbate-cathedral/index.html">Masbate Cathedral</a></li>
+            <li><a href="destinations/donsol/index.html">Donsol</a></li>
+            <li><a href="destinations/lake-bulusan/index.html">Lake Bulusan</a></li>
+            <li><a href="destinations/subic-beach-sorsogon/index.html">Subic Beach Sorsogon</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Cordillera (CAR)</h3>
+          <ul>
+            <li><a href="destinations/kaparkan-falls/index.html">Kaparkan Falls</a></li>
+            <li><a href="destinations/bangued-cathedral/index.html">Bangued Cathedral</a></li>
+            <li><a href="destinations/tayum-church/index.html">Tayum Church</a></li>
+            <li><a href="destinations/puting-bato-falls/index.html">Puting Bato Falls</a></li>
+            <li><a href="destinations/apayao-river/index.html">Apayao River</a></li>
+            <li><a href="destinations/pudtol-hanging-bridge/index.html">Pudtol Hanging Bridge</a></li>
+            <li><a href="destinations/baguio/index.html">Baguio City</a></li>
+            <li><a href="destinations/la-trinidad-strawberry/index.html">La Trinidad Strawberry Farm</a></li>
+            <li><a href="destinations/mt-pulag/index.html">Mt. Pulag National Park</a></li>
+            <li><a href="destinations/banaue/index.html">Banaue Rice Terraces</a></li>
+            <li><a href="destinations/batad-rice-terraces/index.html">Batad Rice Terraces</a></li>
+            <li><a href="destinations/hapao-rice-terraces/index.html">Hapao Rice Terraces</a></li>
+            <li><a href="destinations/chico-river/index.html">Chico River</a></li>
+            <li><a href="destinations/buscalan-village/index.html">Buscalan Village</a></li>
+            <li><a href="destinations/sleeping-beauty-mountain/index.html">Sleeping Beauty Mountain</a></li>
+            <li><a href="destinations/hanging-coffins-sagada/index.html">Hanging Coffins of Sagada</a></li>
+            <li><a href="destinations/sumaguing-cave/index.html">Sumaguing Cave</a></li>
+            <li><a href="destinations/bomod-ok-falls/index.html">Bomod-ok Falls</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Metro Manila (NCR)</h3>
+          <ul>
+            <li><a href="destinations/intramuros/index.html">Intramuros</a></li>
+            <li><a href="destinations/fort-santiago/index.html">Fort Santiago</a></li>
+            <li><a href="destinations/rizal-park/index.html">Rizal Park</a></li>
+            <li><a href="destinations/national-museum/index.html">National Museum</a></li>
+            <li><a href="destinations/binondo/index.html">Binondo</a></li>
+            <li><a href="destinations/quiapo-church/index.html">Quiapo Church</a></li>
+            <li><a href="destinations/escolta-street/index.html">Escolta Street</a></li>
+            <li><a href="destinations/bonifacio-global-city/index.html">Bonifacio Global City</a></li>
+            <li><a href="destinations/mind-museum/index.html">The Mind Museum</a></li>
+            <li><a href="destinations/sm-mall-of-asia/index.html">SM Mall of Asia</a></li>
+            <li><a href="destinations/manila-baywalk/index.html">Manila Baywalk</a></li>
+            <li><a href="destinations/cultural-center-philippines/index.html">Cultural Center</a></li>
+            <li><a href="destinations/university-of-santo-tomas/index.html">University of Santo Tomas</a></li>
+            <li><a href="destinations/paco-park/index.html">Paco Park</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Smart Travel Junk Journal Travel Guide &nbsp;·&nbsp; Made with ❤️ for Philippine adventurers &nbsp;·&nbsp; 131 destinations and counting</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function filterSearch() {
+      const q = document.getElementById('searchInput').value.toLowerCase();
+      document.querySelectorAll('.destination-card:not(.destination-card--placeholder)').forEach(card => {
+        const text = card.textContent.toLowerCase();
+        card.style.display = (!q || text.includes(q)) ? '' : 'none';
+      });
+    }
+    document.getElementById('searchInput').addEventListener('keyup', function(e) {
+      if (e.key === 'Enter') filterSearch();
+      if (!this.value) filterSearch();
+    });
+  </script>
+</body>
+</html>
