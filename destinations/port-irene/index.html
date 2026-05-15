@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Port Irene &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Cagayan</span>
+      <h1 class="hero__headline">Gateway to<br>the Pacific</h1>
+      <p class="hero__sub">Port Irene in Santa Ana, Cagayan is the jump-off point for Palaui Island and one of the most scenic coastal areas in northern Luzon &mdash; a deep-water port surrounded by rolling hills, pristine coastline, and the vast Pacific Ocean stretching to the horizon.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Deep</strong><span>Water Port</span></div>
+      <div class="hero__stat"><strong>Pacific</strong><span>Ocean Views</span></div>
+      <div class="hero__stat"><strong>Jump-off</strong><span>for Palaui Island</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/port-irene.jpg" alt="Port Irene coastal view" class="intro__img intro__img--main" />
+        <img src="images/port-irene.jpg" alt="Port Irene harbor" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Cagayan's Pacific Gateway</h2>
+        <p>Located in <strong>Santa Ana, Cagayan</strong> &mdash; the easternmost municipality in the Philippines &middot; <strong>Port Irene</strong> is a deep-water port and coastal area that serves as the primary gateway to <strong>Palaui Island</strong>. The port sits at the northeastern tip of Luzon, where the Pacific Ocean meets the Babuyan Channel, and offers some of the most dramatic coastal scenery in northern Luzon.</p>
+        <p>Port Irene is part of the <strong>Cagayan Special Economic Zone and Freeport (CSEZFP)</strong> &mdash; a government-designated economic zone that has transformed the area into a hub for shipping, industry, and tourism. The port itself is one of the deepest natural harbors in the Philippines, capable of accommodating large international vessels.</p>
+        <p>For travelers, Port Irene is primarily known as the <strong>jump-off point for Palaui Island</strong> &mdash; the pristine protected wildlife sanctuary just a short boat ride away. But the area itself is worth exploring &mdash; the rolling hills, the Pacific coastline, the fishing villages, and the views of Palaui Island across the water make Port Irene a destination in its own right.</p>
+        <div class="intro__badge">
+          <span>&#127988;</span>
+          <span>Easternmost Municipality of PH &nbsp;&middot;&nbsp; <strong>Gateway to Palaui Island</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Port Irene</h2>
+      <p class="section__intro"><strong>Port Irene</strong> is located in <strong>Santa Ana, Cagayan</strong> &mdash; about 3&#8369;4 hours from Tuguegarao City along the northeastern coast of Luzon.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Fly or Bus to Tuguegarao</h3>
+            <p>Fly from <strong>NAIA Manila</strong> to <strong>Tuguegarao Airport</strong> (1 hour) or take an overnight bus from Cubao (9&#8369;10 hours). Tuguegarao is the main gateway to Cagayan and the starting point for the journey to Santa Ana.</p>
+            <span class="step__detail"> Flight: ~1 hour &nbsp;|&nbsp;  Bus: ~9&#8369;10 hours &nbsp;|&nbsp;  &#8369;700&ndash;&#8369;4,000</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Tuguegarao to Santa Ana</h3>
+            <p>From Tuguegarao, take a <strong>van or bus to Santa Ana</strong> &mdash; about 3&#8369;4 hours along a scenic coastal road through the municipalities of Gonzaga and Sta. Teresita. Vans depart from the Tuguegarao terminal throughout the day.</p>
+            <span class="step__detail"> Van to Santa Ana: ~3&#8369;4 hours &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;300</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Arrive at Port Irene</h3>
+            <p>Port Irene is located within the <strong>Cagayan Special Economic Zone</strong> in Santa Ana. From the Santa Ana town center, take a tricycle to the Port Irene area. The port and the surrounding coastal viewpoints are accessible by road.</p>
+            <span class="step__detail"> Tricycle from Santa Ana: ~&#8369;50&ndash;&#8369;80 &nbsp;|&nbsp; &mdash; ~10&#8369;15 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Jump Off to Palaui Island</h3>
+            <p>From the Port Irene area, hire a <strong>motorized banca boat</strong> to Palaui Island. Register at the DENR office and pay the environmental fee before boarding. The crossing takes about 15&#8369;20 minutes and offers beautiful views of the island ahead.</p>
+            <span class="step__detail">&#128652; Boat to Palaui: ~15&#8369;20 min &nbsp;|&nbsp;  ~&#8369;800&ndash;&#8369;1,200 &nbsp;|&nbsp;  Env. fee: ~&#8369;100</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Port Irene and nearby attractions in Santa Ana and Cagayan.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">? Port</span>
+        <span class="map-legend__item map-legend__item--nature"> Islands</span>
+        <span class="map-legend__item map-legend__item--heritage"> Town</span>
+      </div>
+    </div>
+    <div id="portirene-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>March &mdash; May (Dry Season):</strong> Best time &mdash; calm seas, clear skies, and ideal conditions for the boat crossing to Palaui Island.</li>
+            <li><strong>Sunrise:</strong> The view of Palaui Island across the water at sunrise from Port Irene is spectacular &mdash; golden light on the island and the Pacific stretching beyond.</li>
+            <li><strong>Avoid June &mdash; September:</strong> Typhoon season brings rough seas. Boat crossings to Palaui may be suspended during bad weather.</li>
+            <li><strong>Weekdays:</strong> The port area is quieter and more atmospheric on weekdays when fewer tourists are present.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&mdash;</div>
+          <h3>What to Do</h3>
+          <ul>
+            <li><strong>Use Port Irene as your base</strong> for exploring Palaui Island &mdash; hire a boat here and return each evening.</li>
+            <li><strong>Walk the coastal viewpoints</strong> around the port area for panoramic views of the Pacific Ocean and Palaui Island.</li>
+            <li><strong>Visit the fishing villages</strong> near Santa Ana to see traditional Cagayan fishing culture and buy fresh seafood directly from fishermen.</li>
+            <li><strong>Watch the boats come and go</strong> at the port &mdash; the combination of fishing bancas, cargo vessels, and the dramatic Pacific backdrop makes for great photography.</li>
+            <li><strong>Explore Santa Ana town</strong> &mdash; the local market, the church, and the town plaza offer a glimpse of authentic Cagayan provincial life.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Practical Tips</h3>
+          <ul>
+            <li><strong>Stock up on supplies in Santa Ana</strong> before heading to Palaui &mdash; there are no stores on the island.</li>
+            <li><strong>Book your boat in advance</strong> during peak season &mdash; boat operators can be fully booked on weekends.</li>
+            <li><strong>Bring cash</strong> &mdash; there are limited ATMs in Santa Ana. Withdraw in Tuguegarao before making the journey.</li>
+            <li><strong>Arrange accommodation in Santa Ana</strong> &mdash; there are several guesthouses and homestays near the port area.</li>
+            <li><strong>Hire a local guide</strong> for Palaui Island &mdash; guides are available at the DENR office and are essential for the lighthouse trek.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Port Irene</h2>
+      <p class="section__intro">A complete guide to Port Irene as a base for exploring Palaui Island and the best of Santa Ana, Cagayan.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1 &mdash; Arrival</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Arrive in Santa Ana</h4>
+                <p>Arrive from Tuguegarao in the afternoon. Check into your guesthouse near the port area. Walk to the coastal viewpoints for your first view of Palaui Island across the water &mdash; the island silhouetted against the Pacific sunset is unforgettable.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Evening</span>
+              <div class="timeline__content">
+                <h4>Fresh Seafood Dinner</h4>
+                <p>Eat at a local restaurant in Santa Ana. The seafood here is extraordinarily fresh &mdash; caught that morning by local fishermen. Try the grilled tuna, kinilaw (raw fish ceviche), and fresh crab. Prices are very affordable.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Evening</span>
+              <div class="timeline__content">
+                <h4>Arrange Your Palaui Boat</h4>
+                <p>Visit the DENR office to register for Palaui Island and arrange your boat for the next morning. Confirm your guide and discuss the itinerary &mdash; lighthouse trek, beaches, and snorkeling spots.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2 &mdash; Palaui</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">6:30 AM</span>
+              <div class="timeline__content">
+                <h4>Sunrise at Port Irene</h4>
+                <p>Wake up early for sunrise at the port. The light on Palaui Island across the water is extraordinary in the early morning. Board your boat as the sun rises for the most beautiful crossing of the day.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Cross to Palaui Island</h4>
+                <p>Board your banca boat for the 15&#8369;20 minute crossing to Palaui. The approach to the island &mdash; dense jungle rising from white sand beaches &mdash; is one of the most beautiful arrivals in Philippine travel.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Full Day</span>
+              <div class="timeline__content">
+                <h4>Explore Palaui Island</h4>
+                <p>Trek to Cape Engao Lighthouse, swim at Siwangag Cove, snorkel the pristine reefs, and explore the wild beaches. Return to Port Irene by late afternoon for dinner and rest.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Port Irene is one of those places that most travelers rush through on their way to Palaui Island. But the port area itself is beautiful &mdash; the views of the Pacific, the fishing boats, the rolling hills. We stayed two nights in Santa Ana and used Port Irene as our base. The seafood was the freshest I've had anywhere in the Philippines. Don't just use it as a transit point &mdash; spend some time here."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">KP</div>
+            <div>
+              <strong>Kevin P.</strong>
+              <span>Slow Traveler, Vancouver, Canada</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Watching the sunrise from Port Irene with Palaui Island silhouetted across the water was one of the most beautiful moments of our entire Cagayan trip. The crossing to the island at dawn &mdash; with the mist still on the water and the jungle rising ahead &mdash; felt like entering another world. Port Irene is the perfect gateway to one of the Philippines' greatest natural treasures."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LV</div>
+            <div>
+              <strong>Laura V.</strong>
+              <span>Travel Writer, Barcelona, Spain</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Set Sail for Palaui?</h2>
+        <p>Get our free Cagayan Travel Guide + exclusive tips on boat operators, accommodation in Santa Ana, and the best of northeastern Luzon &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Port Irene</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for coastal explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

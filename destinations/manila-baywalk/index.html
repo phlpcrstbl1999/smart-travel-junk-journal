@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Manila Baywalk &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">Manila Bay's<br>Legendary Sunset</h1>
+      <p class="hero__sub">The Manila Baywalk is the iconic promenade along Roxas Boulevard &mdash; where Manileos have gathered for generations to watch the legendary Manila Bay sunset, one of the most celebrated in Asia, as the sky turns gold and crimson over the South China Sea.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Roxas</strong><span>Boulevard</span></div>
+      <div class="hero__stat"><strong>Sunset</strong><span>Legendary</span></div>
+      <div class="hero__stat"><strong>Manila</strong><span>NCR</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Manila Baywalk sunset Roxas Boulevard" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Manila Bay promenade" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; Overview</span>
+        <h2>Where Manila Watches the Sun Go Down</h2>
+        <p>The <strong>Manila Baywalk</strong> is the promenade along <strong>Roxas Boulevard</strong> &mdash; the grand coastal boulevard that runs along the western edge of Manila, facing Manila Bay. For over a century, this waterfront has been the gathering place of Manileos at the end of the day, drawn by what is widely considered one of the most beautiful sunsets in Asia.</p>
+        <p>The baywalk stretches from <strong>Rizal Park (Luneta)</strong> in the north to the <strong>Cultural Center of the Philippines</strong> and <strong>SM Mall of Asia</strong> in the south &mdash; a continuous waterfront promenade of several kilometers, lined with restaurants, cafes, and vendors selling street food and fresh coconuts.</p>
+        <p>The baywalk was dramatically renovated in 2021 with the addition of a <strong>white sand beach</strong> &mdash; a controversial but popular addition that transformed the waterfront into a beach destination in the heart of the city. The combination of the white sand, the promenade, and the legendary sunset makes the Manila Baywalk one of the most visited public spaces in the Philippines.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Manila Bay Sunset &nbsp;&middot;&nbsp; <strong>Roxas Boulevard, Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to the Manila Baywalk</h2>
+      <p class="section__intro">The Manila Baywalk runs along <strong>Roxas Boulevard</strong> &mdash; easily reached by LRT, jeepney, or taxi from most parts of Manila.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; United Nations Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>United Nations Station</strong>. Walk west along UN Avenue to Roxas Boulevard &mdash; the baywalk is a 10-minute walk from the station.</p><span class="step__detail"> LRT Line 1: UN Station &nbsp;|&nbsp;  ~10 min walk to Roxas Blvd</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>From Rizal Park</h3><p>The baywalk begins at the western edge of <strong>Rizal Park</strong> &mdash; walk west from the Rizal Monument to reach the promenade in about 5 minutes.</p><span class="step__detail"> Walk from Rizal Park: ~5 min &nbsp;|&nbsp;  Combine both sites</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Jeepney along Roxas Boulevard</h3><p>Jeepneys run along <strong>Roxas Boulevard</strong> from Baclaran in the south to Intramuros in the north &mdash; a scenic coastal route with Manila Bay views throughout.</p><span class="step__detail"> Jeepney along Roxas Blvd: ~&#8369;12&ndash;&#8369;15 &nbsp;|&nbsp;  Bay views throughout</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Best Time: Sunset</h3><p>The baywalk is most beautiful at <strong>sunset</strong> &mdash; arrive by 5:30 PM to secure a good spot. The sky typically turns its most dramatic colors between 5:45 and 6:15 PM, depending on the season.</p><span class="step__detail"> Sunset: ~5:45&#8369;6:15 PM &nbsp;|&nbsp;  Free to access</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore the Manila Baywalk and the surrounding Roxas Boulevard area.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Promenade</span>
+        <span class="map-legend__item map-legend__item--nature"> Parks</span>
+        <span class="map-legend__item map-legend__item--heritage"> Arts</span>
+      </div>
+    </div>
+    <div id="baywalk-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>The Manila Bay Sunset</h3><ul><li><strong>Best months:</strong> The sunset is most dramatic during the dry season (NovemberMay) when the skies are clearer. The colors are most vivid when there is some cloud cover to catch the light.</li><li><strong>Arrive early:</strong> The promenade gets crowded at sunset &mdash; arrive by 5:30 PM to find a good spot along the waterfront.</li><li><strong>Photography:</strong> The sunset is one of the most photographed scenes in the Philippines. A wide-angle lens captures the full sweep of the bay and sky.</li><li><strong>White sand beach:</strong> The renovated baywalk includes a white sand beach area &mdash; a popular spot for photos and relaxation.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#127869;</div><h3>Food &amp; Atmosphere</h3><ul><li><strong>Street food:</strong> Vendors along the promenade sell fresh coconuts, fish balls, kwek-kwek, and other Manila street food classics &mdash; perfect for a sunset snack.</li><li><strong>Baywalk restaurants:</strong> Several restaurants along Roxas Boulevard offer bay views &mdash; book a window table for the sunset.</li><li><strong>Fresh buko (coconut):</strong> A cold fresh coconut from a baywalk vendor is the quintessential Manila Bay experience.</li><li><strong>Evening atmosphere:</strong> After sunset, the promenade comes alive with families, couples, and groups enjoying the cool bay breeze.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Free to access</strong> &mdash; the baywalk promenade is a public space with no entrance fee.</li><li><strong>Combine with Rizal Park:</strong> The baywalk begins at the western edge of Rizal Park &mdash; visit both in a single afternoon/evening.</li><li><strong>Cultural Center of the Philippines:</strong> The CCP is at the southern end of the baywalk &mdash; check for performances during your visit.</li><li><strong>Safety:</strong> The baywalk is generally safe but be aware of your belongings in crowded areas, especially at sunset.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>A Manila Bay Afternoon &amp; Evening</h2>
+      <p class="section__intro">Combine the Manila Baywalk with Rizal Park, the National Museum, and the Cultural Center for the perfect Manila Bay day.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">2:00 PM</span><div class="timeline__content"><h4>National Museum</h4><p>Start the afternoon at the <strong>National Museum of the Philippines</strong> &mdash; free admission, the Spoliarium, and the Tree of Life. Allow 2 hours.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">4:30 PM</span><div class="timeline__content"><h4>Rizal Park</h4><p>Walk to <strong>Rizal Park</strong> and stroll through the gardens. Visit the Rizal Monument and the Chinese Garden before heading to the baywalk.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">5:30 PM</span><div class="timeline__content"><h4>Manila Baywalk Sunset</h4><p>Walk to the <strong>Manila Baywalk</strong> for the legendary sunset. Find a spot along the promenade, buy a fresh coconut from a vendor, and watch the sky turn gold over Manila Bay.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Evening</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">7:00 PM</span><div class="timeline__content"><h4>Dinner along Roxas Boulevard</h4><p>Have dinner at one of the restaurants along <strong>Roxas Boulevard</strong> with Manila Bay views. The evening atmosphere on the baywalk is one of the most pleasant in Manila.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"The Manila Bay sunset is one of the most beautiful I've seen anywhere in the world. The sky turns every shade of orange, pink, and purple &mdash; and the silhouettes of the ships in the bay, the promenade full of Manileos, the smell of the sea &mdash; it's a complete sensory experience. The baywalk is free, it's beautiful, and it's the soul of Manila. Don't miss it."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">VC</div><div><strong>Victoria C.</strong><span>Travel Photographer, Manila</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"I've watched the sunset from the Manila Baywalk dozens of times and it never gets old. There's something about the combination of the vast bay, the dramatic sky, and the energy of the crowd that makes it uniquely Manila. Eating fresh buko while watching the sun go down over the South China Sea &mdash; that's the Manila experience in a single moment."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">EM</div><div><strong>Eduardo M.</strong><span>Manila Resident</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Watch the Manila Bay Sunset?</h2>
+        <p>Get our free Manila Travel Guide + Baywalk tips, Rizal Park guide, and the best Manila Bay experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Manila Baywalk</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for sunset chasers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

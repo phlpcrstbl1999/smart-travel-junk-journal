@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Quiapo Church &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">Home of the<br>Black Nazarene</h1>
+      <p class="hero__sub">Quiapo Church is the spiritual heart of Manila &mdash; home of the Black Nazarene, the most venerated religious image in the Philippines. Every January 9, millions of barefoot devotees join the Traslacion procession in one of the largest religious gatherings in the world.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1586</strong><span>Founded</span></div>
+      <div class="hero__stat"><strong>Millions</strong><span>Devotees</span></div>
+      <div class="hero__stat"><strong>Manila</strong><span>NCR</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Quiapo Church Manila" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Black Nazarene procession" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The Most Venerated Image in the Philippines</h2>
+        <p>The <strong>Minor Basilica of the Black Nazarene</strong> &mdash; known simply as <strong>Quiapo Church</strong> &mdash; was founded in <strong>1586</strong> by the Franciscan order. It is the home of the <strong>Black Nazarene</strong>: a life-size dark-skinned image of Jesus Christ carrying the cross, carved from mesquite wood in Mexico and brought to Manila in 1606.</p>
+        <p>The Black Nazarene is the most venerated religious image in the Philippines. Millions of Filipino Catholics believe it has miraculous powers &mdash; healing the sick, granting prayers, and protecting devotees. The image is the center of the annual <strong>Traslacion</strong> procession on <strong>January 9</strong>, when an estimated 6&#8369;9 million barefoot devotees crowd the streets of Manila in one of the largest religious gatherings in the world.</p>
+        <p>The church and its surrounding plaza are the spiritual and commercial heart of Quiapo district &mdash; surrounded by the famous <strong>Quiapo market</strong>, herbal medicine vendors, and the vibrant street life of one of Manila's oldest neighborhoods.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Black Nazarene &nbsp;&middot;&nbsp; <strong>Quiapo, Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Quiapo Church</h2>
+      <p class="section__intro">Quiapo Church is in the heart of Manila &mdash; easily reached by LRT or jeepney from most parts of the city.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; Carriedo Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>Carriedo Station</strong>. Walk south along Quezon Boulevard for about 5 minutes to reach Quiapo Church and Plaza Miranda.</p><span class="step__detail"> LRT Line 1: Carriedo Station &nbsp;|&nbsp;  ~5 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>From Binondo</h3><p>Quiapo is a short walk from <strong>Binondo</strong> &mdash; cross the Quezon Bridge over the Pasig River and walk south along Quezon Boulevard (~10 minutes). Combine both neighborhoods in a single morning.</p><span class="step__detail"> Walk from Binondo: ~10 min &nbsp;|&nbsp;  Via Quezon Bridge</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Friday Mass &amp; Devotion</h3><p><strong>Fridays</strong> are the most important day at Quiapo Church &mdash; thousands of devotees come to touch the image of the Black Nazarene and offer prayers. The atmosphere is intensely devotional and deeply moving.</p><span class="step__detail"> Friday devotion: most atmospheric &nbsp;|&nbsp; &mdash; Masses throughout the day</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Quiapo Market</h3><p>The streets around the church are lined with the famous <strong>Quiapo market</strong> &mdash; herbal medicine vendors, religious goods, fabrics, electronics, and street food. The market is one of the most vibrant in Manila.</p><span class="step__detail"> Market: surrounding streets &nbsp;|&nbsp;  Herbal medicine: Hidalgo Street</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Quiapo Church and the surrounding historic Manila district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--heritage">? Church</span>
+        <span class="map-legend__item map-legend__item--main"> Chinatown</span>
+        <span class="map-legend__item map-legend__item--nature"> Parks</span>
+      </div>
+    </div>
+    <div id="quiapo-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>The Black Nazarene</h3><ul><li><strong>January 9 &mdash; Traslacion:</strong> The annual procession of the Black Nazarene &mdash; 6&#8369;9 million barefoot devotees crowd the streets of Manila. One of the largest religious gatherings in the world. Extraordinary to witness, but extremely crowded.</li><li><strong>Good Friday:</strong> Another major day of devotion &mdash; the church and surrounding streets are packed with pilgrims.</li><li><strong>Friday devotion:</strong> Every Friday, thousands of devotees come to touch the image and offer prayers. The most accessible time to experience the devotion.</li><li><strong>The image:</strong> The Black Nazarene is kept in a glass case inside the church &mdash; visible to all visitors.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Quiapo Market</h3><ul><li><strong>Herbal medicine (Hidalgo Street):</strong> The famous herbal medicine vendors of Quiapo &mdash; traditional Filipino and Chinese medicinal plants, roots, and preparations.</li><li><strong>Religious goods:</strong> The streets around the church are lined with vendors selling religious images, rosaries, candles, and devotional items.</li><li><strong>Fabrics and textiles:</strong> Quiapo is Manila's fabric district &mdash; dozens of shops selling cloth, lace, and sewing materials at wholesale prices.</li><li><strong>Street food:</strong> Kwek-kwek (battered quail eggs), fish balls, and other Manila street food classics are sold around the plaza.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Dress modestly</strong> when entering the church &mdash; shoulders and knees should be covered.</li><li><strong>Be aware of pickpockets</strong> in the crowded market area &mdash; keep valuables secure.</li><li><strong>Combine with Binondo:</strong> Quiapo and Binondo are a short walk apart &mdash; visit both in a single morning for the complete historic Manila experience.</li><li><strong>Photography:</strong> Photography is permitted inside the church but be respectful of worshippers.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>Old Manila in a Morning</h2>
+      <p class="section__intro">Combine Quiapo Church with Binondo, Intramuros, and the National Museum for the complete historic Manila experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">7:00 AM</span><div class="timeline__content"><h4>Binondo Breakfast</h4><p>Start in <strong>Binondo</strong> for breakfast &mdash; goto, dim sum, and hopia from the world's oldest Chinatown. Then walk across Quezon Bridge to Quiapo.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">9:00 AM</span><div class="timeline__content"><h4>Quiapo Church &amp; Market</h4><p>Visit <strong>Quiapo Church</strong> &mdash; see the Black Nazarene, attend a morning mass, and explore the surrounding market. Browse the herbal medicine vendors on Hidalgo Street.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">11:00 AM</span><div class="timeline__content"><h4>Intramuros</h4><p>Take a jeepney or walk to <strong>Intramuros</strong> for the rest of the morning &mdash; Fort Santiago, San Agustin Church, and Manila Cathedral.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">2:00 PM</span><div class="timeline__content"><h4>National Museum</h4><p>Spend the afternoon at the <strong>National Museum of the Philippines</strong> &mdash; free admission, the Spoliarium, and the Tree of Life installation.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">5:30 PM</span><div class="timeline__content"><h4>Manila Bay Sunset</h4><p>End the day at <strong>Rizal Park</strong> for the legendary Manila Bay sunset &mdash; the perfect finale to a day of historic Manila.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Visiting Quiapo Church on a Friday was one of the most moving experiences of my time in Manila. The devotion of the people &mdash; the prayers, the candles, the touching of the Black Nazarene &mdash; is deeply sincere and deeply Filipino. The church is surrounded by the chaos of the Quiapo market, but inside there is a profound stillness. It is one of the most authentic religious experiences I've had anywhere in the world."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">LR</div><div><strong>Lourdes R.</strong><span>Devotee, Quezon City</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"I witnessed the Traslacion procession on January 9 &mdash; millions of barefoot devotees in the streets of Manila, all trying to touch the Black Nazarene. It was overwhelming, chaotic, and profoundly moving. The faith of the Filipino people is extraordinary. Quiapo Church is not just a tourist site &mdash; it is the beating heart of Manila's Catholic devotion."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">JM</div><div><strong>Jose M.</strong><span>Cultural Traveler, Manila</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Visit Quiapo Church?</h2>
+        <p>Get our free Manila Travel Guide + Quiapo Church tips, Binondo food guide, and the best historic Manila experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Quiapo Church</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for Manila lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

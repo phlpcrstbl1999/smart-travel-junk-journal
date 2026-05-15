@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Puerto Princesa Underground River &mdash; Palawan Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Palawan</span>
+      <h1 class="hero__headline">The River That<br>Flows Underground</h1>
+      <p class="hero__sub">The Puerto Princesa Subterranean River is one of the world's most extraordinary natural wonders &mdash; a navigable underground river flowing through a vast limestone cave system directly into the sea, deep inside a UNESCO World Heritage jungle.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>8.2km</strong><span>Underground River</span></div>
+      <div class="hero__stat"><strong>UNESCO</strong><span>World Heritage Site</span></div>
+      <div class="hero__stat"><strong>New7Wonders</strong><span>of Nature</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/puerto-princesa-underground-river.jpg" alt="Puerto Princesa Underground River cave entrance" class="intro__img intro__img--main" />
+        <img src="images/puerto-princesa-underground-river.jpg" alt="Underground River boat tour inside the cave" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; About</span>
+        <h2>A World Wonder Beneath the Earth</h2>
+        <p>The <strong>Puerto Princesa Subterranean River National Park</strong> protects one of the world's most remarkable cave systems &mdash; an <strong>8.2-kilometer navigable underground river</strong> that flows through a mountain and empties directly into the South China Sea. The cave contains some of the most dramatic stalactite and stalagmite formations in Southeast Asia, including chambers large enough to fit a cathedral.</p>
+        <p>The park is a <strong>UNESCO World Heritage Site</strong> and was voted one of the <strong>New Seven Wonders of Nature</strong> in 2012. It sits within a protected limestone karst landscape covered in old-growth tropical forest, home to eight of the Philippines' 13 forest types and over 800 plant species.</p>
+        <p>Visitors explore the river by paddle boat, guided by a boatman who navigates the dark passages while a recorded audio guide describes the formations overhead. The experience &mdash; gliding silently through a vast underground world lit only by your headlamp &mdash; is genuinely unlike anything else on earth.</p>
+        <div class="intro__badge">
+          <span>&#127963;</span><span>UNESCO World Heritage &nbsp;&middot;&nbsp; <strong>New Seven Wonders of Nature</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to the Underground River</h2>
+      <p class="section__intro">The Underground River is located in <strong>Sabang</strong>, about 80 km north of Puerto Princesa City. A permit is required and must be arranged in advance.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Fly to Puerto Princesa</h3>
+            <p>Fly from Manila to <strong>Puerto Princesa International Airport</strong>. Multiple airlines operate this route daily. The flight takes about 1 hour 20 minutes. Book early &mdash; seats fill up fast, especially during peak season.</p>
+            <span class="step__detail"> Flight: ~1 hr 20 min &nbsp;|&nbsp;  ~&#8369;1,500&#8369;4,000 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Get Your Underground River Permit</h3>
+            <p>A <strong>permit is mandatory</strong> and must be secured before your visit. Get it at the <strong>City Environment and Natural Resources Office (CENRO)</strong> in Puerto Princesa, or book through a licensed tour operator who will arrange it for you. Daily visitor numbers are strictly limited.</p>
+            <span class="step__detail"> Permit fee: ~&#8369;150 &nbsp;|&nbsp;  Book at least 1&#8369;2 days ahead</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Van to Sabang</h3>
+            <p>From Puerto Princesa, take a van or join a tour to <strong>Sabang</strong> &mdash; the jump-off point for the Underground River. The drive takes about 2 hours along a scenic road through the Palawan jungle. Most tours include van transfer.</p>
+            <span class="step__detail"> Van: ~2 hrs &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;300 per person</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Boat to the Cave Entrance</h3>
+            <p>From Sabang Beach, take a short <strong>bangka boat ride</strong> to the cave entrance &mdash; about 15 minutes across a calm bay. The approach by sea, with the limestone cliffs rising from the jungle ahead, is one of the most dramatic arrivals in Philippine travel.</p>
+            <span class="step__detail"> Boat: ~15 min &nbsp;|&nbsp;  Included in most tour packages</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore the Underground River, Sabang Beach, and the surrounding national park.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Cave &amp; River</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Town &amp; Port</span>
+      </div>
+    </div>
+    <div id="ppur-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Booking &amp; Permits</h3>
+          <ul>
+            <li><strong>Book your permit early.</strong> Daily visitor numbers are capped &mdash; permits sell out weeks in advance during peak season (NovemberMay).</li>
+            <li><strong>Use a licensed tour operator</strong> for the easiest experience &mdash; they handle permits, transport, and boat transfers in one package.</li>
+            <li><strong>Arrive at Sabang early.</strong> Boat departures to the cave are scheduled &mdash; missing your slot means waiting or losing your permit.</li>
+            <li><strong>Check weather conditions.</strong> The cave tour may be cancelled during rough seas or heavy rain. Have a backup day planned.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Life jacket</strong> &mdash; provided at the cave, but wearing it is mandatory inside the river.</li>
+            <li><strong>Headlamp or flashlight</strong> &mdash; the cave is dark. Your boatman has a light but bring your own for a better view of the formations.</li>
+            <li><strong>Waterproof bag</strong> &mdash; protect your phone and camera. The cave is humid and the boat can get splashed.</li>
+            <li><strong>Insect repellent</strong> &mdash; the jungle trail to the cave entrance has mosquitoes.</li>
+            <li><strong>Cash</strong> &mdash; for permits, tips, and food at Sabang Beach.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Inside the Cave</h3>
+          <ul>
+            <li><strong>Watch for falling bat droppings.</strong> Millions of bats live in the cave &mdash; look up carefully and keep your mouth closed.</li>
+            <li><strong>Listen to your guide.</strong> The boatman knows the cave intimately and will point out the most impressive formations.</li>
+            <li><strong>Photography is allowed</strong> but flash can disturb the bats. Use a high-ISO setting for better results in low light.</li>
+            <li><strong>The standard tour covers 4.3 km</strong> of the 8.2 km river. A special permit is required for the full length &mdash; arrange this in advance.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend a Day at the Underground River</h2>
+      <p class="section__intro">Most visitors do the Underground River as a day trip from Puerto Princesa. Combine it with Sabang Beach and the jungle trail for a full day in the national park.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">6:00 AM</span>
+              <div class="timeline__content">
+                <h4>Depart Puerto Princesa</h4>
+                <p>Leave Puerto Princesa early by van for the 2-hour drive to <strong>Sabang</strong>. The road passes through lush Palawan jungle and small farming communities. Arrive at Sabang Beach by 8 AM to check in for your boat slot.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">8:30 AM</span>
+              <div class="timeline__content">
+                <h4>Boat to the Cave Entrance</h4>
+                <p>Board a bangka at <strong>Sabang Beach</strong> for the 15-minute boat ride to the cave entrance. The approach by sea &mdash; limestone cliffs rising from the jungle, monkeys visible on the shore &mdash; is spectacular. Collect your life jacket and headlamp at the entrance.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Underground River Boat Tour</h4>
+                <p>Enter the cave by paddle boat. Your boatman navigates the dark passages while the audio guide describes the formations &mdash; the <strong>Cathedral Chamber</strong>, the <strong>Italian's Chamber</strong>, and the massive stalactites and stalagmites that have been forming for millions of years. The tour takes about 45 minutes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">10:30 AM</span>
+              <div class="timeline__content">
+                <h4>Sabang Beach &amp; Jungle Trail</h4>
+                <p>After the cave tour, relax on <strong>Sabang Beach</strong> &mdash; a beautiful stretch of sand backed by jungle. Walk the <strong>Monkey Trail</strong> through the national park forest, where long-tailed macaques, monitor lizards, and hornbills are commonly spotted.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">12:30 PM</span>
+              <div class="timeline__content">
+                <h4>Lunch at Sabang</h4>
+                <p>Eat at one of the small restaurants along Sabang Beach. Fresh grilled fish, <em>kinilaw</em>, and cold coconut water are the highlights. The setting &mdash; eating on the beach with the jungle behind you &mdash; is hard to beat.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">2:00 PM</span>
+              <div class="timeline__content">
+                <h4>Return to Puerto Princesa</h4>
+                <p>Board your van back to Puerto Princesa. In the evening, explore the city's famous <strong>Palaweno BBQ restaurants</strong> along Rizal Avenue &mdash; an essential Puerto Princesa experience after a full day in the national park.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Floating through the Underground River in near-total darkness, with only the beam of a headlamp illuminating formations that took millions of years to grow &mdash; it's one of the most humbling experiences I've ever had as a traveler. The Cathedral Chamber alone is worth the entire journey to Palawan. When the boatman turned off all the lights for a moment and we sat in absolute darkness and silence underground, I felt genuinely small in the best possible way."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SK</div>
+            <div>
+              <strong>Sarah K.</strong>
+              <span>Nature Traveler, Sydney, Australia</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The approach to the cave by boat is something I will never forget &mdash; the limestone cliffs rising straight out of the sea, covered in jungle, with monkeys watching from the shore. Then you enter the cave and the world changes completely. The scale of the formations inside is staggering. I've been to caves in many countries and the Puerto Princesa Underground River is in a class of its own. Book your permit well in advance &mdash; this is not a place you want to miss."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">FM</div>
+            <div>
+              <strong>Felipe M.</strong>
+              <span>Adventure Traveler, Mexico City</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore the Underground World?</h2>
+        <p>Get our free Underground River Guide + permit booking tips, packing list, and how to combine it with El Nido &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About the Underground River</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for nature lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

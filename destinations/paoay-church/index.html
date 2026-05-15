@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Paoay Church &mdash; Ultimate Heritage Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Ilocos Norte</span>
+      <h1 class="hero__headline">Where Faith<br>Meets Stone</h1>
+      <p class="hero__sub">The Saint Augustine Church of Paoay &mdash; a UNESCO World Heritage masterpiece built in 1694. Massive coral-stone buttresses, earthquake-baroque architecture, and 330 years of living history.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1694</strong><span>Year Built</span></div>
+      <div class="hero__stat"><strong>330+</strong><span>Years of History</span></div>
+      <div class="hero__stat"><strong>UNESCO</strong><span>World Heritage Site</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRODUCTION & HISTORY ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/church.jpg" alt="Paoay Church facade" class="intro__img intro__img--main" />
+        <img src="images/church.jpg" alt="Paoay Church buttresses" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>A Baroque Masterpiece in Coral Stone</h2>
+        <p>Built between <strong>1694 and 1710</strong> by Augustinian friars, the <strong>Saint Augustine Church of Paoay</strong> (also known as San Agustin Church) is one of the most architecturally significant churches in the Philippines. Its massive <strong>24 coral-stone buttresses</strong> &mdash; some rising over 7 meters high &mdash; were designed to withstand the region's frequent earthquakes, giving birth to the unique <strong>"Earthquake Baroque"</strong> architectural style.</p>
+        <p>The church is a stunning fusion of <strong>Baroque, Gothic, and Oriental influences</strong> &mdash; European design adapted to local materials and seismic realities. The walls are made of coral stone and brick, held together by a mortar of sand, lime, and molasses. The bell tower, standing 26 meters tall, is detached from the main structure &mdash; a deliberate design choice to prevent collapse during earthquakes.</p>
+        <p>In <strong>1993</strong>, Paoay Church was inscribed as a <strong>UNESCO World Heritage Site</strong> as part of the "Baroque Churches of the Philippines" collection. Today, it remains an active parish church, hosting daily masses and serving the local community &mdash; a living monument to faith, resilience, and Filipino craftsmanship.</p>
+        <div class="intro__badge">
+          <span>&#127988;</span>
+          <span>UNESCO World Heritage Site &nbsp;&middot;&nbsp; <strong>Built 1694&#8369;1710</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION & HOW TO GET THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Paoay Church</h2>
+      <p class="section__intro">Paoay Church is located in <strong>Paoay, Ilocos Norte</strong>, about 490 km north of Manila. It's just 20 km from Laoag City &mdash; the capital of Ilocos Norte.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Fly Manila to Laoag</h3>
+            <p>The fastest route is to fly from <strong>NAIA or Clark Airport</strong> to <strong>Laoag International Airport</strong>. Philippine Airlines and Cebu Pacific operate daily flights. From Laoag, Paoay is just a 20-minute tricycle ride away.</p>
+            <span class="step__detail"> Flight: ~1 hour &nbsp;|&nbsp;  ~&#8369;1,500&#8369;3,500 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Take an Overnight Bus from Manila</h3>
+            <p>Partas, Farinas, and Florida Bus Lines run overnight buses from <strong>Cubao or Pasay</strong> to Laoag City. Buses depart around 9&#8369;10 PM and arrive in Laoag by 7&#8369;8 AM. Book a deluxe seat for comfort.</p>
+            <span class="step__detail"> Travel time: ~10&#8369;12 hours &nbsp;|&nbsp;  ~&#8369;800&ndash;&#8369;1,200 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Laoag to Paoay Church</h3>
+            <p>From Laoag City, take a <strong>tricycle or jeepney</strong> to Paoay town. The church is right in the town center &mdash; impossible to miss. You can also rent a tricycle for the day to visit the church, sand dunes, and Lake Paoay in one trip.</p>
+            <span class="step__detail"> Tricycle: ~&#8369;150&ndash;&#8369;200 &nbsp;|&nbsp; &mdash; ~20&#8369;25 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Arrive at Paoay Church</h3>
+            <p>The church is located at <strong>Brgy. Nalasin, Paoay</strong>, right along the main road. There's a small parking area and a visitor center nearby. Entry is free, but donations are appreciated to support church maintenance.</p>
+            <span class="step__detail"> Free entry &nbsp;|&nbsp;  Open daily 6:00 AM &mdash; 6:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERACTIVE MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin on the map to explore Paoay Church and nearby heritage sites, museums, and natural attractions.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--heritage">? Heritage</span>
+        <span class="map-legend__item map-legend__item--main">&#128205; Main Sites</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+      </div>
+    </div>
+    <div id="paoay-map"></div>
+  </section>
+
+  <!-- ===== ESSENTIAL TRAVEL TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+
+      <div class="tips__grid">
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>Early Morning (6:00&#8369;8:00 AM):</strong> Soft golden light, fewer tourists, and peaceful atmosphere. Perfect for photography and quiet reflection.</li>
+            <li><strong>Late Afternoon (4:00&#8369;6:00 PM):</strong> Warm sunset light bathes the coral-stone facade in amber tones. The buttresses cast dramatic shadows.</li>
+            <li><strong>Avoid Midday (11:00 AM&#8369;2:00 PM):</strong> Harsh overhead light and extreme heat. The church has no air conditioning inside.</li>
+            <li><strong>Special Events:</strong> Visit during the Paoay Town Fiesta (May 4) or Christmas season for festive decorations and cultural performances.</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128247;</div><h3>Photography Tips</h3>
+          <ul>
+            <li><strong>Bring a wide-angle lens</strong> &mdash; the facade is massive and hard to capture in one frame up close.</li>
+            <li><strong>Shoot from the side</strong> to capture the buttresses in perspective &mdash; they're the church's most iconic feature.</li>
+            <li><strong>Golden hour is magic</strong> &mdash; the coral stone glows warm orange at sunrise and sunset.</li>
+            <li><strong>Respect mass times</strong> &mdash; photography inside is allowed, but not during services. Check the schedule at the entrance.</li>
+            <li><strong>Drone photography requires a permit</strong> &mdash; ask at the parish office in advance.</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Etiquette &amp; Respect</h3>
+          <ul>
+            <li><strong>This is an active church.</strong> Dress modestly &mdash; no sleeveless tops, shorts, or mini-skirts. Bring a shawl or scarf to cover shoulders.</li>
+            <li><strong>Silence inside the church.</strong> Speak softly and turn off phone ringers. This is a place of worship, not just a tourist site.</li>
+            <li><strong>No flash photography during mass.</strong> Be mindful of worshippers and ceremonies in progress.</li>
+            <li><strong>Donations are appreciated.</strong> Drop a few pesos in the donation box to support church maintenance and restoration.</li>
+            <li><strong>Don't climb on the buttresses</strong> or touch the coral-stone walls &mdash; they're fragile and centuries old.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VISITOR GUIDE ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Paoay Church</h2>
+      <p class="section__intro">A complete guide to exploring the church, understanding its architecture, and visiting nearby heritage sites in one day.</p>
+
+      <div class="timeline">
+
+        <div class="timeline__day">
+          <div class="timeline__day-label">Arrival</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Approach from the Front Plaza</h4>
+                <p>Walk through the open plaza in front of the church. Take in the full view of the facade &mdash; the massive buttresses, the bell tower standing separately to the left, and the intricate coral-stone carvings above the entrance.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Study the Buttresses</h4>
+                <p>Walk along the sides of the church to see the <strong>24 buttresses</strong> up close. Each one is unique &mdash; some are pyramid-shaped, others cylindrical. Notice how they lean slightly outward to brace the walls against earthquakes.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Enter the Church Interior</h4>
+                <p>Step inside to see the simple, austere interior &mdash; whitewashed walls, wooden pews, and a gilded altar. The contrast between the ornate exterior and minimalist interior is striking. Look up at the wooden ceiling beams.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Visit the Bell Tower</h4>
+                <p>Walk to the detached <strong>bell tower</strong> on the left side of the church. It stands 26 meters tall and was built separately to prevent collapse during earthquakes. Climb to the top if it's open for a view of the town and surrounding fields.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 5</span>
+              <div class="timeline__content">
+                <h4>Explore the Museum</h4>
+                <p>Visit the small <strong>Paoay Church Museum</strong> inside the convent building next to the church. It houses religious artifacts, old photographs, and historical documents about the church's construction and restoration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__day">
+          <div class="timeline__day-label">Nearby Sites</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">10 min away</span>
+              <div class="timeline__content">
+                <h4>Lake Paoay (Paoay Lake)</h4>
+                <p>A serene freshwater lake just 2 km from the church. Perfect for a quiet walk, sunset viewing, or a picnic. Local fishermen bring in their catch here every evening.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">15 min away</span>
+              <div class="timeline__content">
+                <h4>Paoay Sand Dunes</h4>
+                <p>Just 5 km from the church &mdash; a vast desert landscape of golden sand dunes. Book a 4x4 ride or try sandboarding. The contrast of a 300-year-old church and a desert in one town is surreal.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">25 min away</span>
+              <div class="timeline__content">
+                <h4>Malacaang of the North</h4>
+                <p>The former residence of President Ferdinand Marcos, now a museum. Located along the shores of Paoay Lake. Exhibits include personal belongings, vintage cars, and historical photos.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">30 min away</span>
+              <div class="timeline__content">
+                <h4>Laoag City Heritage Tour</h4>
+                <p>Visit the <strong>Sinking Bell Tower</strong>, <strong>Saint William Cathedral</strong>, and the <strong>Tobacco Monopoly Monument</strong>. Try the famous <em>Laoag empanada</em> at the Empanada Park.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Visitor Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I've visited cathedrals all over Europe, but Paoay Church is something else entirely. The buttresses are absolutely massive &mdash; they look like they're holding up the sky. The coral stone has this warm, golden glow at sunset that no photo can capture. And the fact that it's survived 330 years of earthquakes is just mind-blowing. This is a must-see if you're anywhere near Ilocos Norte."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">DM</div>
+            <div>
+              <strong>David M.</strong>
+              <span>Architecture Enthusiast, London, UK</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We went early in the morning before the tour buses arrived and had the entire church to ourselves. The silence inside was profound &mdash; you could feel the weight of history. Our guide explained how the Augustinian friars used local materials and indigenous labor to build it, and how the design was adapted to survive earthquakes. It's not just a beautiful building &mdash; it's a testament to Filipino resilience and faith. Absolutely worth the trip from Manila."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MC</div>
+            <div>
+              <strong>Maria C.</strong>
+              <span>History Teacher, Quezon City, Philippines</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER & FINAL CTA ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__cta">
+        <h2>Ready to Walk Through History?</h2>
+        <p>Get our free Paoay Church Visitor Guide + exclusive tips on the best photography spots, nearby heritage sites, and Ilocano cultural experiences &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About the Church</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Visitor Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for history lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Capisaan Cave System &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Nueva Vizcaya</span>
+      <h1 class="hero__headline">Into the Heart<br>of the Mountain</h1>
+      <p class="hero__sub">The Capisaan Cave System in Kasibu, Nueva Vizcaya is one of the most extensive and least explored cave networks in the Philippines &middot; a vast underground world of dramatic limestone formations, underground rivers, and cathedral-like chambers hidden beneath the Caraballo Mountains.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>8km+</strong><span>Explored Length</span></div>
+      <div class="hero__stat"><strong>Multiple</strong><span>Cave Chambers</span></div>
+      <div class="hero__stat"><strong>Underground</strong><span>River System</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/capisaan.jpg" alt="Capisaan Cave interior formations" class="intro__img intro__img--main" />
+        <img src="images/capisaan.jpg" alt="Capisaan Cave underground river" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Nueva Vizcaya's Underground Wonder</h2>
+        <p>Located in the municipality of <strong>Kasibu, Nueva Vizcaya</strong>, the <strong>Capisaan Cave System</strong> is one of the most significant cave networks in the Philippines. With an explored length of over <strong>8 kilometers</strong>, the system consists of multiple interconnected caves featuring dramatic stalactite and stalagmite formations, underground rivers, and vast chambers that have taken millions of years to form.</p>
+        <p>The cave system sits within the <strong>Caraballo Mountain range</strong> &mdash; the rugged highland region that separates the Cagayan Valley from Central Luzon. The caves were formed by the dissolution of limestone by slightly acidic groundwater over millions of years, creating the extraordinary formations visible today. The underground river that flows through sections of the cave system adds another dimension to the experience &mdash; visitors can wade or swim through passages illuminated only by their headlamps.</p>
+        <p>The Capisaan Cave System is considered one of the <strong>longest cave systems in Luzon</strong> and remains largely unexplored beyond its accessible sections. Speleologists and adventure cavers continue to map new passages, and the full extent of the system is still unknown. For visitors, the accessible sections offer a genuinely wild and adventurous caving experience far removed from the more developed cave attractions of the Philippines.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>One of Luzon's Longest Cave Systems &nbsp;&middot;&nbsp; <strong>Kasibu, Nueva Vizcaya</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Capisaan Cave</h2>
+      <p class="section__intro">The Capisaan Cave System is located in <strong>Kasibu, Nueva Vizcaya</strong> &mdash; about 280 km north of Manila. The nearest major town is <strong>Bayombong</strong>, the capital of Nueva Vizcaya.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Bayombong</h3>
+            <p>Autobus Transport and Victory Liner operate buses from <strong>Cubao or Pasay</strong> to <strong>Bayombong, Nueva Vizcaya</strong>. Travel time is about 6&#8369;7 hours. Buses run throughout the day and overnight.</p>
+            <span class="step__detail"> Travel time: ~6&#8369;7 hours &nbsp;|&nbsp;  ~&#8369;400&ndash;&#8369;600 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Bayombong to Kasibu</h3>
+            <p>From Bayombong, take a <strong>jeepney or van</strong> to Kasibu municipality &mdash; about 30&#8369;45 minutes. From Kasibu town center, hire a <strong>habal-habal</strong> (motorcycle taxi) or tricycle to the cave entrance. The road to the cave is rough in sections.</p>
+            <span class="step__detail"> Jeepney to Kasibu: ~30&#8369;45 min &nbsp;|&nbsp;  Habal-habal to cave: ~20&#8369;30 min</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register &amp; Hire a Local Guide</h3>
+            <p>Register at the <strong>Kasibu Municipal Tourism Office</strong> before heading to the cave. <strong>A local guide is mandatory</strong> &mdash; the cave system is complex and dangerous without guidance. Guides are available at the tourism office or at the cave entrance.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;50&ndash;&#8369;100 &nbsp;|&nbsp;  Guide: ~&#8369;200&ndash;&#8369;400 (mandatory)</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Prepare for the Cave</h3>
+            <p>The cave requires <strong>wading through water</strong> in some sections. Wear old clothes and shoes you don't mind getting wet and muddy. Bring a waterproof bag for your valuables. Headlamps are essential &mdash; bring your own or rent at the entrance.</p>
+            <span class="step__detail"> Headlamp rental: ~&#8369;50 &nbsp;|&nbsp;  Wear old clothes and shoes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore the Capisaan Cave System and nearby attractions in Nueva Vizcaya.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Cave</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Towns</span>
+      </div>
+    </div>
+    <div id="capisaan-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; lower water levels in the underground river make navigation easier and safer.</li>
+            <li><strong>Avoid rainy season (June &mdash; October):</strong> Heavy rains can cause the underground river to rise rapidly, making the cave dangerous or inaccessible.</li>
+            <li><strong>Morning starts:</strong> Begin your cave tour early &mdash; the full exploration takes 3&#8369;5 hours and you want to finish before afternoon rains.</li>
+            <li><strong>Weekdays:</strong> Fewer visitors and more personal attention from guides. The cave is more atmospheric without crowds.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128294;</div><h3>Cave Safety</h3>
+          <ul>
+            <li><strong>Never enter without a guide.</strong> The cave system is complex &mdash; passages branch in multiple directions and it is easy to get lost without local knowledge.</li>
+            <li><strong>Bring at least two light sources</strong> per person &mdash; a headlamp plus a backup flashlight. Cave darkness is absolute if your light fails.</li>
+            <li><strong>Wear a helmet</strong> &mdash; low ceilings and protruding formations are common. Helmets are available for rent at the entrance.</li>
+            <li><strong>Don't touch the formations.</strong> Stalactites and stalagmites take thousands of years to form &mdash; even touching them can cause irreversible damage.</li>
+            <li><strong>Tell someone your plans</strong> before entering &mdash; leave your itinerary and expected return time with your accommodation host.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Old clothes and shoes</strong> you don't mind getting wet, muddy, and potentially ruined.</li>
+            <li><strong>Waterproof bag or dry bag</strong> for your phone, camera, and valuables.</li>
+            <li><strong>Headlamp with fresh batteries</strong> &mdash; bring a backup light source.</li>
+            <li><strong>Helmet</strong> &mdash; available for rent at the entrance but bring your own if possible.</li>
+            <li><strong>Water and snacks</strong> &mdash; the cave tour is physically demanding. Stay hydrated.</li>
+            <li><strong>Cash</strong> &mdash; no ATMs in Kasibu. Withdraw in Bayombong before heading out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Capisaan Cave</h2>
+      <p class="section__intro">A complete guide to exploring the cave system and combining it with the best of Nueva Vizcaya.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Cave Exploration</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Gear Up &amp; Enter</h4>
+                <p>Put on your helmet, check your headlamp, and secure your valuables in a waterproof bag. Your guide will brief you on safety procedures and the route before entering. The cave entrance is a dramatic opening in the limestone cliff face.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>The First Chambers</h4>
+                <p>The initial chambers feature impressive stalactite and stalagmite formations. Your guide will point out the most significant formations and explain how they were formed. The scale of the chambers is immediately impressive.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>The Underground River</h4>
+                <p>Wade through the underground river passages &mdash; the water is cool and clear, reaching knee to waist depth in some sections. Your headlamp illuminates the formations above and the river below. This is the most memorable section of the cave.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>The Deep Chambers</h4>
+                <p>Continue deeper into the system with your guide. The formations become more dramatic &mdash; massive columns, delicate cave curtains, and crystal formations that have grown undisturbed for millennia. The silence is profound.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 5</span>
+              <div class="timeline__content">
+                <h4>Return &amp; Debrief</h4>
+                <p>Return to the entrance with your guide. Clean up at the nearby stream and debrief with your guide about what you saw. Many visitors are surprised by how physically demanding the cave tour is &mdash; allow time to rest before the journey back to Bayombong.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Nueva Vizcaya</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Nearby</span>
+              <div class="timeline__content">
+                <h4>Imugan Falls</h4>
+                <p>A stunning multi-tiered waterfall in the mountains of Nueva Vizcaya. About 1&#8369;2 hours from Kasibu. A perfect complement to the cave experience &mdash; cool, clear water after a muddy cave tour.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">In Bayombong</span>
+              <div class="timeline__content">
+                <h4>St. Dominic Cathedral</h4>
+                <p>The historic cathedral in Bayombong &mdash; the capital of Nueva Vizcaya. A beautiful Spanish colonial church worth visiting before or after your cave adventure.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">In Bayombong</span>
+              <div class="timeline__content">
+                <h4>Nueva Vizcaya State University</h4>
+                <p>The main university of the province, with a pleasant campus and a small museum about Nueva Vizcaya's history and culture. A good stop in Bayombong.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Capisaan Cave is the most adventurous caving experience I've had in the Philippines. Wading through the underground river with only our headlamps, the formations glowing in the light, the absolute silence broken only by dripping water &mdash; it was extraordinary. Our guide was knowledgeable and kept us safe throughout. This is not a tourist cave &mdash; it's a genuine adventure. Come prepared."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AV</div>
+            <div>
+              <strong>Adrian V.</strong>
+              <span>Adventure Caver, Baguio, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We spent four hours inside Capisaan Cave and it felt like four minutes. The scale of the formations is humbling &mdash; you realize how small you are in geological time. The underground river section was the highlight &mdash; wading through crystal-clear water with stalactites hanging overhead. Nueva Vizcaya is completely off the tourist trail and that makes it all the more special."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LM</div>
+            <div>
+              <strong>Lena M.</strong>
+              <span>Geologist &amp; Traveler, Manila, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore One of Luzon's Greatest Caves?</h2>
+        <p>Get our free Nueva Vizcaya Travel Guide + exclusive tips on cave tours, waterfalls, and the best of the Caraballo Mountains &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About the Cave</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for cave explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

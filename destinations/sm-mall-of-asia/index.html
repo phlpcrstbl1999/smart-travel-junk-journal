@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>SM Mall of Asia &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">Manila Bay's<br>Entertainment Complex</h1>
+      <p class="hero__sub">SM Mall of Asia is one of the largest malls in the world &mdash; a massive entertainment and shopping complex on the reclaimed shores of Manila Bay, with an outdoor promenade offering some of the most spectacular sunset views in Metro Manila.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>407,000</strong><span>sqm GFA</span></div>
+      <div class="hero__stat"><strong>Manila Bay</strong><span>Waterfront</span></div>
+      <div class="hero__stat"><strong>Pasay</strong><span>Metro Manila</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="SM Mall of Asia Manila Bay" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="MOA sunset promenade" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; Overview</span>
+        <h2>One of the World's Largest Malls</h2>
+        <p><strong>SM Mall of Asia (MOA)</strong> is a massive shopping and entertainment complex in <strong>Pasay, Metro Manila</strong>, built on reclaimed land along the shores of Manila Bay. With a gross floor area of over 407,000 square meters, it is consistently ranked among the largest malls in the world.</p>
+        <p>Beyond shopping, MOA is an entertainment destination &mdash; it houses an <strong>IMAX theater</strong>, an <strong>ice skating rink</strong>, a <strong>concert grounds</strong> (one of the largest outdoor concert venues in the Philippines), an <strong>SMX Convention Center</strong>, and the famous <strong>MOA Arena</strong> (a 20,000-seat indoor arena).</p>
+        <p>The mall's greatest attraction may be its <strong>outdoor bayside promenade</strong> &mdash; a wide walkway facing Manila Bay where the sunset views are extraordinary. The promenade is lined with restaurants and cafes, making it one of the most popular evening destinations in Metro Manila.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Manila Bay Waterfront &nbsp;&middot;&nbsp; <strong>Pasay, Metro Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to SM Mall of Asia</h2>
+      <p class="section__intro">SM Mall of Asia is in <strong>Pasay, Metro Manila</strong> &mdash; accessible by LRT, bus, taxi, or Grab.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; EDSA Station + Bus</h3><p>Take <strong>LRT Line 1</strong> to <strong>EDSA Station</strong>, then take a jeepney or bus along Roxas Boulevard to MOA. Alternatively, take a Grab from the EDSA station.</p><span class="step__detail"> LRT: EDSA Station &nbsp;|&nbsp;  Jeepney/bus to MOA: ~&#8369;12&ndash;&#8369;15</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>Grab or Taxi</h3><p>Grab and taxis are the most convenient options. MOA is well-served by Grab &mdash; book in advance during peak hours and weekends.</p><span class="step__detail"> Grab/Taxi: ~&#8369;100&ndash;&#8369;200 from Makati &nbsp;|&nbsp;  Book via Grab app</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Bayside Promenade</h3><p>The <strong>outdoor bayside promenade</strong> is the highlight of MOA &mdash; walk along the waterfront facing Manila Bay. The promenade is free to access and is most beautiful at sunset.</p><span class="step__detail"> Best at sunset: ~5:30&#8369;6:30 PM &nbsp;|&nbsp;  Free to access</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>MOA Arena &amp; Events</h3><p>Check the <strong>MOA Arena</strong> and <strong>Concert Grounds</strong> schedule &mdash; major concerts, sporting events, and exhibitions are held here regularly. Book tickets in advance for popular events.</p><span class="step__detail"> MOA Arena: 20,000 seats &nbsp;|&nbsp;  Concert Grounds: outdoor events</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore SM Mall of Asia and the surrounding Manila Bay area.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Mall</span>
+        <span class="map-legend__item map-legend__item--nature"> Promenade</span>
+        <span class="map-legend__item map-legend__item--heritage"> Entertainment</span>
+      </div>
+    </div>
+    <div id="moa-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>The Bayside Promenade</h3><ul><li><strong>Sunset views:</strong> The MOA bayside promenade offers some of the best Manila Bay sunset views in Metro Manila &mdash; arrive by 5:30 PM for the best light.</li><li><strong>Promenade restaurants:</strong> Dozens of restaurants and cafes line the promenade &mdash; from casual Filipino food to international dining with bay views.</li><li><strong>Weekend evenings:</strong> The promenade is most vibrant on weekend evenings &mdash; families, couples, and groups enjoying the bay breeze and the sunset.</li><li><strong>Free to access:</strong> The promenade is free &mdash; you don't need to enter the mall to enjoy the waterfront.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Entertainment</h3><ul><li><strong>IMAX Theater:</strong> One of the largest IMAX screens in the Philippines &middot; book tickets online for popular films.</li><li><strong>Ice skating rink:</strong> The SM MOA ice skating rink is one of the few in Metro Manila &mdash; popular with families and groups.</li><li><strong>MOA Arena:</strong> A 20,000-seat indoor arena hosting major concerts, boxing matches, and sporting events.</li><li><strong>Concert Grounds:</strong> The outdoor concert grounds host major outdoor events &mdash; check the schedule for concerts during your visit.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Weekday visits:</strong> MOA is extremely crowded on weekends &mdash; visit on a weekday for a more comfortable experience.</li><li><strong>Parking:</strong> MOA has extensive parking but it fills up quickly on weekends. Consider taking Grab to avoid parking stress.</li><li><strong>Combine with Manila Baywalk:</strong> MOA is at the southern end of the Manila Bay waterfront &mdash; combine with the Manila Baywalk and Rizal Park for a full bay experience.</li><li><strong>Food court:</strong> The MOA food court has an excellent selection of Filipino and international food at affordable prices.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>A Manila Bay Evening</h2>
+      <p class="section__intro">Combine SM Mall of Asia with the Manila Baywalk and Rizal Park for the complete Manila Bay experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">3:00 PM</span><div class="timeline__content"><h4>SM Mall of Asia</h4><p>Arrive at <strong>SM Mall of Asia</strong> in the afternoon. Explore the mall, catch a movie at the IMAX theater, or browse the shops.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">5:00 PM</span><div class="timeline__content"><h4>Bayside Promenade Sunset</h4><p>Head to the <strong>bayside promenade</strong> for the Manila Bay sunset. Find a spot at one of the waterfront restaurants or cafes and watch the sky turn orange and pink over the bay.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Evening</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">7:00 PM</span><div class="timeline__content"><h4>Dinner at MOA</h4><p>Have dinner at one of the many restaurants in the mall or on the promenade. The bayside restaurants offer the best atmosphere &mdash; dining with Manila Bay views after dark.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">9:00 PM</span><div class="timeline__content"><h4>Evening Stroll</h4><p>Take an evening stroll along the <strong>promenade</strong> &mdash; the bay is beautiful at night, with the lights of the ships and the city reflected on the water.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"The MOA bayside promenade at sunset is one of the most beautiful spots in Manila. The sky turns every shade of orange and pink over Manila Bay, the sea breeze is refreshing, and the promenade is full of Manileos enjoying the evening. It's free, it's beautiful, and it's quintessentially Manila. Don't miss it."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">GR</div><div><strong>Grace R.</strong><span>Manila Resident</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"SM Mall of Asia is more than just a mall &mdash; it's an entertainment destination. The IMAX theater, the ice rink, the concert grounds, the bayside promenade &mdash; there's something for everyone. We spent a full day there and didn't run out of things to do. The sunset from the promenade was the highlight &mdash; absolutely stunning."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">JT</div><div><strong>James T.</strong><span>Family Traveler, Cebu City</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Visit SM Mall of Asia?</h2>
+        <p>Get our free Manila Travel Guide + MOA tips, Manila Bay sunset guide, and the best Metro Manila experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About SM Mall of Asia</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for Manila lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Paco Park &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">Manila's Most<br>Romantic Garden</h1>
+      <p class="hero__sub">Paco Park is a circular 18th-century cemetery turned romantic garden in the heart of Manila &mdash; where Jos Rizal was briefly buried after his execution in 1896, and where the city's most atmospheric outdoor concerts and weddings are held today.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1820</strong><span>Built</span></div>
+      <div class="hero__stat"><strong>Rizal</strong><span>First Burial</span></div>
+      <div class="hero__stat"><strong>Paco</strong><span>Manila</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Paco Park Manila circular garden" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Paco Park chapel" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>A Cemetery Turned Garden of History</h2>
+        <p><strong>Paco Park</strong> (officially the Cemetery of San Fernando de Dilao) is a circular walled cemetery built in <strong>1820</strong> in the Paco district of Manila. It was the first municipal cemetery in the Philippines &middot; a circular enclosure of niches and burial chambers surrounding a small chapel, designed in the neoclassical style.</p>
+        <p>The park's most significant historical connection is to <strong>Jos Rizal</strong> &mdash; after his execution at Bagumbayan on December 30, 1896, his body was secretly buried here by the Spanish authorities in an unmarked grave. His remains were later exhumed and transferred to the Rizal Monument in Luneta in 1912.</p>
+        <p>Today, Paco Park is a beautifully maintained public garden &mdash; the circular walls are covered in flowering vines, the chapel hosts weddings and concerts, and the shaded grounds are a peaceful retreat from the Manila heat. The park is famous for its <strong>Friday Concerts at the Park</strong> &mdash; free outdoor classical music concerts held in the garden.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Historic Garden &nbsp;&middot;&nbsp; <strong>Paco, Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Paco Park</h2>
+      <p class="section__intro">Paco Park is in the <strong>Paco district of Manila</strong> &mdash; easily reached by LRT or jeepney from Rizal Park and Intramuros.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; United Nations Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>United Nations Station</strong>. Walk east along UN Avenue and then south along General Luna Street to reach Paco Park (~15 minutes).</p><span class="step__detail"> LRT Line 1: UN Station &nbsp;|&nbsp;  ~15 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>Jeepney from Intramuros</h3><p>Take a jeepney from <strong>Intramuros</strong> heading toward Paco &mdash; the park is about 1.5 km southeast of Intramuros. Ask the driver to drop you at "Paco Park" on General Luna Street.</p><span class="step__detail"> Jeepney from Intramuros: ~&#8369;12&ndash;&#8369;15 &nbsp;|&nbsp; &mdash; ~10 min</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Entrance &amp; Hours</h3><p>Paco Park is open daily. A small entrance fee applies. The circular garden, the chapel, and the burial niches are all accessible to visitors.</p><span class="step__detail"> Entrance: ~&#8369;50 &nbsp;|&nbsp;  Open daily: 8 AM&#8369;5 PM</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Friday Concerts at the Park</h3><p>The <strong>Friday Concerts at the Park</strong> are free outdoor classical music concerts held in the Paco Park garden &mdash; one of the most atmospheric and affordable cultural experiences in Manila. Check the schedule before visiting.</p><span class="step__detail"> Friday Concerts: free &nbsp;|&nbsp;  Classical music in the garden</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Paco Park and the surrounding historic Manila district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--nature"> Garden</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127963; Heritage</span>
+        <span class="map-legend__item map-legend__item--main"> Parks</span>
+      </div>
+    </div>
+    <div id="paco-park-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>The Garden</h3><ul><li><strong>The circular walls:</strong> The most distinctive feature of Paco Park &mdash; a circular enclosure of burial niches covered in flowering vines and tropical plants. Walk the perimeter for the full effect.</li><li><strong>The chapel:</strong> The small neoclassical chapel at the center of the park is still used for weddings and special events. The interior is simple but beautiful.</li><li><strong>Rizal's first burial:</strong> A marker indicates the approximate location where Rizal's body was secretly buried after his execution. A moving and historically significant spot.</li><li><strong>The garden atmosphere:</strong> Paco Park is one of the most peaceful and atmospheric spaces in Manila &mdash; the combination of the old walls, the flowering plants, and the quiet garden is extraordinary.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Friday Concerts</h3><ul><li><strong>Free admission:</strong> The Friday Concerts at the Park are free &mdash; one of the best free cultural experiences in Manila.</li><li><strong>Classical music:</strong> The concerts feature classical music performed by Filipino musicians &mdash; chamber music, solo recitals, and small ensemble performances.</li><li><strong>Atmosphere:</strong> Listening to classical music in the circular garden of a 200-year-old cemetery at dusk is one of the most atmospheric experiences in Manila.</li><li><strong>Check the schedule:</strong> The concert schedule varies &mdash; check the National Parks Development Committee website before visiting.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Best in the morning or late afternoon</strong> &mdash; the garden is most beautiful in the soft light of early morning or late afternoon.</li><li><strong>Photography:</strong> Paco Park is one of the most photogenic spaces in Manila &mdash; the circular walls, the chapel, and the flowering vines make for beautiful images.</li><li><strong>Combine with Intramuros:</strong> Paco Park is a short distance from Intramuros &mdash; combine both in a single morning for the complete historic Manila experience.</li><li><strong>Weddings:</strong> The park is a popular wedding venue &mdash; you may encounter a wedding ceremony during your visit, especially on weekends.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>Historic Manila Morning</h2>
+      <p class="section__intro">Combine Paco Park with Intramuros, Rizal Park, and the National Museum for the complete historic Manila experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">8:00 AM</span><div class="timeline__content"><h4>Paco Park</h4><p>Start at <strong>Paco Park</strong> in the morning &mdash; the garden is most peaceful and beautiful before the midday heat. Walk the circular walls, visit the chapel, and find the Rizal burial marker.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">10:00 AM</span><div class="timeline__content"><h4>Intramuros</h4><p>Walk or take a jeepney to <strong>Intramuros</strong> &mdash; Fort Santiago, San Agustin Church, and Manila Cathedral. The cobblestone streets are most atmospheric in the morning.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">1:00 PM</span><div class="timeline__content"><h4>Rizal Park &amp; National Museum</h4><p>Walk to <strong>Rizal Park</strong> and the <strong>National Museum of the Philippines</strong>. Free admission to the museum &mdash; the Spoliarium and the Tree of Life are unmissable.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">5:30 PM</span><div class="timeline__content"><h4>Manila Bay Sunset</h4><p>End the day at the <strong>Manila Baywalk</strong> for the legendary sunset &mdash; the perfect finale to a day of historic Manila.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Paco Park is one of Manila's hidden gems &mdash; a circular 200-year-old cemetery turned into the most romantic garden in the city. The flowering vines on the old walls, the small chapel, the quiet atmosphere &mdash; it's a complete contrast to the chaos of Manila outside. And knowing that Rizal was buried here after his execution makes it deeply moving. A must-visit for anyone interested in Philippine history."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">TC</div><div><strong>Teresa C.</strong><span>History Traveler, Manila</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"I attended a Friday Concert at Paco Park and it was one of the most magical evenings I've had in Manila. Classical music performed in a circular 19th-century garden at dusk &mdash; the acoustics, the atmosphere, the history of the place &mdash; it was extraordinary. And it was completely free. Paco Park is one of Manila's best-kept secrets."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">BG</div><div><strong>Ben G.</strong><span>Music Lover, Quezon City</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Visit Paco Park?</h2>
+        <p>Get our free Manila Travel Guide + Paco Park tips, Intramuros walking tour, and the best historic Manila experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Paco Park</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for Manila lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

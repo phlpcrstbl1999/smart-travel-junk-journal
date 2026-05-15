@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Rizal Park &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">The National Park<br>of the Philippines</h1>
+      <p class="hero__sub">Rizal Park &mdash; known as Luneta &mdash; is the most important public space in the Philippines. The 58-hectare national park in the heart of Manila is where Jos Rizal was executed in 1896, where independence was proclaimed, and where the nation gathers for its most significant moments.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>58 ha</strong><span>Park Area</span></div>
+      <div class="hero__stat"><strong>1896</strong><span>Rizal Executed</span></div>
+      <div class="hero__stat"><strong>Manila</strong><span>NCR</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Rizal Monument Luneta Park" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Rizal Park Manila Bay" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; Overview</span>
+        <h2>Where the Nation Gathers</h2>
+        <p><strong>Rizal Park</strong> (officially Luneta National Urban Park) is a 58-hectare public park in the heart of Manila, facing Manila Bay. It is the most historically significant public space in the Philippines &middot; the site where national hero <strong>Dr. Jos Rizal</strong> was executed by firing squad on <strong>December 30, 1896</strong>, an event that ignited the Philippine Revolution against Spanish colonial rule.</p>
+        <p>The park's centerpiece is the <strong>Rizal Monument</strong> &mdash; a bronze statue of Rizal standing atop a granite obelisk, with his remains interred in the base. The monument is guarded 24 hours a day by the Philippine Army and is the site of the annual <strong>Rizal Day</strong> commemoration on December 30.</p>
+        <p>Beyond the monument, the park contains the <strong>Chinese Garden, Japanese Garden, Orchidarium, Planetarium</strong>, open-air concert area, and the famous <strong>Manila Bay sunset</strong> viewpoint &mdash; one of the most celebrated sunsets in Asia.</p>
+        <div class="intro__badge"><span>&#127807;</span><span>National Park &nbsp;&middot;&nbsp; <strong>Manila, NCR</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Rizal Park</h2>
+      <p class="section__intro">Rizal Park is in the heart of Manila along Roxas Boulevard &mdash; easily reached by LRT, jeepney, or taxi.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; United Nations Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>United Nations Station</strong>. The park is a short walk south along Taft Avenue and Padre Burgos Avenue. The LRT is the fastest option from most parts of Manila.</p><span class="step__detail"> LRT Line 1: UN Station &nbsp;|&nbsp;  ~5 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>From Intramuros</h3><p>Rizal Park is directly adjacent to <strong>Intramuros</strong> &mdash; walk south from the walled city to reach the park in about 10 minutes. Combine both in a single morning visit.</p><span class="step__detail"> Walk from Intramuros: ~10 min &nbsp;|&nbsp;  Combine both sites</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Jeepney or Taxi</h3><p>Jeepneys along <strong>Roxas Boulevard</strong> and <strong>Taft Avenue</strong> pass the park. Taxis and ride-hailing apps (Grab) are also convenient &mdash; tell the driver "Luneta" or "Rizal Park."</p><span class="step__detail"> Taxi/Grab: ~&#8369;80&ndash;&#8369;150 from Ermita &nbsp;|&nbsp;  Jeepney: ~&#8369;12&ndash;&#8369;15</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Entrance &amp; Layout</h3><p>The park is <strong>free to enter</strong>. The main entrance is along Roxas Boulevard facing Manila Bay. The Rizal Monument is at the center, with the Chinese and Japanese Gardens to the east and the bay-facing promenade to the west.</p><span class="step__detail"> Free admission &nbsp;|&nbsp;  Best at sunrise or sunset</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Rizal Park and the surrounding historic Manila district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--nature"> Park</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127963; Heritage</span>
+        <span class="map-legend__item map-legend__item--main"> Museums</span>
+      </div>
+    </div>
+    <div id="rizal-park-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#127774;</div><h3>Best Times to Visit</h3><ul><li><strong>Sunrise (5:30&#8369;7 AM):</strong> The park is at its most peaceful and beautiful at dawn &mdash; joggers, tai chi practitioners, and the golden light on the Rizal Monument.</li><li><strong>Sunset:</strong> The Manila Bay sunset from the park's western promenade is one of the most celebrated in Asia &mdash; arrive by 5:30 PM for the best views.</li><li><strong>December 30 (Rizal Day):</strong> The national holiday &mdash; solemn ceremonies at the Rizal Monument with military honors and wreath-laying.</li><li><strong>Avoid Sunday afternoons:</strong> The park gets very crowded on Sunday afternoons with families and vendors.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Park Highlights</h3><ul><li><strong>Rizal Monument:</strong> The bronze statue of Rizal with his remains interred in the base &mdash; guarded 24 hours by the Philippine Army. The most sacred public monument in the Philippines.</li><li><strong>Chinese Garden:</strong> A beautifully maintained traditional Chinese garden with pavilions, koi ponds, and a pagoda &mdash; a peaceful retreat within the park.</li><li><strong>Japanese Garden:</strong> A serene Japanese-style garden with stone lanterns, a tea house, and a tranquil pond.</li><li><strong>Manila Bay Promenade:</strong> The western edge of the park faces Manila Bay &mdash; the sunset here is legendary.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Nearby Attractions</h3><ul><li><strong>National Museum of the Philippines:</strong> Free admission &mdash; just across Padre Burgos Avenue from the park. Houses the <em>Spoliarium</em> by Juan Luna.</li><li><strong>Intramuros:</strong> The Walled City is a 10-minute walk north &mdash; combine with Rizal Park for the complete historic Manila morning.</li><li><strong>Manila Baywalk:</strong> The promenade along Roxas Boulevard extends south from the park &mdash; a pleasant evening walk with Manila Bay views.</li><li><strong>Cultural Center of the Philippines:</strong> A short drive south along Roxas Boulevard &mdash; the premier arts venue in the country.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>Historic Manila in a Day</h2>
+      <p class="section__intro">Combine Rizal Park with Intramuros, Fort Santiago, and the National Museum for the complete historic Manila experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">6:00 AM</span><div class="timeline__content"><h4>Sunrise at Rizal Park</h4><p>Arrive at <strong>Rizal Park</strong> for sunrise. Walk to the Rizal Monument as the golden light hits the bronze statue. Watch the flag-raising ceremony and the changing of the guard.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">8:00 AM</span><div class="timeline__content"><h4>Intramuros &amp; Fort Santiago</h4><p>Walk north to <strong>Intramuros</strong> and spend the morning at <strong>Fort Santiago</strong>, San Agustin Church, and Manila Cathedral. The cobblestone streets are most atmospheric in the morning.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">1:00 PM</span><div class="timeline__content"><h4>National Museum of the Philippines</h4><p>Spend the afternoon at the <strong>National Museum</strong> &mdash; free admission, world-class collections, and the iconic <em>Spoliarium</em> painting. Allow 2&#8369;3 hours for a thorough visit.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">5:30 PM</span><div class="timeline__content"><h4>Manila Bay Sunset</h4><p>Return to <strong>Rizal Park</strong> for the legendary <strong>Manila Bay sunset</strong>. The sky turns orange, pink, and purple over the bay &mdash; one of the most celebrated sunsets in Asia.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Watching the sunrise at Rizal Park &mdash; the golden light on the monument, the flag being raised, the city waking up around the park &mdash; was a genuinely moving experience. Rizal Park is not just a park; it is the heart of the Philippine nation. Every visit to Manila should begin here, at the monument of the man who gave his life for his country's freedom."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">EP</div><div><strong>Elena P.</strong><span>Manila Resident</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"The Manila Bay sunset from Rizal Park is one of the most beautiful I've seen anywhere in the world. The sky turns every shade of orange and pink, the silhouettes of the ships in the bay, the promenade full of Manileos enjoying the evening &mdash; it's a perfect moment. Combine with Intramuros in the morning and the National Museum in the afternoon for the perfect Manila day."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">AL</div><div><strong>Andre L.</strong><span>Travel Photographer, France</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Visit Rizal Park?</h2>
+        <p>Get our free Manila Travel Guide + Rizal Park tips, Intramuros walking tour, and the best historic Manila food spots &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Rizal Park</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for Manila lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

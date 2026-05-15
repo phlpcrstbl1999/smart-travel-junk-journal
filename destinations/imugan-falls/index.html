@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Imugan Falls &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Nueva Vizcaya</span>
+      <h1 class="hero__headline">Hidden in the<br>Caraballo Mountains</h1>
+      <p class="hero__sub">Imugan Falls is a breathtaking multi-tiered waterfall tucked deep in the mountains of Santa Fe, Nueva Vizcaya &mdash; crystal-clear cascades, natural swimming pools, and a lush jungle setting that rewards every step of the trek to reach it.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Multi</strong><span>Tiered Falls</span></div>
+      <div class="hero__stat"><strong>Crystal</strong><span>Clear Pools</span></div>
+      <div class="hero__stat"><strong>Mountain</strong><span>Trek Required</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/imugan.jpg" alt="Imugan Falls cascading through jungle" class="intro__img intro__img--main" />
+        <img src="images/imugan.jpg" alt="Imugan Falls natural pool" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Nueva Vizcaya's Mountain Waterfall</h2>
+        <p>Located in the municipality of <strong>Santa Fe, Nueva Vizcaya</strong>, <strong>Imugan Falls</strong> is one of the most beautiful waterfalls in the Caraballo Mountain region. The falls cascade in multiple tiers through dense tropical forest, feeding a series of natural swimming pools with cool, crystal-clear mountain water.</p>
+        <p>The falls are named after <strong>Imugan</strong> &mdash; a barangay in Santa Fe that sits at the gateway to the Caraballo Mountains. The area is part of the <strong>Imugan-Mt. Palali Protected Landscape</strong>, a protected area that encompasses the mountain forests, rivers, and biodiversity of this remote corner of Nueva Vizcaya. The trek to the falls passes through traditional Ibaloi and Kalanguya communities, offering a glimpse into the indigenous cultures of the Caraballo highlands.</p>
+        <p>Imugan Falls is a relatively undiscovered destination &mdash; far fewer visitors make the journey here compared to more famous waterfalls in the Philippines. This means the falls and the surrounding forest remain in pristine condition, and visitors can often have the pools entirely to themselves. The combination of the trek, the forest, the indigenous communities, and the falls themselves makes Imugan one of the most rewarding waterfall experiences in northern Luzon.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Protected Landscape &nbsp;&middot;&nbsp; <strong>Santa Fe, Nueva Vizcaya</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Imugan Falls</h2>
+      <p class="section__intro"><strong>Imugan Falls</strong> is located in <strong>Santa Fe, Nueva Vizcaya</strong> &mdash; about 250 km north of Manila. The nearest major town is <strong>Bayombong</strong>, the capital of Nueva Vizcaya.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Bayombong</h3>
+            <p>Autobus Transport and Victory Liner operate buses from <strong>Cubao or Pasay</strong> to <strong>Bayombong, Nueva Vizcaya</strong>. Travel time is about 6&#8369;7 hours. Buses run throughout the day and overnight.</p>
+            <span class="step__detail"> Travel time: ~6&#8369;7 hours &nbsp;|&nbsp;  ~&#8369;400&ndash;&#8369;600 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Bayombong to Santa Fe</h3>
+            <p>From Bayombong, take a <strong>jeepney or van</strong> to Santa Fe municipality &mdash; about 1&#8369;1.5 hours along a scenic mountain road. From Santa Fe town center, hire a <strong>habal-habal</strong> to Barangay Imugan &mdash; the jump-off point for the falls.</p>
+            <span class="step__detail"> Jeepney to Santa Fe: ~1&#8369;1.5 hrs &nbsp;|&nbsp;  Habal-habal to Imugan: ~30 min</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register &amp; Hire a Local Guide</h3>
+            <p>Register at the <strong>Barangay Imugan Hall</strong> and pay the environmental fee. Hiring a local guide is strongly recommended &mdash; the trail to the falls is not well-marked and passes through community land. Guides are available at the barangay hall.</p>
+            <span class="step__detail"> Environmental fee: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp;  Guide: ~&#8369;150&ndash;&#8369;250</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Trek to the Falls</h3>
+            <p>The trek to Imugan Falls takes about <strong>1&#8369;2 hours</strong> depending on your pace and the trail conditions. The path passes through forest, crosses streams, and climbs through the mountain terrain. Wear trekking shoes and bring plenty of water.</p>
+            <span class="step__detail"> Trek time: ~1&#8369;2 hours &nbsp;|&nbsp;  Bring at least 1.5L water per person</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Imugan Falls and nearby attractions in Nueva Vizcaya.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">&#128167; Waterfalls</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Towns</span>
+      </div>
+    </div>
+    <div id="imugan-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; clear trails, safer river crossings, and the most beautiful pool conditions for swimming.</li>
+            <li><strong>After light rains:</strong> The falls are most powerful and dramatic after recent rainfall &mdash; the cascades are fuller and the sound is more impressive.</li>
+            <li><strong>Avoid heavy rain periods:</strong> Flash floods can make the trail and river crossings dangerous. Check weather forecasts before heading out.</li>
+            <li><strong>Morning starts:</strong> Begin the trek early to avoid afternoon rains and to have the falls to yourself before any other visitors arrive.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#129510;</div><h3>Trekking Tips</h3>
+          <ul>
+            <li><strong>Wear trekking shoes</strong> with good grip &mdash; the trail involves river crossings and muddy sections. Sandals are not safe.</li>
+            <li><strong>Hire a local guide</strong> &mdash; the trail is not well-marked and passes through community land. Guides also provide cultural context about the Ibaloi and Kalanguya communities.</li>
+            <li><strong>Bring a change of clothes</strong> &mdash; you will get wet at the falls. Pack dry clothes in a waterproof bag.</li>
+            <li><strong>Respect the community.</strong> The trail passes through indigenous community land &mdash; ask permission before photographing residents and follow your guide's instructions.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Trekking shoes</strong> with good grip and ankle support.</li>
+            <li><strong>Swimwear</strong> &mdash; the natural pools are perfect for swimming.</li>
+            <li><strong>Waterproof bag</strong> for your phone, camera, and valuables.</li>
+            <li><strong>Insect repellent</strong> &mdash; the forest trail has mosquitoes, especially in the morning.</li>
+            <li><strong>Packed lunch and water</strong> &mdash; there are no food stalls near the falls. Bring enough for the full day.</li>
+            <li><strong>Cash</strong> &mdash; no ATMs in Santa Fe. Withdraw in Bayombong before heading out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Imugan Falls</h2>
+      <p class="section__intro">A complete guide to the trek, the falls, and combining it with the best of Nueva Vizcaya.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Falls</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Register &amp; Begin the Trek</h4>
+                <p>Register at the Barangay Imugan Hall, pay your environmental fee, and meet your guide. The trek begins through the barangay and into the forest. Your guide will introduce you to the community and the landscape as you walk.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Forest Trek &amp; River Crossings</h4>
+                <p>The trail winds through dense tropical forest, crossing streams and climbing through the mountain terrain. The forest is rich with birdlife and the sound of running water grows louder as you approach the falls.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>First Tier &mdash; The Main Falls</h4>
+                <p>Arrive at the first and most impressive tier of Imugan Falls. The cascade drops into a wide, deep pool of crystal-clear mountain water. Swim, float, and take in the surrounding jungle. The sound of the falls and the cool water are deeply refreshing after the trek.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Upper Tiers</h4>
+                <p>With your guide, climb to the upper tiers of the falls. Each tier has its own pool and cascade &mdash; some are accessible by scrambling up the rocks beside the falls. The upper tiers are quieter and more intimate than the main pool below.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Nueva Vizcaya</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Nearby</span>
+              <div class="timeline__content">
+                <h4>Capisaan Cave System</h4>
+                <p>One of the longest cave systems in Luzon &mdash; multiple chambers, underground rivers, and dramatic formations. About 1&#8369;2 hours from Santa Fe via Kasibu. A perfect multi-day Nueva Vizcaya adventure.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">In Bayombong</span>
+              <div class="timeline__content">
+                <h4>St. Dominic Cathedral</h4>
+                <p>The historic cathedral in Bayombong &mdash; a beautiful Spanish colonial church in the heart of the provincial capital. Worth visiting before or after your mountain adventures.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">In Bayombong</span>
+              <div class="timeline__content">
+                <h4>Explore Bayombong City</h4>
+                <p>The capital of Nueva Vizcaya is a pleasant highland city with good food, accommodation, and a relaxed atmosphere. The Bayombong Public Market is excellent for local produce and Ibaloi crafts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Imugan Falls is one of those places that makes you feel like you've discovered something truly special. The trek through the forest, the river crossings, the sound of the falls growing louder &mdash; and then suddenly you're there, standing in front of this beautiful cascade with a perfect swimming pool below. We had it completely to ourselves. Nueva Vizcaya is a hidden gem."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">BT</div>
+            <div>
+              <strong>Ben T.</strong>
+              <span>Waterfall Chaser, Baguio, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Our guide was from the Ibaloi community and he shared stories about the forest, the falls, and his people's relationship with the land as we trekked. It transformed the experience from a simple waterfall visit into something much deeper. The falls themselves are stunning &mdash; but the cultural dimension made it unforgettable. Hire a local guide. Always."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SC</div>
+            <div>
+              <strong>Sofia C.</strong>
+              <span>Cultural Traveler, Manila, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Find Your Hidden Waterfall?</h2>
+        <p>Get our free Nueva Vizcaya Travel Guide + exclusive tips on waterfalls, caves, and the best of the Caraballo Mountains &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Imugan Falls</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for waterfall chasers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

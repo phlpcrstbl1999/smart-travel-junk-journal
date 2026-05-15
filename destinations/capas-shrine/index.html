@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Capas National Shrine &mdash; Ultimate Heritage Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Tarlac</span>
+      <h1 class="hero__headline">In Memory of<br>Those Who Marched</h1>
+      <p class="hero__sub">The Capas National Shrine in Tarlac is the Philippines' most solemn memorial to the victims of the 1942 Bataan Death March &mdash; a sacred ground honoring the Filipino and American prisoners of war who suffered and died during one of World War II's most tragic episodes.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1942</strong><span>Death March</span></div>
+      <div class="hero__stat"><strong>National</strong><span>Shrine</span></div>
+      <div class="hero__stat"><strong>POW</strong><span>Memorial</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/capas.jpg" alt="Capas National Shrine memorial" class="intro__img intro__img--main" />
+        <img src="images/capas.jpg" alt="Capas Shrine obelisk" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The End of the Death March</h2>
+        <p>Located in <strong>Capas, Tarlac</strong>, the <strong>Capas National Shrine</strong> marks the site of <strong>Camp O'Donnell</strong> &mdash; the former prisoner of war camp where Filipino and American soldiers were brought after the <strong>Bataan Death March</strong> of April 1942. The Death March was a forced transfer of approximately 75,000 Filipino and American prisoners of war following the Fall of Bataan, during which thousands died from exhaustion, disease, and brutality.</p>
+        <p>Camp O'Donnell served as the final destination of the Death March. Conditions in the camp were horrific &mdash; overcrowding, disease, starvation, and lack of medical care resulted in the deaths of thousands of prisoners in the weeks and months following their arrival. Estimates suggest that between 20,000 and 30,000 Filipino soldiers and 1,500 American soldiers died at Camp O'Donnell.</p>
+        <p>Today, the Capas National Shrine is a beautifully maintained memorial complex featuring a <strong>tall obelisk monument</strong>, a <strong>memorial wall</strong> inscribed with the names of those who perished, a <strong>museum</strong> with exhibits about the Death March and Camp O'Donnell, and landscaped grounds that provide a peaceful and contemplative setting for reflection. The shrine is visited by veterans, their families, historians, and Filipinos who come to honor the memory of those who sacrificed their lives.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>National Shrine &nbsp;&middot;&nbsp; <strong>Camp O'Donnell, Capas</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Capas National Shrine</h2>
+      <p class="section__intro"><strong>Capas National Shrine</strong> is located in <strong>Capas, Tarlac</strong> &mdash; about 100 km north of Manila. It's easily accessible via the NLEX and SCTEX expressways.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Capas</h3>
+            <p>Victory Liner and other bus lines operate services from <strong>Cubao or Pasay</strong> to <strong>Capas, Tarlac</strong>. Travel time is about 2&#8369;2.5 hours via NLEX and SCTEX. Alternatively, take a bus to Tarlac City and then a jeepney to Capas.</p>
+            <span class="step__detail"> Travel time: ~2&#8369;2.5 hours &nbsp;|&nbsp;  ~&#8369;150&ndash;&#8369;200 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Tricycle to the Shrine</h3>
+            <p>From Capas town center, hire a <strong>tricycle</strong> to the Capas National Shrine. The shrine is located a few kilometers from the town center and is well-signposted. The ride takes about 10&#8369;15 minutes.</p>
+            <span class="step__detail"> Tricycle: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp; &mdash; ~10&#8369;15 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Drive from Manila</h3>
+            <p>Driving from Manila via <strong>NLEXSCTEX</strong> takes about 1.5&#8369;2 hours. Exit at the Capas interchange and follow signs to the shrine. Parking is available at the shrine grounds.</p>
+            <span class="step__detail"> Drive: ~1.5&#8369;2 hours &nbsp;|&nbsp;  Parking available at the shrine</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Arrive at the Shrine</h3>
+            <p>Entry to the shrine is free. The complex includes the obelisk monument, memorial wall, museum, and landscaped grounds. Allow 1.5&#8369;2 hours for a thorough visit including the museum exhibits.</p>
+            <span class="step__detail"> Free entry &nbsp;|&nbsp;  Open daily 8AM&#8369;5PM &nbsp;|&nbsp;  Museum on-site</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Capas National Shrine and nearby attractions in Tarlac province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Shrine</span>
+        <span class="map-legend__item map-legend__item--heritage">? Heritage</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+      </div>
+    </div>
+    <div id="capas-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>April 9 (Araw ng Kagitingan):</strong> The national Day of Valor &mdash; solemn ceremonies, military honors, and commemorative events at the shrine. The most meaningful day to visit.</li>
+            <li><strong>Morning (8:00&#8369;11:00 AM):</strong> The shrine is peaceful and contemplative in the morning before tour groups arrive.</li>
+            <li><strong>Year-round:</strong> The shrine is open daily and accessible throughout the year.</li>
+            <li><strong>Weekdays:</strong> Fewer visitors and a more personal, reflective atmosphere than weekends.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>What to See</h3>
+          <ul>
+            <li><strong>The Obelisk Monument:</strong> The tall central monument is the focal point of the shrine &mdash; a powerful symbol of remembrance and sacrifice.</li>
+            <li><strong>The Memorial Wall:</strong> Inscribed with the names of those who perished at Camp O'Donnell. Take time to read the names and reflect.</li>
+            <li><strong>The Museum:</strong> Exhibits about the Bataan Death March, Camp O'Donnell, and the broader context of World War II in the Philippines. Essential historical context.</li>
+            <li><strong>The Grounds:</strong> Beautifully landscaped and peaceful &mdash; a fitting setting for reflection and remembrance.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Etiquette &amp; Respect</h3>
+          <ul>
+            <li><strong>This is a war memorial.</strong> Approach it with solemnity and respect &mdash; many Filipino and American families have personal connections to this site.</li>
+            <li><strong>Dress appropriately.</strong> Avoid beachwear or overly casual attire. The shrine is a sacred national memorial.</li>
+            <li><strong>No loud music or disruptive behavior.</strong> The shrine is a place of remembrance &mdash; maintain a respectful atmosphere throughout your visit.</li>
+            <li><strong>Photography is allowed</strong> on the grounds. Be respectful when photographing the memorial wall and museum exhibits.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Capas National Shrine</h2>
+      <p class="section__intro">A complete guide to the shrine and a suggested Tarlac day tour combining history and nature.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Shrine</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>The Museum</h4>
+                <p>Begin at the museum &mdash; the exhibits about the Bataan Death March and Camp O'Donnell provide essential context for understanding the significance of the shrine. Allow 30&#8369;45 minutes for a thorough visit.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>The Memorial Wall</h4>
+                <p>Walk along the memorial wall inscribed with the names of those who perished. Take time to read the names and reflect on the scale of the sacrifice made here. The wall is one of the most moving features of the shrine.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>The Obelisk Monument</h4>
+                <p>Stand at the base of the obelisk and take in the full scale of the memorial. The monument rises against the Tarlac sky &mdash; a powerful and enduring symbol of remembrance for all who suffered here.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>The Grounds &amp; Reflection</h4>
+                <p>Walk the landscaped grounds and take time for quiet reflection. The combination of the memorial structures, the peaceful setting, and the weight of history makes Capas one of the most powerful memorial sites in Southeast Asia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Tarlac Day Tour</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Capas National Shrine</h4>
+                <p>Start your Tarlac day at the shrine &mdash; museum, memorial wall, obelisk, and grounds. Allow 1.5&#8369;2 hours for a thorough and respectful visit.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Monasterio de Tarlac</h4>
+                <p>Head to the Monasterio de Tarlac &mdash; a hilltop monastery with a relic of the True Cross and panoramic views of the Tarlac countryside. A peaceful and spiritually significant destination.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Sumino Farm</h4>
+                <p>End your day at Sumino Farm &mdash; a scenic agri-tourism destination with farm activities, fresh produce, and a relaxing countryside atmosphere. A perfect contrast to the morning's solemn memorial visit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Visitor Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"My grandfather was a survivor of the Bataan Death March and I brought my children to Capas to show them where he and thousands of others suffered. The shrine is beautifully maintained and the museum is excellent. Standing at the memorial wall and seeing the names of those who didn't survive &mdash; it was deeply moving. Every Filipino should visit this place."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RP</div>
+            <div><strong>Roberto P.</strong><span>Family Traveler, Manila, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"As an American veteran's descendant, visiting Capas National Shrine was a deeply personal pilgrimage. The shrine honors both Filipino and American soldiers with equal dignity and respect. The museum is thorough and moving. The grounds are peaceful and beautifully maintained. A place of profound historical importance that deserves far more international recognition."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JW</div>
+            <div><strong>James W.</strong><span>Veteran's Descendant, California, USA</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Honor the Heroes of the Death March?</h2>
+        <p>Get our free Tarlac Travel Guide + exclusive tips on heritage shrines, monasteries, and the best of this historic province &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About the Shrine</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Visitor Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for history lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Intramuros &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">The Walled City<br>of Manila</h1>
+      <p class="hero__sub">Intramuros is the historic heart of Manila &mdash; a 16th-century Spanish colonial walled city of cobblestone streets, baroque churches, and centuries of Philippine history, standing at the mouth of the Pasig River where the nation was born.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1571</strong><span>Founded</span></div>
+      <div class="hero__stat"><strong>64 ha</strong><span>Walled Area</span></div>
+      <div class="hero__stat"><strong>Manila</strong><span>NCR</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Intramuros walls Manila" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Fort Santiago Intramuros" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>Where the Philippines Was Born</h2>
+        <p><strong>Intramuros</strong> &mdash; Latin for "within the walls" &mdash; is the original city of Manila, founded by Spanish conquistador Miguel Lpez de Legazpi in <strong>1571</strong>. Enclosed by massive stone walls and a moat, it served as the seat of Spanish colonial power in Asia for over 300 years.</p>
+        <p>Within its 64 hectares stand <strong>Fort Santiago</strong>, the <strong>Manila Cathedral</strong>, <strong>San Agustin Church</strong> (a UNESCO World Heritage Site), the <strong>Casa Manila Museum</strong>, and a network of cobblestone streets that have survived earthquakes, revolutions, and the devastation of World War II.</p>
+        <p>Today, Intramuros is the most historically significant district in the Philippines &middot; a living museum where horse-drawn kalesa still clatter over the same stones walked by Rizal, Magellan's successors, and generations of Filipinos who shaped the nation.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>The Walled City &nbsp;&middot;&nbsp; <strong>Manila, NCR</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Intramuros</h2>
+      <p class="section__intro">Intramuros is in the heart of Manila &mdash; easily reached by LRT, jeepney, taxi, or on foot from Rizal Park.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; Central Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>Central Station</strong> (formerly UN Avenue). Intramuros is a short walk north across Padre Burgos Avenue. The LRT is the fastest way to reach the area from most parts of Manila.</p><span class="step__detail"> LRT Line 1: Central Station &nbsp;|&nbsp;  ~10 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>From Rizal Park</h3><p>Intramuros is directly adjacent to <strong>Rizal Park (Luneta)</strong>. Walk north from the park's main area to reach the Intramuros walls and the main entrance gates in about 10 minutes.</p><span class="step__detail"> Walk from Luneta: ~10 min &nbsp;|&nbsp;  Combine both in one visit</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Kalesa (Horse-Drawn Carriage)</h3><p>Hire a <strong>kalesa</strong> from outside the walls for a guided tour of Intramuros by horse-drawn carriage &mdash; the most atmospheric way to explore the cobblestone streets and colonial architecture.</p><span class="step__detail"> Kalesa tour: ~&#8369;300&ndash;&#8369;600 &nbsp;|&nbsp; &mdash; ~30&#8369;45 min</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Bamboo Bike Tour</h3><p>Join a <strong>bamboo bicycle tour</strong> of Intramuros &mdash; a popular guided experience that covers all the major sites within the walls at a leisurely pace, with a knowledgeable guide providing historical context.</p><span class="step__detail"> Bike tour: ~&#8369;500&ndash;&#8369;800 &nbsp;|&nbsp;  Guide included</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Intramuros and the surrounding historic Manila district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--heritage">&#127963; Heritage</span>
+        <span class="map-legend__item map-legend__item--main"> Culture</span>
+        <span class="map-legend__item map-legend__item--nature">? Churches</span>
+      </div>
+    </div>
+    <div id="intramuros-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Best Time to Visit</h3><ul><li><strong>Early morning (7&#8369;10 AM):</strong> The best time to explore &mdash; cooler temperatures, softer light for photography, and fewer crowds before the tour groups arrive.</li><li><strong>December &mdash; February:</strong> The coolest and most comfortable months for walking the cobblestone streets.</li><li><strong>Avoid midday heat:</strong> Manila's heat is intense from 11 AM&#8369;3 PM. Plan your visit around the cooler morning or late afternoon hours.</li><li><strong>June 12 (Independence Day):</strong> Special events and ceremonies are held in Intramuros &mdash; a meaningful time to visit.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Must-See Sites</h3><ul><li><strong>Fort Santiago:</strong> The 16th-century citadel where Jos Rizal was imprisoned. Walk the Rizal Shrine and see the footprints marking his final walk to Bagumbayan.</li><li><strong>San Agustin Church:</strong> The oldest stone church in the Philippines (1607) and a UNESCO World Heritage Site &mdash; the only building in Intramuros to survive WWII intact.</li><li><strong>Manila Cathedral:</strong> The seat of the Archdiocese of Manila, rebuilt eight times since 1571. The current structure dates from 1958.</li><li><strong>Casa Manila Museum:</strong> A beautifully reconstructed 19th-century colonial house &mdash; the best window into ilustrado life in Spanish Manila.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Wear comfortable walking shoes</strong> &mdash; the cobblestone streets are uneven and can be slippery.</li><li><strong>Hire a licensed guide</strong> for Fort Santiago and San Agustin Church &mdash; the historical context they provide transforms the experience.</li><li><strong>Combine with Rizal Park:</strong> Intramuros and Rizal Park are adjacent &mdash; visit both in a single morning for the complete historic Manila experience.</li><li><strong>Photography:</strong> The golden hour light on the stone walls and churches is extraordinary &mdash; arrive early or return at sunset.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>A Morning in Intramuros</h2>
+      <p class="section__intro">Combine Intramuros with Fort Santiago, Rizal Park, and the National Museum for the complete historic Manila experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">7:00 AM</span><div class="timeline__content"><h4>Fort Santiago</h4><p>Start at <strong>Fort Santiago</strong> before the crowds arrive. Walk the Rizal Shrine, see the cell where the national hero was imprisoned, and follow the bronze footprints to the execution site at Bagumbayan.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">9:00 AM</span><div class="timeline__content"><h4>San Agustin Church &amp; Museum</h4><p>Visit <strong>San Agustin Church</strong> &mdash; the oldest stone church in the Philippines and the only Intramuros building to survive WWII. The adjacent museum houses one of the finest collections of religious art in Asia.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">10:30 AM</span><div class="timeline__content"><h4>Kalesa Ride &amp; Manila Cathedral</h4><p>Take a <strong>kalesa ride</strong> through the cobblestone streets to the <strong>Manila Cathedral</strong>. The horse-drawn carriage is the most atmospheric way to experience the colonial streetscape.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">12:00 PM</span><div class="timeline__content"><h4>Lunch at Barbara's Heritage Restaurant</h4><p>Have lunch at <strong>Barbara's Heritage Restaurant</strong> inside Intramuros &mdash; Filipino cuisine in a beautifully restored colonial setting, with cultural shows during lunch service.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">2:00 PM</span><div class="timeline__content"><h4>Rizal Park</h4><p>Walk to <strong>Rizal Park (Luneta)</strong> &mdash; the national park where Jos Rizal was executed on December 30, 1896. Visit the Rizal Monument, the Chinese and Japanese Gardens, and the open-air concert area.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">4:00 PM</span><div class="timeline__content"><h4>National Museum of the Philippines</h4><p>Spend the late afternoon at the <strong>National Museum</strong> &mdash; free admission, world-class collections, and the iconic Juan Luna painting <em>Spoliarium</em>. One of the finest museums in Southeast Asia.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Walking through Intramuros at sunrise, with the mist still on the cobblestones and the walls glowing gold in the early light, was one of the most beautiful experiences I've had in Manila. Fort Santiago is profoundly moving &mdash; standing in the cell where Rizal spent his last night, reading his final poem, I felt the full weight of Philippine history. Every Filipino should visit Intramuros."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">RC</div><div><strong>Rosa C.</strong><span>History Traveler, Cebu City</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"I've visited many colonial cities in Southeast Asia, but Intramuros has a unique atmosphere &mdash; the weight of history is palpable in every stone. The bamboo bike tour was excellent &mdash; our guide brought the streets to life with stories of the Spanish era, the revolution, and the WWII destruction. San Agustin Church is extraordinary &mdash; the only building to survive the 1945 Battle of Manila. A must-visit."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">TH</div><div><strong>Thomas H.</strong><span>Heritage Traveler, Singapore</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore the Walled City?</h2>
+        <p>Get our free Manila Travel Guide + Intramuros walking tour, Fort Santiago tips, and the best historic Manila food spots &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Intramuros</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for history lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

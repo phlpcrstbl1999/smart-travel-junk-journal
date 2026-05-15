@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Vigan Heritage City &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Ilocos Sur</span>
+      <h1 class="hero__headline">A City Frozen<br>in Colonial Time</h1>
+      <p class="hero__sub">Vigan is the best-preserved example of a planned Spanish colonial town in Asia. Cobblestone streets, ancestral houses, horse-drawn carriages, and 500 years of living heritage &mdash; all in one UNESCO World Heritage City.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your 48-Hour Trip</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1572</strong><span>Founded</span></div>
+      <div class="hero__stat"><strong>500+</strong><span>Years of History</span></div>
+      <div class="hero__stat"><strong>UNESCO</strong><span>World Heritage City</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRODUCTION & HISTORY ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/vigan.jpg" alt="Calle Crisologo cobblestone street in Vigan" class="intro__img intro__img--main" />
+        <img src="images/vigan.jpg" alt="Kalesa horse-drawn carriage in Vigan" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>Asia's Best-Preserved Colonial City</h2>
+        <p>Founded by Spanish conquistador <strong>Juan de Salcedo</strong> in <strong>1572</strong>, Vigan is the oldest surviving Spanish colonial city in the Philippines and one of the best-preserved in all of Asia. Unlike other colonial cities that were destroyed by war or modernization, Vigan's historic core survived largely intact &mdash; its cobblestone streets, ancestral houses, and Baroque churches standing as they have for centuries.</p>
+        <p>The city's unique character comes from its fusion of <strong>Spanish, Chinese, and Filipino</strong> architectural influences. Chinese traders who settled here in the 16th century brought their own building traditions, blending them with Spanish colonial design to create the distinctive <strong>Ilocano-Chinese Mestizo</strong> style &mdash; wide wooden windows, tiled roofs, and stone ground floors with wooden upper stories.</p>
+        <p>In <strong>1999</strong>, Vigan was inscribed as a <strong>UNESCO World Heritage Site</strong>. In 2015, it was voted one of the <strong>New7Wonders Cities</strong> of the world. Today, the historic district of <strong>Calle Crisologo</strong> &mdash; a cobblestone street lined with ancestral houses &mdash; is the heart of the city and one of the most photographed streets in the Philippines.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>UNESCO World Heritage City &nbsp;&middot;&nbsp; <strong>New7Wonders Cities 2015</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION & HOW TO GET THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Vigan</h2>
+      <p class="section__intro">Vigan is the capital of <strong>Ilocos Sur</strong>, about 408 km north of Manila. It's easily reachable by overnight bus &mdash; one of the most popular routes in northern Luzon.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Take an Overnight Bus from Manila</h3>
+            <p>Partas, Dominion, and Florida Bus Lines operate overnight buses from <strong>Cubao or Pasay</strong> directly to Vigan. Buses depart between 9&#8369;11 PM and arrive in Vigan by 6&#8369;7 AM. Book a deluxe or premium seat for comfort.</p>
+            <span class="step__detail"> Travel time: ~8&#8369;9 hours &nbsp;|&nbsp;  ~&#8369;700&ndash;&#8369;1,100 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Fly to Laoag then Bus to Vigan</h3>
+            <p>Fly from Manila to <strong>Laoag International Airport</strong> (Ilocos Norte), then take a bus or van south to Vigan &mdash; about 1.5&#8369;2 hours away. This is faster overall if you're also visiting Ilocos Norte attractions.</p>
+            <span class="step__detail"> Flight: ~1 hour &nbsp;|&nbsp;  Bus to Vigan: ~1.5&#8369;2 hours</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Arrive at Vigan Bus Terminal</h3>
+            <p>Buses drop off at the <strong>Vigan Bus Terminal</strong> on the outskirts of the city. From there, take a tricycle or <em>kalesa</em> (horse-drawn carriage) to your hotel in the heritage zone. Most hotels are within 10 minutes of the terminal.</p>
+            <span class="step__detail"> Tricycle to heritage zone: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp;  Kalesa: ~&#8369;150&ndash;&#8369;200</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Getting Around Vigan</h3>
+            <p>The heritage zone is best explored on foot or by <em>kalesa</em>. Rent a bicycle (&#8369;50&ndash;&#8369;80/hour) for a fun way to explore the wider city. Tricycles are available for trips to sites outside the heritage zone like Baluarte Zoo and Bantay Church.</p>
+            <span class="step__detail"> Bike rental: ~&#8369;50&ndash;&#8369;80/hr &nbsp;|&nbsp;  Kalesa tour: ~&#8369;200&ndash;&#8369;300</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERACTIVE MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin on the map to explore Vigan's heritage streets, churches, museums, and nearby attractions.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--heritage"> Heritage</span>
+        <span class="map-legend__item map-legend__item--main">&#128205; Main Sites</span>
+        <span class="map-legend__item map-legend__item--food"> Food &amp; Market</span>
+      </div>
+    </div>
+    <div id="vigan-map"></div>
+  </section>
+
+  <!-- ===== ESSENTIAL TRAVEL TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+
+      <div class="tips__grid">
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; April (Dry Season):</strong> Best time &mdash; clear skies, comfortable temperatures, and perfect conditions for walking the cobblestone streets.</li>
+            <li><strong>January (Vigan Festival of the Arts):</strong> The city comes alive with street performances, cultural shows, and heritage tours. Book accommodation months in advance.</li>
+            <li><strong>Early Morning (6:00&#8369;8:00 AM):</strong> Calle Crisologo is magical before the tour groups arrive &mdash; misty, quiet, and golden-lit.</li>
+            <li><strong>Avoid May &mdash; October:</strong> Rainy season brings typhoons. Some heritage sites may be closed or flooded.</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Comfortable walking shoes</strong> &mdash; cobblestone streets are uneven and hard on feet. Avoid heels.</li>
+            <li><strong>Light, breathable clothing</strong> &mdash; Vigan can be hot and humid. Bring a hat and sunscreen.</li>
+            <li><strong>Cash (Philippine Pesos)</strong> &mdash; many heritage shops, eateries, and kalesa drivers don't accept cards.</li>
+            <li><strong>Camera or phone</strong> &mdash; every corner of Calle Crisologo is a photo opportunity.</li>
+            <li><strong>Reusable bag</strong> &mdash; for pasalubong shopping. Vigan is famous for its pottery, weaving, and longganisa.</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127807;</div><h3>Local Etiquette &amp; Tips</h3>
+          <ul>
+            <li><strong>Respect the ancestral houses.</strong> Many are still private residences &mdash; don't enter without permission or an invitation.</li>
+            <li><strong>Negotiate kalesa fares</strong> before boarding. Agree on the price upfront to avoid misunderstandings.</li>
+            <li><strong>Try the local food.</strong> Vigan longganisa, bagnet, empanada, and okoy are must-tries. Eat where the locals eat.</li>
+            <li><strong>Shop at local artisans.</strong> Buy Abel Iloko woven textiles, burnay pottery, and handmade vinegar directly from producers.</li>
+            <li><strong>Stay in a heritage hotel.</strong> Several ancestral houses have been converted into boutique hotels &mdash; a unique experience.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 48-HOUR ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 48 Hours in Vigan</h2>
+      <p class="section__intro">Two days is the perfect amount of time to explore the heritage zone, taste Ilocano cuisine, and soak in 500 years of colonial history.</p>
+
+      <div class="timeline">
+
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">6:00 AM</span>
+              <div class="timeline__content">
+                <h4>Calle Crisologo at Dawn</h4>
+                <p>Wake up early and walk <strong>Calle Crisologo</strong> before the crowds arrive. The cobblestone street is eerily beautiful in the early morning mist &mdash; gas lamps still glowing, ancestral houses silent, and the sound of your footsteps echoing off 400-year-old walls.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">8:00 AM</span>
+              <div class="timeline__content">
+                <h4>Breakfast: Vigan Empanada</h4>
+                <p>Head to the <strong>Vigan Empanada Plaza</strong> near the heritage zone for a breakfast of freshly made Vigan empanada &mdash; a crispy, deep-fried pastry filled with egg, longganisa, and vegetables. Pair it with a glass of fresh buko juice.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:30 AM</span>
+              <div class="timeline__content">
+                <h4>Vigan Cathedral (Saint Paul Metropolitan Cathedral)</h4>
+                <p>Visit the <strong>Saint Paul Metropolitan Cathedral</strong> &mdash; a massive Baroque church built in 1641. The facade is one of the most impressive in the Philippines. Attend morning mass or simply explore the interior and the adjacent bell tower.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:00 AM</span>
+              <div class="timeline__content">
+                <h4>Syquia Mansion Museum</h4>
+                <p>Tour the <strong>Syquia Mansion</strong> &mdash; the ancestral home of President Elpidio Quirino, now a museum. The well-preserved interiors showcase 19th-century Ilocano-Chinese Mestizo architecture and period furniture.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Lunch: Vigan Longganisa &amp; Bagnet</h4>
+                <p>Eat at a local restaurant along <strong>Calle Crisologo</strong> or the heritage zone. Order <em>Vigan longganisa</em> (garlicky sausage), <em>bagnet</em> (crispy pork belly), and <em>pinakbet</em>. These are the definitive Ilocano dishes.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">3:00 PM</span>
+              <div class="timeline__content">
+                <h4>Kalesa Tour of the Heritage Zone</h4>
+                <p>Hire a <em>kalesa</em> (horse-drawn carriage) for a guided tour of the heritage zone. Your driver will take you past the key ancestral houses, plazas, and landmarks while sharing stories about the city's history.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">6:00 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset at Plaza Salcedo</h4>
+                <p>Watch the sunset from <strong>Plaza Salcedo</strong> &mdash; the main plaza in front of the cathedral. On weekends, the plaza hosts a dancing fountain show at night. A perfect end to your first day in Vigan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Bantay Church &amp; Bell Tower</h4>
+                <p>Take a tricycle to <strong>Bantay Church</strong> &mdash; a 16th-century church with a detached bell tower that was used as a watchtower during the Spanish era. Climb the tower for a panoramic view of Vigan and the surrounding countryside.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Burnay Pottery Workshop</h4>
+                <p>Visit a <strong>burnay pottery</strong> workshop in the Pagburnayan district. Watch artisans shape clay using traditional foot-powered wheels &mdash; a craft that has been practiced in Vigan for over 400 years. Buy a piece to take home.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:00 AM</span>
+              <div class="timeline__content">
+                <h4>Crisologo Museum</h4>
+                <p>Visit the <strong>Crisologo Museum</strong> &mdash; the ancestral home of the Crisologo political family, now a museum. The collection includes personal belongings, political memorabilia, and a fascinating display of Ilocano cultural artifacts.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Pasalubong Shopping</h4>
+                <p>Browse the shops along <strong>Calle Crisologo</strong> and the surrounding streets for pasalubong. Look for <em>Abel Iloko</em> woven textiles, <em>burnay</em> pottery, <em>Vigan longganisa</em> vacuum packs, <em>basi</em> wine, and <em>sukang Iloko</em> (Ilocano vinegar).</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">3:00 PM</span>
+              <div class="timeline__content">
+                <h4>Head Back to Manila</h4>
+                <p>Board your afternoon or evening bus back to Manila. Consider extending your trip north to <strong>Laoag City</strong> and <strong>Paoay</strong> (2 hours away) for more Ilocos Norte heritage and the famous sand dunes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Walking down Calle Crisologo at 6 in the morning, with the mist still hanging over the cobblestones and the gas lamps casting a warm glow &mdash; it felt like stepping into another century. I've been to colonial cities in Europe and Latin America, but Vigan has something different. It's alive. People still live in those ancestral houses. The kalesa drivers still know every story. It's not a museum &mdash; it's a living city. Absolutely unforgettable."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">EP</div>
+            <div>
+              <strong>Elena P.</strong>
+              <span>Travel Writer, Barcelona, Spain</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The food alone is worth the trip. Vigan longganisa for breakfast, bagnet for lunch, and empanada as a snack &mdash; I ate my way through the entire heritage zone. But what really got me was the burnay pottery workshop. Watching an artisan shape a pot on a foot-powered wheel, using the same technique his grandfather taught him, was one of the most moving things I've experienced as a traveler. Vigan is the real Philippines."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">KN</div>
+            <div>
+              <strong>Kenji N.</strong>
+              <span>Food &amp; Culture Traveler, Tokyo, Japan</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER & FINAL CTA ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__cta">
+        <h2>Ready to Walk the Cobblestones of History?</h2>
+        <p>Get our free Vigan Travel Checklist + exclusive tips on the best heritage hotels, hidden restaurants, and local artisan workshops &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Vigan</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">48-Hour Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for history lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

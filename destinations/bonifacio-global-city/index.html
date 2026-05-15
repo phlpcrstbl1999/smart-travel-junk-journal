@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Bonifacio Global City &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">Manila's Most<br>Modern District</h1>
+      <p class="hero__sub">Bonifacio Global City is the Philippines' most walkable and modern urban district &mdash; a former US military base transformed into a world-class city of tree-lined boulevards, international restaurants, The Mind Museum, and Bonifacio High Street.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>240 ha</strong><span>District Area</span></div>
+      <div class="hero__stat"><strong>Taguig</strong><span>Metro Manila</span></div>
+      <div class="hero__stat"><strong>Walkable</strong><span>Urban Design</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Bonifacio Global City skyline" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="BGC High Street" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; Overview</span>
+        <h2>The Philippines' Most Livable Urban District</h2>
+        <p><strong>Bonifacio Global City (BGC)</strong> is a 240-hectare planned urban district in <strong>Taguig, Metro Manila</strong> &mdash; built on the former Fort Bonifacio US military base. It is consistently ranked as the most livable and walkable district in the Philippines, with wide tree-lined boulevards, dedicated bike lanes, and a pedestrian-friendly street grid.</p>
+        <p>BGC is home to the <strong>Mind Museum</strong> (the Philippines' premier science museum), <strong>Bonifacio High Street</strong> (an open-air lifestyle strip), the <strong>BGC Arts Center</strong>, world-class international restaurants, and some of the finest street art in Southeast Asia &mdash; with murals by local and international artists covering building facades throughout the district.</p>
+        <p>The district is also known for its <strong>weekend markets</strong> &mdash; the Mercato Centrale night market and the BGC Weekend Market are among the best food markets in Metro Manila, drawing thousands of visitors every weekend.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Modern Urban District &nbsp;&middot;&nbsp; <strong>Taguig, Metro Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Bonifacio Global City</h2>
+      <p class="section__intro">BGC is in <strong>Taguig, Metro Manila</strong> &mdash; accessible by bus, taxi, or ride-hailing from most parts of the metro.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>BGC Bus from Ayala or Makati</h3><p>The <strong>BGC Bus</strong> runs from Ayala Avenue in Makati to BGC &mdash; a convenient and affordable option. The bus stops at multiple points within BGC including Bonifacio High Street.</p><span class="step__detail"> BGC Bus: ~&#8369;12&ndash;&#8369;15 &nbsp;|&nbsp; &mdash; ~15&#8369;20 min from Ayala</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>Grab or Taxi</h3><p>Grab (ride-hailing) and taxis are the most convenient options from most parts of Metro Manila. BGC is well-served by Grab &mdash; book in advance during peak hours.</p><span class="step__detail"> Grab/Taxi: ~&#8369;150&ndash;&#8369;300 from Makati &nbsp;|&nbsp;  Book via Grab app</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Walking Within BGC</h3><p>BGC is designed for walking &mdash; the wide, tree-lined boulevards and pedestrian-friendly streets make it easy to explore on foot. The Mind Museum, Bonifacio High Street, and the BGC Arts Center are all within walking distance of each other.</p><span class="step__detail"> Walkable district &nbsp;|&nbsp;  Bike rentals available</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Weekend Markets</h3><p>The <strong>Mercato Centrale</strong> (FridaySunday nights) and <strong>BGC Weekend Market</strong> (weekends) are the best food markets in Metro Manila. Check schedules and locations before visiting.</p><span class="step__detail"> Mercato Centrale: FriSun nights &nbsp;|&nbsp;  Weekend Market: SatSun</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Bonifacio Global City and its key attractions.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> District</span>
+        <span class="map-legend__item map-legend__item--heritage"> Museum</span>
+        <span class="map-legend__item map-legend__item--nature"> Shopping</span>
+      </div>
+    </div>
+    <div id="bgc-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>BGC Highlights</h3><ul><li><strong>The Mind Museum:</strong> The Philippines' premier science museum &mdash; 250+ interactive exhibits across five galleries. Book tickets in advance online.</li><li><strong>Bonifacio High Street:</strong> The open-air lifestyle strip &mdash; restaurants, boutiques, art installations, and the best people-watching in BGC.</li><li><strong>Street art:</strong> BGC has some of the finest street murals in Southeast Asia &mdash; walk the streets and look for works by local and international artists.</li><li><strong>BGC Arts Center:</strong> A performing arts venue hosting theater, dance, and music performances &mdash; check the schedule for shows during your visit.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#127869;</div><h3>Food &amp; Markets</h3><ul><li><strong>Mercato Centrale:</strong> The best night market in Metro Manila &mdash; dozens of food stalls serving everything from Filipino classics to international cuisine. Friday to Sunday nights.</li><li><strong>Bonifacio High Street restaurants:</strong> World-class international dining &mdash; Japanese, Korean, Italian, American, and Filipino restaurants line the High Street.</li><li><strong>BGC Weekend Market:</strong> A weekend market with local food vendors, crafts, and live music &mdash; a great way to experience BGC's community atmosphere.</li><li><strong>Hole-in-the-wall finds:</strong> Explore the side streets off High Street for more affordable local dining options.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Best visited on weekends:</strong> BGC is most vibrant on weekends when the markets are running and the streets are full of life.</li><li><strong>Evening visits:</strong> BGC is beautiful at night &mdash; the illuminated buildings, the street art, and the outdoor dining scene are at their best after dark.</li><li><strong>Combine with Makati:</strong> BGC and Makati are adjacent &mdash; combine both in a single day for the complete modern Manila experience.</li><li><strong>The Mind Museum:</strong> Book tickets online in advance &mdash; the museum sells out on weekends.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>A Day in BGC</h2>
+      <p class="section__intro">Combine The Mind Museum, Bonifacio High Street, and the Mercato Centrale for the perfect BGC day.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">10:00 AM</span><div class="timeline__content"><h4>The Mind Museum</h4><p>Start at <strong>The Mind Museum</strong> when it opens. Allow 2&#8369;3 hours for the five galleries &mdash; the Atom Gallery, Life Gallery, Universe Gallery, Earth Gallery, and Technology Gallery.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">1:00 PM</span><div class="timeline__content"><h4>Lunch on Bonifacio High Street</h4><p>Have lunch at one of the many restaurants on <strong>Bonifacio High Street</strong>. The open-air setting and variety of cuisines make it one of the best lunch spots in Metro Manila.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon &amp; Evening</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">3:00 PM</span><div class="timeline__content"><h4>Street Art Walk</h4><p>Walk the streets of BGC looking for <strong>street art murals</strong> &mdash; the district has some of the finest public art in Southeast Asia. Pick up a street art map from the BGC Arts Center.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">7:00 PM</span><div class="timeline__content"><h4>Mercato Centrale</h4><p>End the day at <strong>Mercato Centrale</strong> (FridaySunday) &mdash; the best night market in Metro Manila. Graze through dozens of food stalls and enjoy the BGC evening atmosphere.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"BGC is the most pleasant urban environment I've experienced in Southeast Asia. The wide, tree-lined streets, the excellent restaurants, the street art, The Mind Museum &mdash; it's a genuinely world-class urban district. The Mercato Centrale on a Friday night is one of the best food experiences in Manila. BGC shows what Philippine cities can be when they're planned and maintained properly."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">KL</div><div><strong>Karen L.</strong><span>Urban Traveler, Hong Kong</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"The Mind Museum alone is worth the trip to BGC. It's one of the best science museums I've visited anywhere &mdash; interactive, beautifully designed, and genuinely educational. My kids spent three hours there and didn't want to leave. Then we walked to Bonifacio High Street for dinner and the street art walk &mdash; a perfect Manila day."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">RP</div><div><strong>Ramon P.</strong><span>Family Traveler, Manila</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore BGC?</h2>
+        <p>Get our free Manila Travel Guide + BGC highlights, The Mind Museum tips, and the best Metro Manila food experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About BGC</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for urban explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

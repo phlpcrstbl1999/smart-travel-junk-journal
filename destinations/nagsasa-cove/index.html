@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Nagsasa Cove &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Zambales</span>
+      <h1 class="hero__headline">The Cove with<br>a Hidden Lagoon</h1>
+      <p class="hero__sub">Nagsasa Cove in San Antonio, Zambales is Anawangin's quieter, larger neighbour &mdash; a wide crescent of grey volcanic sand backed by pine trees, with a freshwater lagoon hidden behind the beach and some of the most dramatic coastal scenery in Zambales.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Wider</strong><span>Than Anawangin</span></div>
+      <div class="hero__stat"><strong>Freshwater</strong><span>Lagoon</span></div>
+      <div class="hero__stat"><strong>Fewer</strong><span>Visitors</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/nagsasa.jpeg" alt="Nagsasa Cove beach and lagoon" class="intro__img intro__img--main" />
+        <img src="images/nagsasa.jpeg" alt="Nagsasa Cove pine trees" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Zambales' Best-Kept Secret</h2>
+        <p>Located in <strong>San Antonio, Zambales</strong>, <strong>Nagsasa Cove</strong> is often described as the quieter, more spacious alternative to the famous Anawangin Cove. Like Anawangin, Nagsasa features <strong>grey volcanic sand</strong> and a forest of <strong>Agoho pine trees</strong> &mdash; but the cove is wider, the beach is longer, and the number of visitors is significantly lower, giving it a more secluded and pristine character.</p>
+        <p>What sets Nagsasa apart from Anawangin is its <strong>freshwater lagoon</strong> &mdash; a calm, clear body of water hidden behind the beach, separated from the sea by a narrow strip of sand. The lagoon is perfect for swimming, kayaking, and simply floating in the cool, still water surrounded by pine trees. The contrast between the open sea on one side and the peaceful lagoon on the other makes Nagsasa one of the most varied and rewarding coves in Zambales.</p>
+        <p>Nagsasa is accessible only by boat from Pundaquit Beach &mdash; the same jump-off point as Anawangin. Most visitors combine both coves in a single boat trip, spending time at each before continuing to Capones Island. For those who want a more secluded camping experience than Anawangin, Nagsasa is the better choice &mdash; fewer visitors, more space, and the added bonus of the freshwater lagoon.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Freshwater Lagoon &nbsp;&middot;&nbsp; <strong>San Antonio, Zambales</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Nagsasa Cove</h2>
+      <p class="section__intro"><strong>Nagsasa Cove</strong> is located in <strong>San Antonio, Zambales</strong> &mdash; about 160 km northwest of Manila. The jump-off point is <strong>Pundaquit Beach</strong>, the same as for Anawangin Cove.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to San Antonio</h3>
+            <p>Victory Liner operates buses from <strong>Cubao or Pasay</strong> to <strong>San Antonio, Zambales</strong>. Travel time is about 3&#8369;4 hours. Alternatively, take a bus to Olongapo City and then a jeepney to San Antonio.</p>
+            <span class="step__detail"> Travel time: ~3&#8369;4 hours &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;300 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>San Antonio to Pundaquit Beach</h3>
+            <p>From San Antonio town center, take a <strong>tricycle to Pundaquit Beach</strong>. Register at the barangay hall and pay the environmental fee. Negotiate your boat route with the boatman &mdash; include Nagsasa, Anawangin, and Capones in one trip.</p>
+            <span class="step__detail"> Tricycle to Pundaquit: ~&#8369;50&ndash;&#8369;80 &nbsp;|&nbsp;  Environmental fee: ~&#8369;50&ndash;&#8369;100</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Boat from Pundaquit to Nagsasa</h3>
+            <p>Nagsasa Cove is about <strong>30&#8369;40 minutes</strong> by boat from Pundaquit &mdash; slightly farther than Anawangin. The boat ride passes along the dramatic Zambales coastline with views of the pine-covered hills and the open South China Sea.</p>
+            <span class="step__detail">&#128652; Boat to Nagsasa: ~&#8369;1,200&#8369;1,800 &nbsp;|&nbsp; &mdash; ~30&#8369;40 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Combine with Anawangin &amp; Capones</h3>
+            <p>Most visitors combine Nagsasa with <strong>Anawangin Cove</strong> and <strong>Capones Island Lighthouse</strong> in a single boat trip. Negotiate a full-day island hopping package with your boatman at Pundaquit for the best value.</p>
+            <span class="step__detail"> Full island hopping: ~&#8369;2,000&#8369;3,000 &nbsp;|&nbsp; Covers all 3 destinations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Nagsasa Cove and nearby attractions in Zambales.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Coves</span>
+        <span class="map-legend__item map-legend__item--nature"> Lagoon</span>
+        <span class="map-legend__item map-legend__item--heritage">? Jump-off</span>
+      </div>
+    </div>
+    <div id="nagsasa-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; calm seas, clear skies, and the most comfortable camping and swimming conditions.</li>
+            <li><strong>Overnight camping:</strong> Like Anawangin, Nagsasa is best experienced overnight &mdash; the cove is even more magical without the day-trippers.</li>
+            <li><strong>Weekdays:</strong> Nagsasa already has fewer visitors than Anawangin &mdash; on weekdays it can feel completely private.</li>
+            <li><strong>Avoid typhoon season (June &mdash; October):</strong> Rough seas make the boat crossing dangerous.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>The Freshwater Lagoon</h3>
+          <ul>
+            <li><strong>Swim in the lagoon</strong> &mdash; the calm, clear freshwater is perfect for swimming and floating. A refreshing contrast to the saltwater sea.</li>
+            <li><strong>Kayak the lagoon</strong> &mdash; kayak rentals are sometimes available at the cove. Paddling through the lagoon surrounded by pine trees is extraordinary.</li>
+            <li><strong>The lagoon is shallow</strong> in some sections &mdash; wade carefully and watch for submerged rocks.</li>
+            <li><strong>Don't use soap or shampoo</strong> in the lagoon &mdash; it is a natural ecosystem. Respect the water quality.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&mdash;</div>
+          <h3>Camping &amp; Practical Tips</h3>
+          <ul>
+            <li><strong>Bring all supplies</strong> &mdash; food, water, cooking equipment, and camping gear. No stores inside the cove.</li>
+            <li><strong>Leave no trace.</strong> Pack out all your trash &mdash; the cove's pristine condition depends on every visitor's responsibility.</li>
+            <li><strong>Nagsasa has more space</strong> than Anawangin &mdash; you can find a more private camping spot away from other groups.</li>
+            <li><strong>The lagoon provides freshwater</strong> for washing &mdash; but bring your own drinking water.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Nagsasa Cove</h2>
+      <p class="section__intro">A complete guide to Nagsasa and the full Zambales cove island hopping experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At Nagsasa</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Arrive &amp; Explore the Beach</h4>
+                <p>Arrive at Nagsasa and walk the full length of the beach. The cove is wider than Anawangin &mdash; the grey sand stretches further and the pine forest is denser. Find your camping spot and set up before exploring further.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Discover the Freshwater Lagoon</h4>
+                <p>Walk behind the beach to find the freshwater lagoon. The transition from the open sea to the calm, enclosed lagoon is dramatic. Swim, float, or simply sit by the water and enjoy the extraordinary setting.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Swimming &amp; Snorkeling</h4>
+                <p>Swim in the sea and snorkel around the rocky formations at the edges of the cove. The water is clear and the marine life around the rocks is diverse. Bring your own snorkeling gear for the best experience.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Sunset &amp; Camping</h4>
+                <p>Watch the sunset from the beach &mdash; the South China Sea sunsets from Nagsasa are as spectacular as those from Anawangin. Cook dinner, enjoy the campfire, and sleep under the stars in one of the most peaceful settings near Manila.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Zambales Cove Hop</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Anawangin Cove</h4>
+                <p>Start at the iconic Anawangin &mdash; grey sand, pine trees, and the most photographed cove in Zambales. Swim, explore, and enjoy the morning atmosphere.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Nagsasa Cove</h4>
+                <p>Continue to Nagsasa for the freshwater lagoon, wider beach, and fewer crowds. Have lunch here and explore the lagoon before continuing.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Capones Island Lighthouse</h4>
+                <p>End your Zambales cove hop at Capones Island &mdash; hike to the 19th-century Spanish lighthouse for panoramic views of the coastline before the boat back to Pundaquit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Nagsasa is what Anawangin used to be before it became famous &mdash; quieter, more spacious, and more pristine. The freshwater lagoon is extraordinary &mdash; swimming in calm, clear water surrounded by pine trees with the sound of the sea just meters away. We camped here instead of Anawangin and it was the right choice. Fewer people, more magic."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">TC</div>
+            <div><strong>Tomas C.</strong><span>Camper, Manila, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The combination of the grey sand beach, the pine forest, and the freshwater lagoon makes Nagsasa one of the most unique natural environments I've experienced in the Philippines. We did the full cove hop &mdash; Anawangin, Nagsasa, and Capones &mdash; and Nagsasa was my favourite. The lagoon alone is worth the boat ride."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SL</div>
+            <div><strong>Sofia L.</strong><span>Nature Traveler, Cebu, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Find Your Hidden Lagoon?</h2>
+        <p>Get our free Zambales Cove Travel Guide + exclusive tips on boat operators, camping, and the best of this stunning coastline &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Nagsasa</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for cove explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

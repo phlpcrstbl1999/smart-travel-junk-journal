@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Hinulugang Taktak &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Rizal</span>
+      <h1 class="hero__headline">Antipolo's<br>Beloved<br>Waterfall</h1>
+      <p class="hero__sub">Hinulugang Taktak in Antipolo, Rizal is the most famous waterfall in the province &mdash; a beloved cultural landmark immortalized in Filipino folk song, set within a national park of lush forest and natural pools just 30 minutes from Metro Manila. A piece of living Philippine heritage.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>30min</strong><span>From Manila</span></div>
+      <div class="hero__stat"><strong>Folk</strong><span>Song Landmark</span></div>
+      <div class="hero__stat"><strong>Nat'l</strong><span>Park Status</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hinulugang-taktak.jpg" alt="Hinulugang Taktak waterfall Antipolo" class="intro__img intro__img--main" />
+        <img src="images/hinulugang-taktak.jpg" alt="Hinulugang Taktak national park" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>A Waterfall Woven Into Philippine Culture</h2>
+        <p><strong>Hinulugang Taktak</strong> is the most famous waterfall in <strong>Rizal province</strong> &mdash; a beloved natural and cultural landmark in <strong>Antipolo City</strong>, just 30 minutes from Metro Manila. The falls cascade down a rocky cliff into a series of natural pools within the <strong>Hinulugang Taktak National Park</strong>, a protected area of lush secondary forest that provides a remarkable green escape from the urban sprawl of the capital region.</p>
+        <p>The waterfall's name means "the place where things fall" in Tagalog &mdash; a poetic description of the cascade that has made it one of the most culturally resonant natural landmarks in the Philippines. It was immortalized in the beloved Filipino folk song <em>"Sa Ugoy ng Duyan"</em> (In the Swing of the Cradle) by Lucio San Pedro, one of the most famous Filipino compositions of the 20th century, which references the falls as a symbol of the Philippine countryside and the longing for home.</p>
+        <p>The national park surrounding the falls has picnic areas, walking trails, and a small zoo &mdash; making it a popular destination for families, school trips, and weekend outings from Manila. The park is managed by the <strong>Antipolo City government</strong> and the <strong>DENR</strong> (Department of Environment and Natural Resources). While the falls are not as dramatic as Daranak or Pagsanjan, their cultural significance, accessibility, and the peaceful forest setting make them a uniquely meaningful destination.</p>
+        <div class="intro__badge">
+          <span>&#127807;</span><span>National Park &nbsp;&middot;&nbsp; <strong>30 Minutes from Manila</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Hinulugang Taktak</h2>
+      <p class="section__intro"><strong>Hinulugang Taktak</strong> is in <strong>Antipolo City, Rizal</strong> &mdash; about 25 km east of Manila. It's one of the most accessible natural destinations from the capital.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Jeepney from Cubao to Antipolo</h3>
+            <p>Take a <strong>jeepney from Cubao (EDSA)</strong> bound for <strong>Antipolo</strong>. The ride takes about 45 minutes to 1 hour depending on traffic. From the Antipolo terminal, take a tricycle to Hinulugang Taktak National Park (about 10 minutes).</p>
+            <span class="step__detail"> Cubao to Antipolo: ~45 min&#8369;1 hour &nbsp;|&nbsp;  ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp;  Tricycle: ~&#8369;30</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Drive from Manila via Marcos Highway</h3>
+            <p>Drive via <strong>Marcos Highway &mdash; Antipolo City</strong>. The national park is well-signposted in Antipolo. Having your own vehicle makes it easy to combine with other Antipolo attractions &mdash; the Cathedral, the hilltop restaurants, and the panoramic views of Manila.</p>
+            <span class="step__detail"> Manila to Antipolo: ~30&#8369;45 min &nbsp;|&nbsp;  Parking at the national park</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Enter the National Park</h3>
+            <p>Pay the entrance fee at the gate. The park has a well-maintained path to the falls &mdash; about a 5-minute walk from the entrance. Picnic areas, cottages, and a small zoo are inside the park. The falls are visible from the main viewing area.</p>
+            <span class="step__detail"> Entrance: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp;  Cottage rental available &nbsp;|&nbsp;  Allow 2&#8369;3 hours</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Explore Antipolo City</h3>
+            <p>After the falls, explore Antipolo &mdash; visit the <strong>Antipolo Cathedral</strong> (Our Lady of Peace and Good Voyage), have dinner at one of the hilltop restaurants with panoramic views of Metro Manila, and browse the local crafts and <em>suman</em> (rice cake) stalls along the highway.</p>
+            <span class="step__detail">&#128652; Cathedral: 5 min drive &nbsp;|&nbsp;  Hilltop restaurants: Padi's Point, Crescent Moon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Hinulugang Taktak and nearby Antipolo and Rizal attractions.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">&#128167; Waterfall</span>
+        <span class="map-legend__item map-legend__item--nature">&#128065; Viewpoints</span>
+        <span class="map-legend__item map-legend__item--heritage">? Heritage</span>
+      </div>
+    </div>
+    <div id="taktak-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>Year-round accessible:</strong> Unlike more remote waterfalls, Hinulugang Taktak is accessible year-round. The falls are most powerful during and after the rainy season (JuneOctober) but the park is open in all seasons.</li>
+            <li><strong>Dry season for swimming:</strong> NovemberMay is the best time for swimming in the natural pools &mdash; water levels are manageable and the current is gentler.</li>
+            <li><strong>Weekdays:</strong> The park is popular on weekends with families and school groups. Weekday visits are far more peaceful and the falls are less crowded.</li>
+            <li><strong>Holy Week:</strong> Antipolo is a major pilgrimage destination during Holy Week &mdash; the Cathedral draws enormous crowds. The national park is also very busy. Plan accordingly.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Cultural Significance</h3>
+          <ul>
+            <li><strong>"Sa Ugoy ng Duyan":</strong> The folk song by Lucio San Pedro that references Hinulugang Taktak is one of the most beloved Filipino compositions &mdash; a lullaby about a mother's love and the Philippine countryside. Hearing it while at the falls is a moving experience.</li>
+            <li><strong>Antipolo Cathedral:</strong> The Shrine of Our Lady of Peace and Good Voyage is one of the most important Marian shrines in the Philippines &middot; a major pilgrimage site, especially during Holy Week and May.</li>
+            <li><strong>Antipolo as a cultural hub:</strong> The city is known for its artists' communities, galleries, and the annual Antipolo Arts Festival. Several notable Filipino artists have studios in the area.</li>
+            <li><strong>Suman and kakanin:</strong> Antipolo is famous for its <em>suman</em> (sticky rice cake wrapped in banana leaves) &mdash; buy some from the roadside stalls on the way to or from the falls.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Combining with Other Destinations</h3>
+          <ul>
+            <li><strong>Daranak Falls:</strong> About 45 minutes east in Tanay &mdash; combine for a full Rizal waterfall day. Hinulugang Taktak in the morning, Daranak in the afternoon (or vice versa).</li>
+            <li><strong>Masungi Georeserve:</strong> About 1 hour east in Baras &mdash; combine for a full Rizal nature day if you have a pre-booked Masungi slot.</li>
+            <li><strong>Antipolo hilltop restaurants:</strong> Padi's Point and Crescent Moon Caf offer panoramic views of Metro Manila &mdash; perfect for dinner after a day in Rizal.</li>
+            <li><strong>Mount Balagbag:</strong> A beginner-friendly hike in the Rizal/Bulacan border area &mdash; combine with Hinulugang Taktak for a hiking and waterfall day.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend a Day in Antipolo &amp; Rizal</h2>
+      <p class="section__intro">A perfect Antipolo day &mdash; the waterfall, the cathedral, hilltop views of Manila, and the best suman in the province.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">8:00 AM</span>
+              <div class="timeline__content">
+                <h4>Hinulugang Taktak National Park</h4>
+                <p>Arrive at the national park when it opens. The morning is the best time &mdash; the forest is cool, the light is beautiful, and the park is quiet before the weekend crowds arrive. Walk to the falls and spend time at the natural pools.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">10:00 AM</span>
+              <div class="timeline__content">
+                <h4>Picnic in the Park</h4>
+                <p>Have a mid-morning picnic at one of the park's picnic areas &mdash; the sound of the falls in the background makes for one of the most pleasant picnic settings near Manila. The small zoo inside the park is worth a quick visit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">12:00 PM</span>
+              <div class="timeline__content">
+                <h4>Antipolo Cathedral</h4>
+                <p>Visit the Shrine of Our Lady of Peace and Good Voyage &mdash; one of the most important Marian shrines in the Philippines. The cathedral is beautiful and the plaza offers views of the surrounding hills.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:30 PM</span>
+              <div class="timeline__content">
+                <h4>Suman Shopping</h4>
+                <p>Browse the suman and kakanin stalls along the Antipolo highway &mdash; buy fresh suman wrapped in banana leaves, bibingka, and other local rice cakes as pasalubong for family and friends.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">5:00 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset Dinner at Padi's Point</h4>
+                <p>Drive to Padi's Point or Crescent Moon Caf for sunset dinner with panoramic views of Metro Manila. The city lights spread out below as the sun sets &mdash; one of the most spectacular urban views in the Philippines.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Hinulugang Taktak holds a special place in Filipino hearts &mdash; it's not just a waterfall, it's a piece of our cultural memory. My lola used to sing 'Sa Ugoy ng Duyan' to me as a child, and visiting the falls for the first time as an adult was genuinely moving. The park is beautiful, the forest is peaceful, and the falls are lovely. But it's the cultural weight of the place that makes it truly special."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RM</div>
+            <div><strong>Rosa M.</strong><span>Cultural Heritage Advocate, Antipolo, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We did the full Antipolo day &mdash; Hinulugang Taktak in the morning, the Cathedral at noon, suman shopping in the afternoon, and dinner at Padi's Point watching the Manila city lights spread out below us. It was a perfect day. Antipolo is one of those places that reminds you how much beauty and culture there is just outside Metro Manila. Don't overlook it."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">BT</div>
+            <div><strong>Ben T.</strong><span>Weekend Explorer, Pasig, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready for Your Antipolo Day?</h2>
+        <p>Get our free Hinulugang Taktak Travel Guide + tips on the Cathedral, suman shopping, hilltop restaurants, and how to combine with Daranak Falls and Masungi &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Hinulugang Taktak</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Trip Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for Rizal explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Fort Santiago &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">Where Rizal Spent<br>His Last Night</h1>
+      <p class="hero__sub">Fort Santiago is a 16th-century Spanish citadel at the mouth of the Pasig River &mdash; the most historically charged site in the Philippines, where national hero Jos&eacute; Rizal was imprisoned before his execution on December 30, 1896.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1593</strong><span>Built</span></div>
+      <div class="hero__stat"><strong>Rizal</strong><span>Shrine</span></div>
+      <div class="hero__stat"><strong>Intramuros</strong><span>Manila</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Fort Santiago gate Manila" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Rizal Shrine Fort Santiago" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The Most Historically Charged Site in the Philippines</h2>
+        <p><strong>Fort Santiago</strong> is a citadel built by Spanish conquistador Miguel L&oacute;pez de Legazpi in <strong>1571</strong> at the mouth of the Pasig River, within the walls of Intramuros. It served as the military headquarters of the Spanish colonial government and later the American administration.</p>
+        <p>The fort is most famous as the place where <strong>Dr. Jos&eacute; Rizal</strong> &mdash; the Philippines' national hero &mdash; was imprisoned in December 1896 before his execution at Bagumbayan (now Rizal Park). The <strong>Rizal Shrine</strong> within the fort preserves his cell, his personal effects, and the bronze footprints marking his final walk to the execution ground.</p>
+        <p>The fort also served as a prison during the Japanese occupation of WWII, where thousands of Filipino and American prisoners of war were held in the dungeons &mdash; many dying from the tidal flooding of the Pasig River. Fort Santiago is a place of profound historical weight and national significance.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Rizal Shrine &nbsp;&middot;&nbsp; <strong>Intramuros, Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Fort Santiago</h2>
+      <p class="section__intro">Fort Santiago is inside <strong>Intramuros, Manila</strong> &mdash; easily reached by LRT, jeepney, or on foot from Rizal Park.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; Central Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>Central Station</strong>. Walk north through Intramuros (~15 minutes) to reach Fort Santiago at the northern end of the walled city, facing the Pasig River.</p><span class="step__detail"> LRT Line 1: Central Station &nbsp;|&nbsp;  ~15 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>From Rizal Park</h3><p>Walk north from <strong>Rizal Park (Luneta)</strong> through Intramuros to Fort Santiago (~20 minutes on foot). The walk through the cobblestone streets of Intramuros is itself a historical experience.</p><span class="step__detail"> Walk from Luneta: ~20 min &nbsp;|&nbsp;  Pass Manila Cathedral en route</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Entrance &amp; Rizal Shrine</h3><p>Enter through the <strong>Puerta de Santa Lucia</strong> gate. The Rizal Shrine is inside the fort &mdash; pay the entrance fee and hire a guide to fully understand the historical significance of each area.</p><span class="step__detail"> Entrance: ~&#8369;75 &nbsp;|&nbsp;  Guide recommended</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Combine with Intramuros</h3><p>Fort Santiago is the anchor of any <strong>Intramuros visit</strong>. Combine with San Agustin Church, Manila Cathedral, and a kalesa ride through the walled city for the complete historic Manila experience.</p><span class="step__detail"> Full Intramuros tour: ~3&#8369;4 hrs</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Fort Santiago, Intramuros, and the surrounding historic Manila district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--heritage">&#127963; Heritage</span>
+        <span class="map-legend__item map-legend__item--main"> Intramuros</span>
+        <span class="map-legend__item map-legend__item--nature"> Parks</span>
+      </div>
+    </div>
+    <div id="fort-santiago-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Best Time to Visit</h3><ul><li><strong>Early morning (7&#8369;9 AM):</strong> The fort is most atmospheric in the early morning &mdash; cooler, quieter, and the light on the stone walls is beautiful.</li><li><strong>December 30 (Rizal Day):</strong> The national holiday commemorating Rizal's execution &mdash; special ceremonies are held at the fort and at Rizal Park.</li><li><strong>December &mdash; February:</strong> The coolest months for walking the fort grounds.</li><li><strong>Avoid midday:</strong> The fort is largely open-air &mdash; the heat from 11 AM&#8369;3 PM can be intense.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Must-See Within the Fort</h3><ul><li><strong>Rizal Shrine:</strong> The preserved cell where Rizal spent his last night &mdash; his personal effects, manuscripts, and the bronze footprints marking his final walk are deeply moving.</li><li><strong>The Dungeons:</strong> The tidal dungeons where WWII prisoners were held &mdash; a sobering reminder of the fort's darker history.</li><li><strong>Baluarte de Santa Barbara:</strong> The best-preserved bastion of the fort, offering views of the Pasig River and the Manila skyline.</li><li><strong>The Gardens:</strong> The fort's interior gardens are beautifully maintained &mdash; a peaceful contrast to the historical weight of the site.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Hire a licensed guide</strong> &mdash; the historical context they provide transforms Fort Santiago from a collection of old stones into a living story of the Philippine nation.</li><li><strong>Photography:</strong> Photography is permitted throughout the fort. The gate, the dungeons, and the Rizal Shrine are the most photogenic areas.</li><li><strong>Combine with Intramuros:</strong> Fort Santiago is the starting point for any Intramuros visit &mdash; explore the walled city after the fort.</li><li><strong>Wear comfortable shoes</strong> &mdash; the fort grounds are uneven and involve some climbing on the bastions.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>Historic Manila in a Day</h2>
+      <p class="section__intro">Combine Fort Santiago with Intramuros, Rizal Park, and the National Museum for the complete historic Manila experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">7:00 AM</span><div class="timeline__content"><h4>Fort Santiago</h4><p>Start at <strong>Fort Santiago</strong> at opening time. Visit the Rizal Shrine, walk the bastions, and explore the dungeons with a guide. Allow 1.5&#8369;2 hours for a thorough visit.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">9:30 AM</span><div class="timeline__content"><h4>Intramuros Walking Tour</h4><p>Walk through <strong>Intramuros</strong> &mdash; Manila Cathedral, San Agustin Church, and Casa Manila Museum. Take a kalesa ride through the cobblestone streets for the full colonial atmosphere.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">12:00 PM</span><div class="timeline__content"><h4>Lunch in Intramuros</h4><p>Have lunch at one of the restaurants inside Intramuros &mdash; <strong>Barbara's Heritage Restaurant</strong> or <strong>Ilustrado Restaurant</strong> offer Filipino cuisine in beautifully restored colonial settings.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">2:00 PM</span><div class="timeline__content"><h4>Rizal Park &amp; National Museum</h4><p>Walk to <strong>Rizal Park</strong> and the <strong>National Museum of the Philippines</strong>. The museum is free and houses the <em>Spoliarium</em> by Juan Luna &mdash; one of the greatest paintings in Philippine history.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Standing in Rizal's cell at Fort Santiago &mdash; the small, dark room where he spent his last night, writing his final poem &mdash; was one of the most moving experiences of my life. The bronze footprints leading from the fort to Bagumbayan are a simple but devastating memorial. Every Filipino should make this pilgrimage. Fort Santiago is not just a tourist site &mdash; it is the soul of the nation."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">MB</div><div><strong>Maria B.</strong><span>History Traveler, Davao City</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Fort Santiago is one of the most historically significant sites I've visited in Southeast Asia. The layers of history &mdash; Spanish colonial, American period, Japanese occupation, Philippine independence &mdash; are all present in the stones of this fort. Our guide was exceptional, bringing each era to life with vivid stories. The dungeons are haunting. The Rizal Shrine is profoundly moving. A must-visit."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">JK</div><div><strong>James K.</strong><span>Heritage Traveler, Hong Kong</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Visit Fort Santiago?</h2>
+        <p>Get our free Manila Travel Guide + Fort Santiago tips, Intramuros walking tour, and the best historic Manila food spots &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Fort Santiago</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for history lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

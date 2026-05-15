@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Mount Samat National Shrine &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Bataan</span>
+      <h1 class="hero__headline">A Cross Above<br>the Battlefield</h1>
+      <p class="hero__sub">Mount Samat National Shrine in Pilar, Bataan stands as the Philippines' most solemn war memorial &mdash; a towering 92-meter cross atop a mountain overlooking the historic battlefields of the 1942 Battle of Bataan, honoring the Filipino and American soldiers who fought and died here.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>92m</strong><span>Cross Height</span></div>
+      <div class="hero__stat"><strong>1942</strong><span>Battle of Bataan</span></div>
+      <div class="hero__stat"><strong>National</strong><span>Shrine</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/samat.jpg" alt="Mount Samat Cross and shrine" class="intro__img intro__img--main" />
+        <img src="images/samat.jpg" alt="View from Mount Samat" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The Shrine of Valor</h2>
+        <p>Located on the summit of <strong>Mount Samat</strong> in <strong>Pilar, Bataan</strong>, the <strong>Dambana ng Kagitingan</strong> (Shrine of Valor) is the Philippines' most important World War II memorial. The shrine was built to honor the <strong>Filipino and American soldiers</strong> who fought in the <strong>Battle of Bataan</strong> from January to April 1942 &mdash; one of the most significant and tragic battles of the Pacific War.</p>
+        <p>The centerpiece of the shrine is a massive <strong>92-meter Latin cross</strong> &mdash; one of the tallest crosses in the world &mdash; visible from across Manila Bay on clear days. The cross contains an elevator that takes visitors to an observation deck near the top, offering a panoramic view of Bataan, Manila Bay, and on clear days, the distant skyline of Metro Manila. The arms of the cross contain a museum with exhibits about the Battle of Bataan and the infamous <strong>Bataan Death March</strong>.</p>
+        <p>The shrine was inaugurated on <strong>April 9, 1966</strong> &mdash; the 24th anniversary of the Fall of Bataan &mdash; by President Ferdinand Marcos. April 9 is now observed as <strong>Araw ng Kagitingan</strong> (Day of Valor), a national holiday in the Philippines. The shrine grounds also contain a diorama museum, a memorial wall, and beautifully landscaped gardens overlooking the historic battlefield below.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>National Shrine &nbsp;&middot;&nbsp; <strong>Dambana ng Kagitingan</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Mount Samat</h2>
+      <p class="section__intro"><strong>Mount Samat National Shrine</strong> is located in <strong>Pilar, Bataan</strong> &mdash; about 120 km west of Manila. It's one of the most accessible heritage destinations from the capital.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Balanga</h3>
+            <p>Genesis Transport and Bataan Transit operate buses from <strong>Cubao or Pasay</strong> to <strong>Balanga City</strong> &mdash; the capital of Bataan. Travel time is about 2.5&#8369;3 hours via the NLEX and SCTEX expressways.</p>
+            <span class="step__detail"> Travel time: ~2.5&#8369;3 hours &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;300 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Balanga to Pilar</h3>
+            <p>From Balanga, take a <strong>jeepney or van</strong> to Pilar municipality &mdash; about 20&#8369;30 minutes. From Pilar town center, hire a <strong>tricycle or jeepney</strong> to the Mount Samat shrine entrance at the base of the mountain.</p>
+            <span class="step__detail"> Jeepney to Pilar: ~20&#8369;30 min &nbsp;|&nbsp;  Tricycle to shrine: ~&#8369;50&ndash;&#8369;80</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Drive or Take a Shuttle Up the Mountain</h3>
+            <p>From the shrine entrance, you can <strong>drive up the mountain road</strong> (about 15&#8369;20 minutes) or take a shuttle service. The road winds through forested slopes with views of Manila Bay opening up as you ascend.</p>
+            <span class="step__detail"> Drive up: ~15&#8369;20 min &nbsp;|&nbsp;  Shuttle: ~&#8369;50&ndash;&#8369;100 per person</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Arrive at the Shrine Summit</h3>
+            <p>The shrine complex at the summit includes the cross, the diorama museum, the memorial wall, and the gardens. Entry is free. The elevator inside the cross takes visitors to the observation deck &mdash; a small fee applies.</p>
+            <span class="step__detail">&#127963; Shrine entry: Free &nbsp;|&nbsp;  Cross elevator: ~&#8369;50 &nbsp;|&nbsp;  Open daily 8AM&#8369;5PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Mount Samat and nearby attractions in Bataan province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">&#127963; Shrine</span>
+        <span class="map-legend__item map-legend__item--heritage"> Heritage</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+      </div>
+    </div>
+    <div id="samat-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; clear skies offer the most dramatic views of Manila Bay and the Bataan peninsula from the cross observation deck.</li>
+            <li><strong>April 9 (Araw ng Kagitingan):</strong> The national Day of Valor &mdash; solemn ceremonies, military honors, and commemorative events at the shrine. A deeply moving experience.</li>
+            <li><strong>Early Morning (8:00&#8369;10:00 AM):</strong> The shrine is peaceful before tour groups arrive. Morning light on the cross and the bay views are spectacular.</li>
+            <li><strong>Avoid weekends during peak season:</strong> The shrine can be crowded on weekends and holidays. Weekday visits are more peaceful and contemplative.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>What to See</h3>
+          <ul>
+            <li><strong>The Cross:</strong> Take the elevator to the observation deck inside the 92-meter cross for panoramic views of Bataan, Manila Bay, and Metro Manila on clear days.</li>
+            <li><strong>The Diorama Museum:</strong> Detailed dioramas depicting key scenes from the Battle of Bataan and the Bataan Death March. Essential historical context.</li>
+            <li><strong>The Memorial Wall:</strong> A wall inscribed with the names of Filipino and American soldiers who fought in the Battle of Bataan.</li>
+            <li><strong>The Gardens:</strong> Beautifully landscaped grounds with views of the battlefield below. A peaceful space for reflection.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Etiquette &amp; Respect</h3>
+          <ul>
+            <li><strong>This is a war memorial.</strong> Approach it with solemnity and respect &mdash; many Filipino and American families have personal connections to this site.</li>
+            <li><strong>Dress appropriately.</strong> Avoid beachwear or overly casual attire. The shrine is a sacred national memorial.</li>
+            <li><strong>No loud music or disruptive behavior.</strong> The shrine is a place of remembrance &mdash; maintain a respectful atmosphere.</li>
+            <li><strong>Photography is allowed</strong> throughout the grounds. Be respectful when photographing the memorial wall and the diorama museum.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Mount Samat</h2>
+      <p class="section__intro">A complete guide to the shrine and a suggested Bataan day tour combining the best of the province.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Shrine</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>The Diorama Museum</h4>
+                <p>Begin at the diorama museum at the base of the cross. The detailed scenes depicting the Battle of Bataan and the Death March provide essential historical context before ascending the cross. Allow 30&#8369;45 minutes.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>The Memorial Wall</h4>
+                <p>Walk along the memorial wall inscribed with the names of soldiers who fought in the Battle of Bataan. Take time to read the names and reflect on the scale of the sacrifice made here.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>The Cross &mdash; Observation Deck</h4>
+                <p>Take the elevator inside the 92-meter cross to the observation deck. The panoramic view from the top &mdash; Manila Bay, the Bataan peninsula, and the distant Metro Manila skyline &mdash; is one of the most dramatic in Luzon.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>The Gardens &amp; Reflection</h4>
+                <p>Walk the shrine gardens and take in the view of the historic battlefield below. The combination of natural beauty and historical weight makes this one of the most powerful memorial sites in Southeast Asia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Bataan Day Tour</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Mount Samat National Shrine</h4>
+                <p>Start your Bataan day at the shrine. Allow 2&#8369;3 hours for the diorama museum, memorial wall, cross elevator, and gardens.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Las Casas Filipinas de Acuzar</h4>
+                <p>Head to Las Casas in Bagac &mdash; a stunning heritage resort with restored Spanish colonial houses from across the Philippines. Guided tours available.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Five Fingers Cove</h4>
+                <p>End your day at Five Fingers Cove &mdash; a dramatic coastal formation of five rocky peninsulas jutting into the South China Sea. One of the most scenic viewpoints in Bataan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Visitor Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Standing at the top of the cross and looking out over Manila Bay, knowing that the battlefield below was the site of one of the most heroic and tragic episodes in Philippine history &mdash; it was profoundly moving. The diorama museum is excellent and the memorial wall is deeply affecting. Every Filipino should visit Mount Samat at least once."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RG</div>
+            <div><strong>Ramon G.</strong><span>History Teacher, Manila, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"My grandfather fought in the Battle of Bataan and I brought my children here to show them where he served. The shrine is beautifully maintained and the view from the cross is extraordinary. But it's the diorama museum and the memorial wall that really bring the history to life. A deeply important and moving place."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LT</div>
+            <div><strong>Linda T.</strong><span>Family Traveler, Pampanga, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Honor the Heroes of Bataan?</h2>
+        <p>Get our free Bataan Travel Guide + exclusive tips on heritage sites, coastal scenery, and the best of this historic province &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About the Shrine</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Visitor Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for history lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

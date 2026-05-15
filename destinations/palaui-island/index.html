@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Palaui Island &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Cagayan</span>
+      <h1 class="hero__headline">The Last<br>Frontier Island</h1>
+      <p class="hero__sub">Palaui Island in Santa Ana, Cagayan is one of the most pristine and untouched islands in the Philippines &middot; a protected wildlife sanctuary of dense jungle, white sand beaches, crystal-clear waters, and a 19th-century Spanish lighthouse standing at the northeastern tip of the archipelago.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>3,500</strong><span>Hectares Protected</span></div>
+      <div class="hero__stat"><strong>1892</strong><span>Lighthouse Built</span></div>
+      <div class="hero__stat"><strong>Pristine</strong><span>Untouched Island</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/palaui.jpg" alt="Palaui Island beach and jungle" class="intro__img intro__img--main" />
+        <img src="images/palaui.jpg" alt="Cape Engao Lighthouse Palaui" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>Cagayan's Crown Jewel</h2>
+        <p>Located off the northeastern coast of <strong>Santa Ana, Cagayan</strong>, <strong>Palaui Island</strong> is a <strong>3,500-hectare protected wildlife sanctuary</strong> declared by Presidential Proclamation in 1994. The island is one of the most biodiverse and least disturbed ecosystems in the Philippines &middot; home to rare wildlife, pristine coral reefs, dense tropical forest, and some of the most beautiful beaches in northern Luzon.</p>
+        <p>The island's most iconic landmark is the <strong>Cape Engao Lighthouse</strong> &mdash; a Spanish colonial lighthouse built in <strong>1892</strong> at the northeastern tip of the island. The lighthouse stands on a dramatic rocky promontory overlooking the Pacific Ocean and the Babuyan Channel, and is reached by a 2&#8369;3 hour jungle trek from the beach. The combination of the historic lighthouse, the wild coastline, and the surrounding jungle makes it one of the most rewarding hikes in the Philippines.</p>
+        <p>Palaui Island gained international attention when it was featured as a location for the reality TV show <em>Survivor</em>. But beyond the fame, the island remains remarkably unspoiled &mdash; there are no permanent tourist facilities on the island, no roads, and no electricity. Visitors camp overnight or return to Santa Ana by boat each day.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Protected Wildlife Sanctuary &nbsp;&middot;&nbsp; <strong>3,500 Hectares</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Palaui Island</h2>
+      <p class="section__intro">Palaui Island is located off <strong>Santa Ana, Cagayan</strong> &mdash; about 3&#8369;4 hours from Tuguegarao City. The jump-off point is the <strong>Port Irene area</strong> in Santa Ana.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Fly or Bus to Tuguegarao</h3>
+            <p>Fly from <strong>NAIA Manila</strong> to <strong>Tuguegarao Airport</strong> (1 hour) or take an overnight bus from Cubao (9&#8369;10 hours). Tuguegarao is the main gateway to Cagayan and the starting point for the journey to Palaui.</p>
+            <span class="step__detail"> Flight: ~1 hour &nbsp;|&nbsp;  Bus: ~9&#8369;10 hours &nbsp;|&nbsp;  &#8369;700&ndash;&#8369;4,000</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Tuguegarao to Santa Ana</h3>
+            <p>From Tuguegarao, take a <strong>van or bus to Santa Ana</strong> &mdash; about 3&#8369;4 hours along a scenic coastal road. Vans depart from the Tuguegarao terminal throughout the day. Book a seat in advance during peak season.</p>
+            <span class="step__detail"> Van to Santa Ana: ~3&#8369;4 hours &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;300</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Santa Ana to Palaui by Boat</h3>
+            <p>From the <strong>Port Irene area</strong> in Santa Ana, hire a <strong>motorized banca boat</strong> to Palaui Island. The crossing takes about 15&#8369;20 minutes. Register at the DENR office in Santa Ana and pay the environmental fee before boarding.</p>
+            <span class="step__detail">&#128652; Boat to Palaui: ~15&#8369;20 min &nbsp;|&nbsp;  Boat: ~&#8369;800&ndash;&#8369;1,200 &nbsp;|&nbsp;  Env. fee: ~&#8369;100</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Explore the Island</h3>
+            <p>Most visitors do a <strong>day trip</strong> &mdash; arriving in the morning, trekking to Cape Engao Lighthouse, swimming at the beaches, and returning to Santa Ana by afternoon. For a deeper experience, <strong>overnight camping</strong> is allowed with a permit from the DENR office.</p>
+            <span class="step__detail"> Camping permit: ~&#8369;200&ndash;&#8369;300 &nbsp;|&nbsp;  Lighthouse trek: ~2&#8369;3 hours</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Palaui Island and nearby attractions in Santa Ana and Cagayan.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Island Sites</span>
+        <span class="map-legend__item map-legend__item--nature">&#127958; Beaches</span>
+        <span class="map-legend__item map-legend__item--heritage">? Gateway</span>
+      </div>
+    </div>
+    <div id="palaui-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>March &mdash; May (Dry Season):</strong> Best time &mdash; calm seas, clear water, and sunny skies. Ideal for the lighthouse trek and snorkeling.</li>
+            <li><strong>October &mdash; February:</strong> Cooler temperatures make the jungle trek more comfortable, but seas can be rougher.</li>
+            <li><strong>Avoid June &mdash; September:</strong> Typhoon season brings rough seas and strong winds. Boat crossings may be suspended.</li>
+            <li><strong>Weekdays:</strong> Far fewer visitors. The island feels more private and the beaches are uncrowded.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>The Lighthouse Trek</h3>
+          <ul>
+            <li><strong>Hire a local guide</strong> for the Cape Engao Lighthouse trek &mdash; the trail through the jungle is not well-marked and can be confusing without guidance.</li>
+            <li><strong>Start early</strong> &mdash; the trek takes 2&#8369;3 hours each way. Starting at 7&#8369;8 AM gives you time to reach the lighthouse and return before the afternoon heat.</li>
+            <li><strong>Wear trekking shoes</strong> &mdash; the trail involves river crossings, muddy sections, and rocky terrain.</li>
+            <li><strong>Bring plenty of water</strong> &mdash; there are no water sources on the trail. Carry at least 2 liters per person.</li>
+            <li><strong>The lighthouse view is worth every step</strong> &mdash; the panorama from Cape Engao over the Pacific and Babuyan Channel is extraordinary.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Beaches &amp; Snorkeling</h3>
+          <ul>
+            <li><strong>Siwangag Cove</strong> is the most popular beach on the island &mdash; white sand, clear water, and good snorkeling around the coral formations.</li>
+            <li><strong>Bring your own snorkeling gear</strong> &mdash; rental equipment is not available on the island.</li>
+            <li><strong>No permanent facilities</strong> on the island &mdash; bring all food, water, and supplies from Santa Ana.</li>
+            <li><strong>Leave no trace.</strong> Palaui is a protected sanctuary &mdash; pack out all your trash and do not disturb the wildlife or coral.</li>
+            <li><strong>Overnight camping</strong> is the best way to experience the island &mdash; wake up to sunrise on the beach with no other visitors around.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 48 Hours in Palaui</h2>
+      <p class="section__intro">Two days gives you time to trek to the lighthouse, explore the beaches, snorkel the reefs, and truly experience the wild beauty of Palaui Island.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Boat to Palaui Island</h4>
+                <p>Register at the DENR office in Santa Ana, pay your environmental fee, and board your banca boat. The 15&#8369;20 minute crossing offers beautiful views of the coastline and the island ahead.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">8:00 AM</span>
+              <div class="timeline__content">
+                <h4>Cape Engao Lighthouse Trek</h4>
+                <p>Begin the 2&#8369;3 hour jungle trek to <strong>Cape Engao Lighthouse</strong> with your guide. The trail winds through dense tropical forest, crosses streams, and emerges at the dramatic rocky promontory where the 1892 lighthouse stands.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:00 AM</span>
+              <div class="timeline__content">
+                <h4>Cape Engao &mdash; The View</h4>
+                <p>Reach the lighthouse and take in the extraordinary view &mdash; the Pacific Ocean stretching to the horizon, the Babuyan Channel to the north, and the wild coastline of Palaui below. The lighthouse itself is a beautiful 19th-century structure in remarkable condition.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">2:00 PM</span>
+              <div class="timeline__content">
+                <h4>Siwangag Cove &mdash; Beach &amp; Snorkeling</h4>
+                <p>Return from the lighthouse and head to <strong>Siwangag Cove</strong> for swimming and snorkeling. The coral formations around the cove are pristine and teeming with marine life. Set up camp here for the night.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">6:00 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset &amp; Campfire</h4>
+                <p>Watch the sunset from the beach &mdash; the sky turns extraordinary shades of orange and pink over the Pacific. Cook dinner over a campfire and fall asleep to the sound of waves. This is what Palaui is all about.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">6:00 AM</span>
+              <div class="timeline__content">
+                <h4>Sunrise on the Beach</h4>
+                <p>Wake up for sunrise &mdash; with no other visitors around, the beach is completely yours. The morning light on the water and the jungle behind you is one of the most peaceful and beautiful moments you can experience in the Philippines.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">8:00 AM</span>
+              <div class="timeline__content">
+                <h4>Explore More Beaches</h4>
+                <p>Ask your boatman to take you around the island to explore other beaches and coves. Each one is different &mdash; some have dramatic rock formations, some have shallow reefs, and some are completely deserted.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">12:00 PM</span>
+              <div class="timeline__content">
+                <h4>Return to Santa Ana</h4>
+                <p>Board your boat back to Santa Ana. From there, you can head to <strong>Port Irene</strong> for a look at the deep-water port, or begin your journey back to Tuguegarao and Manila.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Palaui Island is the most pristine place I have ever been in the Philippines. We camped overnight and woke up to a completely empty beach at sunrise &mdash; just us, the ocean, and the jungle. The lighthouse trek is tough but the view from Cape Engao is worth every step. This is what the Philippines looked like before tourism. Protect it at all costs."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">TL</div>
+            <div>
+              <strong>Thomas L.</strong>
+              <span>Conservation Traveler, Melbourne, Australia</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The snorkeling at Siwangag Cove was the best I've experienced in northern Luzon &mdash; the coral is completely intact and the fish life is extraordinary. But the highlight was the lighthouse. Standing at Cape Engao with the Pacific stretching out in every direction, knowing you're at the northeastern tip of the Philippines &middot; it's a feeling I can't describe. Palaui is a treasure."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RC</div>
+            <div>
+              <strong>Rosa C.</strong>
+              <span>Marine Biologist, Manila, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Discover the Last Frontier?</h2>
+        <p>Get our free Palaui Island Travel Guide + exclusive tips on boat operators, camping permits, the lighthouse trek, and the best beaches &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Palaui Island</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">48-Hour Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for island explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

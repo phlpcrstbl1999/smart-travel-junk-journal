@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Minalungao National Park &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Nueva Ecija</span>
+      <h1 class="hero__headline">Limestone Cliffs<br>Above the River</h1>
+      <p class="hero__sub">Minalungao National Park in General Tinio, Nueva Ecija is one of the most dramatic river gorge landscapes in Central Luzon &mdash; towering limestone cliffs rising from the crystal-clear Penaranda River, hidden caves, natural swimming holes, and a wilderness that feels worlds away from Manila.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>National</strong><span>Park Status</span></div>
+      <div class="hero__stat"><strong>Limestone</strong><span>River Gorge</span></div>
+      <div class="hero__stat"><strong>Crystal</strong><span>Clear River</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/minalungao.jpg" alt="Minalungao limestone cliffs and river" class="intro__img intro__img--main" />
+        <img src="images/minalungao.jpg" alt="Minalungao river swimming" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Nueva Ecija's Hidden River Paradise</h2>
+        <p>Located in <strong>General Tinio, Nueva Ecija</strong>, <strong>Minalungao National Park</strong> is a protected area centered on a dramatic stretch of the <strong>Penaranda River</strong> where towering limestone cliffs rise directly from the water, creating a gorge of extraordinary natural beauty. The park is one of the most visually striking natural landscapes in Central Luzon &mdash; yet remains relatively unknown outside the region.</p>
+        <p>The limestone formations that define Minalungao were shaped over millions of years by the river cutting through the karst terrain. The cliffs rise up to <strong>30 meters</strong> above the water in some sections, their faces covered in ferns, mosses, and small trees that cling to the rock. The river itself is remarkably clear &mdash; fed by mountain springs and protected within the national park &mdash; creating natural swimming pools of turquoise and emerald water between the cliff faces.</p>
+        <p>The park offers a range of activities &mdash; <strong>swimming, cliff jumping, kayaking, cave exploration, and riverside trekking</strong>. The combination of dramatic scenery, clear water, and relative seclusion makes Minalungao one of the most rewarding natural destinations in Nueva Ecija. It is best visited as part of a Nueva Ecija day tour combining the park with Pantabangan Dam and Gabaldon Falls.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>National Park &nbsp;&middot;&nbsp; <strong>General Tinio, Nueva Ecija</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Minalungao</h2>
+      <p class="section__intro"><strong>Minalungao National Park</strong> is located in <strong>General Tinio, Nueva Ecija</strong> &mdash; about 130 km north of Manila. The nearest major city is <strong>Cabanatuan City</strong>, the commercial capital of Nueva Ecija.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Cabanatuan</h3>
+            <p>Genesis Transport, Baliwag Transit, and other bus lines operate services from <strong>Cubao or Pasay</strong> to <strong>Cabanatuan City, Nueva Ecija</strong>. Travel time is about 2.5&#8369;3 hours via NLEX and SCTEX.</p>
+            <span class="step__detail"> Travel time: ~2.5&#8369;3 hours &nbsp;|&nbsp;  ~&#8369;150&ndash;&#8369;250 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Cabanatuan to General Tinio</h3>
+            <p>From Cabanatuan, take a <strong>jeepney or van</strong> to General Tinio municipality &mdash; about 30&#8369;45 minutes. From General Tinio town center, hire a <strong>tricycle or habal-habal</strong> to the Minalungao National Park entrance.</p>
+            <span class="step__detail"> Jeepney to Gen. Tinio: ~30&#8369;45 min &nbsp;|&nbsp;  Tricycle to park: ~&#8369;50&ndash;&#8369;80</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register at the Park Entrance</h3>
+            <p>Register at the DENR park office and pay the entrance fee. Boat rentals are available at the park for exploring the river gorge &mdash; highly recommended for the full Minalungao experience. Local guides are also available.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;50&ndash;&#8369;100 &nbsp;|&nbsp; &mdash; Boat rental: ~&#8369;300&ndash;&#8369;500</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Combine with Nueva Ecija Day Tour</h3>
+            <p>Minalungao is best combined with <strong>Pantabangan Dam</strong> and <strong>Gabaldon Falls</strong> for a full Nueva Ecija day. All three sites are within reasonable driving distance of Cabanatuan City.</p>
+            <span class="step__detail"> Combine with Pantabangan Dam &amp; Gabaldon Falls &nbsp;|&nbsp; Full day recommended</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Minalungao and nearby attractions in Nueva Ecija province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Park</span>
+        <span class="map-legend__item map-legend__item--nature"> Water</span>
+        <span class="map-legend__item map-legend__item--heritage"> Cities</span>
+      </div>
+    </div>
+    <div id="minalungao-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; clear, low river water reveals the full beauty of the limestone cliffs and creates the best swimming conditions.</li>
+            <li><strong>Morning visits (7:00&#8369;10:00 AM):</strong> The gorge is most atmospheric in the morning when the light filters between the cliffs. Fewer visitors and cooler temperatures.</li>
+            <li><strong>Avoid rainy season (June &mdash; October):</strong> The river can rise rapidly after heavy rain, making swimming and boat tours unsafe.</li>
+            <li><strong>Weekdays:</strong> Far fewer visitors. The park feels more wild and private without weekend crowds.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Activities</h3>
+          <ul>
+            <li><strong>Boat tour of the gorge:</strong> The best way to experience Minalungao &mdash; a boat ride through the limestone gorge reveals the full scale of the cliffs and the hidden coves.</li>
+            <li><strong>Swimming:</strong> The natural pools in the river are crystal clear and perfect for swimming. Check with park staff for the safest swimming areas.</li>
+            <li><strong>Cliff jumping:</strong> Several platforms along the cliffs are used for jumping &mdash; check with your guide for the safe spots and appropriate heights.</li>
+            <li><strong>Cave exploration:</strong> Several small caves are accessible along the cliff faces &mdash; ask your guide to show you the accessible ones.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Swimwear</strong> &mdash; the river pools are the highlight of the park.</li>
+            <li><strong>Water shoes</strong> &mdash; the riverbank and cave entrances are rocky.</li>
+            <li><strong>Waterproof bag</strong> for your phone and valuables during the boat tour.</li>
+            <li><strong>Sunscreen</strong> &mdash; the gorge has limited shade in the middle of the day.</li>
+            <li><strong>Packed lunch and water</strong> &mdash; food options inside the park are limited.</li>
+            <li><strong>Cash</strong> &mdash; no ATMs near the park. Withdraw in Cabanatuan before heading out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Minalungao</h2>
+      <p class="section__intro">A complete guide to the park and a suggested Nueva Ecija day tour.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Park</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Boat Tour of the Gorge</h4>
+                <p>Begin with a boat tour of the limestone gorge &mdash; the most dramatic way to experience Minalungao. The boat glides between the towering cliff faces, revealing hidden coves, cave entrances, and the extraordinary scale of the natural formation.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Swimming in the River Pools</h4>
+                <p>Find the best swimming pools in the river with your guide. The water is crystal clear and cool &mdash; a perfect contrast to the heat of the day. The combination of clear water and towering limestone cliffs creates an extraordinary swimming experience.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Cliff Jumping</h4>
+                <p>Try cliff jumping from the designated platforms along the cliff faces. Heights range from 3 to 10 meters &mdash; choose your comfort level and always check the water depth with your guide before jumping.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Cave Exploration</h4>
+                <p>Explore the small caves accessible along the cliff faces with your guide. The caves offer a cool respite from the sun and some contain interesting formations and resident bat colonies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Nueva Ecija Day Tour</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Minalungao National Park</h4>
+                <p>Start your Nueva Ecija day at the limestone gorge. Boat tour, swimming, and cliff jumping. Allow 3&#8369;4 hours for the full park experience.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Pantabangan Dam</h4>
+                <p>Head to Pantabangan for the vast reservoir and dam scenery. Boat tours of the reservoir are available and the views of the surrounding mountains are spectacular.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Gabaldon Falls</h4>
+                <p>End your day at Gabaldon Falls &mdash; a beautiful waterfall with natural swimming pools in the mountains of Gabaldon municipality. A perfect refreshing close to a Nueva Ecija adventure day.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The boat tour through the Minalungao gorge was one of the most beautiful natural experiences I've had in Central Luzon. The limestone cliffs rising from the clear water, the hidden coves, the sound of the river &mdash; it's extraordinary. And almost nobody knows about it. Nueva Ecija is completely off the tourist trail and Minalungao is its best-kept secret."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RC</div>
+            <div><strong>Ramon C.</strong><span>Nature Traveler, Manila, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We spent the whole morning at Minalungao &mdash; swimming, cliff jumping, and exploring the caves. The water is incredibly clear and the cliffs are dramatic. It reminded me of the famous river gorges in Palawan but without the crowds and the price tag. A hidden gem that deserves far more attention."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LM</div>
+            <div><strong>Lena M.</strong><span>Adventure Traveler, Quezon City, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Discover Nueva Ecija's Hidden Gorge?</h2>
+        <p>Get our free Nueva Ecija Travel Guide + exclusive tips on river parks, dams, waterfalls, and the best of this underrated province &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About the Park</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for nature explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Enchanted Kingdom &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Laguna</span>
+      <h1 class="hero__headline">The Magic<br>Kingdom</h1>
+      <p class="hero__sub">Enchanted Kingdom in Santa Rosa, Laguna is the Philippines' premier theme park &mdash; a world-class amusement destination with thrilling rides, live entertainment, themed zones, and the iconic EKstravaganza fireworks show. The most beloved family destination near Manila for over 25 years.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Full Day</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>7</strong><span>Themed Zones</span></div>
+      <div class="hero__stat"><strong>25+</strong><span>Rides &amp; Attractions</span></div>
+      <div class="hero__stat"><strong>1995</strong><span>Year Opened</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/enchanted-kingdom.jpg" alt="Enchanted Kingdom Santa Rosa" class="intro__img intro__img--main" />
+        <img src="images/enchanted-kingdom.jpg" alt="Enchanted Kingdom rides" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>The Philippines' Premier Theme Park</h2>
+        <p><strong>Enchanted Kingdom</strong> is the Philippines' first and most beloved world-class theme park, located in <strong>Santa Rosa, Laguna</strong> &mdash; about 43 km south of Manila. Opened in <strong>1995</strong>, it has been the premier family entertainment destination in the country for nearly three decades, drawing millions of visitors annually with its combination of thrilling rides, live entertainment, themed zones, and the spectacular <strong>EKstravaganza</strong> fireworks and light show.</p>
+        <p>The park is divided into <strong>7 themed zones</strong>: Enchanted Village, Portabello, Brooklyn Place, Midway Boardwalk, Jungle Outpost, Boulderville, and Storyland &mdash; each with its own distinct atmosphere, rides, and attractions. From the heart-stopping <strong>Space Shuttle</strong> (a 360 looping roller coaster) and the <strong>Anchor's Away</strong> (a giant swinging ship) to the family-friendly <strong>Carousel</strong> and the water rides of Jungle Outpost, there's something for every age and thrill level.</p>
+        <p>Beyond the rides, Enchanted Kingdom is known for its <strong>live entertainment</strong> &mdash; stage shows, character meet-and-greets, and the legendary <strong>EKstravaganza</strong> evening show combining fireworks, lasers, and music that has become a Filipino cultural institution. The park's <strong>food scene</strong> has also evolved significantly, with themed restaurants, food stalls, and the popular <strong>Eldar's Feast</strong> buffet restaurant.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>7 Themed Zones &nbsp;&middot;&nbsp; <strong>25+ Rides &amp; Attractions</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Enchanted Kingdom</h2>
+      <p class="section__intro"><strong>Enchanted Kingdom</strong> is in <strong>Santa Rosa, Laguna</strong> &mdash; about 43 km south of Manila via SLEX. It's one of the most accessible theme parks from the capital.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Santa Rosa</h3>
+            <p>Take a <strong>JAC Liner or Jam Liner bus</strong> from Buendia (Pasay) or Cubao bound for <strong>Santa Rosa, Laguna</strong>. From the Santa Rosa terminal, take a tricycle or jeepney to Enchanted Kingdom (about 10&#8369;15 minutes).</p>
+            <span class="step__detail"> Manila to Santa Rosa: ~1&#8369;1.5 hours &nbsp;|&nbsp;  ~&#8369;80&ndash;&#8369;100</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Drive from Manila via SLEX</h3>
+            <p>Drive via <strong>SLEX &mdash; Santa Rosa exit &mdash; EK Road</strong>. The park has large parking areas. Driving gives you the flexibility to arrive early and leave after the EKstravaganza evening show.</p>
+            <span class="step__detail"> Drive: ~45 min&#8369;1 hour &nbsp;|&nbsp;  Large parking area at the park</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Buy Tickets in Advance</h3>
+            <p>Purchase tickets online through the <strong>Enchanted Kingdom website</strong> or app to avoid queues at the gate. All-day ride passes are available. Check the park's website for current ticket prices, operating hours, and special event schedules.</p>
+            <span class="step__detail"> Day pass: ~&#8369;800&ndash;&#8369;1,200 &nbsp;|&nbsp;  Buy online to skip the queue</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Plan Your Day Around EKstravaganza</h3>
+            <p>The <strong>EKstravaganza</strong> fireworks and light show is the highlight of the evening &mdash; check the schedule on arrival and plan your day to be at the main stage area for the show. It typically runs on weekends and holidays.</p>
+            <span class="step__detail"> EKstravaganza: evenings on weekends &nbsp;|&nbsp;  Full day: 10AM&#8369;9PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Enchanted Kingdom and nearby Laguna attractions.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Theme Park</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage"> Heritage</span>
+      </div>
+    </div>
+    <div id="ek-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>Weekdays:</strong> Far less crowded than weekends &mdash; shorter queues for rides and a more relaxed experience. If you can visit on a weekday, do it.</li>
+            <li><strong>December:</strong> The park is beautifully decorated for Christmas and the EKstravaganza shows are at their most spectacular. The most magical time to visit but also the most crowded.</li>
+            <li><strong>Avoid peak holidays:</strong> Christmas, New Year, Holy Week, and school holidays see massive crowds. Expect long queues for popular rides.</li>
+            <li><strong>Arrive early:</strong> Gates open at 10 AM &mdash; arrive early to get on the most popular rides (Space Shuttle, Anchor's Away, Rio Grande Rapids) before the queues build up.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Must-Do Rides</h3>
+          <ul>
+            <li><strong>Space Shuttle:</strong> The park's signature ride &mdash; a 360 looping roller coaster. The most thrilling ride in the park and a rite of passage for every EK visitor.</li>
+            <li><strong>Anchor's Away:</strong> A giant swinging ship that reaches near-vertical angles. Screams guaranteed.</li>
+            <li><strong>Rio Grande Rapids:</strong> A white-water raft ride &mdash; you will get wet. Perfect for hot days.</li>
+            <li><strong>Wheel of Fate:</strong> A giant Ferris wheel offering panoramic views of the park and the surrounding Laguna landscape.</li>
+            <li><strong>Agila:</strong> A suspended roller coaster &mdash; smooth, fast, and exhilarating.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127869;</div><h3>Food &amp; Practical Tips</h3>
+          <ul>
+            <li><strong>Eldar's Feast:</strong> The park's buffet restaurant &mdash; a good option for a full meal without leaving the park. Book in advance on busy days.</li>
+            <li><strong>Food stalls:</strong> Each themed zone has food stalls with Filipino favorites, snacks, and drinks. Prices are higher than outside but reasonable for a theme park.</li>
+            <li><strong>Wear comfortable shoes:</strong> You'll be walking all day. Closed-toe shoes are required for most rides.</li>
+            <li><strong>Bring a change of clothes:</strong> The water rides will soak you. Pack a dry set of clothes or a poncho.</li>
+            <li><strong>Lockers:</strong> Available near the entrance for storing bags and valuables during rides.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend a Full Day at Enchanted Kingdom</h2>
+      <p class="section__intro">A full day at EK &mdash; from the first rides in the morning to the EKstravaganza fireworks in the evening &mdash; is one of the most complete entertainment experiences near Manila.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">10:00 AM</span>
+              <div class="timeline__content">
+                <h4>Gates Open &mdash; Head to Space Shuttle First</h4>
+                <p>Arrive at opening time and head straight to the Space Shuttle before the queues build up. This is the park's most popular ride &mdash; getting it done early means you can enjoy the rest of the day without a long wait.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:00 AM</span>
+              <div class="timeline__content">
+                <h4>Anchor's Away &amp; Boulderville</h4>
+                <p>Hit Anchor's Away (the giant swinging ship) and explore Boulderville &mdash; the zone with the most thrill rides. The queues are still manageable in the late morning.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">12:30 PM</span>
+              <div class="timeline__content">
+                <h4>Lunch at Eldar's Feast</h4>
+                <p>Take a break for lunch at Eldar's Feast buffet or grab food from the themed stalls. The park is busiest between 12&#8369;2 PM &mdash; use this time to eat and rest rather than queue for rides.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon &amp; Evening</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">2:00 PM</span>
+              <div class="timeline__content">
+                <h4>Rio Grande Rapids &amp; Jungle Outpost</h4>
+                <p>Head to the water rides in the afternoon heat &mdash; Rio Grande Rapids and the Jungle Outpost zone. Get soaked and cool down. Change into dry clothes afterwards.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">4:00 PM</span>
+              <div class="timeline__content">
+                <h4>Live Shows &amp; Storyland</h4>
+                <p>Check the entertainment schedule for afternoon live shows. Explore Storyland and Enchanted Village &mdash; the family-friendly zones with character meet-and-greets and gentler rides for younger visitors.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">7:30 PM</span>
+              <div class="timeline__content">
+                <h4>EKstravaganza Fireworks Show</h4>
+                <p>Position yourself at the main stage area for the EKstravaganza &mdash; the park's signature fireworks, lasers, and music spectacular. The perfect finale to a full day at the Philippines' most beloved theme park.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Enchanted Kingdom is a Filipino institution. I've been going since I was a child and I still get excited every time. The Space Shuttle is still the best ride in the park &mdash; that first loop is terrifying every single time. But the EKstravaganza is what makes it truly special. Standing in the park watching the fireworks with thousands of other Filipinos is one of those experiences that reminds you why this place is so beloved."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RC</div>
+            <div><strong>Rica C.</strong><span>Lifelong EK Fan, Quezon City, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We visited Enchanted Kingdom as part of a Laguna day trip &mdash; Rizal Shrine in the morning, then EK in the afternoon and evening. It was the perfect combination of history and fun. The park is genuinely impressive &mdash; well-maintained, clean, and the rides are legitimately thrilling. The EKstravaganza fireworks show at the end was spectacular. A must-do for any family visiting the Philippines."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">TW</div>
+            <div><strong>Tom W.</strong><span>Family Traveler, Australia</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready for the Magic?</h2>
+        <p>Get our free Enchanted Kingdom Travel Guide + tips on the best rides, how to avoid queues, and how to combine with other Laguna destinations &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Enchanted Kingdom</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Full Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for thrill seekers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

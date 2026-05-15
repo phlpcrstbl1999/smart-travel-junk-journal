@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Escolta Street &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">Manila's Original<br>Grand Boulevard</h1>
+      <p class="hero__sub">Escolta Street was once the most glamorous commercial boulevard in Southeast Asia &mdash; Manila's Fifth Avenue, lined with Art Deco buildings, department stores, and the finest shops in the colonial Philippines. Today it is experiencing a remarkable creative renaissance.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Art Deco</strong><span>Architecture</span></div>
+      <div class="hero__stat"><strong>Binondo</strong><span>Manila</span></div>
+      <div class="hero__stat"><strong>Revival</strong><span>Underway</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Escolta Street Manila Art Deco" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Escolta Street heritage buildings" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The Street That Was Manila's Fifth Avenue</h2>
+        <p><strong>Escolta Street</strong> in Binondo was the commercial heart of Manila from the Spanish colonial era through the American period &mdash; the most fashionable shopping street in Southeast Asia, lined with department stores, banks, hotels, and the finest establishments in the Philippines.</p>
+        <p>The street's golden age was the 1920s&#8369;1940s, when magnificent <strong>Art Deco buildings</strong> were constructed along its length &mdash; the <strong>First United Building</strong>, the <strong>Regina Building</strong>, the <strong>El Hogar Filipino</strong>, and others that gave Escolta its distinctive architectural character. The 1945 Battle of Manila devastated much of the street, and subsequent decades of neglect left it a shadow of its former self.</p>
+        <p>Today, Escolta is experiencing a <strong>creative renaissance</strong> &mdash; young artists, designers, and entrepreneurs are restoring the Art Deco buildings and opening galleries, cafes, and creative spaces. The <strong>First United Building</strong> has been transformed into a hub for Manila's creative community, and the street is slowly reclaiming its identity as a center of culture and commerce.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Art Deco Heritage &nbsp;&middot;&nbsp; <strong>Binondo, Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Escolta Street</h2>
+      <p class="section__intro">Escolta Street is in <strong>Binondo, Manila</strong> &mdash; easily reached by LRT or on foot from Intramuros via Jones Bridge.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; Carriedo Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>Carriedo Station</strong>. Walk north across the Quezon Bridge and turn left &mdash; Escolta Street is a short walk from the bridge.</p><span class="step__detail"> LRT Line 1: Carriedo Station &nbsp;|&nbsp;  ~10 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>From Intramuros via Jones Bridge</h3><p>Walk north from <strong>Intramuros</strong> across <strong>Jones Bridge</strong> &mdash; Escolta Street begins just north of the bridge on the Binondo side of the Pasig River.</p><span class="step__detail"> Walk from Intramuros: ~10 min &nbsp;|&nbsp;  Via Jones Bridge</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>First United Building</h3><p>The <strong>First United Building</strong> (1928) is the anchor of the Escolta revival &mdash; a beautifully restored Art Deco building now housing creative studios, galleries, and the popular <strong>Escolta Exchange</strong> market.</p><span class="step__detail"> First United Building: 413 Escolta St &nbsp;|&nbsp;  Creative hub</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Combine with Binondo</h3><p>Escolta is at the edge of <strong>Binondo</strong> &mdash; combine a walk down Escolta with a Binondo food tour for the complete old Manila experience.</p><span class="step__detail"> Binondo: adjacent &nbsp;|&nbsp;  Food tour available</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Escolta Street and the surrounding historic Manila district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--heritage">&#127963; Heritage</span>
+        <span class="map-legend__item map-legend__item--main"> Chinatown</span>
+        <span class="map-legend__item map-legend__item--nature"> Landmarks</span>
+      </div>
+    </div>
+    <div id="escolta-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Art Deco Architecture</h3><ul><li><strong>First United Building (1928):</strong> The finest Art Deco building on Escolta &mdash; now a creative hub with galleries, studios, and the Escolta Exchange market.</li><li><strong>Regina Building:</strong> A beautifully preserved Art Deco facade &mdash; look up at the ornamental details above the ground floor shops.</li><li><strong>El Hogar Filipino:</strong> A Spanish Renaissance building at the corner of Escolta and Jones Bridge &mdash; one of the most photographed heritage buildings in Manila.</li><li><strong>Look up:</strong> The ground floors of Escolta's buildings are often occupied by ordinary shops &mdash; the architectural beauty is in the upper floors and facades.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>The Creative Revival</h3><ul><li><strong>Escolta Exchange:</strong> A monthly market in the First United Building featuring local designers, artists, and food vendors &mdash; check the schedule before visiting.</li><li><strong>Galleries and studios:</strong> Several creative spaces have opened in the restored buildings &mdash; look for signage and open doors.</li><li><strong>Photography:</strong> Escolta is one of the most photogenic streets in Manila &mdash; the Art Deco facades, the street life, and the contrast between old and new make for compelling images.</li><li><strong>Heritage walks:</strong> Several organizations offer guided heritage walks of Escolta and the surrounding Binondo area.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Best visited on weekdays:</strong> The street is most atmospheric on weekday mornings when the shops are open and the street life is active.</li><li><strong>Combine with Binondo:</strong> Escolta is at the edge of Binondo &mdash; a Binondo food walk naturally includes Escolta.</li><li><strong>Combine with Intramuros:</strong> Jones Bridge connects Escolta directly to Intramuros &mdash; visit both in a single morning.</li><li><strong>The Pasig River:</strong> Walk to the Jones Bridge end of Escolta for views of the Pasig River and the Intramuros walls across the water.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>Old Manila Heritage Walk</h2>
+      <p class="section__intro">Combine Escolta with Binondo, Intramuros, and the National Museum for the complete old Manila heritage experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">8:00 AM</span><div class="timeline__content"><h4>Escolta Street Walk</h4><p>Start on <strong>Escolta Street</strong> &mdash; walk the length of the boulevard, photographing the Art Deco facades and exploring the First United Building. Have coffee at one of the new cafes in the restored buildings.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">9:30 AM</span><div class="timeline__content"><h4>Binondo Food Walk</h4><p>Walk into <strong>Binondo</strong> for a food walk &mdash; hopia, goto, and dim sum from the world's oldest Chinatown. Visit Binondo Church and Ongpin Street.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">11:00 AM</span><div class="timeline__content"><h4>Intramuros via Jones Bridge</h4><p>Walk across <strong>Jones Bridge</strong> to Intramuros &mdash; Fort Santiago, San Agustin Church, and Manila Cathedral.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">2:00 PM</span><div class="timeline__content"><h4>National Museum</h4><p>Spend the afternoon at the <strong>National Museum of the Philippines</strong> &mdash; the Spoliarium, the Tree of Life, and the Balangay boats. Free admission.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Escolta is one of the most fascinating streets in Manila &mdash; a place where the grandeur of the past and the energy of the present coexist. The Art Deco buildings are extraordinary &mdash; you can see what this street must have looked like in its 1930s heyday. And the creative revival happening now is exciting &mdash; young Filipinos are reclaiming this heritage and making it relevant again. A must-visit for anyone interested in Manila's history."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">AR</div><div><strong>Ana R.</strong><span>Heritage Enthusiast, Manila</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"I visited Escolta on a heritage walk with a local guide and it completely changed how I see Manila. The stories behind each building &mdash; the department stores, the banks, the hotels &mdash; paint a picture of a city that was once one of the most cosmopolitan in Asia. The First United Building is a gem &mdash; beautifully restored and full of creative energy. Escolta is Manila's best-kept secret."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">BN</div><div><strong>Ben N.</strong><span>Architecture Lover, Singapore</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore Escolta?</h2>
+        <p>Get our free Manila Travel Guide + Escolta heritage walk, Binondo food guide, and the best old Manila experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Escolta Street</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for heritage lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

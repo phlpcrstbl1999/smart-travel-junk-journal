@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>El Nido Lagoons &mdash; Palawan Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Palawan</span>
+      <h1 class="hero__headline">Hidden Lagoons<br>of Limestone</h1>
+      <p class="hero__sub">El Nido's lagoons are among the most breathtaking places on earth &mdash; secret bodies of emerald water enclosed by towering limestone karst cliffs, accessible only by swimming through a narrow crack in the rock or paddling a kayak through a hidden passage.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>45+</strong><span>Islands &amp; Islets</span></div>
+      <div class="hero__stat"><strong>UNESCO</strong><span>Biosphere Reserve</span></div>
+      <div class="hero__stat"><strong>Tour AD</strong><span>Island Hopping Routes</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/el-nido-lagoons.jpg" alt="El Nido Big Lagoon Palawan" class="intro__img intro__img--main" />
+        <img src="images/el-nido-lagoons.jpg" alt="El Nido Small Lagoon kayaking" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; About</span>
+        <h2>The Lagoons That Define Palawan</h2>
+        <p>El Nido, in the northern tip of Palawan, is home to one of the most spectacular seascapes in the world &mdash; a maze of <strong>45+ limestone karst islands and islets</strong> rising dramatically from the Sulu Sea, enclosing hidden lagoons, secret beaches, and pristine coral reefs within the <strong>Bacuit Archipelago</strong>.</p>
+        <p>The most famous of El Nido's lagoons are on <strong>Miniloc Island</strong>: the <strong>Big Lagoon</strong> &mdash; a vast, calm body of emerald water surrounded by sheer limestone walls &mdash; and the <strong>Small Lagoon</strong>, accessible only by swimming or kayaking through a narrow opening in the rock. Both are part of the iconic <strong>Tour A</strong> island hopping route, considered one of the best day trips in Southeast Asia.</p>
+        <p>Beyond the lagoons, El Nido offers <strong>Secret Beach</strong> (entered through an underwater cave), <strong>Seven Commandos Beach</strong>, the <strong>Cathedral Cave</strong>, and dozens of snorkeling spots over healthy coral reefs. The entire area is part of the <strong>El Nido-Taytay Managed Resource Protected Area</strong>, a UNESCO Biosphere Reserve.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Bacuit Archipelago, Palawan &nbsp;&middot;&nbsp; <strong>UNESCO Biosphere Reserve</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to El Nido</h2>
+      <p class="section__intro">El Nido is at the northern tip of Palawan, about 240 km from Puerto Princesa. It's reachable by direct flight from Manila or by a combination of flight and overland travel.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Fly Direct to El Nido</h3>
+            <p>The fastest option &mdash; fly from Manila to <strong>Lio Airport</strong> in El Nido. AirSWIFT operates this route. The flight takes about 1 hour 20 minutes and drops you directly in El Nido town, a short tricycle ride from the beach.</p>
+            <span class="step__detail"> Flight: ~1 hr 20 min &nbsp;|&nbsp;  ~&#8369;3,000&ndash;&#8369;8,000 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Fly to Puerto Princesa, then Van to El Nido</h3>
+            <p>Fly from Manila to <strong>Puerto Princesa</strong> (~1 hr 20 min), then take a van or bus to El Nido (~5&#8369;6 hours). This is cheaper but longer. The van ride through Palawan's interior is scenic and worth doing at least once.</p>
+            <span class="step__detail"> Flight: ~1 hr 20 min &nbsp;|&nbsp;  Van: ~5&#8369;6 hrs &nbsp;|&nbsp;  ~&#8369;2,500&ndash;&#8369;5,000 total</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Book Your Island Hopping Tour</h3>
+            <p>Island hopping tours depart daily from <strong>El Nido town beach</strong>. <strong>Tour A</strong> covers the Big Lagoon, Small Lagoon, Secret Beach, and Shimizu Island &mdash; the most popular route. Book through your guesthouse or at the beach the evening before.</p>
+            <span class="step__detail"> Tour A: ~&#8369;1,200&ndash;&#8369;1,500 per person &nbsp;|&nbsp; &mdash; Full day</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Environmental Fee</h3>
+            <p>All visitors to El Nido must pay an <strong>Environmental User Fee (EUF)</strong> of &#8369;200 per person, valid for 10 days. This is collected at the El Nido Tourism Office or at the beach before boarding your tour boat. Keep your receipt.</p>
+            <span class="step__detail"> EUF: &#8369;200 per person &nbsp;|&nbsp; &mdash; Valid for 10 days</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore El Nido's lagoons, islands, and top snorkeling spots across the Bacuit Archipelago.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Lagoons &amp; Islands</span>
+        <span class="map-legend__item map-legend__item--nature">&#129340; Snorkeling</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Town &amp; Port</span>
+      </div>
+    </div>
+    <div id="elnido-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best conditions &mdash; calm seas, clear water, and reliable island hopping. Peak season is DecemberApril.</li>
+            <li><strong>December &mdash; February:</strong> Busiest period. Book accommodation and tours well in advance. Prices are highest.</li>
+            <li><strong>June &mdash; October:</strong> Rainy season brings rough seas and some tour cancellations, but fewer crowds and lower prices. Some days are still beautiful.</li>
+            <li><strong>Shoulder season (May, November):</strong> Best value &mdash; good weather with fewer tourists and lower prices.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Reef-safe sunscreen</strong> &mdash; mandatory for protecting El Nido's coral reefs. Regular sunscreen is banned in the protected area.</li>
+            <li><strong>Snorkeling gear</strong> &mdash; bring your own mask and fins for the best experience. Rentals are available but quality varies.</li>
+            <li><strong>Waterproof phone case</strong> &mdash; you will get wet on the island hopping boats.</li>
+            <li><strong>Cash</strong> &mdash; ATMs in El Nido are limited and often run out. Bring enough from Puerto Princesa or Manila.</li>
+            <li><strong>Light layers</strong> &mdash; evenings in El Nido can be breezy. A light jacket is useful.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128676;</div><h3>Island Hopping Tips</h3>
+          <ul>
+            <li><strong>Do Tour A first.</strong> The Big Lagoon and Small Lagoon are the highlights of El Nido &mdash; don't leave without seeing them.</li>
+            <li><strong>Kayak the Small Lagoon.</strong> Kayaks are available at the entrance &mdash; paddling through the narrow opening into the enclosed lagoon is one of the best experiences in Palawan.</li>
+            <li><strong>Start early.</strong> Tours depart at 9 AM &mdash; arrive at the beach by 8:30 AM to secure a good spot on the boat.</li>
+            <li><strong>Respect the no-entry zones.</strong> Some lagoons have restricted access to protect the ecosystem. Follow your guide's instructions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 2 Days in El Nido</h2>
+      <p class="section__intro">Two days lets you cover the best of El Nido &mdash; Tour A for the lagoons, Tour C for the beaches, and time to explore the town at night.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1 &mdash; Tour A</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Big Lagoon, Miniloc Island</h4>
+                <p>Your first stop &mdash; the <strong>Big Lagoon</strong>. Paddle a kayak or swim into the vast emerald lagoon enclosed by sheer limestone walls. The scale and color of the water are unlike anything you've seen. Spend at least an hour here.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:00 AM</span>
+              <div class="timeline__content">
+                <h4>Small Lagoon</h4>
+                <p>Swim or kayak through the narrow rock opening into the <strong>Small Lagoon</strong> &mdash; a perfectly enclosed body of turquoise water surrounded by towering limestone. The passage through the rock is tight but the reward on the other side is extraordinary.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Lunch on the Beach + Secret Beach</h4>
+                <p>Your boatman prepares a fresh seafood lunch on a secluded beach. After eating, swim through an underwater cave entrance to reach <strong>Secret Beach</strong> &mdash; a hidden cove completely enclosed by limestone, accessible only by diving under the rock.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2 &mdash; Tour C</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Hidden Beach &amp; Matinloc Shrine</h4>
+                <p><strong>Tour C</strong> covers the northern islands. Start at <strong>Hidden Beach</strong> &mdash; a secluded white sand cove accessible only through a narrow gap in the limestone. Then visit the <strong>Matinloc Shrine</strong>, a hilltop chapel with panoramic views of the archipelago.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:30 AM</span>
+              <div class="timeline__content">
+                <h4>Tapiutan Strait Snorkeling</h4>
+                <p>Snorkel the <strong>Tapiutan Strait</strong> &mdash; one of El Nido's best reef sites with excellent visibility, diverse coral, and abundant fish life. Sea turtles are frequently spotted here.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">3:00 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset at El Nido Town Beach</h4>
+                <p>Return to El Nido town and watch the sunset from the main beach. The silhouette of the limestone karsts against the orange sky is one of the most iconic images in Philippine travel. End the evening with fresh seafood at a beachfront restaurant.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I kayaked into the Small Lagoon through that narrow crack in the limestone and emerged into a perfectly enclosed world of turquoise water and towering cliffs. There were no sounds except the water and the birds. I sat in my kayak for twenty minutes just looking around, unable to believe a place like this actually exists. El Nido is the most beautiful place I have ever been, and the lagoons are its greatest treasure. Nothing I had seen in photos prepared me for the reality."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AL</div>
+            <div>
+              <strong>Anna L.</strong>
+              <span>Travel Writer, Stockholm, Sweden</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We did Tour A on our first day and Tour C on our second, and both were extraordinary in completely different ways. The Big Lagoon is vast and majestic; the Small Lagoon is intimate and magical. Secret Beach &mdash; reached by diving under a rock &mdash; felt like discovering a hidden world. The snorkeling throughout was world-class. El Nido is genuinely one of the great travel destinations on earth. Go before it gets any more crowded."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JW</div>
+            <div>
+              <strong>James W.</strong>
+              <span>Diver &amp; Photographer, London, UK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Discover the Lagoons?</h2>
+        <p>Get our free El Nido Guide + Tour AD breakdown, best snorkeling spots, and where to stay &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About El Nido Lagoons</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">2-Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for island explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

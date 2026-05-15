@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Binondo &mdash; Manila's Chinatown Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">The World's Oldest<br>Chinatown</h1>
+      <p class="hero__sub">Binondo is the world's oldest Chinatown &mdash; founded in 1594 by the Spanish to house Chinese merchants near Intramuros. A labyrinth of food stalls, temples, gold shops, and 400 years of Chinese-Filipino culture, it is the most vibrant and delicious neighborhood in Manila.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1594</strong><span>Founded</span></div>
+      <div class="hero__stat"><strong>Oldest</strong><span>Chinatown</span></div>
+      <div class="hero__stat"><strong>Manila</strong><span>NCR</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Binondo Chinatown Manila" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Binondo food stalls" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; Overview</span>
+        <h2>Four Centuries of Chinese-Filipino Culture</h2>
+        <p><strong>Binondo</strong> is the world's oldest Chinatown, established in <strong>1594</strong> by the Spanish colonial government to house the <em>Sangleys</em> &mdash; Chinese merchants and traders who had been coming to Manila for centuries before the Spanish arrived. It sits just across the Pasig River from Intramuros, connected by the historic Jones Bridge.</p>
+        <p>Today, Binondo is the most vibrant food destination in Manila &mdash; a dense network of streets packed with <strong>Chinese-Filipino restaurants, dim sum houses, noodle shops, bakeries, and street food stalls</strong>. The food here is extraordinary: <em>pancit</em>, <em>siopao</em>, <em>hopia</em>, <em>tikoy</em>, <em>goto</em>, and dozens of dishes that represent 400 years of culinary fusion between Chinese and Filipino traditions.</p>
+        <p>Beyond food, Binondo has the <strong>Minor Basilica of San Lorenzo Ruiz</strong> (patron church of the Filipino diaspora), the <strong>Binondo Church</strong>, gold shops, herbal medicine stores, and the atmospheric streets of the oldest Chinese community in the world outside China.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>World's Oldest Chinatown &nbsp;&middot;&nbsp; <strong>Manila, NCR</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to Binondo</h2>
+      <p class="section__intro">Binondo is just across the Pasig River from Intramuros &mdash; easily reached by LRT, jeepney, or on foot via Jones Bridge.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; Carriedo Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>Carriedo Station</strong>. Walk north through Quiapo and across the Quezon Bridge to reach Binondo in about 15 minutes.</p><span class="step__detail"> LRT Line 1: Carriedo Station &nbsp;|&nbsp;  ~15 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>From Intramuros via Jones Bridge</h3><p>Walk north from <strong>Intramuros</strong> across the <strong>Jones Bridge</strong> over the Pasig River &mdash; Binondo is directly on the other side. The walk takes about 10 minutes from Fort Santiago.</p><span class="step__detail"> Walk from Intramuros: ~10 min &nbsp;|&nbsp;  Via Jones Bridge</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Food Tour</h3><p>Join a <strong>Binondo food tour</strong> &mdash; guided walking tours that take you through the best food stalls, restaurants, and hidden gems of the Chinatown. Several operators offer 3&#8369;4 hour tours with tastings included.</p><span class="step__detail"> Food tour: ~&#8369;800&ndash;&#8369;1,500 &nbsp;|&nbsp;  Guide + tastings included</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>Self-Guided Exploration</h3><p>Binondo is best explored on foot &mdash; wander the streets around <strong>Ongpin Street</strong> (the main commercial strip), <strong>Carvajal Street</strong> (street food), and the area around <strong>Binondo Church</strong>. Get lost &mdash; the best discoveries are accidental.</p><span class="step__detail"> Main streets: Ongpin, Carvajal, Nueva &nbsp;|&nbsp;  Eat everything</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Binondo and the surrounding historic Manila district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Chinatown</span>
+        <span class="map-legend__item map-legend__item--heritage">? Churches</span>
+        <span class="map-legend__item map-legend__item--nature"> Landmarks</span>
+      </div>
+    </div>
+    <div id="binondo-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>What to Eat</h3><ul><li><strong>Pancit Canton at Eng Bee Tin:</strong> The most famous Chinese-Filipino noodle dish in Binondo &mdash; thick egg noodles with pork, shrimp, and vegetables.</li><li><strong>Hopia:</strong> The iconic Binondo pastry &mdash; flaky pastry filled with mung bean, ube, or pork. Buy from Eng Bee Tin or Salazar Bakery.</li><li><strong>Goto:</strong> Rice porridge with beef tripe &mdash; a Binondo breakfast staple, best eaten at a local turo-turo (point-point) eatery.</li><li><strong>Tikoy:</strong> Sticky rice cake &mdash; especially popular during Chinese New Year. Available year-round at Binondo bakeries.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Cultural Highlights</h3><ul><li><strong>Minor Basilica of San Lorenzo Ruiz:</strong> The patron church of the Filipino diaspora &mdash; dedicated to Lorenzo Ruiz, the first Filipino saint, martyred in Japan in 1637.</li><li><strong>Chinese New Year:</strong> Binondo transforms during Chinese New Year (January/February) &mdash; dragon dances, firecrackers, and the most festive atmosphere in Manila.</li><li><strong>Gold shops on Ongpin Street:</strong> Binondo is Manila's gold district &mdash; dozens of shops selling 18K and 24K gold jewelry at competitive prices.</li><li><strong>Herbal medicine shops:</strong> Traditional Chinese herbal medicine stores line the streets &mdash; a fascinating window into Chinese medical traditions.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Come hungry:</strong> Binondo is primarily a food destination &mdash; arrive with an empty stomach and graze your way through the streets.</li><li><strong>Morning visits:</strong> The best time for dim sum and breakfast foods is 7&#8369;10 AM. Many stalls sell out by midday.</li><li><strong>Combine with Intramuros:</strong> Binondo and Intramuros are connected by Jones Bridge &mdash; visit both in a single morning for the complete historic Manila experience.</li><li><strong>Cash is king</strong> &mdash; most street food stalls and small restaurants are cash only.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>A Morning in Binondo</h2>
+      <p class="section__intro">Combine a Binondo food walk with Intramuros and the National Museum for the perfect historic Manila day.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">7:00 AM</span><div class="timeline__content"><h4>Binondo Breakfast</h4><p>Start with a <strong>Binondo breakfast</strong> &mdash; goto (rice porridge) at a local turo-turo, followed by fresh dim sum and hopia from Eng Bee Tin. The morning food scene is the best in Manila.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">9:00 AM</span><div class="timeline__content"><h4>Ongpin Street &amp; Binondo Church</h4><p>Walk <strong>Ongpin Street</strong> &mdash; browse the gold shops, herbal medicine stores, and bakeries. Visit the <strong>Minor Basilica of San Lorenzo Ruiz</strong> for a moment of quiet amid the bustle.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">10:30 AM</span><div class="timeline__content"><h4>Cross to Intramuros</h4><p>Walk across <strong>Jones Bridge</strong> to Intramuros. Visit Fort Santiago, San Agustin Church, and Manila Cathedral for the complete historic Manila morning.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">1:00 PM</span><div class="timeline__content"><h4>Lunch Back in Binondo</h4><p>Return to <strong>Binondo</strong> for lunch &mdash; try <em>pancit</em> at one of the classic Chinese-Filipino restaurants on Carvajal Street or Ongpin Street.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">3:00 PM</span><div class="timeline__content"><h4>National Museum</h4><p>Head to the <strong>National Museum of the Philippines</strong> for the afternoon &mdash; free admission, the Spoliarium, and the Tree of Life installation.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Binondo is the most delicious neighborhood I've visited in Southeast Asia. The food is extraordinary &mdash; 400 years of Chinese and Filipino culinary traditions fused into something completely unique. The goto for breakfast, the hopia from Eng Bee Tin, the pancit at lunch &mdash; every bite tells a story. And the streets themselves are fascinating &mdash; gold shops, temples, herbal medicine stores, and the oldest Chinatown in the world."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">FC</div><div><strong>Francis C.</strong><span>Food Traveler, Singapore</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"I did the Binondo food tour and it was the highlight of my Manila trip. Our guide took us to places I never would have found on my own &mdash; a 100-year-old bakery, a family-run dim sum kitchen, a street stall that has been selling the same noodle dish for three generations. Binondo is living history &mdash; and it's delicious."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">MK</div><div><strong>Maria K.</strong><span>Food Traveler, Tokyo</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Eat Your Way Through Binondo?</h2>
+        <p>Get our free Manila Travel Guide + Binondo food tour tips, Intramuros walking guide, and the best historic Manila experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Binondo</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for food lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

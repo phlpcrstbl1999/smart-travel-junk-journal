@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>University of Santo Tomas &mdash; Manila Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Metro Manila &middot; NCR</span>
+      <h1 class="hero__headline">The Oldest University<br>in Asia</h1>
+      <p class="hero__sub">The University of Santo Tomas was founded in 1611 &mdash; making it older than Harvard University and the oldest existing university in Asia. Its magnificent Main Building, the Arch of the Centuries, and the UST Museum of Arts and Sciences are among the most historically significant sites in Manila.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1611</strong><span>Founded</span></div>
+      <div class="hero__stat"><strong>Oldest</strong><span>University in Asia</span></div>
+      <div class="hero__stat"><strong>Sampaloc</strong><span>Manila</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="University of Santo Tomas Main Building Manila" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="UST Arch of the Centuries" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>Older Than Harvard, the Heart of Philippine Academia</h2>
+        <p>The <strong>University of Santo Tomas (UST)</strong> was founded on <strong>April 28, 1611</strong> by Bishop Miguel de Benavides &mdash; making it the oldest existing university in Asia and older than Harvard University (founded 1636). It is operated by the Order of Preachers (Dominicans) and is the largest Catholic university in the world in terms of enrollment.</p>
+        <p>The university's <strong>Main Building</strong> (1927) is a magnificent Neo-Baroque structure that dominates the UST campus in Sampaloc, Manila. The campus also contains the <strong>Arch of the Centuries</strong> &mdash; a 17th-century stone arch built in 1611, the oldest existing arch in the Philippines &middot; and the <strong>UST Museum of Arts and Sciences</strong>, one of the oldest museums in the country.</p>
+        <p>UST has produced many of the Philippines' most important historical figures &mdash; including <strong>Jos Rizal</strong>, who studied medicine here before being expelled for his nationalist activities. The university was also used as an internment camp for Allied civilians during the Japanese occupation of WWII.</p>
+        <div class="intro__badge"><span>&#128205;</span><span>Founded 1611 &nbsp;&middot;&nbsp; <strong>Sampaloc, Manila</strong></span></div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>Getting to the University of Santo Tomas</h2>
+      <p class="section__intro">UST is in <strong>Sampaloc, Manila</strong> &mdash; easily reached by LRT or jeepney from most parts of the city.</p>
+      <div class="steps">
+        <div class="step"><div class="step__number">01</div><div class="step__body"><h3>LRT Line 1 &mdash; Espaa Station</h3><p>Take <strong>LRT Line 1</strong> to <strong>Espaa Station</strong>. The UST campus is a short walk east along Espaa Boulevard &mdash; the Main Building is visible from the station.</p><span class="step__detail"> LRT Line 1: Espaa Station &nbsp;|&nbsp;  ~5 min walk</span></div></div>
+        <div class="step"><div class="step__number">02</div><div class="step__body"><h3>Jeepney along Espaa Boulevard</h3><p>Jeepneys running along <strong>Espaa Boulevard</strong> pass the UST main gate. Ask the driver to drop you at "UST" or "Santo Tomas."</p><span class="step__detail"> Jeepney along Espaa Blvd: ~&#8369;12&ndash;&#8369;15 &nbsp;|&nbsp;  Main gate on Espaa</span></div></div>
+        <div class="step"><div class="step__number">03</div><div class="step__body"><h3>Campus Visitor Access</h3><p>Visitors are welcome on the UST campus. Present a valid ID at the main gate. The Main Building, Arch of the Centuries, and the UST Museum are open to visitors.</p><span class="step__detail"> Valid ID required &nbsp;|&nbsp;  Museum: TueSat, 8 AM&#8369;5 PM</span></div></div>
+        <div class="step"><div class="step__number">04</div><div class="step__body"><h3>UST Museum of Arts and Sciences</h3><p>The <strong>UST Museum</strong> is one of the oldest museums in the Philippines &middot; housing natural history specimens, religious art, and historical artifacts. A small entrance fee applies.</p><span class="step__detail"> Museum entrance: ~&#8369;50&ndash;&#8369;100 &nbsp;|&nbsp;  Natural history + religious art</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore the UST campus and the surrounding Sampaloc district.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> University</span>
+        <span class="map-legend__item map-legend__item--heritage"> Heritage</span>
+        <span class="map-legend__item map-legend__item--nature"> Campus</span>
+      </div>
+    </div>
+    <div id="ust-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Campus Highlights</h3><ul><li><strong>Main Building (1927):</strong> The magnificent Neo-Baroque main building &mdash; the most iconic structure on campus. The facade, the central tower, and the grand entrance hall are all worth seeing.</li><li><strong>Arch of the Centuries:</strong> A 17th-century stone arch built in 1611 &mdash; the oldest existing arch in the Philippines. Located near the main entrance of the campus.</li><li><strong>UST Museum of Arts and Sciences:</strong> One of the oldest museums in the Philippines &middot; natural history specimens, religious art, and historical artifacts from the colonial era.</li><li><strong>The Chapel of the Santsimo Rosario:</strong> The university chapel &mdash; a beautiful Neo-Baroque church at the heart of the campus.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Historical Significance</h3><ul><li><strong>Jos Rizal:</strong> The national hero studied medicine at UST before being expelled for his nationalist activities. His presence is felt throughout the campus.</li><li><strong>WWII internment:</strong> The UST campus was used as an internment camp for Allied civilians during the Japanese occupation (1942&#8369;1945). A memorial marks this history.</li><li><strong>Dominican heritage:</strong> UST has been operated by the Dominican Order for over 400 years &mdash; the longest continuous educational institution in the Philippines.</li><li><strong>Alumni:</strong> UST has produced presidents, national artists, scientists, and cultural figures who have shaped Philippine history.</li></ul></div>
+        <div class="tip-card"><div class="tip-card__icon">&#128204;</div><h3>Practical Tips</h3><ul><li><strong>Dress modestly</strong> when visiting the campus &mdash; it is an active university and a place of worship.</li><li><strong>Best visited on weekdays</strong> when the campus is active and the museum is open.</li><li><strong>Photography:</strong> Photography is permitted on the campus grounds. The Main Building facade and the Arch of the Centuries are the most photogenic spots.</li><li><strong>Combine with Quiapo:</strong> UST and Quiapo Church are in the same area &mdash; combine both in a single morning visit.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>Historic Manila Academia</h2>
+      <p class="section__intro">Combine UST with Quiapo Church, Binondo, and Intramuros for the complete historic Manila experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">9:00 AM</span><div class="timeline__content"><h4>University of Santo Tomas</h4><p>Start at <strong>UST</strong> &mdash; visit the Main Building, the Arch of the Centuries, and the UST Museum. Allow 1.5&#8369;2 hours for a thorough visit.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">11:00 AM</span><div class="timeline__content"><h4>Quiapo Church</h4><p>Walk or take a jeepney to <strong>Quiapo Church</strong> &mdash; visit the Black Nazarene and explore the Quiapo market. The herbal medicine vendors on Hidalgo Street are fascinating.</p></div></div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event"><span class="timeline__time">1:00 PM</span><div class="timeline__content"><h4>Binondo Lunch</h4><p>Walk to <strong>Binondo</strong> for lunch &mdash; the world's oldest Chinatown is a short walk from Quiapo. Try pancit, hopia, and dim sum.</p></div></div>
+            <div class="timeline__event"><span class="timeline__time">3:00 PM</span><div class="timeline__content"><h4>Intramuros</h4><p>Cross Jones Bridge to <strong>Intramuros</strong> &mdash; Fort Santiago, San Agustin Church, and Manila Cathedral for the complete historic Manila afternoon.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"Walking through the UST campus and standing before the Arch of the Centuries &mdash; a stone arch built in 1611, older than the United States &mdash; was a genuinely humbling experience. The Main Building is magnificent, the museum is fascinating, and the history of the place is extraordinary. UST is one of the most historically significant sites in Manila and it deserves far more visitors than it gets."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">HC</div><div><strong>Helena C.</strong><span>History Traveler, Manila</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>"As a UST alumna, visiting the campus always fills me with pride. The Main Building is one of the most beautiful in Manila, the Arch of the Centuries is a living piece of history, and the UST Museum is a treasure trove of Philippine natural history and colonial art. Every Filipino should visit UST &mdash; it is a reminder of how deep and rich our academic and cultural heritage is."</blockquote><div class="testimonial-card__author"><div class="testimonial-card__avatar">MR</div><div><strong>Maria R.</strong><span>UST Alumna, Manila</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Visit the Oldest University in Asia?</h2>
+        <p>Get our free Manila Travel Guide + UST campus guide, Quiapo Church tips, and the best historic Manila experiences &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form"><input type="email" placeholder="Enter your email address" required /><button type="submit" class="btn btn--primary">Send Me the Guide</button></form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About UST</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for history lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

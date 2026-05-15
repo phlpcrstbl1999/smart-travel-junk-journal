@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Capones Island Lighthouse &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Zambales</span>
+      <h1 class="hero__headline">A Lighthouse<br>at the Edge of Luzon</h1>
+      <p class="hero__sub">The Capones Island Lighthouse in San Antonio, Zambales is a 19th-century Spanish colonial lighthouse perched on a dramatic rocky island at the northwestern tip of Luzon &mdash; offering some of the most spectacular coastal views in the Philippines and a rewarding jungle trek to reach it.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1890</strong><span>Year Built</span></div>
+      <div class="hero__stat"><strong>Island</strong><span>Access Only</span></div>
+      <div class="hero__stat"><strong>360</strong><span>Coastal Views</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/capones.jpg" alt="Capones Island Lighthouse" class="intro__img intro__img--main" />
+        <img src="images/capones.jpg" alt="View from Capones Island" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>Zambales' Dramatic Island Sentinel</h2>
+        <p>Located on <strong>Capones Island</strong> off the coast of <strong>San Antonio, Zambales</strong>, the <strong>Capones Island Lighthouse</strong> was built by the <strong>Spanish colonial government in 1890</strong> to guide ships through the treacherous waters of the South China Sea at the northwestern tip of Luzon. The lighthouse stands on a rocky promontory at the island's highest point, visible from the Zambales coastline and from ships far out at sea.</p>
+        <p>Capones Island itself is a small, uninhabited island covered in dense tropical forest. The island is accessible only by boat from Pundaquit Beach &mdash; a 30&#8369;40 minute crossing. From the landing point, a <strong>30&#8369;45 minute jungle trek</strong> through the island's forest leads to the lighthouse at the summit. The trail is steep and rocky in sections, but the views that open up as you ascend make every step worthwhile.</p>
+        <p>From the lighthouse, the panoramic view is extraordinary &mdash; the Zambales coastline stretching south, the South China Sea to the west, the distant outline of Anawangin and Nagsasa coves, and on clear days, the faint silhouette of the Bataan peninsula across the bay. The lighthouse itself is a beautiful 19th-century structure in good condition &mdash; a testament to Spanish colonial engineering that has guided ships for over 130 years.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Spanish Colonial Lighthouse &nbsp;&middot;&nbsp; <strong>Built 1890</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Capones Island</h2>
+      <p class="section__intro"><strong>Capones Island</strong> is located off the coast of <strong>San Antonio, Zambales</strong> &mdash; about 160 km northwest of Manila. The jump-off point is <strong>Pundaquit Beach</strong>.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to San Antonio</h3>
+            <p>Victory Liner operates buses from <strong>Cubao or Pasay</strong> to <strong>San Antonio, Zambales</strong>. Travel time is about 3&#8369;4 hours. Alternatively, take a bus to Olongapo City and then a jeepney to San Antonio.</p>
+            <span class="step__detail"> Travel time: ~3&#8369;4 hours &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;300 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>San Antonio to Pundaquit Beach</h3>
+            <p>From San Antonio town center, take a <strong>tricycle to Pundaquit Beach</strong>. Register at the barangay hall and pay the environmental fee. Negotiate a full island hopping package with your boatman covering Anawangin, Nagsasa, and Capones.</p>
+            <span class="step__detail"> Tricycle to Pundaquit: ~&#8369;50&ndash;&#8369;80 &nbsp;|&nbsp;  Environmental fee: ~&#8369;50&ndash;&#8369;100</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Boat to Capones Island</h3>
+            <p>Capones Island is about <strong>30&#8369;40 minutes</strong> by boat from Pundaquit. The boat lands on the island's small beach, from where the jungle trek to the lighthouse begins. Your boatman will wait while you hike.</p>
+            <span class="step__detail">&#128652; Boat to Capones: ~&#8369;1,200&#8369;1,800 &nbsp;|&nbsp; &mdash; ~30&#8369;40 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Trek to the Lighthouse</h3>
+            <p>From the landing beach, follow the trail through the jungle to the lighthouse &mdash; about <strong>30&#8369;45 minutes</strong> of hiking. The trail is steep in sections. Wear trekking shoes and bring water. The views from the top are worth every step.</p>
+            <span class="step__detail"> Trek time: ~30&#8369;45 min &nbsp;|&nbsp;  Bring water &nbsp;|&nbsp;  Wear trekking shoes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Capones Island and nearby attractions in Zambales.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Lighthouse</span>
+        <span class="map-legend__item map-legend__item--nature"> Coves</span>
+        <span class="map-legend__item map-legend__item--heritage">? Jump-off</span>
+      </div>
+    </div>
+    <div id="capones-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; calm seas for the boat crossing and dry trails for the jungle trek.</li>
+            <li><strong>Morning visits:</strong> Start the trek early to avoid the midday heat. The lighthouse at golden hour is spectacular.</li>
+            <li><strong>Clear days:</strong> The panoramic views from the lighthouse are best on clear days &mdash; you can see the Bataan peninsula and the distant mountains of Luzon.</li>
+            <li><strong>Avoid typhoon season (June &mdash; October):</strong> Rough seas make the boat crossing dangerous and the jungle trail slippery.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>The Jungle Trek</h3>
+          <ul>
+            <li><strong>Wear trekking shoes</strong> with good grip &mdash; the trail is steep and rocky in sections. Sandals are not safe.</li>
+            <li><strong>Bring plenty of water</strong> &mdash; the jungle trek is physically demanding and there are no water sources on the island.</li>
+            <li><strong>Hire a local guide</strong> if available &mdash; they know the trail and can point out the island's wildlife and plants.</li>
+            <li><strong>The trail is not well-marked</strong> in some sections &mdash; stay on the main path and follow your guide's directions.</li>
+            <li><strong>Allow 1.5&#8369;2 hours</strong> for the round trip trek including time at the lighthouse.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128247;</div><h3>Photography Tips</h3>
+          <ul>
+            <li><strong>The lighthouse at golden hour</strong> is extraordinary &mdash; the warm light on the white tower against the blue sea is one of the most beautiful compositions in Zambales.</li>
+            <li><strong>Shoot from the rocky promontory</strong> below the lighthouse for dramatic compositions with the sea in the foreground.</li>
+            <li><strong>The view from the top</strong> &mdash; looking back at the Zambales coastline with Anawangin and Nagsasa visible &mdash; is the defining shot of the Capones experience.</li>
+            <li><strong>Drone photography</strong> is spectacular here &mdash; check local regulations before flying.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Capones Island</h2>
+      <p class="section__intro">A complete guide to the lighthouse trek and the full Zambales cove island hopping experience.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At Capones</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Land on the Island Beach</h4>
+                <p>The boat lands on Capones Island's small beach. Take a moment to appreciate the island setting &mdash; the dense jungle rising from the rocky shore, the clear water, and the dramatic coastal scenery. Your boatman will wait here while you trek.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>The Jungle Trek</h4>
+                <p>Begin the 30&#8369;45 minute trek through the island's tropical forest. The trail climbs steadily through dense vegetation &mdash; listen for birds and watch for monitor lizards. The forest is beautiful and the sound of the sea fades as you ascend.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>The Lighthouse</h4>
+                <p>Emerge from the forest at the lighthouse. The 1890 Spanish colonial structure is impressive up close &mdash; well-maintained and still operational. Walk around the base and explore the rocky promontory for different perspectives.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>The Panoramic View</h4>
+                <p>Take in the 360 panoramic view from the lighthouse promontory &mdash; the Zambales coastline, the South China Sea, the coves of Anawangin and Nagsasa, and the distant mountains of Luzon. One of the most dramatic viewpoints in Central Luzon.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Zambales Cove Hop</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Anawangin Cove</h4>
+                <p>Start at the iconic grey sand and pine tree cove. Swim, explore, and enjoy the morning atmosphere before the day-trippers arrive.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Nagsasa Cove</h4>
+                <p>Continue to Nagsasa for the freshwater lagoon, wider beach, and fewer crowds. Have lunch and swim in the lagoon.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Capones Island Lighthouse</h4>
+                <p>End your cove hop at Capones &mdash; jungle trek to the 1890 lighthouse and panoramic views before the boat back to Pundaquit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The trek to the Capones lighthouse is tough but the view from the top is one of the best I've seen in the Philippines. The Zambales coastline stretching south, the coves of Anawangin and Nagsasa visible in the distance, the South China Sea to the west &mdash; it's extraordinary. The lighthouse itself is beautiful and the jungle trek is an adventure in its own right."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MV</div>
+            <div><strong>Marco V.</strong><span>Hiker, Manila, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We did the full Zambales cove hop &mdash; Anawangin, Nagsasa, and Capones &mdash; in one day and it was one of the best day trips I've done from Manila. Capones was the perfect finale &mdash; the lighthouse, the views, the sense of being at the edge of Luzon. The combination of the three destinations is unbeatable."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JK</div>
+            <div><strong>Jana K.</strong><span>Travel Blogger, Singapore</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Trek to the Edge of Luzon?</h2>
+        <p>Get our free Zambales Cove Travel Guide + exclusive tips on boat operators, lighthouse treks, and the best of this stunning coastline &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Capones</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for coastal explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

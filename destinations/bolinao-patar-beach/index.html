@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Bolinao Patar Beach &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Pangasinan</span>
+      <h1 class="hero__headline">The Wild Coast<br>of Pangasinan</h1>
+      <p class="hero__sub">Patar Beach in Bolinao is one of the most dramatic and unspoiled coastlines in northern Luzon &mdash; golden sand, crashing waves, ancient rock formations, and a lighthouse standing sentinel over the South China Sea.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>White</strong><span>Sand Beach</span></div>
+      <div class="hero__stat"><strong>1892</strong><span>Lighthouse Built</span></div>
+      <div class="hero__stat"><strong>Wild</strong><span>Unspoiled Coast</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/patar.jpg" alt="Patar Beach Bolinao" class="intro__img intro__img--main" />
+        <img src="images/patar.jpg" alt="Bolinao coastline" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Pangasinan's Most Dramatic Coastline</h2>
+        <p>Located at the western tip of <strong>Bolinao, Pangasinan</strong>, <strong>Patar Beach</strong> is a long stretch of white sand and golden rock formations facing the open South China Sea. Unlike the calm, sheltered beaches of Hundred Islands, Patar is a <strong>wild, windswept coast</strong> &mdash; waves roll in from the open ocean, the sand is coarse and golden, and the rock formations along the shoreline create a dramatic, almost otherworldly landscape.</p>
+        <p>The beach is famous for its <strong>ancient rock formations</strong> &mdash; massive boulders and coral limestone outcroppings that have been sculpted by centuries of wind and waves into extraordinary shapes. At low tide, tide pools form between the rocks, teeming with sea urchins, starfish, and small fish. The <strong>Cape Bolinao Lighthouse</strong>, built in 1892, stands at the tip of the cape and is one of the most photographed landmarks in Pangasinan.</p>
+        <p>Patar Beach is also known for its <strong>spectacular sunsets</strong> &mdash; facing west over the South China Sea, the beach offers unobstructed views of the sun sinking below the horizon, painting the sky and the golden rocks in shades of orange, pink, and purple.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Wild Coastal Beach &nbsp;&middot;&nbsp; <strong>Cape Bolinao Lighthouse</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Patar Beach</h2>
+      <p class="section__intro"><strong>Patar Beach</strong> is located in <strong>Bolinao, Pangasinan</strong>, about 280 km northwest of Manila. It's about 1 hour west of Alaminos City (Hundred Islands).</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Bolinao</h3>
+            <p>Five Star Bus operates direct trips from <strong>Cubao</strong> to <strong>Bolinao, Pangasinan</strong>. Travel time is about 6&#8369;7 hours. Alternatively, take a bus to Alaminos and then a jeepney or van to Bolinao (about 1 hour).</p>
+            <span class="step__detail"> Direct to Bolinao: ~6&#8369;7 hours &nbsp;|&nbsp;  ~&#8369;400&ndash;&#8369;550</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Tricycle or Habal-habal to Patar</h3>
+            <p>From Bolinao town center, hire a <strong>tricycle or habal-habal</strong> (motorcycle taxi) to Patar Beach. The ride takes about 20&#8369;30 minutes along a scenic coastal road. Negotiate the fare before boarding.</p>
+            <span class="step__detail"> Tricycle: ~&#8369;100&ndash;&#8369;150 &nbsp;|&nbsp; &mdash; ~20&#8369;30 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>From Hundred Islands (Alaminos)</h3>
+            <p>If you're combining with Hundred Islands, take a <strong>jeepney or van from Alaminos</strong> to Bolinao (about 1 hour), then a tricycle to Patar Beach. This makes a perfect two-day Pangasinan itinerary.</p>
+            <span class="step__detail"> Alaminos to Bolinao: ~1 hour &nbsp;|&nbsp;  ~&#8369;50&ndash;&#8369;80</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Drive from Manila</h3>
+            <p>Driving from Manila via <strong>NLEXSCTEXTPLEX</strong> to Bolinao takes about 4&#8369;5 hours. Having your own vehicle gives you the freedom to explore Patar Beach, the lighthouse, and Bolinao Falls at your own pace.</p>
+            <span class="step__detail"> Drive: ~4&#8369;5 hours &nbsp;|&nbsp;  Parking available at the beach</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Patar Beach and nearby attractions in Bolinao and Pangasinan.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Beaches</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127963; Heritage</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+      </div>
+    </div>
+    <div id="patar-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; clear skies, calm enough for swimming, and spectacular sunsets. The golden rock formations glow beautifully in dry season light.</li>
+            <li><strong>Sunset (5:00&#8369;6:30 PM):</strong> Patar Beach faces west &mdash; the sunsets here are among the most dramatic in Pangasinan. Plan to be on the beach at least an hour before sunset.</li>
+            <li><strong>Low Tide:</strong> Visit at low tide to explore the tide pools between the rock formations. Check tide tables before your visit.</li>
+            <li><strong>Avoid June &mdash; October:</strong> Typhoon season brings strong waves and rough conditions. Swimming is not recommended.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>What to Do</h3>
+          <ul>
+            <li><strong>Walk the rock formations</strong> at low tide &mdash; the ancient coral limestone boulders create a surreal landscape perfect for photography.</li>
+            <li><strong>Visit Cape Bolinao Lighthouse</strong> &mdash; a 19th-century lighthouse at the tip of the cape. Climb for panoramic views of the coastline.</li>
+            <li><strong>Swim and snorkel</strong> in the calmer sections of the beach &mdash; avoid the areas with strong currents and breaking waves.</li>
+            <li><strong>Watch the sunset</strong> from the rock formations &mdash; the combination of golden rocks, crashing waves, and a blazing sky is unforgettable.</li>
+            <li><strong>Explore the tide pools</strong> &mdash; sea urchins, starfish, small fish, and colorful anemones fill the pools between the rocks at low tide.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#9888;</div><h3>Safety &amp; Practical Tips</h3>
+          <ul>
+            <li><strong>Be careful of strong currents.</strong> Patar Beach faces the open South China Sea &mdash; waves and currents can be strong, especially during high tide. Swim only in designated safe areas.</li>
+            <li><strong>Wear water shoes</strong> when walking on the rock formations &mdash; the coral limestone is sharp and uneven.</li>
+            <li><strong>Bring cash</strong> &mdash; there are very few facilities at Patar Beach. Stock up on food, water, and supplies in Bolinao town before heading out.</li>
+            <li><strong>Don't take coral or shells.</strong> The rock formations and marine life are protected &mdash; leave everything as you found it.</li>
+            <li><strong>Bring sunscreen and a hat</strong> &mdash; there is very little shade on the beach and the sun is intense.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Patar Beach</h2>
+      <p class="section__intro">A complete guide to exploring Patar Beach and combining it with the best of Bolinao for a full day of discovery.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At Patar Beach</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Arrive &amp; Explore the Rock Formations</h4>
+                <p>Arrive in the morning when the light is soft and the beach is uncrowded. Walk along the shoreline and explore the ancient rock formations &mdash; each one is unique, sculpted by centuries of wind and waves into extraordinary shapes.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Mid-Morning</span>
+              <div class="timeline__content">
+                <h4>Cape Bolinao Lighthouse</h4>
+                <p>Walk or ride to the <strong>Cape Bolinao Lighthouse</strong> at the tip of the cape. The 1892 lighthouse offers sweeping views of the coastline and the open South China Sea. The surrounding area has dramatic cliff views.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Swimming &amp; Tide Pool Exploration</h4>
+                <p>Swim in the calmer sections of the beach and explore the tide pools at low tide. The pools between the rock formations are filled with marine life &mdash; a natural aquarium accessible without a boat.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Late Afternoon</span>
+              <div class="timeline__content">
+                <h4>Sunset from the Rocks</h4>
+                <p>Position yourself on the rock formations for sunset. The combination of golden rocks, crashing waves, and a blazing western sky is one of the most spectacular natural shows in Pangasinan. Bring a tripod for long-exposure shots.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Nearby in Bolinao</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">30 min away</span>
+              <div class="timeline__content">
+                <h4>Bolinao Falls</h4>
+                <p>A series of stunning waterfalls with natural swimming pools in the jungle. The cool, clear water is a perfect contrast to the salty beach. Multiple tiers to explore &mdash; each with its own pool and cascade.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1 hr away</span>
+              <div class="timeline__content">
+                <h4>Hundred Islands National Park</h4>
+                <p>124 islands and islets in the Lingayen Gulf. Island hopping, snorkeling, cliff jumping, and cave exploration. The perfect complement to a Patar Beach visit.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">In Bolinao Town</span>
+              <div class="timeline__content">
+                <h4>Bolinao Church &amp; Museum</h4>
+                <p>The Saint James the Apostle Parish Church &mdash; a 17th-century Spanish colonial church in Bolinao town. The adjacent museum houses pre-colonial artifacts and historical exhibits.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Patar Beach is unlike any other beach I've visited in the Philippines. It's raw, wild, and dramatic &mdash; the rock formations are extraordinary and the sunset was the most beautiful I've ever seen. We stayed until after dark and the sky was absolutely on fire. If you're combining with Hundred Islands, don't skip Patar &mdash; it's a completely different experience and equally stunning."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">VC</div>
+            <div>
+              <strong>Vanessa C.</strong>
+              <span>Travel Photographer, Baguio, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The tide pools at Patar Beach are incredible &mdash; we spent two hours just exploring them at low tide. Sea urchins, starfish, tiny fish, colorful anemones &mdash; it's like a natural aquarium right there between the rocks. And then the sunset hit and everything turned gold. We're already planning our next trip back. Bolinao is seriously underrated."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AT</div>
+            <div>
+              <strong>Alex T.</strong>
+              <span>Marine Biology Student, UP Diliman, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Chase the Wild Coast?</h2>
+        <p>Get our free Bolinao Travel Checklist + exclusive tips on the best beaches, waterfalls, and hidden spots in Pangasinan &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Patar Beach</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for coastal explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Mount Balagbag &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Rizal / Bulacan</span>
+      <h1 class="hero__headline">Manila's Closest<br>Mountain Escape</h1>
+      <p class="hero__sub">Mount Balagbag in Rodriguez, Rizal is one of the most accessible mountain hikes near Metro Manila &mdash; a beginner-friendly trail through pine and mossy forest leading to a summit with sweeping views of the Sierra Madre range, the Marikina Valley, and on clear days, Manila Bay.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>1,110m</strong><span>Summit Elevation</span></div>
+      <div class="hero__stat"><strong>Beginner</strong><span>Friendly Trail</span></div>
+      <div class="hero__stat"><strong>2hrs</strong><span>From Manila</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/balagbag.jpg" alt="Mount Balagbag summit view" class="intro__img intro__img--main" />
+        <img src="images/balagbag.jpg" alt="Mount Balagbag trail" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>The Weekend Hiker's Favorite</h2>
+        <p>Located in <strong>Rodriguez (Montalban), Rizal</strong> &mdash; on the border of Rizal and Bulacan provinces &mdash; <strong>Mount Balagbag</strong> stands at <strong>1,110 meters above sea level</strong> and is one of the most popular beginner and intermediate hiking destinations near Metro Manila. The mountain is part of the <strong>Sierra Madre mountain range</strong> and offers a genuine mountain experience within just 2 hours of the capital.</p>
+        <p>The trail to the summit passes through a beautiful mix of <strong>pine forest, mossy forest, and open grassland</strong>, with the vegetation changing character as you ascend. The summit offers a <strong>360-degree panoramic view</strong> &mdash; the Sierra Madre range stretching to the north and east, the Marikina Valley below, the urban sprawl of Metro Manila to the west, and on exceptionally clear days, the distant shimmer of Manila Bay.</p>
+        <p>Mount Balagbag is particularly popular for <strong>sunrise hikes</strong> &mdash; trekkers start in the early hours of the morning to reach the summit before dawn, watching the sun rise over the Sierra Madre while the city below is still dark. The mountain is also a popular destination for <strong>overnight camping</strong>, with a designated campsite near the summit offering extraordinary stargazing away from the city lights.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Sierra Madre Range &nbsp;&middot;&nbsp; <strong>1,110m Elevation</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Mount Balagbag</h2>
+      <p class="section__intro"><strong>Mount Balagbag</strong> is located in <strong>Rodriguez (Montalban), Rizal</strong> &mdash; about 30&#8369;40 km northeast of Manila. It's one of the closest mountains to the capital.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Jeepney from Cubao to Rodriguez</h3>
+            <p>Take a <strong>jeepney from Cubao</strong> (Araneta Center) to <strong>Rodriguez (Montalban), Rizal</strong>. Travel time is about 1&#8369;1.5 hours depending on traffic. Jeepneys run frequently throughout the day.</p>
+            <span class="step__detail"> Jeepney: ~1&#8369;1.5 hours &nbsp;|&nbsp;  ~&#8369;30&ndash;&#8369;50 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Rodriguez to the Jump-off</h3>
+            <p>From Rodriguez town center, hire a <strong>tricycle or habal-habal</strong> to the Mount Balagbag jump-off point in Barangay San Isidro. The ride takes about 20&#8369;30 minutes along a scenic road into the Sierra Madre foothills.</p>
+            <span class="step__detail"> Habal-habal to jump-off: ~&#8369;80&ndash;&#8369;120 &nbsp;|&nbsp; &mdash; ~20&#8369;30 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register at the Jump-off</h3>
+            <p>Register at the barangay hall or the designated registration point at the jump-off. Pay the environmental fee and arrange a local guide if needed. The trail is generally well-marked but a guide is recommended for first-time visitors.</p>
+            <span class="step__detail"> Environmental fee: ~&#8369;50 &nbsp;|&nbsp;  Guide: ~&#8369;300&ndash;&#8369;500 (optional)</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>The Hike</h3>
+            <p>The trail to the summit takes about <strong>3&#8369;4 hours</strong> at a moderate pace. The trail is well-defined and passes through beautiful forest. For sunrise hikes, start at 2&#8369;3 AM to reach the summit before dawn. For day hikes, start by 6&#8369;7 AM.</p>
+            <span class="step__detail"> Hike time: ~3&#8369;4 hours to summit &nbsp;|&nbsp;  Sunrise start: 2&#8369;3 AM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Mount Balagbag and nearby attractions in Rizal and Bulacan.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Mountain</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage">? Heritage</span>
+      </div>
+    </div>
+    <div id="balagbag-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; clear skies, dry trails, and the most dramatic summit views. December to February offers the clearest conditions.</li>
+            <li><strong>Sunrise hikes:</strong> The most popular option &mdash; start at 2&#8369;3 AM to reach the summit before dawn. The sunrise over the Sierra Madre is extraordinary.</li>
+            <li><strong>Weekdays:</strong> Far fewer hikers on the trail. The summit is more peaceful and the views feel more personal.</li>
+            <li><strong>Avoid rainy season (June &mdash; October):</strong> Trails become muddy and slippery. The summit is often cloud-covered, obscuring the views.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#129510;</div><h3>Hiking Tips</h3>
+          <ul>
+            <li><strong>Wear proper trekking shoes</strong> with good ankle support and grip &mdash; the trail has steep and rocky sections.</li>
+            <li><strong>Bring at least 2 liters of water</strong> per person &mdash; there are no water sources on the trail.</li>
+            <li><strong>Pack light but warm layers</strong> &mdash; the summit can be cold and windy, especially before sunrise.</li>
+            <li><strong>Use a headlamp for night hikes</strong> &mdash; essential for sunrise treks. Bring extra batteries.</li>
+            <li><strong>Leave no trace.</strong> Pack out all your trash &mdash; the mountain's beauty depends on every hiker's responsibility.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Camping Tips</h3>
+          <ul>
+            <li><strong>Overnight camping is allowed</strong> at the designated campsite near the summit. Register and pay the camping fee at the jump-off.</li>
+            <li><strong>Bring a tent and sleeping bag</strong> &mdash; summit temperatures can drop significantly at night.</li>
+            <li><strong>Stargazing from the summit</strong> is extraordinary &mdash; away from city lights, the Milky Way is clearly visible on clear nights.</li>
+            <li><strong>Pack out all waste</strong> &mdash; the campsite must be left cleaner than you found it.</li>
+            <li><strong>Campfire is not allowed</strong> &mdash; use a portable stove for cooking.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Mount Balagbag</h2>
+      <p class="section__intro">A complete guide to the hike and a suggested Bulacan/Rizal day tour.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Sunrise Hike</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">2:00 AM</span>
+              <div class="timeline__content">
+                <h4>Depart from Manila</h4>
+                <p>Leave Manila by 2 AM to reach the jump-off by 3&#8369;3:30 AM. Register, gear up, and begin the ascent with your headlamp. The forest at night is atmospheric and the cool air makes the climb more comfortable.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">5:00 AM</span>
+              <div class="timeline__content">
+                <h4>Reach the Summit</h4>
+                <p>Arrive at the summit before dawn. Find your spot, set up, and wait for the sunrise. The sky begins to lighten over the Sierra Madre &mdash; first a deep blue, then purple, then orange and gold as the sun crests the mountains.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">5:30 AM</span>
+              <div class="timeline__content">
+                <h4>Sunrise Over the Sierra Madre</h4>
+                <p>Watch the sun rise over the Sierra Madre range. The panoramic view &mdash; mountains to the east, the Marikina Valley below, Metro Manila to the west &mdash; is one of the most dramatic natural spectacles accessible from the capital.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Descend &amp; Breakfast</h4>
+                <p>Begin the descent after enjoying the summit views. Return to Rodriguez for a well-earned breakfast at a local eatery. The combination of the sunrise hike and a hot meal is one of the most satisfying experiences near Manila.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Bulacan Day Tour</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Barasoain Church (Malolos)</h4>
+                <p>Start at the birthplace of Philippine democracy &mdash; the church museum, interior, and heritage walk. Allow 2 hours for a thorough visit.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Biak-na-Bato National Park</h4>
+                <p>Cave exploration, Madlum River swimming, and forest trail walk in San Miguel. Allow 3&#8369;4 hours for the full park experience.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Mount Balagbag (Day Hike)</h4>
+                <p>For a day hike option, start the ascent by 2&#8369;3 PM for a sunset summit experience. The views at golden hour are equally spectacular to sunrise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I've done the Mount Balagbag sunrise hike three times and it never gets old. Watching the sun rise over the Sierra Madre from the summit, with Metro Manila glittering below and the mountains stretching to the horizon &mdash; it's one of those experiences that reminds you why you live in the Philippines. The trail is challenging but very doable for beginners. Just start early."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">KS</div>
+            <div><strong>Kevin S.</strong><span>Weekend Hiker, Quezon City, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We camped overnight at the summit and the stargazing was extraordinary &mdash; the Milky Way was clearly visible and the silence was profound. Waking up to the sunrise over the Sierra Madre from our tent was one of the most beautiful mornings of my life. Mount Balagbag is a treasure that most Manila residents don't know is just 2 hours away."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AT</div>
+            <div><strong>Ana T.</strong><span>Outdoor Enthusiast, Makati, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Watch the Sunrise Over the Sierra Madre?</h2>
+        <p>Get our free Mount Balagbag Hiking Guide + exclusive tips on trail conditions, camping, and the best of Rizal and Bulacan &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Mount Balagbag</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Hiking Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for mountain lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

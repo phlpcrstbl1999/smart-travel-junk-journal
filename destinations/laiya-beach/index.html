@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Laiya Beach &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Batangas</span>
+      <h1 class="hero__headline">Batangas'<br>White Sand<br>Escape</h1>
+      <p class="hero__sub">Laiya Beach in San Juan, Batangas is the most popular beach destination near Manila &mdash; a long stretch of fine white sand, crystal-clear turquoise water, vibrant coral reefs, and a string of beach resorts just 3 hours from the capital. The perfect weekend escape for Manila's beach lovers.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Weekend</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>White</strong><span>Sand Beach</span></div>
+      <div class="hero__stat"><strong>3hrs</strong><span>From Manila</span></div>
+      <div class="hero__stat"><strong>Coral</strong><span>Reef Snorkeling</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/laiya.jpg" alt="Laiya Beach white sand" class="intro__img intro__img--main" />
+        <img src="images/laiya.jpg" alt="Laiya Beach coral reef" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Manila's Nearest White Sand Paradise</h2>
+        <p><strong>Laiya Beach</strong> in <strong>San Juan, Batangas</strong> is the most accessible white sand beach from Metro Manila &mdash; just 3 hours by car via SLEX and the Batangas highway. Unlike the grey volcanic sand of Zambales or the black sand of some Batangas beaches, Laiya offers the fine white sand and clear turquoise water that most Manila residents associate with a proper beach holiday.</p>
+        <p>The Laiya coastline stretches for several kilometers along the <strong>Tayabas Bay</strong> side of the Batangas peninsula, facing the Sibuyan Sea. The water is calm, clear, and warm year-round &mdash; ideal for swimming, snorkeling, and kayaking. The offshore coral reefs are among the most accessible in Batangas, with vibrant marine life visible even from the surface. Several dive shops along the beach offer equipment rental and guided dives for more serious underwater exploration.</p>
+        <p>The beach is lined with a range of <strong>beach resorts</strong> &mdash; from budget-friendly day-use facilities to mid-range overnight resorts with cottages, pools, and restaurants. The area is particularly popular for <strong>company outings, family reunions, and barkada (friend group) trips</strong> &mdash; the combination of easy access from Manila, white sand, clear water, and affordable resorts makes it the default beach destination for millions of Metro Manila residents.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Tayabas Bay &nbsp;&middot;&nbsp; <strong>3 Hours from Manila</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Laiya Beach</h2>
+      <p class="section__intro"><strong>Laiya Beach</strong> is in <strong>San Juan, Batangas</strong> &mdash; about 160 km southeast of Manila. The drive takes about 3 hours via SLEX and the Batangas highway.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Drive from Manila via SLEX</h3>
+            <p>Drive via <strong>SLEX &mdash; Sto. Tomas &mdash; Batangas City &mdash; San Juan &mdash; Laiya</strong>. The drive takes about 3 hours from Manila depending on traffic. Having your own vehicle is the most convenient option &mdash; it gives you flexibility to choose your resort and explore the coastline.</p>
+            <span class="step__detail"> Manila to Laiya: ~3 hours &nbsp;|&nbsp;  Parking at all resorts</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Bus from Manila to San Juan</h3>
+            <p>Take a <strong>DLTB or Jam Liner bus</strong> from Buendia (Pasay) to <strong>San Juan, Batangas</strong>. From the San Juan terminal, take a tricycle to your resort in Laiya (about 20&#8369;30 minutes). Some resorts offer shuttle services from the terminal.</p>
+            <span class="step__detail"> Manila to San Juan: ~3&#8369;3.5 hours &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;250</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Choose Your Resort</h3>
+            <p>Laiya has dozens of resorts ranging from budget day-use facilities to mid-range overnight resorts. <strong>Book in advance</strong> for weekends and holidays &mdash; popular resorts fill up quickly. Most resorts charge an entrance fee for day use and offer cottage rentals for overnight stays.</p>
+            <span class="step__detail"> Day use: ~&#8369;200&ndash;&#8369;500 &nbsp;|&nbsp;  Overnight cottage: ~&#8369;1,500&#8369;5,000</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Snorkeling &amp; Water Activities</h3>
+            <p>Rent snorkeling gear from your resort or from the beach vendors to explore the offshore coral reefs. Kayaks, paddleboards, and banana boats are available at most resorts. For scuba diving, several dive shops along the beach offer equipment rental and guided dives.</p>
+            <span class="step__detail"> Snorkel gear: ~&#8369;100&ndash;&#8369;200 &nbsp;|&nbsp;  Kayak: ~&#8369;200&ndash;&#8369;300/hour</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Laiya Beach and nearby Batangas attractions.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Beach</span>
+        <span class="map-legend__item map-legend__item--nature"> Diving</span>
+        <span class="map-legend__item map-legend__item--heritage"> Heritage</span>
+      </div>
+    </div>
+    <div id="laiya-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> The best time for Laiya &mdash; calm seas, clear water, and sunny skies. The beach is at its most beautiful from December to April.</li>
+            <li><strong>Avoid typhoon season:</strong> JuneOctober can bring rough seas and heavy rain. Some resorts close or limit activities during typhoon season. Check weather forecasts before going.</li>
+            <li><strong>Weekdays:</strong> Laiya is extremely popular on weekends &mdash; weekday visits are far less crowded, the water is cleaner, and resorts are more relaxed. If you can go on a weekday, do it.</li>
+            <li><strong>Book in advance:</strong> Popular resorts fill up weeks in advance for peak weekends (Christmas, New Year, Holy Week, summer). Book early to secure your preferred resort and cottage.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Water Activities</h3>
+          <ul>
+            <li><strong>Snorkeling:</strong> The coral reefs off Laiya are accessible from the beach &mdash; wade out 50&#8369;100 meters and the reef begins. Best snorkeling is in the morning before the afternoon boat traffic stirs up the sand.</li>
+            <li><strong>Scuba diving:</strong> Several dive sites around San Juan offer wall dives, coral gardens, and occasional pelagic sightings. Dive shops along the beach offer PADI courses and guided dives.</li>
+            <li><strong>Island hopping:</strong> Boat tours to nearby islands and snorkeling spots are available from the beach. Ask your resort to arrange a boat for a half-day island hopping trip.</li>
+            <li><strong>Kayaking:</strong> Kayaks are available at most resorts &mdash; paddle along the coastline for a different perspective of the beach and the surrounding hills.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Food &amp; Practical Tips</h3>
+          <ul>
+            <li><strong>Fresh seafood:</strong> The restaurants at Laiya resorts serve excellent fresh seafood &mdash; grilled fish, shrimp, squid, and crab caught locally. The seafood is fresher and cheaper than in Manila.</li>
+            <li><strong>Bring cash:</strong> Most resorts and beach vendors are cash-only. There are ATMs in San Juan town but not on the beach itself. Bring enough cash for your entire stay.</li>
+            <li><strong>Sunscreen:</strong> The Batangas sun is intense &mdash; apply waterproof sunscreen generously and reapply after swimming. A rash guard is recommended for extended time in the water.</li>
+            <li><strong>Respect the reef:</strong> Do not stand on or touch the coral. Do not take shells, coral, or marine life from the water. The reefs are fragile and take decades to recover from damage.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend a Weekend at Laiya Beach</h2>
+      <p class="section__intro">Two days at Laiya &mdash; snorkeling, island hopping, fresh seafood, and sunsets over Tayabas Bay &mdash; is the perfect Manila weekend escape.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">5:00 AM</span>
+              <div class="timeline__content">
+                <h4>Early Departure from Manila</h4>
+                <p>Leave Manila before 6 AM to beat the SLEX traffic. The 3-hour drive is much more pleasant in the early morning. Arrive at your resort by 8&#8369;9 AM &mdash; early enough to catch the best morning snorkeling conditions.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Morning Snorkeling</h4>
+                <p>The water is clearest in the morning before the afternoon boat traffic. Rent snorkel gear and explore the offshore coral reefs &mdash; the marine life is most active in the morning hours.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">12:00 PM</span>
+              <div class="timeline__content">
+                <h4>Fresh Seafood Lunch</h4>
+                <p>Have lunch at your resort restaurant &mdash; grilled fish, shrimp, and squid fresh from the Tayabas Bay. Order the catch of the day for the freshest option.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">3:00 PM</span>
+              <div class="timeline__content">
+                <h4>Kayaking &amp; Beach Time</h4>
+                <p>Rent a kayak for an afternoon paddle along the coastline, then relax on the beach as the afternoon light turns golden. The late afternoon is the best time for beach photography.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Sunrise &amp; Early Swim</h4>
+                <p>Wake up for the sunrise over Tayabas Bay &mdash; the morning light on the water is spectacular. Take an early swim before the beach gets busy.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Island Hopping Boat Tour</h4>
+                <p>Arrange a half-day island hopping boat tour through your resort &mdash; visit nearby snorkeling spots, small islands, and hidden coves along the San Juan coastline.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Check Out &amp; Drive Home</h4>
+                <p>Check out after lunch and begin the drive back to Manila. Stop at Taal town on the way back to visit the Taal Basilica &mdash; a perfect heritage complement to the beach weekend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Laiya is our go-to beach for long weekends. It's close enough from Manila that you don't waste a whole day traveling, the sand is genuinely white and fine, and the water is clear enough for snorkeling. We've been going for years and it never disappoints. Book your resort early for peak weekends &mdash; the good ones fill up fast. The fresh seafood at the resort restaurants is always excellent."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MC</div>
+            <div><strong>Maria C.</strong><span>Weekend Traveler, Makati, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We combined Laiya with Taal Basilica on the drive back to Manila &mdash; it was the perfect Batangas weekend. Beach and snorkeling on Saturday, then the basilica and heritage town walk on Sunday afternoon before heading home. The contrast between the natural beauty of the beach and the architectural grandeur of the basilica made for a really complete trip. Highly recommend this combination."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JD</div>
+            <div><strong>James D.</strong><span>Travel Enthusiast, BGC, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready for Your Batangas Beach Weekend?</h2>
+        <p>Get our free Laiya Beach Travel Guide + resort recommendations, snorkeling tips, and how to combine with Taal Basilica and Taal Volcano &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Laiya Beach</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Weekend Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for beach lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

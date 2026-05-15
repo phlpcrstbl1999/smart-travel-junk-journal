@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Governor Rapids &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Quirino</span>
+      <h1 class="hero__headline">Where the River<br>Runs Wild</h1>
+      <p class="hero__sub">Governor Rapids on the Cagayan River in Quirino province is one of the most dramatic river landscapes in northern Luzon &mdash; powerful rapids, crystal-clear water, forested banks, and a sense of raw natural energy that makes it a favorite for swimming, kayaking, and riverside adventure.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Cagayan</strong><span>River System</span></div>
+      <div class="hero__stat"><strong>Rapids</strong><span>&amp; Swimming Holes</span></div>
+      <div class="hero__stat"><strong>Wild</strong><span>River Adventure</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/rapids.jpg" alt="Governor Rapids Cagayan River" class="intro__img intro__img--main" />
+        <img src="images/rapids.jpg" alt="Swimming at Governor Rapids" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Quirino's Wild River Playground</h2>
+        <p>Located along the <strong>Cagayan River</strong> in <strong>Quirino province</strong>, <strong>Governor Rapids</strong> is a stretch of dramatic river rapids that has become one of the most popular natural attractions in the region. The Cagayan River &mdash; the longest river in the Philippines &middot; flows through Quirino with considerable force, creating a series of rapids, pools, and river scenery that is both beautiful and exhilarating.</p>
+        <p>The rapids are named after the provincial governor who first developed the area as a tourist destination. The site features <strong>natural swimming holes</strong> in the calmer sections beside the rapids, rocky riverbanks perfect for picnicking, and the dramatic sight and sound of the river rushing through the narrow gorge. The surrounding forest adds to the wild, unspoiled character of the location.</p>
+        <p>Governor Rapids is a popular destination for <strong>swimming, river tubing, kayaking, and picnicking</strong>. The combination of the powerful rapids, the clear river water, and the forested setting makes it one of the most refreshing and energizing natural experiences in Quirino province. It is best visited as part of a full Quirino day tour combining the caves, the rapids, and Siitan Nature's Park.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Cagayan River &nbsp;&middot;&nbsp; <strong>Quirino Province</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Governor Rapids</h2>
+      <p class="section__intro"><strong>Governor Rapids</strong> is located along the Cagayan River in <strong>Quirino province</strong> &mdash; about 300 km north of Manila. The nearest major city is <strong>Cabarroguis</strong>, the provincial capital.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Cabarroguis</h3>
+            <p>Autobus Transport and other bus lines operate services from <strong>Cubao, Quezon City</strong> to <strong>Cabarroguis, Quirino</strong>. Travel time is about 7&#8369;8 hours. Buses typically depart in the evening for an overnight journey.</p>
+            <span class="step__detail"> Travel time: ~7&#8369;8 hours &nbsp;|&nbsp;  ~&#8369;500&ndash;&#8369;700 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Cabarroguis to Governor Rapids</h3>
+            <p>From Cabarroguis, hire a <strong>tricycle, van, or habal-habal</strong> to Governor Rapids. The site is accessible by road and the journey takes about 20&#8369;40 minutes depending on the exact location along the river. Ask locals for the most current directions.</p>
+            <span class="step__detail"> Tricycle/van: ~20&#8369;40 min &nbsp;|&nbsp;  ~&#8369;100&ndash;&#8369;200</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Arrive at the River</h3>
+            <p>The site has a small entrance area with basic facilities. Register and pay the minimal entrance fee. Local guides and river activity operators are available at the site for kayaking, river tubing, and guided river tours.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp;  Kayak/tube rental: ~&#8369;100&ndash;&#8369;200</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Combine with Quirino Day Tour</h3>
+            <p>Governor Rapids is best combined with <strong>Aglipay Caves</strong> in the morning and <strong>Siitan Nature's Park</strong> in the afternoon for a full Quirino adventure day. All three sites are within reasonable distance of Cabarroguis.</p>
+            <span class="step__detail"> Combine with Aglipay Caves &amp; Siitan &nbsp;|&nbsp; Full day recommended</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Governor Rapids and nearby attractions in Quirino province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Rapids</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Towns</span>
+      </div>
+    </div>
+    <div id="rapids-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; lower, clearer river water, calmer conditions for swimming, and safer rapids for kayaking and tubing.</li>
+            <li><strong>After moderate rains:</strong> The rapids are most powerful and dramatic after recent rainfall &mdash; the river runs higher and faster, creating more impressive scenery.</li>
+            <li><strong>Avoid typhoon season (June &mdash; October):</strong> Flash floods can make the river extremely dangerous. Never swim in the rapids during or after heavy rain.</li>
+            <li><strong>Weekdays:</strong> Far fewer visitors. The river feels more wild and private without weekend crowds.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>River Safety</h3>
+          <ul>
+            <li><strong>Never swim in the rapids themselves.</strong> The current is powerful and unpredictable &mdash; swim only in the designated calm sections beside the rapids.</li>
+            <li><strong>Wear a life jacket</strong> for kayaking and river tubing &mdash; available for rent at the site.</li>
+            <li><strong>Check water levels</strong> before entering the river &mdash; after heavy rain, the river can rise rapidly and become dangerous.</li>
+            <li><strong>Don't swim alone.</strong> Always have a companion and stay within sight of the riverbank.</li>
+            <li><strong>Respect the river.</strong> The Cagayan River is powerful &mdash; treat it with caution and respect at all times.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Swimwear</strong> &mdash; the natural pools beside the rapids are perfect for swimming.</li>
+            <li><strong>Water shoes</strong> &mdash; the riverbank is rocky and uneven. Bare feet are not recommended.</li>
+            <li><strong>Waterproof bag</strong> for your phone, camera, and valuables.</li>
+            <li><strong>Sunscreen</strong> &mdash; you'll be in the sun for hours on the open riverbank.</li>
+            <li><strong>Packed lunch and water</strong> &mdash; food options at the site are limited. Bring your own for a riverside picnic.</li>
+            <li><strong>Cash</strong> &mdash; no ATMs near the rapids. Withdraw in Cabarroguis before heading out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Governor Rapids</h2>
+      <p class="section__intro">A complete guide to the rapids and a suggested Quirino province day tour.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Rapids</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Arrive &amp; Take in the River</h4>
+                <p>Walk to the riverbank and take in the full scale of the rapids. The sound of the rushing water, the spray in the air, and the forested banks create an immediately energizing atmosphere. Find a good vantage point to observe the rapids before entering the water.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Swimming in the Natural Pools</h4>
+                <p>Find the calm swimming holes beside the rapids &mdash; clear, cool river water perfect for swimming and floating. The contrast of the powerful rapids nearby and the calm pools makes for a unique swimming experience.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Kayaking or River Tubing</h4>
+                <p>Rent a kayak or river tube and explore the calmer sections of the river. Experienced paddlers can navigate closer to the rapids &mdash; always with a life jacket and within sight of the bank.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Riverside Picnic</h4>
+                <p>Set up a picnic on the rocky riverbank. The sound of the rapids, the cool river breeze, and the forested surroundings make for one of the most pleasant outdoor dining experiences in Quirino province.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Quirino Day Tour</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Aglipay Caves National Park</h4>
+                <p>Start your day at Aglipay Caves &mdash; explore the cave chambers and the surrounding national park forest. Stay for the bat emergence at dusk if you're doing a full day.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Governor Rapids</h4>
+                <p>Head to the rapids for swimming, kayaking, and a riverside picnic. The midday heat makes the cool river water especially refreshing.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Siitan Nature's Park</h4>
+                <p>End your day at Siitan Nature's Park &mdash; a scenic riverside park with swimming holes, forest trails, and a peaceful natural setting along the Siitan River.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Governor Rapids is exactly what you want from a river destination &mdash; powerful, beautiful, and completely unspoiled. We spent the whole afternoon swimming in the pools beside the rapids, watching the water rush past, and having a picnic on the rocks. The forest on both banks is pristine and the whole place feels completely wild. Quirino is a hidden gem and the rapids are one of its best features."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">DM</div>
+            <div>
+              <strong>Diego M.</strong>
+              <span>River Adventurer, Quezon City, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We did the full Quirino day &mdash; Aglipay Caves in the morning, Governor Rapids at midday, and Siitan in the afternoon. The rapids were the highlight. The sound of the water, the spray on your face, the cool pools &mdash; it was incredibly refreshing after the cave exploration. Quirino deserves to be on every adventure traveler's list."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AL</div>
+            <div>
+              <strong>Ana L.</strong>
+              <span>Adventure Traveler, Makati, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Feel the Rush of the Cagayan River?</h2>
+        <p>Get our free Quirino Travel Guide + exclusive tips on rapids, caves, and the best of this wild province &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Governor Rapids</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for river adventurers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

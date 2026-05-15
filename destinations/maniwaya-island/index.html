@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Maniwaya Island &mdash; Marinduque Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Marinduque</span>
+      <h1 class="hero__headline">Marinduque's<br>Hidden Paradise</h1>
+      <p class="hero__sub">Maniwaya Island is Marinduque's best-kept secret &mdash; a pristine island of powdery white sand, crystal-clear turquoise water, and vibrant coral reefs, far from the crowds of more famous Philippine beach destinations.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>White</strong><span>Sand Beaches</span></div>
+      <div class="hero__stat"><strong>Coral</strong><span>Reef Snorkeling</span></div>
+      <div class="hero__stat"><strong>Unspoiled</strong><span>Island Life</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/maniwaya-island.JPG" alt="Maniwaya Island white sand beach" class="intro__img intro__img--main" />
+        <img src="images/maniwaya-island.JPG" alt="Maniwaya Island coral reef snorkeling" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; About</span>
+        <h2>The Island That Time Forgot</h2>
+        <p>Tucked off the coast of <strong>Santa Cruz</strong> in Marinduque, <strong>Maniwaya Island</strong> is one of the most beautiful and least-visited islands in the Philippines. Its beaches rival those of Palawan and Boracay &mdash; but without the crowds, the resorts, or the noise.</p>
+        <p>The island is surrounded by <strong>healthy coral reefs</strong> teeming with marine life, making it a superb destination for snorkeling and freediving. The main beach stretches for hundreds of meters of fine white sand, with shallow, calm waters perfect for swimming. At low tide, a sandbar emerges connecting parts of the island &mdash; a magical natural phenomenon.</p>
+        <p>Maniwaya is part of the <strong>Three Islands</strong> group in Santa Cruz, along with Polo Island and Elephant Island. A boat tour of all three in a single day is one of Marinduque's most popular activities &mdash; and one of the most rewarding.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Santa Cruz, Marinduque &nbsp;&middot;&nbsp; <strong>Part of the Three Islands</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Maniwaya Island</h2>
+      <p class="section__intro">Maniwaya Island is reached via Santa Cruz, Marinduque. The journey combines a bus, a ferry, and a short boat ride &mdash; all part of the adventure.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus to Lucena, then Ferry to Marinduque</h3>
+            <p>From Manila, take a bus to <strong>Lucena City</strong> (~3&#8369;4 hours), then a ferry from <strong>Dalahican Port</strong> to <strong>Balanacan Port</strong> in Marinduque (~3 hours). Ferries run several times daily.</p>
+            <span class="step__detail"> Bus: ~3&#8369;4 hrs &nbsp;|&nbsp;  Ferry: ~3 hrs &nbsp;|&nbsp;  ~&#8369;400&ndash;&#8369;650 total</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Van or Jeepney to Santa Cruz</h3>
+            <p>From Balanacan Port, take a van or jeepney to <strong>Santa Cruz</strong> &mdash; the jump-off point for Maniwaya Island. The ride takes about 45 minutes to 1 hour along the scenic coastal road.</p>
+            <span class="step__detail"> Van to Santa Cruz: ~45&#8369;60 min &nbsp;|&nbsp;  ~&#8369;60&ndash;&#8369;100</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Boat from Santa Cruz to Maniwaya</h3>
+            <p>From the <strong>Santa Cruz port</strong>, hire a bangka (outrigger boat) to Maniwaya Island. The crossing takes about 20&#8369;30 minutes. You can hire a boat for the whole day to visit all three islands.</p>
+            <span class="step__detail"> Boat: ~20&#8369;30 min &nbsp;|&nbsp;  ~&#8369;800&ndash;&#8369;1,200 for a full-day boat</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Alternatively: Fly to Marinduque</h3>
+            <p>Fly from Manila to <strong>Marinduque Airport</strong> in Gasan (~45 min), then take a van to Santa Cruz (~30 min) and a boat to Maniwaya. This cuts total travel time significantly.</p>
+            <span class="step__detail"> Flight: ~45 min &nbsp;|&nbsp;  Van + boat: ~1 hr total</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Maniwaya Island, the Three Islands, and nearby Marinduque attractions.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Islands</span>
+        <span class="map-legend__item map-legend__item--nature"> Marine Sites</span>
+        <span class="map-legend__item map-legend__item--heritage"> Jump-off Points</span>
+      </div>
+    </div>
+    <div id="maniwaya-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; calm seas, clear water, and perfect beach weather. Ideal for snorkeling and island hopping.</li>
+            <li><strong>March &mdash; April:</strong> Combine your beach trip with the Moriones Festival in Boac for a complete Marinduque experience.</li>
+            <li><strong>Avoid June &mdash; October:</strong> Typhoon season brings rough seas and suspended boat services. Not ideal for island visits.</li>
+            <li><strong>Weekdays:</strong> Visit on weekdays to have the beach almost entirely to yourself.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Snorkeling gear</strong> &mdash; bring your own mask and fins for the best experience. Rentals are available but limited.</li>
+            <li><strong>Reef-safe sunscreen</strong> &mdash; protect the coral reefs. Regular sunscreen is harmful to marine ecosystems.</li>
+            <li><strong>Cash</strong> &mdash; there are no ATMs on the island. Bring enough for food, boat hire, and entrance fees.</li>
+            <li><strong>Food and water</strong> &mdash; options on the island are very limited. Pack snacks and extra drinking water.</li>
+            <li><strong>Dry bag</strong> &mdash; to protect your phone and valuables during the boat ride.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Island Tips</h3>
+          <ul>
+            <li><strong>Book a full-day boat</strong> to visit all three islands &mdash; Maniwaya, Polo, and Elephant Island &mdash; in one trip. Worth every peso.</li>
+            <li><strong>Arrive early.</strong> The sandbar at low tide is one of the island's highlights &mdash; check tide times before you go.</li>
+            <li><strong>Pack out your trash.</strong> Maniwaya is pristine &mdash; help keep it that way. Leave no trace.</li>
+            <li><strong>Stay overnight</strong> if possible. A few basic cottages are available on the island &mdash; waking up to that beach is unforgettable.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend a Day on Maniwaya Island</h2>
+      <p class="section__intro">A full day is enough to experience the best of Maniwaya and the Three Islands. Start early to make the most of the calm morning waters.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Morning</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Depart Santa Cruz by Boat</h4>
+                <p>Hire a bangka from the <strong>Santa Cruz port</strong> early in the morning. The sea is calmest in the morning, and you'll arrive at Maniwaya with the whole beach to yourself before day-trippers arrive.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">7:30 AM</span>
+              <div class="timeline__content">
+                <h4>Arrive at Maniwaya Beach</h4>
+                <p>Set up on the main beach and take in the view &mdash; white sand, turquoise water, and the surrounding islands in the distance. If the tide is low, walk out to the <strong>sandbar</strong> that emerges between the islands.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Snorkeling the Coral Reef</h4>
+                <p>The reef just off Maniwaya's shore is one of the healthiest in Marinduque. Snorkel among colorful fish, sea turtles, and vibrant coral formations. The water is clear and shallow &mdash; perfect for beginners.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Afternoon</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">11:30 AM</span>
+              <div class="timeline__content">
+                <h4>Lunch on the Island</h4>
+                <p>Enjoy a simple lunch of grilled fish and rice at one of the small cottages on the island. Fresh catch cooked over charcoal, eaten with your feet in the sand &mdash; it doesn't get better than this.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Island Hop to Polo &amp; Elephant Islands</h4>
+                <p>Ask your boatman to take you to <strong>Polo Island</strong> and <strong>Elephant Island</strong> &mdash; the other two of the Three Islands. Each has its own character: Polo for its lagoon, Elephant for its dramatic rock formations.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">4:00 PM</span>
+              <div class="timeline__content">
+                <h4>Return to Santa Cruz</h4>
+                <p>Head back to Santa Cruz before sunset. The late afternoon light on the water during the return boat ride is stunning. From Santa Cruz, take a van back to Boac or your accommodation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I've been to Palawan, Siargao, and Boracay &mdash; and Maniwaya holds its own against all of them. The difference is the silence. No jet skis, no beach vendors, no thumping music. Just the sound of waves, the crunch of white sand under your feet, and the occasional splash of a fish jumping. The snorkeling was world-class &mdash; I saw a sea turtle within the first five minutes. This island is a treasure, and I hope it stays this way."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JM</div>
+            <div>
+              <strong>Javier M.</strong>
+              <span>Diver &amp; Island Hopper, Madrid, Spain</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We almost didn't go to Maniwaya because the journey seemed complicated &mdash; bus, ferry, van, boat. But every single step was worth it. The island is absolutely stunning. We stayed overnight in a basic cottage right on the beach, and waking up to that view at sunrise was one of the most beautiful moments of my life. The locals were incredibly warm and welcoming. Marinduque in general is underrated &mdash; Maniwaya is its crown jewel."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LT</div>
+            <div>
+              <strong>Lea T.</strong>
+              <span>Travel Blogger, Singapore</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Find Your Island Paradise?</h2>
+        <p>Get our free Maniwaya Island Guide + tips on the best snorkeling spots, boat hire, and where to stay &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Maniwaya</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for island lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

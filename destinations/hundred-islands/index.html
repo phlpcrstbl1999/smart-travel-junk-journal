@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Hundred Islands National Park &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Pangasinan</span>
+      <h1 class="hero__headline">A Hundred Islands<br>Waiting to Be Explored</h1>
+      <p class="hero__sub">Hundred Islands National Park is one of the Philippines' oldest and most beloved national parks &mdash; a scattered archipelago of 124 coral and limestone islands rising from the Lingayen Gulf, each one a world of its own.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your 48-Hour Trip</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>124</strong><span>Islands</span></div>
+      <div class="hero__stat"><strong>1940</strong><span>National Park Since</span></div>
+      <div class="hero__stat"><strong>16km</strong><span>Total Area</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hundred-islands.jpg" alt="Hundred Islands aerial view" class="intro__img intro__img--main" />
+        <img src="images/hundred-islands.jpg" alt="Island hopping at Hundred Islands" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The Philippines' Oldest National Park</h2>
+        <p>Declared a <strong>National Park in 1940</strong>, Hundred Islands is one of the oldest protected areas in the Philippines. Located in <strong>Alaminos City, Pangasinan</strong>, the park encompasses <strong>124 islands and islets</strong> scattered across 16 square kilometers of the Lingayen Gulf. Despite the name, there are actually 124 islands &mdash; not a hundred &mdash; but the name has stuck for over a century.</p>
+        <p>The islands are formed from <strong>ancient coral reefs</strong> that were uplifted over millions of years, creating dramatic limestone formations, sea caves, hidden lagoons, and white sand beaches. Each island has its own character &mdash; some are forested, some are bare rock, some have beaches, and some hide caves and tunnels accessible only by swimming.</p>
+        <p>The park is a haven for <strong>island hopping, snorkeling, kayaking, cliff jumping, and cave exploration</strong>. Three main islands &mdash; <strong>Governor's Island, Children's Island, and Quezon Island</strong> &mdash; have basic facilities and are the most visited. But the real magic lies in the smaller, less-visited islands where you can have an entire beach to yourself.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>National Park Since 1940 &nbsp;&middot;&nbsp; <strong>124 Islands &amp; Islets</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Hundred Islands</h2>
+      <p class="section__intro">Hundred Islands is located in <strong>Alaminos City, Pangasinan</strong>, about 250 km north of Manila. The jump-off point is the <strong>Lucap Wharf</strong> in Alaminos.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Alaminos</h3>
+            <p>Five Star Bus and Dagupan Bus operate direct trips from <strong>Cubao or Pasay</strong> to <strong>Alaminos City, Pangasinan</strong>. Travel time is about 5&#8369;6 hours. Buses run throughout the day and early morning.</p>
+            <span class="step__detail"> Travel time: ~5&#8369;6 hours &nbsp;|&nbsp;  ~&#8369;350&ndash;&#8369;500 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Tricycle to Lucap Wharf</h3>
+            <p>From the Alaminos bus terminal, take a <strong>tricycle to Lucap Wharf</strong> &mdash; the main jump-off point for Hundred Islands. The ride takes about 10&#8369;15 minutes. The wharf is where you register, pay fees, and hire your boat.</p>
+            <span class="step__detail"> Tricycle: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp; &mdash; ~10&#8369;15 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register &amp; Pay Fees at Lucap Wharf</h3>
+            <p>At the wharf, register at the <strong>Hundred Islands National Park office</strong> and pay the entrance fee. Then hire a <strong>motorized banca boat</strong> for your island hopping tour. Negotiate the route and price with your boatman.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;50&ndash;&#8369;100 &nbsp;|&nbsp; &mdash; Boat rental: ~&#8369;800&ndash;&#8369;1,500/day</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Start Your Island Hopping</h3>
+            <p>Your boatman will take you to your chosen islands. Most tours cover <strong>3&#8369;5 islands</strong> in a half-day trip. For a full experience, book a full-day tour and ask your boatman to include some of the smaller, less-visited islands.</p>
+            <span class="step__detail">&#128652; Half-day tour: ~3&#8369;4 hours &nbsp;|&nbsp; Full-day: ~6&#8369;7 hours</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Islands &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore the main islands, beaches, and nearby attractions in Hundred Islands National Park.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Islands</span>
+        <span class="map-legend__item map-legend__item--nature"> Activities</span>
+        <span class="map-legend__item map-legend__item--food">? Jump-off</span>
+      </div>
+    </div>
+    <div id="hundred-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; calm seas, clear water, and sunny skies. Ideal for snorkeling, kayaking, and cliff jumping.</li>
+            <li><strong>March &mdash; May:</strong> Peak season with the most visitors. Book accommodation in Alaminos in advance, especially on weekends.</li>
+            <li><strong>Weekdays:</strong> Far fewer crowds. The islands feel more private and the water is cleaner without the weekend rush.</li>
+            <li><strong>Avoid June &mdash; October:</strong> Typhoon season brings rough seas and strong winds. Some islands may be inaccessible.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Island Hopping Tips</h3>
+          <ul>
+            <li><strong>Negotiate your boat route</strong> before departing. Tell your boatman which islands you want to visit &mdash; including smaller, less-visited ones.</li>
+            <li><strong>Bring your own snorkeling gear</strong> if possible &mdash; rental gear at the wharf is available but quality varies.</li>
+            <li><strong>Try cliff jumping at Quezon Island</strong> &mdash; there are platforms at various heights for different comfort levels.</li>
+            <li><strong>Explore the caves</strong> on Governor's Island and other islands &mdash; some require swimming through tunnels to access hidden chambers.</li>
+            <li><strong>Bring cash</strong> &mdash; there are no ATMs on the islands. Withdraw in Alaminos before heading to the wharf.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Reef-safe sunscreen</strong> &mdash; you'll be in the sun all day. Protect your skin and the coral reefs.</li>
+            <li><strong>Waterproof bag or dry bag</strong> &mdash; keep your phone, camera, and valuables dry on the boat.</li>
+            <li><strong>Water shoes</strong> &mdash; rocky shorelines and coral make bare feet uncomfortable on some islands.</li>
+            <li><strong>Packed lunch and water</strong> &mdash; food options on the islands are limited and expensive. Pack your own for a better experience.</li>
+            <li><strong>Snorkeling mask and fins</strong> &mdash; the underwater world around the islands is beautiful and worth exploring.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 48 Hours in Hundred Islands</h2>
+      <p class="section__intro">Two days gives you time to explore the main islands, discover hidden spots, and experience the best of Pangasinan.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Arrive at Lucap Wharf</h4>
+                <p>Register at the park office, pay your entrance fee, and hire your banca boat. Negotiate a full-day tour covering at least 5&#8369;6 islands. Depart early to beat the crowds and get the best light for photography.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">8:00 AM</span>
+              <div class="timeline__content">
+                <h4>Governor's Island</h4>
+                <p>Start at <strong>Governor's Island</strong> &mdash; the largest and most developed island. Explore the caves, climb the viewing deck for a panoramic view of the archipelago, and snorkel around the coral formations.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">10:00 AM</span>
+              <div class="timeline__content">
+                <h4>Quezon Island &amp; Cliff Jumping</h4>
+                <p>Head to <strong>Quezon Island</strong> for cliff jumping &mdash; platforms at 5, 8, and 12 meters high. The water is deep and clear. Even if you don't jump, the island has a beautiful beach and good snorkeling.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">12:00 PM</span>
+              <div class="timeline__content">
+                <h4>Lunch on Children's Island</h4>
+                <p><strong>Children's Island</strong> has the best beach in the park &mdash; wide, white sand, and calm shallow water. Have your packed lunch here, swim, and relax before the afternoon island hopping.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">2:00 PM</span>
+              <div class="timeline__content">
+                <h4>Explore Smaller Islands</h4>
+                <p>Ask your boatman to take you to some of the smaller, less-visited islands. Look for hidden lagoons, sea caves, and secluded beaches where you might be the only visitors. These are the real gems of the park.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">5:00 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset from the Boat</h4>
+                <p>Ask your boatman to time your return to Lucap Wharf for sunset. Watching the sun set over the islands from the water is one of the most beautiful experiences in Pangasinan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Kayaking at Sunrise</h4>
+                <p>Rent a kayak at Lucap Wharf and paddle out to the nearest islands at sunrise. The calm morning water and golden light make for an unforgettable experience. Kayaks can be rented by the hour.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">10:00 AM</span>
+              <div class="timeline__content">
+                <h4>Drive to Bolinao</h4>
+                <p>Head west to <strong>Bolinao</strong> &mdash; about 1 hour from Alaminos. Visit <strong>Patar Beach</strong> for some of the most dramatic coastal scenery in Pangasinan, and <strong>Bolinao Falls</strong> for a refreshing swim in natural pools.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">3:00 PM</span>
+              <div class="timeline__content">
+                <h4>Head Back to Manila</h4>
+                <p>Catch an afternoon bus from Alaminos back to Manila. The journey takes about 5&#8369;6 hours. Consider stopping in <strong>Dagupan City</strong> for the famous Pangasinan bangus (milkfish) before heading home.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We hired a boat for the full day and asked our boatman to take us to the smaller islands that most tourists skip. We found a tiny island with a hidden lagoon &mdash; completely deserted, crystal clear water, and the most beautiful coral I've ever snorkeled over. Hundred Islands is one of those places that rewards you for going off the beaten path. Don't just stick to the three main islands."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MF</div>
+            <div>
+              <strong>Miguel F.</strong>
+              <span>Island Hopper, Cebu, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I went with my family including kids aged 8 and 12 and it was perfect for all ages. Children's Island has the safest, calmest water for kids to swim in. The cliff jumping at Quezon Island was a highlight for the older one. And the cave exploration on Governor's Island had everyone excited. It's one of the most accessible and family-friendly national parks in the Philippines."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SR</div>
+            <div>
+              <strong>Sandra R.</strong>
+              <span>Family Traveler, Manila, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore 124 Islands?</h2>
+        <p>Get our free Hundred Islands Travel Checklist + exclusive tips on the best hidden islands, snorkeling spots, and budget boat tours &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Hundred Islands</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">48-Hour Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for island explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

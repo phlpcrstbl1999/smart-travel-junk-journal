@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Bolinao Falls &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Pangasinan</span>
+      <h1 class="hero__headline">Cool Waters<br>in the Jungle</h1>
+      <p class="hero__sub">Bolinao Falls is a series of stunning multi-tiered waterfalls hidden in the lush jungle of Bolinao, Pangasinan &mdash; crystal-clear natural pools, cascading white water, and the perfect escape from the heat of the coast.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>3</strong><span>Waterfall Tiers</span></div>
+      <div class="hero__stat"><strong>Crystal</strong><span>Clear Pools</span></div>
+      <div class="hero__stat"><strong>Year-Round</strong><span>Open</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/falls.jpg" alt="Bolinao Falls waterfall" class="intro__img intro__img--main" />
+        <img src="images/falls.jpg" alt="Bolinao Falls natural pool" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Pangasinan's Hidden Jungle Waterfalls</h2>
+        <p>Tucked away in the lush jungle of <strong>Bolinao, Pangasinan</strong>, <strong>Bolinao Falls</strong> is a series of <strong>three tiered waterfalls</strong> &mdash; each with its own natural swimming pool fed by cool, crystal-clear mountain water. The falls are surrounded by dense tropical vegetation, creating a cool, shaded sanctuary that feels worlds away from the hot, sunny beaches of the Pangasinan coast.</p>
+        <p>The three tiers offer different experiences. <strong>Falls 1</strong> is the most accessible and most visited &mdash; a wide, powerful cascade dropping into a deep, clear pool perfect for swimming. <strong>Falls 2</strong> is a short hike upstream and is quieter, with a more intimate pool surrounded by mossy rocks. <strong>Falls 3</strong> is the most remote and least visited &mdash; a reward for those willing to make the longer trek through the jungle.</p>
+        <p>Bolinao Falls is a perfect complement to a Patar Beach visit &mdash; the cool, fresh water of the falls is a refreshing contrast to the salty, sun-drenched coast. Many visitors combine both in a single day, spending the morning at the falls and the afternoon at the beach for sunset.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>3-Tiered Waterfall &nbsp;&middot;&nbsp; <strong>Natural Swimming Pools</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Bolinao Falls</h2>
+      <p class="section__intro"><strong>Bolinao Falls</strong> is located in <strong>Bolinao, Pangasinan</strong>, about 280 km northwest of Manila. It's about 30 minutes from Patar Beach and 1 hour from Hundred Islands.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Bolinao</h3>
+            <p>Five Star Bus operates direct trips from <strong>Cubao</strong> to <strong>Bolinao, Pangasinan</strong>. Travel time is about 6&#8369;7 hours. Alternatively, take a bus to Alaminos and then a jeepney or van to Bolinao (about 1 hour).</p>
+            <span class="step__detail"> Direct to Bolinao: ~6&#8369;7 hours &nbsp;|&nbsp;  ~&#8369;400&ndash;&#8369;550</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Tricycle to Bolinao Falls</h3>
+            <p>From Bolinao town center, hire a <strong>tricycle</strong> to Bolinao Falls. The ride takes about 15&#8369;20 minutes. Tell the driver you're going to <strong>Bolinao Falls 1</strong> &mdash; the main entrance. The driver can wait and take you to Patar Beach afterward.</p>
+            <span class="step__detail"> Tricycle: ~&#8369;80&ndash;&#8369;120 &nbsp;|&nbsp; &mdash; ~15&#8369;20 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register &amp; Pay Entrance Fee</h3>
+            <p>At the entrance, register and pay the small entrance fee. A local guide is available for hire &mdash; recommended if you want to visit Falls 2 and Falls 3, as the trail can be slippery and confusing without guidance.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp;  Guide: ~&#8369;150&ndash;&#8369;200</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Combine with Patar Beach</h3>
+            <p>Visit Bolinao Falls in the morning when the jungle is cool and the light filters beautifully through the canopy. Then head to <strong>Patar Beach</strong> in the afternoon for swimming, rock formation exploration, and sunset. A perfect Bolinao day.</p>
+            <span class="step__detail"> Patar Beach: ~30 min away &nbsp;|&nbsp;  Perfect for afternoon + sunset</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Bolinao Falls and nearby attractions in Bolinao and Pangasinan.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">&#128167; Waterfalls</span>
+        <span class="map-legend__item map-legend__item--nature"> Beaches</span>
+        <span class="map-legend__item map-legend__item--heritage"> Nearby</span>
+      </div>
+    </div>
+    <div id="falls-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>Year-round:</strong> Bolinao Falls flows throughout the year, but the volume and power of the falls varies by season.</li>
+            <li><strong>June &mdash; October (Rainy Season):</strong> The falls are at their most powerful and dramatic &mdash; full, thundering cascades. However, the trails can be slippery and the pools may be murky after heavy rain.</li>
+            <li><strong>November &mdash; May (Dry Season):</strong> Clearer water, safer trails, and better swimming conditions. The falls are calmer but still beautiful.</li>
+            <li><strong>Morning visits:</strong> The jungle is coolest and the light filters most beautifully through the canopy in the morning. Arrive early to beat the crowds.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Swimming &amp; Trekking Tips</h3>
+          <ul>
+            <li><strong>Wear water shoes or old sneakers</strong> &mdash; the trail to the falls involves river crossings and slippery rocks. Flip-flops are not safe.</li>
+            <li><strong>Bring a change of clothes</strong> &mdash; you will get wet. Pack dry clothes in a waterproof bag.</li>
+            <li><strong>Hire a local guide</strong> for Falls 2 and Falls 3 &mdash; the trail is not well-marked and can be confusing without guidance.</li>
+            <li><strong>Don't swim alone</strong> near the base of the falls &mdash; the current can be strong, especially after rain.</li>
+            <li><strong>Life jackets are available</strong> for rent at Falls 1 &mdash; recommended for non-swimmers and children.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Swimwear</strong> &mdash; you'll definitely want to swim in the natural pools.</li>
+            <li><strong>Waterproof bag or dry bag</strong> &mdash; protect your phone, camera, and valuables from water.</li>
+            <li><strong>Insect repellent</strong> &mdash; the jungle trail has mosquitoes, especially in the morning.</li>
+            <li><strong>Packed lunch and water</strong> &mdash; there are small food stalls near Falls 1, but options are limited. Bring your own for Falls 2 and 3.</li>
+            <li><strong>Cash</strong> &mdash; no ATMs in the area. Withdraw in Bolinao town or Alaminos before heading out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Bolinao Falls</h2>
+      <p class="section__intro">A complete guide to exploring all three tiers of Bolinao Falls and combining it with the best of Bolinao for a full day.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Falls</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Falls 1 &mdash; The Main Cascade</h4>
+                <p>Start at <strong>Falls 1</strong> &mdash; the most accessible and most impressive. A wide, powerful cascade drops into a deep, clear pool. Swim, float, and enjoy the cool water. The surrounding rocks are perfect for sitting and taking in the scene.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Falls 2 &mdash; The Quiet Pool</h4>
+                <p>Follow the trail upstream (about 15&#8369;20 minutes) to <strong>Falls 2</strong>. This tier is quieter and more intimate &mdash; a smaller cascade feeding a mossy, shaded pool. Far fewer visitors make it here, so you'll likely have it to yourself.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Falls 3 &mdash; The Hidden Reward</h4>
+                <p>Continue upstream (another 20&#8369;30 minutes with a guide) to <strong>Falls 3</strong> &mdash; the most remote and least visited tier. The trek involves river crossings and some scrambling, but the reward is a pristine, secluded waterfall that feels completely untouched.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Return &amp; Lunch</h4>
+                <p>Return to Falls 1 for a final swim, then head to the small food stalls near the entrance for lunch. Try the local <em>inihaw na tilapia</em> (grilled tilapia) &mdash; fresh, affordable, and delicious after a morning in the jungle.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Nearby in Bolinao</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">30 min away</span>
+              <div class="timeline__content">
+                <h4>Patar Beach</h4>
+                <p>Wild, windswept coastline with dramatic rock formations and spectacular sunsets. Perfect for an afternoon after your morning at the falls. The contrast of jungle and coast makes for a perfect Bolinao day.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">30 min away</span>
+              <div class="timeline__content">
+                <h4>Cape Bolinao Lighthouse</h4>
+                <p>A 19th-century lighthouse at the tip of Cape Bolinao. Sweeping views of the South China Sea and the Pangasinan coastline. Combine with a Patar Beach visit.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1 hr away</span>
+              <div class="timeline__content">
+                <h4>Hundred Islands National Park</h4>
+                <p>124 islands in the Lingayen Gulf. Island hopping, snorkeling, cliff jumping, and cave exploration. The perfect next-day destination after Bolinao.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We did all three tiers with a local guide and it was absolutely worth it. Falls 3 was the highlight &mdash; completely deserted, pristine water, and the most beautiful jungle setting. The guide knew every rock and root on the trail and kept us safe the whole way. Then we went to Patar Beach for sunset and it was the perfect end to a perfect day. Bolinao is one of the best-kept secrets in Pangasinan."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JP</div>
+            <div>
+              <strong>Jerome P.</strong>
+              <span>Adventure Traveler, Baguio, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The water at Falls 1 is so clear and cold &mdash; after a hot morning drive from Manila, jumping into that pool was one of the most refreshing experiences of my life. We spent three hours just swimming, jumping off the rocks, and relaxing in the shade. The jungle atmosphere is magical &mdash; the sound of the waterfall, the birds, the cool air. It's a completely different side of Pangasinan that most people never see."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">GS</div>
+            <div>
+              <strong>Grace S.</strong>
+              <span>Weekend Traveler, Quezon City, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Dive Into the Jungle?</h2>
+        <p>Get our free Bolinao Travel Checklist + exclusive tips on the best waterfalls, beaches, and hidden spots in Pangasinan &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Bolinao Falls</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for nature lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

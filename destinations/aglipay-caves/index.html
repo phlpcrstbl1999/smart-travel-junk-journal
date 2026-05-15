@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Aglipay Caves National Park &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Quirino</span>
+      <h1 class="hero__headline">A National Park<br>Carved in Stone</h1>
+      <p class="hero__sub">Aglipay Caves National Park in Quirino province is a protected network of limestone caves surrounded by lush forest &mdash; one of the most accessible yet least visited cave systems in northern Luzon, offering a genuine wilderness experience just hours from Manila.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>National</strong><span>Park Status</span></div>
+      <div class="hero__stat"><strong>Multiple</strong><span>Cave Chambers</span></div>
+      <div class="hero__stat"><strong>Protected</strong><span>Forest Reserve</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/aglipay.jpg" alt="Aglipay Caves interior formations" class="intro__img intro__img--main" />
+        <img src="images/aglipay.jpg" alt="Aglipay Caves entrance" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Quirino's Hidden Cave Sanctuary</h2>
+        <p>Located in the municipality of <strong>Aglipay, Quirino province</strong>, the <strong>Aglipay Caves National Park</strong> is a protected area encompassing a network of limestone caves set within a forested landscape in the foothills of the Sierra Madre mountain range. The park was established to protect both the cave ecosystem and the surrounding forest, which serves as habitat for diverse wildlife including bats, cave swiftlets, and various endemic species.</p>
+        <p>The cave system features multiple chambers with stalactite and stalagmite formations, underground passages, and the atmospheric darkness that makes cave exploration such a unique experience. The caves are home to large colonies of bats &mdash; a key part of the local ecosystem &mdash; and the sight and sound of thousands of bats emerging at dusk is one of the most memorable natural spectacles in Quirino province.</p>
+        <p>What makes Aglipay Caves particularly special is its setting within a <strong>national park</strong> &mdash; the surrounding forest is protected and largely intact, giving the area a genuine wilderness character. The combination of cave exploration, forest trekking, and wildlife observation makes Aglipay a rewarding destination for nature lovers and adventure travelers who want to experience Quirino province beyond its more famous attractions.</p>
+        <div class="intro__badge">
+          <span>&#127807;</span><span>National Park &nbsp;&middot;&nbsp; <strong>Aglipay, Quirino Province</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Aglipay Caves</h2>
+      <p class="section__intro"><strong>Aglipay Caves National Park</strong> is located in <strong>Aglipay, Quirino province</strong> &mdash; about 300 km north of Manila. The nearest major city is <strong>Cabarroguis</strong>, the capital of Quirino.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Cabarroguis</h3>
+            <p>Autobus Transport and other bus lines operate services from <strong>Cubao, Quezon City</strong> to <strong>Cabarroguis, Quirino</strong>. Travel time is about 7&#8369;8 hours. Buses typically depart in the evening for an overnight journey.</p>
+            <span class="step__detail"> Travel time: ~7&#8369;8 hours &nbsp;|&nbsp;  ~&#8369;500&ndash;&#8369;700 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Cabarroguis to Aglipay</h3>
+            <p>From Cabarroguis, take a <strong>jeepney or van</strong> to Aglipay municipality &mdash; about 30&#8369;45 minutes. From Aglipay town center, hire a <strong>tricycle or habal-habal</strong> to the national park entrance.</p>
+            <span class="step__detail"> Jeepney to Aglipay: ~30&#8369;45 min &nbsp;|&nbsp;  Tricycle to park: ~&#8369;50&ndash;&#8369;80</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register at the Park Office</h3>
+            <p>Register at the <strong>DENR park office</strong> at the entrance and pay the entrance fee. Local guides are available and recommended &mdash; they know the cave system well and can ensure your safety throughout the exploration.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;50&ndash;&#8369;100 &nbsp;|&nbsp;  Guide: ~&#8369;150&ndash;&#8369;250</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Combine with Quirino Day Tour</h3>
+            <p>Aglipay Caves is best combined with other Quirino attractions. Visit <strong>Governor Rapids</strong> and <strong>Siitan Nature's Park</strong> for a full Quirino adventure &mdash; the province has much to offer beyond the caves.</p>
+            <span class="step__detail"> Combine with Governor Rapids &amp; Siitan &nbsp;|&nbsp; Full day recommended</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Aglipay Caves and nearby attractions in Quirino province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">&#128294; Caves</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Towns</span>
+      </div>
+    </div>
+    <div id="aglipay-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; dry trails, accessible cave passages, and comfortable temperatures for forest trekking.</li>
+            <li><strong>Dusk (5:00&#8369;6:30 PM):</strong> Watch thousands of bats emerge from the cave entrance at sunset &mdash; one of the most spectacular natural events in Quirino province.</li>
+            <li><strong>Morning visits:</strong> The cave is coolest and most atmospheric in the morning. Start early to explore before the afternoon heat.</li>
+            <li><strong>Avoid heavy rain periods:</strong> Wet cave floors and slippery trails make exploration more difficult and potentially dangerous.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128294;</div><h3>Cave &amp; Wildlife Tips</h3>
+          <ul>
+            <li><strong>Bring a headlamp</strong> with fresh batteries &mdash; cave lighting is minimal. A backup flashlight is strongly recommended.</li>
+            <li><strong>Wear non-slip shoes</strong> &mdash; cave floors are wet and uneven. Sandals and flip-flops are not safe.</li>
+            <li><strong>Don't disturb the bats.</strong> The bat colonies are a protected part of the cave ecosystem &mdash; loud noises and bright lights can stress the animals.</li>
+            <li><strong>Don't touch the formations.</strong> Stalactites and stalagmites are irreplaceable &mdash; even touching them causes damage over time.</li>
+            <li><strong>Watch the bat emergence at dusk</strong> from a respectful distance &mdash; the spectacle is best observed quietly without flash photography.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Headlamp and backup flashlight</strong> with fresh batteries.</li>
+            <li><strong>Non-slip trekking shoes</strong> &mdash; suitable for both cave floors and forest trails.</li>
+            <li><strong>Insect repellent</strong> &mdash; the forest surrounding the caves has mosquitoes.</li>
+            <li><strong>Water and snacks</strong> &mdash; no food stalls inside the park. Bring enough for the full day.</li>
+            <li><strong>Cash</strong> &mdash; no ATMs in Aglipay. Withdraw in Cabarroguis before heading out.</li>
+            <li><strong>Light rain jacket</strong> &mdash; the forest can be wet even in dry season.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Aglipay Caves</h2>
+      <p class="section__intro">A complete guide to the caves and a suggested Quirino province day tour.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Caves</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Forest Trek to the Cave Entrance</h4>
+                <p>Begin with a short forest trek from the park office to the cave entrance. The trail passes through protected forest &mdash; listen for birds and watch for wildlife. The cave entrance is a dramatic opening in the limestone hillside.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Mid-Morning</span>
+              <div class="timeline__content">
+                <h4>Cave Exploration</h4>
+                <p>Explore the cave chambers with your guide. The formations &mdash; stalactites, stalagmites, columns, and cave curtains &mdash; are the highlights. Your guide will point out the most significant features and explain the geology of the cave system.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Forest Walk &amp; Wildlife Observation</h4>
+                <p>After the cave, explore the surrounding national park forest. The area is rich in birdlife and the forest itself is beautiful &mdash; tall trees, ferns, and the sounds of the Sierra Madre wilderness.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Dusk</span>
+              <div class="timeline__content">
+                <h4>Bat Emergence</h4>
+                <p>Position yourself near the cave entrance before sunset and wait for the bat emergence. As the light fades, thousands of bats stream out of the cave in a continuous ribbon against the darkening sky &mdash; one of the most extraordinary natural spectacles in Quirino.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Quirino Day Tour</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Aglipay Caves National Park</h4>
+                <p>Start your Quirino day at the caves. Explore the chambers and the surrounding forest in the cool morning hours.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Governor Rapids</h4>
+                <p>Head to Governor Rapids on the Cagayan River &mdash; a series of dramatic rapids and river scenery perfect for swimming, kayaking, and picnicking. About 1 hour from Aglipay.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Siitan Nature's Park</h4>
+                <p>Visit Siitan Nature's Park &mdash; a scenic riverside park along the Siitan River with swimming holes, forest trails, and a peaceful natural setting. A perfect end to a Quirino adventure day.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We stayed until dusk specifically to watch the bat emergence and it was absolutely worth it. Thousands of bats streaming out of the cave entrance in a continuous ribbon against the orange sky &mdash; it went on for nearly 20 minutes. Our guide told us there are over a million bats in the colony. Quirino is one of the most underrated provinces in the Philippines and Aglipay Caves is a big reason why."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JA</div>
+            <div>
+              <strong>Jose A.</strong>
+              <span>Wildlife Enthusiast, Manila, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The cave formations at Aglipay are genuinely impressive &mdash; massive stalactites, towering columns, and chambers that feel like natural cathedrals. But what really made the visit special was the national park setting. The forest around the caves is pristine and the whole area feels completely wild. Quirino is off the tourist trail and that makes it all the more rewarding."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RP</div>
+            <div>
+              <strong>Rosa P.</strong>
+              <span>Nature Photographer, Baguio, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore Quirino's Cave Sanctuary?</h2>
+        <p>Get our free Quirino Travel Guide + exclusive tips on caves, rapids, and the best of this hidden province &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About the Caves</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for nature explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

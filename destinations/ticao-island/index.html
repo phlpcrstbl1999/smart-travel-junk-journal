@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Ticao Island &mdash; Masbate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Masbate</span>
+      <h1 class="hero__headline">Where Whale Sharks<br>Roam Free</h1>
+      <p class="hero__sub">Ticao Island in Masbate is one of the Philippines' premier whale shark encounter destinations &mdash; a pristine island where butanding (whale sharks) gather in the Ticao Pass, offering snorkelers and divers an unforgettable encounter with the ocean's gentle giants.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Butanding</strong><span>Whale Sharks</span></div>
+      <div class="hero__stat"><strong>Ticao Pass</strong><span>Dive Site</span></div>
+      <div class="hero__stat"><strong>Masbate</strong><span>Bicol Region</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/hero.jpg" alt="Ticao Island whale shark encounter" class="intro__img intro__img--main"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+        <img src="images/hero.jpg" alt="Ticao Island coastline" class="intro__img intro__img--accent"  onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a3a2a,#0a1a10)'" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; Overview</span>
+        <h2>The Gentle Giants of Ticao Pass</h2>
+        <p><strong>Ticao Island</strong> is a large island in the province of <strong>Masbate</strong>, located at the northern tip of the Bicol Region where the Sibuyan Sea meets the Philippine Sea. The island is best known for the <strong>Ticao Pass</strong> &mdash; a deep-water channel between Ticao and the Bondoc Peninsula that serves as a feeding ground for whale sharks (<em>butanding</em>), manta rays, and thresher sharks.</p>
+        <p>The whale shark encounters at Ticao are considered among the most responsible in the Philippines &middot; interactions are regulated to minimize disturbance to the animals, and the experience of swimming alongside these massive, gentle creatures in open water is profoundly moving.</p>
+        <p>Beyond the marine life, Ticao Island offers pristine beaches, lush interior forests, and the <strong>Buntod Reef Marine Sanctuary</strong> &mdash; a protected coral reef teeming with colorful fish and marine biodiversity. The island remains relatively undeveloped, preserving its natural character and offering a genuine off-the-beaten-path experience.</p>
+        <div class="intro__badge">
+          <span>&#128011;</span><span>Whale Shark Destination &nbsp;&middot;&nbsp; <strong>Masbate, Bicol</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Ticao Island</h2>
+      <p class="section__intro">Ticao Island is reached via <strong>Masbate City</strong> or via ferry from <strong>Pilar, Sorsogon</strong>. The island's main town is San Jacinto, which serves as the base for whale shark and dive tours.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Fly to Masbate City</h3>
+            <p>Fly from Manila to <strong>Masbate Airport</strong> (~1 hour). Cebu Pacific and Philippine Airlines operate this route. From the airport, take a tricycle to the Masbate City port (~15 minutes).</p>
+            <span class="step__detail"> Flight: ~1 hr &nbsp;|&nbsp;  ~&#8369;1,500&#8369;3,500 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Alternatively: Ferry from Pilar, Sorsogon</h3>
+            <p>From Manila, take a bus to <strong>Pilar, Sorsogon</strong> and board a ferry to <strong>San Jacinto, Ticao Island</strong> (~1.5&#8369;2 hours). This is a more direct route to Ticao without going through Masbate City.</p>
+            <span class="step__detail"> Ferry: ~1.5&#8369;2 hrs &nbsp;|&nbsp;  ~&#8369;150&ndash;&#8369;250</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Ferry from Masbate City to Ticao</h3>
+            <p>From <strong>Masbate City port</strong>, take a ferry or pump boat to <strong>San Jacinto, Ticao Island</strong> (~1.5&#8369;2 hours). San Jacinto is the main town on Ticao and the base for whale shark tours and dive operators.</p>
+            <span class="step__detail"> Ferry: ~1.5&#8369;2 hrs &nbsp;|&nbsp;  ~&#8369;100&ndash;&#8369;200</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Book a Whale Shark Tour</h3>
+            <p>Arrange a <strong>whale shark snorkeling or diving tour</strong> through your accommodation or a local dive operator in San Jacinto. Tours typically depart early morning to the Ticao Pass feeding grounds. Responsible interaction guidelines must be followed.</p>
+            <span class="step__detail"> Tour: ~&#8369;800&ndash;&#8369;1,500 per person &nbsp;|&nbsp;  Dive tours available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Ticao Island, the Ticao Pass, Buntod Reef, and the key sites of Masbate province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">&#128032; Marine Life</span>
+        <span class="map-legend__item map-legend__item--nature">&#129340; Dive Sites</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Town &amp; Port</span>
+      </div>
+    </div>
+    <div id="ticao-map" style="width:100%;min-height:520px;border-top:4px solid var(--c-light);margin-top:8px;"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time for Whale Sharks</h3>
+          <ul>
+            <li><strong>November &mdash; June:</strong> Peak season for whale shark sightings in the Ticao Pass. The animals are most reliably present during these months.</li>
+            <li><strong>January &mdash; April:</strong> The best combination of whale shark activity and calm sea conditions for snorkeling and diving.</li>
+            <li><strong>Early morning tours:</strong> Whale sharks are most active in the early morning. Tours typically depart at 5:30&#8369;6:00 AM for the best encounters.</li>
+            <li><strong>Sightings are not guaranteed</strong> &mdash; whale sharks are wild animals. However, Ticao Pass has one of the highest encounter rates in the Philippines.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127807;</div><h3>Responsible Interaction</h3>
+          <ul>
+            <li><strong>No touching:</strong> Never touch, ride, or chase whale sharks. Maintain a minimum distance of 3 meters from the body and 4 meters from the tail.</li>
+            <li><strong>No flash photography</strong> &mdash; flash can startle and stress the animals. Use natural light settings on your camera.</li>
+            <li><strong>No sunscreen</strong> before entering the water &mdash; chemical sunscreens harm whale sharks and coral reefs. Use reef-safe alternatives.</li>
+            <li><strong>Follow your guide's instructions</strong> at all times. Responsible operators enforce these rules strictly to protect the animals.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack &amp; Know</h3>
+          <ul>
+            <li><strong>Snorkeling gear:</strong> Bring your own mask and fins if possible. Rentals are available but quality varies.</li>
+            <li><strong>Cash only</strong> &mdash; ATM access on Ticao Island is very limited. Bring enough cash from Masbate City or Manila.</li>
+            <li><strong>Combine with Buntod Reef</strong> &mdash; the marine sanctuary is a short boat ride from San Jacinto and offers excellent snorkeling among healthy coral gardens.</li>
+            <li><strong>Masbate beef:</strong> Masbate is the cattle capital of the Philippines. Try the local beef dishes in Masbate City before or after your island visit.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 2 Days in Ticao Island</h2>
+      <p class="section__intro">Combine whale shark encounters with Buntod Reef snorkeling and the natural beauty of Ticao Island for an unforgettable Masbate adventure.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">5:30 AM</span>
+              <div class="timeline__content">
+                <h4>Whale Shark Tour at Ticao Pass</h4>
+                <p>Depart early by boat to the <strong>Ticao Pass</strong> feeding grounds. Your guide will locate the whale sharks and brief you on responsible interaction guidelines. Slip into the water and swim alongside these magnificent creatures &mdash; an experience that will stay with you for life.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Buntod Reef Marine Sanctuary</h4>
+                <p>After the whale shark encounter, head to <strong>Buntod Reef</strong> for snorkeling among healthy coral gardens teeming with colorful reef fish, sea turtles, and other marine life. The reef is one of the best-preserved in Masbate.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Explore San Jacinto &amp; Rest</h4>
+                <p>Return to <strong>San Jacinto</strong> for lunch and rest. Explore the town, visit the local market, and enjoy fresh seafood. The afternoon is perfect for relaxing on the beach or arranging a second dive for experienced divers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Island Hopping Around Ticao</h4>
+                <p>Hire a boat for an <strong>island hopping tour</strong> around Ticao's coastline. Visit secluded beaches, sea caves, and snorkeling spots that most visitors never see. The island's interior forests are also worth exploring with a local guide.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Return to Masbate City</h4>
+                <p>Take the afternoon ferry back to <strong>Masbate City</strong>. Visit the <strong>Masbate Cathedral</strong> and explore the city before your onward journey. Try Masbate's famous beef dishes for dinner &mdash; the province is the cattle capital of the Philippines.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Evening</span>
+              <div class="timeline__content">
+                <h4>Depart Masbate</h4>
+                <p>Fly back to Manila from <strong>Masbate Airport</strong>, or take a ferry to your next destination. Masbate is well-connected to Cebu, Iloilo, and other Visayas ports for onward island-hopping adventures.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Swimming with whale sharks at Ticao Pass was the single most incredible wildlife experience of my life. The animal that came closest to me was at least 8 meters long &mdash; it glided past so slowly and gracefully, completely unbothered by my presence. The guides were professional and strict about the no-touching rules, which made the whole experience feel respectful and right. Ticao is less crowded than Donsol and the encounters feel more natural."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">TN</div>
+            <div>
+              <strong>Tomas N.</strong>
+              <span>Marine Biologist, Cebu City</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Ticao Island is one of those places that reminds you why you travel. The whale sharks were extraordinary, but the whole island experience was special &mdash; the Buntod Reef snorkeling, the friendly people of San Jacinto, the fresh seafood, the quiet beaches. It's the kind of destination that hasn't been overrun yet, and I hope it stays that way. Go now, before everyone discovers it."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LR</div>
+            <div>
+              <strong>Lena R.</strong>
+              <span>Ocean Conservationist, Manila</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Meet the Gentle Giants?</h2>
+        <p>Get our free Ticao Island Travel Guide + whale shark encounter tips, Buntod Reef snorkeling guide, and the best Masbate food spots &mdash; delivered to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Ticao Island</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Day Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for ocean lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Siitan Nature's Park &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Quirino</span>
+      <h1 class="hero__headline">Nature's Own<br>Riverside Retreat</h1>
+      <p class="hero__sub">Siitan Nature's Park along the Siitan River in Quirino province is a serene natural sanctuary &mdash; crystal-clear swimming holes, forested riverbanks, gentle rapids, and the peaceful sounds of the Sierra Madre wilderness. The perfect place to unwind after a day of Quirino adventure.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Siitan</strong><span>River</span></div>
+      <div class="hero__stat"><strong>Crystal</strong><span>Clear Waters</span></div>
+      <div class="hero__stat"><strong>Sierra</strong><span>Madre Forest</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/siitan.jpg" alt="Siitan Nature's Park river view" class="intro__img intro__img--main" />
+        <img src="images/siitan.jpg" alt="Siitan River swimming hole" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Quirino's Riverside Sanctuary</h2>
+        <p>Located along the <strong>Siitan River</strong> in <strong>Quirino province</strong>, <strong>Siitan Nature's Park</strong> is a natural riverside park that offers a peaceful and beautiful escape into the Sierra Madre wilderness. The Siitan River &mdash; a tributary of the Cagayan River system &mdash; flows through the park with clear, cool mountain water, creating a series of natural swimming holes, gentle rapids, and scenic river pools surrounded by lush forest.</p>
+        <p>The park is named after the Siitan River and has been developed as a community-managed ecotourism destination by the local government of Quirino province. The facilities are simple but well-maintained &mdash; picnic areas, basic changing rooms, and access to the river. The emphasis is on the natural environment rather than artificial attractions, making Siitan a genuine nature retreat rather than a commercial tourist park.</p>
+        <p>Siitan Nature's Park is particularly popular for <strong>swimming, river picnics, and nature walks</strong> along the forested riverbanks. The surrounding forest is part of the Sierra Madre mountain range &mdash; one of the most biodiverse ecosystems in the Philippines &middot; and the park offers a rare opportunity to experience this extraordinary natural environment in a relaxed and accessible setting.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Community Ecotourism Park &nbsp;&middot;&nbsp; <strong>Siitan River, Quirino</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Siitan Nature's Park</h2>
+      <p class="section__intro"><strong>Siitan Nature's Park</strong> is located along the Siitan River in <strong>Quirino province</strong> &mdash; about 300 km north of Manila. The nearest major city is <strong>Cabarroguis</strong>, the provincial capital.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Cabarroguis</h3>
+            <p>Autobus Transport and other bus lines operate services from <strong>Cubao, Quezon City</strong> to <strong>Cabarroguis, Quirino</strong>. Travel time is about 7&#8369;8 hours. Buses typically depart in the evening for an overnight journey.</p>
+            <span class="step__detail"> Travel time: ~7&#8369;8 hours &nbsp;|&nbsp;  ~&#8369;500&ndash;&#8369;700 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Cabarroguis to Siitan</h3>
+            <p>From Cabarroguis, hire a <strong>tricycle, van, or habal-habal</strong> to Siitan Nature's Park. The park is accessible by road and the journey takes about 20&#8369;40 minutes. Ask locals or your accommodation host for the most current directions.</p>
+            <span class="step__detail"> Tricycle/van: ~20&#8369;40 min &nbsp;|&nbsp;  ~&#8369;100&ndash;&#8369;200</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register at the Park Entrance</h3>
+            <p>Register at the park entrance and pay the small entrance fee. The park has basic facilities &mdash; picnic areas, changing rooms, and river access. Local guides are available for nature walks along the forested riverbanks.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;30&ndash;&#8369;50 &nbsp;|&nbsp;  Nature walk guide: ~&#8369;100&ndash;&#8369;150</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Combine with Quirino Day Tour</h3>
+            <p>Siitan Nature's Park is the perfect afternoon destination after visiting <strong>Aglipay Caves</strong> in the morning and <strong>Governor Rapids</strong> at midday. The peaceful river setting provides a relaxing contrast to the more adventurous earlier stops.</p>
+            <span class="step__detail"> Combine with Aglipay Caves &amp; Governor Rapids &nbsp;|&nbsp; Full day recommended</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Siitan Nature's Park and nearby attractions in Quirino province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Park</span>
+        <span class="map-legend__item map-legend__item--nature"> Rivers</span>
+        <span class="map-legend__item map-legend__item--heritage">&#127961; Towns</span>
+      </div>
+    </div>
+    <div id="siitan-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; clear river water, accessible trails, and comfortable temperatures for swimming and nature walks.</li>
+            <li><strong>Afternoon visits:</strong> Siitan is perfect for a relaxed afternoon after more active morning activities. The river is most beautiful in the late afternoon light.</li>
+            <li><strong>Weekdays:</strong> The park is quieter and more peaceful on weekdays. The river feels more like a private sanctuary without weekend crowds.</li>
+            <li><strong>Avoid heavy rain periods:</strong> The river can rise quickly after heavy rain. Check conditions before visiting during the rainy season.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Swimming &amp; Activities</h3>
+          <ul>
+            <li><strong>Swim in the designated areas</strong> &mdash; the park staff will indicate the safest swimming holes. Avoid areas with strong currents.</li>
+            <li><strong>Nature walks</strong> along the forested riverbanks are a highlight &mdash; the Sierra Madre forest is rich in birdlife and the trail is beautiful.</li>
+            <li><strong>Picnicking</strong> on the riverbank is one of the best ways to enjoy the park &mdash; bring your own food and set up beside the river.</li>
+            <li><strong>Photography</strong> &mdash; the combination of clear water, forest reflections, and dappled light makes Siitan one of the most photogenic river parks in Quirino.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Eco-Tourism Etiquette</h3>
+          <ul>
+            <li><strong>Leave no trace.</strong> Pack out all your trash &mdash; the park is community-managed and depends on visitors respecting the environment.</li>
+            <li><strong>Don't use soap or shampoo in the river.</strong> The Siitan River is a natural ecosystem &mdash; chemical products harm the water quality and aquatic life.</li>
+            <li><strong>Respect the forest.</strong> Don't pick plants, disturb wildlife, or leave the marked trails without a guide.</li>
+            <li><strong>Support the community.</strong> Buy local food and crafts from vendors near the park entrance &mdash; your spending directly supports the families who manage the park.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Siitan Nature's Park</h2>
+      <p class="section__intro">A complete guide to the park and the perfect Quirino province day tour using Siitan as your relaxing finale.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Park</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Arrive &amp; Settle In</h4>
+                <p>Register at the entrance, find a picnic spot on the riverbank, and take a moment to absorb the atmosphere &mdash; the sound of the river, the forest canopy overhead, the cool air. Siitan is a place to slow down and breathe.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Swimming in the River Pools</h4>
+                <p>Enter the river at the designated swimming areas. The water is clear and cool &mdash; a perfect contrast to the heat of the day. Float in the pools, explore the gentle rapids, and enjoy the sensation of clean mountain water.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Nature Walk Along the Riverbank</h4>
+                <p>Take a guided or self-guided walk along the forested riverbank. The Sierra Madre forest is extraordinary &mdash; tall trees, ferns, mosses, and the constant sound of birds and running water. Look for kingfishers along the river's edge.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Riverside Picnic &amp; Sunset</h4>
+                <p>Set up your picnic on the riverbank and enjoy a meal with the river as your backdrop. If you stay until late afternoon, the light filtering through the forest canopy onto the water creates a magical golden atmosphere.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Full Quirino Day</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Aglipay Caves National Park</h4>
+                <p>Start with cave exploration and forest trekking at Aglipay Caves. Explore the chambers, observe the bat colony, and experience the national park forest.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Governor Rapids</h4>
+                <p>Head to the Cagayan River for swimming, kayaking, and a riverside picnic at Governor Rapids. The powerful rapids and clear pools are energizing and refreshing.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Siitan Nature's Park</h4>
+                <p>End your Quirino day at Siitan &mdash; the most peaceful and relaxing of the three sites. Swim, walk, picnic, and let the river wash away the day's adventures before heading back to Cabarroguis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Siitan Nature's Park was the perfect end to our Quirino day. After the caves and the rapids, we needed somewhere to just sit, swim, and breathe. The river is crystal clear, the forest is beautiful, and the whole place has a magical, peaceful quality. We stayed until the light faded and the forest went quiet. One of the most restorative afternoons I've had in the Philippines."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MR</div>
+            <div>
+              <strong>Maria R.</strong>
+              <span>Nature Lover, Baguio, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The nature walk along the Siitan River was one of the highlights of our entire Quirino trip. Our guide pointed out birds, plants, and river life that we would have completely missed on our own. The Sierra Madre forest is extraordinary &mdash; it feels ancient and alive in a way that's hard to describe. Siitan is a hidden gem that deserves far more attention."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">BN</div>
+            <div>
+              <strong>Ben N.</strong>
+              <span>Birder &amp; Nature Guide, Manila, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Find Your River Sanctuary?</h2>
+        <p>Get our free Quirino Travel Guide + exclusive tips on nature parks, rapids, and the best of this wild province &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Siitan Park</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for nature lovers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

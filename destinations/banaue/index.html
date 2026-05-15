@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Banaue Rice Terraces &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO SECTION ===== -->
+  <!-- Visual: Full-viewport background image of the terraces at golden-hour sunrise, dark gradient overlay -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Ifugao Province</span>
+      <h1 class="hero__headline">Where the Mountains<br>Were Carved by Hand</h1>
+      <p class="hero__sub">Step into 2,000 years of living history. The Banaue Rice Terraces aren't just a destination &mdash; they're a testament to human will, indigenous wisdom, and breathtaking beauty.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your 48-Hour Trip</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>2,000+</strong><span>Years of History</span></div>
+      <div class="hero__stat"><strong>1,500m</strong><span>Above Sea Level</span></div>
+      <div class="hero__stat"><strong>UNESCO</strong><span>World Heritage Site</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRODUCTION & HISTORY ===== -->
+  <!-- Visual: Two-column layout &mdash; left: stacked portrait photos of terraces + Ifugao elder; right: text -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/banaue.jfif" alt="Banaue Rice Terraces panoramic view" class="intro__img intro__img--main" />
+        <img src="images/banaue.jfif" alt="Banaue Rice Terraces" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The Eighth Wonder of the World</h2>
+        <p>Etched into the Cordillera mountains of northern Luzon over 2,000 years ago, the Banaue Rice Terraces are one of humanity's greatest engineering achievements &mdash; built entirely by hand by the indigenous <strong>Ifugao people</strong>, without modern tools or machinery.</p>
+        <p>Stretching over 10,000 square kilometers and rising up to 1,500 meters above sea level, these terraces are a <strong>UNESCO World Heritage Site</strong> and are often called the "Eighth Wonder of the World." But beyond the accolades, they remain a living, breathing agricultural system &mdash; still farmed by Ifugao families today, using the same ancient techniques passed down through generations.</p>
+        <p>Visiting Banaue isn't just sightseeing. It's a conversation with history, culture, and the enduring spirit of a people who shaped mountains with their bare hands.</p>
+        <div class="intro__badge">
+          <span>&#127963;</span><span>UNESCO World Heritage Site &nbsp;&middot;&nbsp; <strong>"Eighth Wonder of the World"</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION & HOW TO GET THERE ===== -->
+  <!-- Visual: Full-width illustrated route map (Manila &mdash; Banaue) with step cards below -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to the Mountains</h2>
+      <p class="section__intro">Banaue sits in <strong>Ifugao Province</strong>, about 348 km north of Manila in the Cordillera Administrative Region. Getting there is part of the adventure.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Book a Night Bus from Manila</h3>
+            <p>Head to <strong>Cubao, Quezon City</strong> (Araneta Bus Terminal). Ohayami Trans and GV Florida Transport run direct overnight buses to Banaue. Book at least 2&#8369;3 days ahead, especially on weekends.</p>
+            <span class="step__detail">&#128652; Travel time: ~9&#8369;10 hours &nbsp;|&nbsp;  ~&#8369;600&ndash;&#8369;800 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Depart Late Evening</h3>
+            <p>Most buses depart between <strong>9 PM and 10 PM</strong>. You'll arrive in Banaue around 6&#8369;7 AM &mdash; just in time for sunrise over the terraces. Bring a light jacket; the mountain air is cool.</p>
+            <span class="step__detail"> Overnight ride &nbsp;|&nbsp;  Bring a blanket or jacket</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Arrive at Banaue Town Center</h3>
+            <p>The bus drops you at the <strong>Banaue town center</strong>. From here, jeepneys and tricycles can take you to your hotel or directly to the main viewpoint (about 10 minutes away).</p>
+            <span class="step__detail"> Jeepney to viewpoint: ~&#8369;50 &nbsp;|&nbsp;  Hotels within walking distance</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Alternatively: Fly to Cauayan or Tuguegarao</h3>
+            <p>For a faster option, fly from Manila to <strong>Cauayan Airport (Isabela)</strong> or <strong>Tuguegarao Airport (Cagayan)</strong>, then take a bus or van to Banaue (~3&#8369;4 hours from either airport).</p>
+            <span class="step__detail"> Flight: ~1 hour &nbsp;|&nbsp;  Van/bus onward: ~3&#8369;4 hours</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERACTIVE MAP ===== -->
+  <!-- Visual: Full-width interactive Leaflet map with custom pins for all key locations -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin on the map to learn about each destination &mdash; from the main viewpoint to hidden villages and waterfalls.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">&#128205; Main Sites</span>
+        <span class="map-legend__item map-legend__item--village">&#127968; Villages</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+      </div>
+    </div>
+    <div id="banaue-map"></div>
+  </section>
+
+  <!-- ===== ESSENTIAL TRAVEL TIPS ===== -->
+  <!-- Visual: Three-column card grid with icon, heading, and tip text per card -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+
+      <div class="tips__grid">
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>March &mdash; May (Planting Season):</strong> Terraces are flooded with water &mdash; mirror-like reflections and vivid greens. Stunning for photography.</li>
+            <li><strong>June &mdash; August (Growing Season):</strong> Lush, deep-green terraces at their most vibrant. Occasional rain adds drama.</li>
+            <li><strong>September &mdash; November (Harvest):</strong> Golden-yellow hues as rice ripens. A magical, warm palette.</li>
+            <li><strong>Avoid December &mdash; February:</strong> Cold, foggy, and some terraces may be dry or dormant.</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Trekking shoes</strong> with good grip &mdash; trails are steep and muddy.</li>
+            <li><strong>Rain jacket or poncho</strong> &mdash; weather changes fast in the mountains.</li>
+            <li><strong>Cash (Philippine Pesos)</strong> &mdash; ATMs are scarce; bring enough for your entire stay.</li>
+            <li><strong>Sunscreen &amp; insect repellent</strong> &mdash; you'll be outdoors for hours.</li>
+            <li><strong>Reusable water bottle</strong> &mdash; stay hydrated and reduce plastic waste.</li>
+            <li><strong>Warm layer</strong> &mdash; nights can drop to 15&deg;C (59&deg;F).</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127807;</div><h3>Local Etiquette &amp; Sustainability</h3>
+          <ul>
+            <li><strong>Hire a local Ifugao guide.</strong> They know the trails, the stories, and the culture &mdash; and your fee directly supports the community.</li>
+            <li><strong>Ask before photographing locals,</strong> especially elders in traditional dress.</li>
+            <li><strong>Stay on marked trails</strong> to avoid damaging the terrace walls.</li>
+            <li><strong>Pack out your trash.</strong> Leave no trace &mdash; the terraces are a living heritage site.</li>
+            <li><strong>Buy local.</strong> Support Ifugao weavers, woodcarvers, and food vendors.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 48-HOUR ITINERARY ===== -->
+  <!-- Visual: Vertical timeline layout with day/time markers and location thumbnails -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 48 Hours in Banaue</h2>
+      <p class="section__intro">Two days is enough to experience the magic &mdash; if you plan it right. Here's your perfect Banaue weekend.</p>
+
+      <div class="timeline">
+
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">6:00 AM</span>
+              <div class="timeline__content">
+                <h4>Banaue Main Viewpoint</h4>
+                <p>Arrive from your overnight bus and head straight to the <strong>Banaue Viewpoint</strong>. Watch the morning mist lift off the terraces as the sun rises. This is the iconic panoramic shot you've seen in every travel magazine.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">8:00 AM</span>
+              <div class="timeline__content">
+                <h4>Breakfast &amp; Check-In</h4>
+                <p>Head back to town for a local breakfast of <em>tapsilog</em> or <em>champorado</em> at a local eatery. Check into your guesthouse and freshen up.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">10:00 AM</span>
+              <div class="timeline__content">
+                <h4>Trek to Bangaan Village</h4>
+                <p>Hire a local guide and trek down to <strong>Bangaan</strong> &mdash; a traditional Ifugao village nestled among the terraces. The trail takes about 1.5 hours and offers intimate views you won't find from any road.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">3:00 PM</span>
+              <div class="timeline__content">
+                <h4>Tam-an Village Cultural Walk</h4>
+                <p>Visit <strong>Tam-an Village</strong> near Banaue town to see traditional Ifugao <em>bale</em> (houses), meet local weavers, and browse handcrafted woodcarvings and textiles.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">6:00 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset at the Viewpoint</h4>
+                <p>Return to the main viewpoint for golden-hour light. The terraces glow amber and copper &mdash; completely different from the morning view. Bring a tripod if you have one.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Jeepney to Batad Junction</h4>
+                <p>Take an early jeepney to the <strong>Batad Saddle</strong> (about 1 hour from Banaue). From the saddle, it's a 45-minute hike down to <strong>Batad Village</strong> &mdash; home to the most dramatic amphitheater-shaped terraces in the region.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:30 AM</span>
+              <div class="timeline__content">
+                <h4>Explore Batad Terraces</h4>
+                <p>Walk the narrow terrace walls with your guide. The scale is humbling &mdash; walls rise 10&#8369;15 meters high, stacked in perfect semicircles. Visit the <strong>Tappiyah Waterfall</strong> (30-min hike from Batad) for a refreshing swim.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Lunch in Batad</h4>
+                <p>Eat at one of the small family-run guesthouses in Batad. Try <em>pinikpikan</em> (traditional Ifugao chicken soup) &mdash; a rare, authentic experience you won't find in Manila.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">3:00 PM</span>
+              <div class="timeline__content">
+                <h4>Hike Back &amp; Return to Banaue</h4>
+                <p>Trek back up to the saddle and catch a jeepney back to Banaue. Rest, pack, and prepare for your overnight bus back to Manila &mdash; or extend your trip to nearby <strong>Sagada</strong> (2 hours away).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <!-- Visual: Warm-toned full-width section with two quote cards side by side, traveler avatar and star rating -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Adventurers Are Saying</h2>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I've traveled to over 30 countries, and nothing &mdash; nothing &mdash; prepared me for the moment I crested that hill and saw the Banaue terraces for the first time. The scale is incomprehensible in photos. Standing there at sunrise, with mist rolling through the valleys, I genuinely teared up. Hiring a local guide was the best decision I made &mdash; he brought the terraces to life with stories his grandfather had told him. This place will change you."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MR</div>
+            <div>
+              <strong>Marcus R.</strong>
+              <span>Travel Photographer, Berlin, Germany</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"As a solo female traveler, I was a little nervous about the trek to Batad. But the community there is so warm and welcoming &mdash; I felt completely safe the entire time. The Tappiyah Waterfall hike was tough but absolutely worth it. I ended up staying an extra night in a tiny guesthouse in Batad village, eating home-cooked meals with the family. It was the most authentic travel experience of my life. Skip the tourist traps &mdash; come here instead."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SC</div>
+            <div>
+              <strong>Sofia C.</strong>
+              <span>Solo Traveler &amp; Blogger, Toronto, Canada</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER & FINAL CTA ===== -->
+  <!-- Visual: Dark forest-green footer with newsletter form on left, quick links on right, and tagline at bottom -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__cta">
+        <h2>Ready to Walk Among the Clouds?</h2>
+        <p>Get our free Banaue Travel Checklist + exclusive tips on hidden viewpoints, local guides, and budget itineraries &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Banaue</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">48-Hour Itinerary</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for responsible travelers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Five Fingers Cove &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Bataan</span>
+      <h1 class="hero__headline">Five Fingers<br>Reach the Sea</h1>
+      <p class="hero__sub">Five Fingers Cove in Morong, Bataan is one of the most dramatic coastal formations in Luzon &mdash; five rocky peninsulas jutting into the South China Sea like outstretched fingers, creating a series of hidden coves, crystal-clear waters, and breathtaking viewpoints.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>5</strong><span>Rocky Peninsulas</span></div>
+      <div class="hero__stat"><strong>South</strong><span>China Sea</span></div>
+      <div class="hero__stat"><strong>Hidden</strong><span>Coves &amp; Beaches</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/fivefingers.jpg" alt="Five Fingers Cove aerial view" class="intro__img intro__img--main" />
+        <img src="images/fivefingers.jpg" alt="Five Fingers Cove rocky peninsulas" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Bataan's Most Dramatic Coastline</h2>
+        <p>Located in the municipality of <strong>Morong, Bataan</strong>, <strong>Five Fingers Cove</strong> (also known as <em>Limang Daliri</em>) is a unique coastal formation where five rocky limestone peninsulas extend into the <strong>South China Sea</strong>, creating a series of sheltered coves, hidden beaches, and dramatic viewpoints. The formation is best appreciated from above &mdash; from the hilltop viewpoint, the five "fingers" are clearly visible, each one a narrow rocky ridge covered in vegetation jutting into the blue sea.</p>
+        <p>The coves between the fingers are sheltered from the open sea, creating calm, clear waters perfect for swimming and snorkeling. The rocky peninsulas themselves offer dramatic walking trails with views of the South China Sea, the Bataan coastline, and on clear days, the distant outline of Corregidor Island. The combination of dramatic geology, clear water, and relative seclusion makes Five Fingers Cove one of the most rewarding coastal destinations in Bataan.</p>
+        <p>Five Fingers Cove is still relatively undiscovered compared to more famous Philippine beach destinations, which means the coves are often uncrowded and the natural environment is well-preserved. The area is managed by the local community and a small entrance fee supports maintenance and conservation efforts.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Morong, Bataan &nbsp;&middot;&nbsp; <strong>Five Rocky Peninsulas</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Five Fingers Cove</h2>
+      <p class="section__intro"><strong>Five Fingers Cove</strong> is located in <strong>Morong, Bataan</strong> &mdash; about 130 km west of Manila. It's about 30&#8369;40 minutes from Bagac (Las Casas) and 1 hour from Balanga City.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Drive from Manila</h3>
+            <p>Drive from Manila via <strong>NLEXSCTEX</strong> to Bataan. From the SCTEX exit, follow the road toward Morong municipality. The drive takes about 2.5&#8369;3 hours. Having your own vehicle is the most convenient way to reach Five Fingers Cove and combine it with other Bataan attractions.</p>
+            <span class="step__detail"> Drive: ~2.5&#8369;3 hours &nbsp;|&nbsp;  Morong, Bataan</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Bus to Balanga then Van to Morong</h3>
+            <p>Take a bus from <strong>Cubao or Pasay</strong> to <strong>Balanga City</strong> (2.5&#8369;3 hours), then hire a <strong>van or jeepney</strong> to Morong municipality &mdash; about 45&#8369;60 minutes from Balanga. From Morong town, take a tricycle to Five Fingers Cove.</p>
+            <span class="step__detail"> Bus to Balanga: ~2.5&#8369;3 hrs &nbsp;|&nbsp;  Van to Morong: ~45&#8369;60 min</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Register at the Entrance</h3>
+            <p>Register at the community-managed entrance and pay the small environmental fee. Local guides are available and recommended for the hilltop viewpoint trail and the cove exploration. The guides know the best swimming spots and viewpoints.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;50 &nbsp;|&nbsp;  Guide: ~&#8369;150&ndash;&#8369;200</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Combine with Bataan Day Tour</h3>
+            <p>Five Fingers Cove is the perfect afternoon destination after visiting <strong>Mount Samat</strong> in the morning and <strong>Las Casas</strong> at midday. The scenic coastal drive from Bagac to Morong along the Bataan coast is beautiful in itself.</p>
+            <span class="step__detail"> Combine with Mount Samat &amp; Las Casas &nbsp;|&nbsp; Full day recommended</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Five Fingers Cove and nearby attractions in Bataan province.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Cove</span>
+        <span class="map-legend__item map-legend__item--heritage"> Heritage</span>
+        <span class="map-legend__item map-legend__item--nature">&#127963; Shrine</span>
+      </div>
+    </div>
+    <div id="fivefingers-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; calm seas, clear water, and sunny skies. Ideal for swimming, snorkeling, and the hilltop viewpoint.</li>
+            <li><strong>Sunrise &amp; Sunset:</strong> The five fingers formation is most dramatic at golden hour &mdash; the rocky peninsulas glow warm orange and the sea turns gold.</li>
+            <li><strong>Low Tide:</strong> Visit at low tide to explore the rocky formations between the fingers and access some of the smaller hidden coves.</li>
+            <li><strong>Avoid typhoon season (June &mdash; October):</strong> Rough seas and strong winds make the coves unsafe for swimming and the viewpoint trails slippery.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Activities</h3>
+          <ul>
+            <li><strong>Hilltop viewpoint:</strong> The best way to appreciate the five fingers formation is from the hilltop &mdash; a short but steep trail with a dramatic payoff.</li>
+            <li><strong>Swimming in the coves:</strong> The sheltered coves between the fingers have calm, clear water perfect for swimming. Check with your guide for the safest spots.</li>
+            <li><strong>Snorkeling:</strong> The rocky formations create diverse marine habitats &mdash; bring your own gear for the best experience.</li>
+            <li><strong>Photography:</strong> The aerial-like view from the hilltop, the dramatic rock formations, and the clear blue water make Five Fingers one of the most photogenic spots in Bataan.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Swimwear</strong> &mdash; the coves are perfect for swimming.</li>
+            <li><strong>Trekking shoes</strong> for the hilltop viewpoint trail &mdash; the path is rocky and steep.</li>
+            <li><strong>Sunscreen and hat</strong> &mdash; the viewpoint and coves are exposed to the sun.</li>
+            <li><strong>Snorkeling gear</strong> &mdash; rental may not be available at the site.</li>
+            <li><strong>Packed lunch and water</strong> &mdash; food options near the cove are limited.</li>
+            <li><strong>Cash</strong> &mdash; no ATMs near the cove. Withdraw in Balanga or Bagac before heading out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Five Fingers Cove</h2>
+      <p class="section__intro">A complete guide to the cove and the perfect Bataan day tour using Five Fingers as your scenic finale.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Cove</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Hilltop Viewpoint</h4>
+                <p>Begin with the hilltop viewpoint trail &mdash; a short but steep climb that rewards you with the defining view of Five Fingers Cove. From above, the five rocky peninsulas extending into the blue South China Sea are clearly visible. Take your time at the top.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>Explore the Peninsulas</h4>
+                <p>Descend and walk along the rocky peninsulas with your guide. The views from the tips of the fingers &mdash; looking back at the coastline and out to the open sea &mdash; are dramatic and different from every angle.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Swimming in the Coves</h4>
+                <p>Find the best swimming cove with your guide and spend time in the clear, calm water. The sheltered coves are perfect for a relaxed swim after the viewpoint hike. Snorkel around the rocky formations for marine life.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Sunset from the Viewpoint</h4>
+                <p>Return to the hilltop viewpoint for sunset. The five fingers formation at golden hour &mdash; with the South China Sea turning gold and the sky blazing &mdash; is one of the most beautiful natural scenes in Bataan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Full Bataan Day</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Mount Samat National Shrine</h4>
+                <p>Start with the war memorial &mdash; diorama museum, memorial wall, and the 92-meter cross observation deck. A solemn and powerful start to the day.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Midday</span>
+              <div class="timeline__content">
+                <h4>Las Casas Filipinas de Acuzar</h4>
+                <p>Heritage tour of the restored colonial houses, calesa ride, and lunch at a heritage restaurant. Allow 4&#8369;5 hours for the full experience.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Five Fingers Cove</h4>
+                <p>End your Bataan day at Five Fingers Cove &mdash; viewpoint, swimming, and sunset. The perfect scenic close to a day of history and heritage.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The view from the hilltop at Five Fingers Cove is one of those views that stops you in your tracks. Five rocky peninsulas reaching into the blue South China Sea &mdash; it looks like something from a fantasy novel. We swam in the coves, snorkeled around the rocks, and stayed for sunset. The whole place is magical and almost completely unknown outside Bataan."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MV</div>
+            <div><strong>Marco V.</strong><span>Travel Photographer, Manila, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We did the full Bataan day &mdash; Mount Samat in the morning, Las Casas at midday, and Five Fingers in the afternoon. Five Fingers was the perfect ending &mdash; after the solemnity of the shrine and the cultural richness of Las Casas, the natural beauty of the cove was exactly what we needed. Bataan is one of the most varied and rewarding day trips from Manila."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SL</div>
+            <div><strong>Sofia L.</strong><span>Weekend Traveler, Quezon City, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore Bataan's Hidden Coastline?</h2>
+        <p>Get our free Bataan Travel Guide + exclusive tips on coastal scenery, heritage sites, and the best of this historic province &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Five Fingers Cove</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for coastal explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

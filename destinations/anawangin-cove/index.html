@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Anawangin Cove &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Zambales</span>
+      <h1 class="hero__headline">Pine Trees<br>Meet the Sea</h1>
+      <p class="hero__sub">Anawangin Cove in San Antonio, Zambales is one of the most unique and breathtaking coves in the Philippines &middot; a crescent of grey volcanic sand backed by a forest of Agoho pine trees, accessible only by boat, and offering one of the most atmospheric camping experiences near Manila.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your 48-Hour Trip</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>Boat</strong><span>Access Only</span></div>
+      <div class="hero__stat"><strong>Pine</strong><span>Forest Beach</span></div>
+      <div class="hero__stat"><strong>Camping</strong><span>Destination</span></div>
+    </div>
+    <div class="hero__scroll-hint"><span>Scroll to explore</span><div class="hero__scroll-arrow"></div></div>
+  </section>
+
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/anawangin.jpg" alt="Anawangin Cove pine trees and grey sand" class="intro__img intro__img--main" />
+        <img src="images/anawangin.jpg" alt="Anawangin Cove camping" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>Zambales' Most Iconic Cove</h2>
+        <p>Located in <strong>San Antonio, Zambales</strong>, <strong>Anawangin Cove</strong> is one of the most photographed and most beloved natural destinations near Metro Manila. The cove is famous for its extraordinary combination of <strong>grey volcanic sand</strong> &mdash; a legacy of the 1991 Mount Pinatubo eruption &mdash; and a dense forest of <strong>Agoho pine trees</strong> that grow right up to the shoreline, creating a landscape unlike any other beach in the Philippines.</p>
+        <p>The cove is accessible only by boat from the jump-off point at <strong>Pundaquit Beach</strong> in San Antonio &mdash; a 20&#8369;30 minute boat ride that adds to the sense of adventure and discovery. There are no permanent structures inside the cove &mdash; no hotels, no restaurants, no electricity. Visitors camp overnight in tents under the pine trees, cook their own food, and experience the cove in its most natural state.</p>
+        <p>Anawangin is best experienced as an <strong>overnight camping trip</strong> &mdash; arriving in the afternoon, watching the sunset over the South China Sea, sleeping under the stars, and waking up to the sunrise over the cove before the day-trippers arrive. The combination of the unique landscape, the boat journey, the camping experience, and the natural beauty makes Anawangin one of the most memorable destinations near Manila.</p>
+        <div class="intro__badge">
+          <span>&#127988;</span>
+          <span>Boat Access Only &nbsp;&middot;&nbsp; <strong>San Antonio, Zambales</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Anawangin Cove</h2>
+      <p class="section__intro"><strong>Anawangin Cove</strong> is located in <strong>San Antonio, Zambales</strong> &mdash; about 160 km northwest of Manila. The jump-off point is <strong>Pundaquit Beach</strong> in San Antonio.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to San Antonio</h3>
+            <p>Victory Liner operates buses from <strong>Cubao or Pasay</strong> to <strong>San Antonio, Zambales</strong>. Travel time is about 3&#8369;4 hours. Alternatively, take a bus to Olongapo City and then a jeepney to San Antonio.</p>
+            <span class="step__detail"> Travel time: ~3&#8369;4 hours &nbsp;|&nbsp;  ~&#8369;200&ndash;&#8369;300 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>San Antonio to Pundaquit Beach</h3>
+            <p>From San Antonio town center, take a <strong>tricycle to Pundaquit Beach</strong> &mdash; the jump-off point for Anawangin Cove. The ride takes about 15&#8369;20 minutes. Register at the barangay hall and pay the environmental fee.</p>
+            <span class="step__detail"> Tricycle to Pundaquit: ~&#8369;50&ndash;&#8369;80 &nbsp;|&nbsp; &mdash; ~15&#8369;20 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Boat from Pundaquit to Anawangin</h3>
+            <p>Hire a <strong>motorized banca boat</strong> at Pundaquit Beach for the 20&#8369;30 minute crossing to Anawangin Cove. Negotiate the fare before boarding. The boat can also take you to Nagsasa Cove and Capones Island on the same trip.</p>
+            <span class="step__detail">&#128652; Boat to Anawangin: ~&#8369;1,000&#8369;1,500 &nbsp;|&nbsp; &mdash; ~20&#8369;30 minutes</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Set Up Camp</h3>
+            <p>Arrive at the cove and set up your tent under the pine trees. Tent rentals are available at Pundaquit or inside the cove. Bring all your food, water, and supplies &mdash; there are no stores inside Anawangin. Leave no trace when you depart.</p>
+            <span class="step__detail">&#128652; Tent rental: ~&#8369;300&ndash;&#8369;500 &nbsp;|&nbsp;  Environmental fee: ~&#8369;50&ndash;&#8369;100</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Anawangin Cove and nearby attractions in Zambales.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main">? Coves</span>
+        <span class="map-legend__item map-legend__item--nature"> Lighthouse</span>
+        <span class="map-legend__item map-legend__item--heritage">? Jump-off</span>
+      </div>
+    </div>
+    <div id="anawangin-map"></div>
+  </section>
+
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>November &mdash; May (Dry Season):</strong> Best time &mdash; calm seas, clear skies, and the most comfortable camping conditions.</li>
+            <li><strong>Overnight camping:</strong> The best way to experience Anawangin &mdash; arrive in the afternoon, watch the sunset, sleep under the stars, and wake up to the sunrise before day-trippers arrive.</li>
+            <li><strong>Weekdays:</strong> Far fewer visitors. The cove feels more private and the pine forest atmosphere is more magical without crowds.</li>
+            <li><strong>Avoid typhoon season (June &mdash; October):</strong> Rough seas can make the boat crossing dangerous and camping uncomfortable.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&mdash;</div>
+          <h3>Camping Tips</h3>
+          <ul>
+            <li><strong>Bring all your supplies</strong> &mdash; food, water, cooking equipment, and camping gear. There are no stores inside the cove.</li>
+            <li><strong>Rent a tent at Pundaquit</strong> if you don't have your own &mdash; several vendors offer tent rentals with basic equipment.</li>
+            <li><strong>Leave no trace.</strong> Pack out all your trash &mdash; the cove's beauty depends on every visitor's responsibility.</li>
+            <li><strong>Bring a headlamp</strong> &mdash; there is no electricity in the cove. Nights are dark and beautiful.</li>
+            <li><strong>Respect the pine trees.</strong> Do not cut branches or damage the Agoho pines &mdash; they are the defining feature of the cove.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Tent and sleeping bag</strong> &mdash; or rent at Pundaquit.</li>
+            <li><strong>Food and water</strong> for the entire stay &mdash; at least 2L of water per person per day.</li>
+            <li><strong>Cooking equipment</strong> &mdash; portable stove, pots, utensils.</li>
+            <li><strong>Swimwear and water shoes</strong> &mdash; the cove is perfect for swimming.</li>
+            <li><strong>Insect repellent</strong> &mdash; the pine forest has mosquitoes, especially at dusk.</li>
+            <li><strong>Cash</strong> &mdash; for boat hire, environmental fees, and tent rental.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 48 Hours in Anawangin</h2>
+      <p class="section__intro">Two days is the perfect amount of time to experience Anawangin, explore Nagsasa Cove, and visit Capones Island Lighthouse.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">2:00 PM</span>
+              <div class="timeline__content">
+                <h4>Arrive at Anawangin</h4>
+                <p>Take the afternoon boat from Pundaquit to Anawangin. Set up your tent under the pine trees and explore the cove before the light fades. The afternoon light on the grey sand and pine forest is extraordinary.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">5:30 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset Over the South China Sea</h4>
+                <p>Watch the sunset from the beach. The sun sets directly over the South China Sea from Anawangin &mdash; the combination of the grey sand, the pine silhouettes, and the blazing sky is one of the most beautiful sunsets near Manila.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Evening</span>
+              <div class="timeline__content">
+                <h4>Campfire &amp; Stargazing</h4>
+                <p>Cook dinner over a campfire, enjoy the sounds of the sea and the pine forest, and stargaze away from city lights. The Milky Way is visible on clear nights. This is what Anawangin is all about.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">5:30 AM</span>
+              <div class="timeline__content">
+                <h4>Sunrise at Anawangin</h4>
+                <p>Wake up for sunrise &mdash; the cove is magical in the early morning before other visitors arrive. The mist in the pine forest, the calm sea, and the golden light make for extraordinary photography.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Boat to Nagsasa Cove</h4>
+                <p>Ask your boatman to take you to <strong>Nagsasa Cove</strong> &mdash; a larger, equally beautiful cove about 20 minutes away. Nagsasa has a freshwater lagoon, a wider beach, and fewer visitors than Anawangin.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:00 AM</span>
+              <div class="timeline__content">
+                <h4>Capones Island Lighthouse</h4>
+                <p>Continue to <strong>Capones Island</strong> to visit the 19th-century Spanish lighthouse. The hike to the lighthouse takes about 30 minutes through the island's forest and offers dramatic views of the Zambales coastline.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">2:00 PM</span>
+              <div class="timeline__content">
+                <h4>Return to Pundaquit</h4>
+                <p>Board your boat back to Pundaquit and begin the journey home to Manila. You'll leave with grey sand in your shoes, pine resin on your fingers, and a strong urge to come back.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Anawangin is unlike any other beach I've been to in the Philippines. The grey volcanic sand, the pine trees growing right to the water's edge, the boat-only access &mdash; it feels like a secret world. We camped overnight and the sunset and sunrise were both extraordinary. If you haven't been to Anawangin, you haven't seen the best of Zambales."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">KL</div>
+            <div><strong>Karen L.</strong><span>Camper, Manila, Philippines</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We did the full Zambales cove experience &mdash; Anawangin, Nagsasa, and Capones Lighthouse in two days. Each one is completely different and equally beautiful. The boat journey between them is part of the adventure. Zambales is one of the most underrated coastal destinations near Manila and Anawangin is its crown jewel."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">BM</div>
+            <div><strong>Ben M.</strong><span>Adventure Traveler, Quezon City, Philippines</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Camp Under the Pines?</h2>
+        <p>Get our free Zambales Cove Travel Guide + exclusive tips on boat operators, camping gear, and the best of this stunning coastline &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Anawangin</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">48-Hour Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for cove explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

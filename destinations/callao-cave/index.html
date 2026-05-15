@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>Callao Cave &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; Cagayan</span>
+      <h1 class="hero__headline">A Cathedral<br>Carved by Nature</h1>
+      <p class="hero__sub">Callao Cave in Peablanca, Cagayan is one of the most spectacular cave systems in the Philippines &middot; seven chambers of dramatic limestone formations, a natural skylight illuminating an active chapel, and a river winding through the jungle below.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your Visit</a>
+        <a href="#tips" class="btn btn--ghost">Visitor Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>7</strong><span>Cave Chambers</span></div>
+      <div class="hero__stat"><strong>Active</strong><span>Chapel Inside</span></div>
+      <div class="hero__stat"><strong>UNESCO</strong><span>Tentative List</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/callao-cave.jpg" alt="Callao Cave interior with natural skylight" class="intro__img intro__img--main" />
+        <img src="images/callao-cave.jpg" alt="Callao Cave chapel chamber" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction &amp; History</span>
+        <h2>The Cave with a Chapel Inside</h2>
+        <p>Located in <strong>Peablanca, Cagayan</strong> &mdash; about 24 km from Tuguegarao City &mdash; <strong>Callao Cave</strong> is the most famous cave in the Cagayan Valley region and one of the most visited natural attractions in northern Luzon. The cave system consists of <strong>seven interconnected chambers</strong>, each with its own character &mdash; towering stalactites, massive stalagmites, and cathedral-like spaces that inspire awe at every turn.</p>
+        <p>The most iconic feature of Callao Cave is its <strong>first chamber</strong>, which has a large natural opening in the ceiling that allows sunlight to stream in &mdash; creating a dramatic, ethereal light show on the cave floor. This natural skylight has made the first chamber the site of an <strong>active Roman Catholic chapel</strong>, where mass is held regularly. The combination of natural limestone formations and religious devotion creates one of the most unique spiritual spaces in the Philippines.</p>
+        <p>Callao Cave is also of significant <strong>archaeological importance</strong> &mdash; fossil remains of the <em>Homo luzonensis</em>, a previously unknown species of ancient human, were discovered here in 2007 and formally described in 2019. The cave sits within the <strong>Peablanca Protected Landscape and Seascape</strong>, a protected area that also encompasses the Pinacanauan River and surrounding karst formations.</p>
+        <div class="intro__badge">
+          <span>&#127963;</span><span>UNESCO Tentative List &nbsp;&middot;&nbsp; <strong>7 Chambers &mdash; Active Chapel</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to Callao Cave</h2>
+      <p class="section__intro">Callao Cave is located in <strong>Peablanca, Cagayan</strong>, about 24 km from Tuguegarao City &mdash; the capital of Cagayan province and the main gateway to the region.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Fly Manila to Tuguegarao</h3>
+            <p>The fastest option is to fly from <strong>NAIA Manila</strong> to <strong>Tuguegarao Airport</strong>. Philippine Airlines and Cebu Pacific operate daily flights. Flight time is about 1 hour. From the airport, Callao Cave is about 30&#8369;40 minutes by van or tricycle.</p>
+            <span class="step__detail"> Flight: ~1 hour &nbsp;|&nbsp;  ~&#8369;1,500&#8369;4,000 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Bus from Manila to Tuguegarao</h3>
+            <p>Dominion Bus Lines and Florida Bus operate overnight buses from <strong>Cubao, Quezon City</strong> to <strong>Tuguegarao City</strong>. Travel time is about 9&#8369;10 hours. Buses depart in the evening and arrive in the morning.</p>
+            <span class="step__detail"> Travel time: ~9&#8369;10 hours &nbsp;|&nbsp;  ~&#8369;700&ndash;&#8369;1,000 one-way</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Tuguegarao to Peablanca</h3>
+            <p>From Tuguegarao City, take a <strong>jeepney or van</strong> to Peablanca town (about 20&#8369;30 minutes). From Peablanca, hire a <strong>tricycle</strong> to Callao Cave &mdash; about 10 minutes. Alternatively, hire a van from Tuguegarao directly to the cave.</p>
+            <span class="step__detail"> Jeepney to Peablanca: ~&#8369;30 &nbsp;|&nbsp;  Tricycle to cave: ~&#8369;50&ndash;&#8369;80</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Arrive at Callao Cave</h3>
+            <p>The cave entrance is reached by climbing <strong>184 steps</strong> up the limestone cliff face. The steps are well-maintained with handrails. At the top, register and pay the entrance fee before entering the cave. Guides are available and recommended.</p>
+            <span class="step__detail"> Entrance fee: ~&#8369;50&ndash;&#8369;100 &nbsp;|&nbsp;  Guide: ~&#8369;150&ndash;&#8369;200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Landmarks</h2>
+      <p class="section__intro">Click any pin to explore Callao Cave and nearby attractions in Peablanca and Cagayan.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Cave</span>
+        <span class="map-legend__item map-legend__item--nature">&#127807; Nature</span>
+        <span class="map-legend__item map-legend__item--heritage"> Gateway</span>
+      </div>
+    </div>
+    <div id="callao-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Visitor Tips</span>
+      <h2>Everything You Need to Know Before You Visit</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Visit</h3>
+          <ul>
+            <li><strong>October &mdash; May (Dry Season):</strong> Best time &mdash; the Pinacanauan River is calm and clear, making the boat ride to the cave more enjoyable.</li>
+            <li><strong>Morning visits (8:00&#8369;10:00 AM):</strong> The natural skylight in the first chamber creates the most dramatic light effects in the morning when the sun is at the right angle.</li>
+            <li><strong>Weekdays:</strong> Far fewer crowds than weekends. The cave is more peaceful and atmospheric without tour groups.</li>
+            <li><strong>Avoid June &mdash; September:</strong> Typhoon season can cause the Pinacanauan River to flood, making access difficult or impossible.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>Inside the Cave</h3>
+          <ul>
+            <li><strong>Hire a local guide.</strong> The cave has seven chambers and the deeper sections require a guide for safety and navigation.</li>
+            <li><strong>Bring a flashlight or headlamp</strong> for the deeper chambers &mdash; lighting is limited beyond the first few chambers.</li>
+            <li><strong>Wear non-slip shoes.</strong> The cave floor is wet and slippery in many sections. Sandals and flip-flops are not safe.</li>
+            <li><strong>Don't touch the formations.</strong> Stalactites and stalagmites take thousands of years to form &mdash; even touching them can damage them permanently.</li>
+            <li><strong>Respect the chapel.</strong> The first chamber has an active chapel &mdash; be quiet and respectful if a mass is in progress.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128204;</div>
+          <h3>The River Experience</h3>
+          <ul>
+            <li><strong>Take the boat ride</strong> on the Pinacanauan River to reach the cave &mdash; it's a scenic and memorable approach through the jungle.</li>
+            <li><strong>Swimming in the river</strong> is possible near the cave &mdash; the water is clear and refreshing, especially after exploring the cave.</li>
+            <li><strong>Combine with Palaui Island</strong> &mdash; Callao Cave and Palaui Island are both in Cagayan and can be combined in a multi-day Cagayan itinerary.</li>
+            <li><strong>Bring cash</strong> &mdash; there are no ATMs near the cave. Withdraw in Tuguegarao before heading out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Visitor Guide</span>
+      <h2>How to Experience Callao Cave</h2>
+      <p class="section__intro">A complete guide to exploring all seven chambers and combining the cave with the best of Cagayan in one unforgettable trip.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">At the Cave</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Step 1</span>
+              <div class="timeline__content">
+                <h4>Climb the 184 Steps</h4>
+                <p>The approach to the cave entrance involves climbing 184 steps carved into the limestone cliff. The climb takes about 10&#8369;15 minutes and offers increasingly dramatic views of the Pinacanauan River and the surrounding jungle below.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 2</span>
+              <div class="timeline__content">
+                <h4>First Chamber &mdash; The Chapel</h4>
+                <p>Enter the first and most famous chamber. The natural skylight in the ceiling floods the space with light, illuminating the limestone formations and the small chapel below. If mass is not in progress, explore the altar and the surrounding formations.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 3</span>
+              <div class="timeline__content">
+                <h4>Chambers 2&#8369;4 &mdash; The Heart of the Cave</h4>
+                <p>Follow your guide deeper into the cave. Chambers 2 through 4 feature increasingly dramatic formations &mdash; massive stalactites hanging from the ceiling, towering stalagmites rising from the floor, and narrow passages connecting the chambers.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 4</span>
+              <div class="timeline__content">
+                <h4>Chambers 5&#8369;7 &mdash; The Deep Chambers</h4>
+                <p>The deeper chambers require a flashlight and a guide. Chamber 7 is the most remote and least visited &mdash; a vast, silent space where the only sounds are dripping water and the distant calls of cave swiftlets nesting in the ceiling.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Step 5</span>
+              <div class="timeline__content">
+                <h4>River Swimming &amp; Boat Ride</h4>
+                <p>After the cave, descend to the Pinacanauan River for a swim in the clear, cool water. Take a boat ride along the river for a different perspective of the limestone cliffs and jungle. A perfect end to the cave experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Cagayan Day Trip</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">Morning</span>
+              <div class="timeline__content">
+                <h4>Callao Cave</h4>
+                <p>Start early at Callao Cave to catch the morning light in the first chamber. Explore all seven chambers with a guide, then swim in the Pinacanauan River before heading out.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Afternoon</span>
+              <div class="timeline__content">
+                <h4>Tuguegarao City</h4>
+                <p>Return to Tuguegarao for lunch. Visit the <strong>Tuguegarao Cathedral</strong> and the <strong>Cagayan Museum</strong>. Try local Cagayan dishes &mdash; <em>pancit batil patong</em> (Cagayan's signature noodle dish) is a must.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">Next Day</span>
+              <div class="timeline__content">
+                <h4>Palaui Island</h4>
+                <p>Extend your trip to <strong>Palaui Island</strong> &mdash; one of the most pristine and beautiful islands in the Philippines. About 2&#8369;3 hours from Tuguegarao via Santa Ana. A perfect complement to the cave experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Walking into the first chamber of Callao Cave and seeing the sunlight streaming through the natural skylight onto the chapel below was one of the most breathtaking moments of my travels in the Philippines. The combination of natural beauty and human faith in that single space is extraordinary. The deeper chambers are equally impressive &mdash; our guide brought the formations to life with stories and geological context."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">FC</div>
+            <div>
+              <strong>Francis C.</strong>
+              <span>Nature Photographer, Davao, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"We visited on a weekday morning and had the cave almost entirely to ourselves. The silence in the deeper chambers is profound &mdash; just the sound of dripping water and the distant calls of swiftlets. The boat ride on the Pinacanauan River afterward was equally beautiful. Callao Cave is one of those places that reminds you how extraordinary the natural world is. Don't miss it if you're anywhere near Cagayan."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MN</div>
+            <div>
+              <strong>Maria N.</strong>
+              <span>Adventure Traveler, Cebu, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Explore the Cave with a Chapel?</h2>
+        <p>Get our free Cagayan Travel Guide + exclusive tips on cave tours, river rides, and the best of Cagayan Valley &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About Callao Cave</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Visitor Tips</a></li>
+          <li><a href="#itinerary">Visitor Guide</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for cave explorers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

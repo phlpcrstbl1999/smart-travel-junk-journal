@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../favicon.ico" />
+<title>San Juan Surfing Area &mdash; Ultimate Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2&deg;Family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Philippines &middot; La Union</span>
+      <h1 class="hero__headline">Catch Your First<br>Wave Here</h1>
+      <p class="hero__sub">San Juan, La Union is the surf capital of northern Luzon &mdash; a laid-back beach town where beginners learn to stand up and seasoned surfers chase the perfect break. Sun, sand, and swell, just 5 hours from Manila.</p>
+      <div class="hero__ctas">
+        <a href="#itinerary" class="btn btn--primary">Plan Your 48-Hour Trip</a>
+        <a href="#tips" class="btn btn--ghost">See Travel Tips</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><strong>5hrs</strong><span>From Manila</span></div>
+      <div class="hero__stat"><strong>OctMar</strong><span>Best Surf Season</span></div>
+      <div class="hero__stat"><strong>All Levels</strong><span>Welcome</span></div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid">
+      <div class="intro__images">
+        <img src="images/san-juan-surfing.jpg" alt="Surfers at San Juan La Union" class="intro__img intro__img--main" />
+        <img src="images/san-juan-surfing.jpg" alt="San Juan beach sunset" class="intro__img intro__img--accent" />
+      </div>
+      <div class="intro__text">
+        <span class="label">Introduction</span>
+        <h2>The Surf Capital of the North</h2>
+        <p>Nestled along the coast of <strong>La Union province</strong> in the Ilocos Region, <strong>San Juan</strong> has grown from a quiet fishing village into the most popular surf destination in northern Luzon. The town's main beach &mdash; stretching along the <strong>South China Sea</strong> &mdash; produces consistent waves from October to March, making it ideal for both beginners and intermediate surfers.</p>
+        <p>What makes San Juan special isn't just the waves. It's the <strong>vibe</strong> &mdash; a relaxed, creative beach town culture that has attracted surfers, artists, digital nomads, and weekend travelers from Manila and beyond. The strip along the beach is lined with surf schools, board rental shops, beachfront cafes, and laid-back bars that come alive at sunset.</p>
+        <p>Whether you're here to learn to surf for the first time, improve your technique, or simply unwind on the beach with a cold drink and a stunning sunset &mdash; San Juan delivers every time.</p>
+        <div class="intro__badge">
+          <span>&#128205;</span>
+          <span>Surf Capital of Northern Luzon &nbsp;&middot;&nbsp; <strong>All Skill Levels Welcome</strong></span>
+        </div>
+        <a href="#how-to-get-there" class="btn btn--outline-dark">How to Get There</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GETTING THERE ===== -->
+  <section class="section getting-there" id="how-to-get-there">
+    <div class="container">
+      <span class="label label--light">Location &amp; Getting There</span>
+      <h2>From Manila to San Juan</h2>
+      <p class="section__intro">San Juan is located in <strong>La Union province</strong>, about 270 km north of Manila. It's one of the most accessible beach destinations from the capital.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__body">
+            <h3>Bus from Manila to San Fernando</h3>
+            <p>Take a bus from <strong>Cubao or Pasay</strong> to <strong>San Fernando, La Union</strong>. Partas, Dominion, and Philippine Rabbit operate this route. Travel time is about 5&#8369;6 hours depending on traffic.</p>
+            <span class="step__detail"> Travel time: ~5&#8369;6 hours &nbsp;|&nbsp;  ~&#8369;400&ndash;&#8369;600</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__body">
+            <h3>Jeepney or Tricycle to San Juan</h3>
+            <p>From San Fernando, take a <strong>jeepney or tricycle</strong> to San Juan town. The ride takes about 20&#8369;30 minutes. Tell the driver you're going to the <strong>surf area</strong> or <strong>Urbiztondo Beach</strong>.</p>
+            <span class="step__detail"> Jeepney: ~&#8369;30 &nbsp;|&nbsp;  Tricycle: ~&#8369;100&ndash;&#8369;150</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__body">
+            <h3>Direct Bus to San Juan</h3>
+            <p>Some bus lines offer direct trips to <strong>San Juan, La Union</strong> &mdash; especially on weekends. Check with Partas and Dominion for direct routes. This saves the jeepney transfer from San Fernando.</p>
+            <span class="step__detail"> Direct bus: ~5 hours &nbsp;|&nbsp;  ~&#8369;450&ndash;&#8369;650</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__body">
+            <h3>Drive or Rent a Van</h3>
+            <p>Driving from Manila via <strong>NLEXSCTEXTPLEX</strong> takes about 4&#8369;5 hours. Renting a van with friends is a popular option &mdash; split the cost and enjoy door-to-door convenience with your surfboards.</p>
+            <span class="step__detail"> Drive: ~4&#8369;5 hours &nbsp;|&nbsp;  Van rental: ~&#8369;3,500&#8369;5,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP ===== -->
+  <section class="section map-section" id="map">
+    <div class="container">
+      <span class="label">Explore the Area</span>
+      <h2>Key Locations &amp; Surf Spots</h2>
+      <p class="section__intro">Click any pin to explore San Juan's surf breaks, beaches, and nearby attractions in La Union.</p>
+      <div class="map-legend">
+        <span class="map-legend__item map-legend__item--main"> Surf Spots</span>
+        <span class="map-legend__item map-legend__item--food"> Food &amp; Nightlife</span>
+        <span class="map-legend__item map-legend__item--nature">&#127958; Beaches</span>
+      </div>
+    </div>
+    <div id="sanjuan-map"></div>
+  </section>
+
+  <!-- ===== TIPS ===== -->
+  <section class="section tips" id="tips">
+    <div class="container">
+      <span class="label">Essential Travel Tips</span>
+      <h2>Everything You Need to Know Before You Go</h2>
+      <div class="tips__grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127774;</div><h3>Best Time to Surf</h3>
+          <ul>
+            <li><strong>October &mdash; March (Surf Season):</strong> Northeast monsoon brings consistent swells. Waves range from 1&#8369;3 meters &mdash; ideal for all levels.</li>
+            <li><strong>November &mdash; January:</strong> Peak surf season with the biggest and most consistent waves. Book accommodation weeks in advance.</li>
+            <li><strong>April &mdash; September (Off-Season):</strong> Smaller waves, fewer crowds, and lower prices. Good for beginners and swimming.</li>
+            <li><strong>Weekdays:</strong> Far fewer crowds than weekends. The beach and surf schools are much more relaxed on weekdays.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127940;</div><h3>Surfing Tips</h3>
+          <ul>
+            <li><strong>Take a lesson first.</strong> Surf schools along Urbiztondo Beach offer 1&#8369;2 hour lessons for beginners. Instructors are patient and experienced.</li>
+            <li><strong>Rent a foam board</strong> (softboard) for your first sessions &mdash; much safer and easier to learn on than a hard board.</li>
+            <li><strong>Respect the lineup.</strong> Don't drop in on other surfers' waves. Learn basic surf etiquette before paddling out.</li>
+            <li><strong>Wear sunscreen (SPF 50+).</strong> You'll be in the water for hours &mdash; reapply every 2 hours.</li>
+            <li><strong>Stay hydrated.</strong> Surfing is physically demanding. Drink water between sessions.</li>
+          </ul>
+        </div>
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127890;</div><h3>What to Pack</h3>
+          <ul>
+            <li><strong>Rash guard</strong> &mdash; protects against sunburn and board rash. Essential for long surf sessions.</li>
+            <li><strong>Reef-safe sunscreen</strong> &mdash; protect your skin and the ocean ecosystem.</li>
+            <li><strong>Flip-flops and light clothing</strong> &mdash; San Juan is a casual beach town. Leave the formal wear at home.</li>
+            <li><strong>Cash</strong> &mdash; many surf schools, small eateries, and shops are cash-only.</li>
+            <li><strong>Dry bag</strong> &mdash; keep your phone and valuables dry while you're in the water.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ITINERARY ===== -->
+  <section class="section itinerary" id="itinerary">
+    <div class="container">
+      <span class="label label--light">Mini Itinerary</span>
+      <h2>How to Spend 48 Hours in San Juan</h2>
+      <p class="section__intro">Two days is the perfect amount of time to surf, explore, eat well, and soak in the La Union beach culture.</p>
+      <div class="timeline">
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 1</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 AM</span>
+              <div class="timeline__content">
+                <h4>Early Morning Surf Session</h4>
+                <p>Hit the water early before the crowds arrive. Morning sessions have the cleanest waves and the best light. Book a lesson at one of the surf schools along <strong>Urbiztondo Beach</strong> if you're a beginner.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">10:00 AM</span>
+              <div class="timeline__content">
+                <h4>Breakfast at a Beachfront Cafe</h4>
+                <p>Dry off and head to one of the many beachfront cafes for a hearty breakfast. Try the local <em>longsilog</em> or go for acai bowls and smoothies at one of the health-focused spots along the strip.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Afternoon Surf or Beach Time</h4>
+                <p>Head back for an afternoon session or simply relax on the beach. Watch the more experienced surfers tackle the bigger sets. Rent a board and practice on your own if you've already had a lesson.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">5:30 PM</span>
+              <div class="timeline__content">
+                <h4>Sunset on the Beach</h4>
+                <p>San Juan sunsets over the South China Sea are legendary. Grab a cold drink from a beachside bar, find a spot on the sand, and watch the sky turn orange and pink. This is what La Union is all about.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">7:00 PM</span>
+              <div class="timeline__content">
+                <h4>Dinner &amp; Night Out</h4>
+                <p>The strip comes alive at night. Enjoy fresh seafood at a local restaurant, then explore the bars and live music venues along the beach road. The vibe is relaxed, friendly, and unpretentious.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline__day">
+          <div class="timeline__day-label">Day 2</div>
+          <div class="timeline__events">
+            <div class="timeline__event">
+              <span class="timeline__time">6:30 AM</span>
+              <div class="timeline__content">
+                <h4>Sunrise Surf Session</h4>
+                <p>Wake up for the sunrise session &mdash; the most magical time to surf. The water is glassy, the light is golden, and the beach is almost empty. Even if you don't surf, watching the sunrise from the beach is worth the early wake-up.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">9:00 AM</span>
+              <div class="timeline__content">
+                <h4>Visit Ma-Cho Temple</h4>
+                <p>Take a tricycle to the nearby <strong>Ma-Cho Temple</strong> &mdash; a stunning Chinese Taoist temple perched on a hill overlooking the sea. The colorful architecture and panoramic views are a striking contrast to the beach vibe.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">11:00 AM</span>
+              <div class="timeline__content">
+                <h4>Poro Point Lighthouse</h4>
+                <p>Visit the historic <strong>Poro Point Lighthouse</strong> &mdash; a 19th-century Spanish-era lighthouse with sweeping views of the South China Sea. A quick but rewarding stop before heading back to Manila.</p>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <span class="timeline__time">1:00 PM</span>
+              <div class="timeline__content">
+                <h4>Lunch &amp; Head Home</h4>
+                <p>Have a final lunch at your favorite spot on the strip, then catch your bus or van back to Manila. You'll leave with sore arms, a sun-kissed face, and a strong urge to come back next weekend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <span class="label">Traveler Stories</span>
+      <h2>What Fellow Travelers Are Saying</h2>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I had never surfed before in my life. My instructor was incredibly patient &mdash; by the end of the 2-hour lesson I was standing up and riding waves. I was absolutely hooked. We ended up extending our trip by two days because we couldn't bring ourselves to leave. San Juan has this magical energy that just makes you want to stay. The sunsets alone are worth the 5-hour bus ride from Manila."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">CG</div>
+            <div>
+              <strong>Carla G.</strong>
+              <span>First-Time Surfer, Quezon City, Philippines</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I've surfed in Bali, Siargao, and Baler &mdash; and San Juan holds its own. The waves are consistent, the surf community is welcoming, and the food scene has exploded in recent years. The beachfront cafes and bars have a really cool, creative vibe. It's become a proper surf town without losing its laid-back soul. Perfect for a long weekend escape from Manila."</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RD</div>
+            <div>
+              <strong>Ramon D.</strong>
+              <span>Intermediate Surfer, Makati, Philippines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to Catch Your First Wave?</h2>
+        <p>Get our free San Juan La Union Travel Checklist + exclusive tips on the best surf schools, hidden food spots, and budget accommodation &mdash; delivered straight to your inbox.</p>
+        <form class="footer__form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn--primary">Send Me the Guide</button>
+        </form>
+        <p class="footer__note">No spam. Unsubscribe anytime. We respect your inbox.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#intro">About San Juan</a></li>
+          <li><a href="#how-to-get-there">How to Get There</a></li>
+          <li><a href="#map">Interactive Map</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#itinerary">48-Hour Itinerary</a></li>
+          <li><a href="#testimonials">Traveler Stories</a></li>
+        </ul>
+        <div class="footer__tour"><h4>Explore More</h4><p>Discover all 127 destinations across the Philippines in our complete travel guide.</p><a href="../../index.html" class="btn btn--ghost btn--sm">All Destinations &rarr;</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Smart Travel Junk Journal Travel Guide &nbsp;&middot;&nbsp; Made with &#10084;&#65039; for wave chasers &nbsp;&middot;&nbsp; <a href="../../index.html">&larr; Back to All Destinations</a></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
